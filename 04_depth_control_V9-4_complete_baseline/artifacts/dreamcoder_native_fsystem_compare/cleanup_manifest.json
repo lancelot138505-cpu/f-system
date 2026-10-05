@@ -1,0 +1,3782 @@
+{
+  "created_utc": "2026-10-05T18:07:14.0139383Z",
+  "repository": "D:\\code\\pycode\\f_system\\04_depth_control_V9-4_complete_baseline",
+  "scope": "Only the four explicitly designated prior DreamCoder experiment/artifact roots were removed. fsys/ remained read-only.",
+  "deleted_directories": [
+    "experiments/dreamcoder_list_comparison",
+    "experiments/dreamcoder_list_comparison_fast",
+    "artifacts/dreamcoder_list_comparison",
+    "artifacts/dreamcoder_list_comparison_fast"
+  ],
+  "deleted_file_count": 737,
+  "deleted_bytes": 338973853,
+  "deleted_files": [
+    {
+      "path": "experiments/dreamcoder_list_comparison/holdout_instances.json",
+      "bytes": 192427,
+      "sha256": "a2ffc99fe10c8dd6b79980a42bbb2259a35659795abd9cb0b1c86d5e03037eef"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/per_seed_curricula.json",
+      "bytes": 16385,
+      "sha256": "17366b2b45551bc3832dab9f7b7d5205fe478de848b402f0604f79a3abf92934"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/task_manifest.json",
+      "bytes": 10120,
+      "sha256": "82bcfd8556d824259ab126d591cd1890aa13f81b0b80c4c5021bb49b3bc348bc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/train_tasks.json",
+      "bytes": 560550,
+      "sha256": "5298475680362cf1c10a475142447d89eaaec823c2f882e3cc37bccb8f93bfe9"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/unseen_goal_tasks.json",
+      "bytes": 100952,
+      "sha256": "51e5ce0d92235e54f7153f5e5f86f2b6589541fd7b825701ab0be39da94bfaea"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/analyze_results.py",
+      "bytes": 40982,
+      "sha256": "02bb15dd9a47d29f0d9ba5c0fe1d68df4d6c414ce39029fe45d46a1da3c1ca57"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/dreamcoder_runtime.py",
+      "bytes": 34514,
+      "sha256": "04458f0dbe80483013b7d594a024742b5c852a7c0b7955fa13d8d6ee11cae7d5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/freeze_protocol.py",
+      "bytes": 28869,
+      "sha256": "fd2db85e66bb20a3a8dcd54c113a252f77368743f573a068aa6e4ff82b077194"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/list_domain.py",
+      "bytes": 54515,
+      "sha256": "89d0d78db6f5f4329ab60c77cee46c221d4da2e7221f1b5bd3526c88689d162c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/list_oracle.js",
+      "bytes": 3170,
+      "sha256": "c11ffe9705e141d8f9156eae94323a6c722cd19a6c9ba33933a3b306711bebe8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/memory_tracker.py",
+      "bytes": 1087,
+      "sha256": "0538ced8382bab21df4d56b79e75c0ff861d1013e300c00b84aa06b6747943a4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/run_fsystem.py",
+      "bytes": 19783,
+      "sha256": "eecd464e6e3ce30258b5f0c86f3535753caac28c247406ac91639edacb67fcba"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/__pycache__/analyze_results.cpython-311.pyc",
+      "bytes": 61974,
+      "sha256": "2dc22913347b271c9df26cbd0208db62fe6d673dd19a8c96082453a725f1ad04"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/__pycache__/dreamcoder_runtime.cpython-311.pyc",
+      "bytes": 51939,
+      "sha256": "5a6f949d32b6449cf4e66160cf36c7f39ba0d31ed8dc2e33830f799631783704"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/__pycache__/freeze_protocol.cpython-311.pyc",
+      "bytes": 34889,
+      "sha256": "d7639c8ae21ebe8f8bc01e76dd1db4f828792525f7e25b7db091fed05361d2ed"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/__pycache__/list_domain.cpython-311.pyc",
+      "bytes": 94969,
+      "sha256": "c98d8b41fe1f8881f572b40acf96556f9c0d9947d7bd8a203d99f74a6c0fe9f2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/__pycache__/memory_tracker.cpython-311.pyc",
+      "bytes": 2788,
+      "sha256": "d8b4d069e3151bfd50a2d23516a6132303acc9e0ffef747c13d5b5a6aa72c9e1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/adapters/__pycache__/run_fsystem.cpython-311.pyc",
+      "bytes": 29552,
+      "sha256": "888bd6b32fb771345b43d0db44b342b2e3368ab3a4457f21ee26a3fd3a54bacb"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/.gitignore",
+      "bytes": 405,
+      "sha256": "d047e5220be1f0012f9690db4c51d95a61bb3ee4f8f93416d0dcea42e69ea279"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/.gitmodules",
+      "bytes": 252,
+      "sha256": "43cd91a19fc95eeb317bc142f00d50e2980f9308defabf88b2e7341ed2f909e2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/best_regex_frontier.txt",
+      "bytes": 158513,
+      "sha256": "0ec9cc89c2b0bea8ccd7e760d5724e9f968fcabaea45f201530155d36cdee732"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/compression",
+      "bytes": 30227904,
+      "sha256": "93abce8ddef12a8bd3e12f391c9a1757bd46ea0e2b61411cc8bb8a9519ea2611"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/evolution",
+      "bytes": 28323640,
+      "sha256": "6d37e6674a0b18f3d5b90ccc32edcaa61fa0cbda36755807e658b545d5e36407"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/geomDrawLambdaString",
+      "bytes": 4751240,
+      "sha256": "803dcca04d470d65a8b01fdba34849f969a4d10ca3d9637ce29f9b9cffbec0ee"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/graphs",
+      "bytes": 647,
+      "sha256": "68aa21d9c4ffc7f563ddfb51bf3f92fd779d5bbe9762992f61145d215e66b6fc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/helmholtz",
+      "bytes": 29118512,
+      "sha256": "014ce899cba03d454de2216bd2169800afc1109291d515c648d87fb8738993a7"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/LICENSE",
+      "bytes": 1121,
+      "sha256": "44527bdf7a52e8d21796c5e4889e180083776807e69c12ab557f1025a6a1b592"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/logoDrawString",
+      "bytes": 25013712,
+      "sha256": "8f79f553fc7393895928748d01ac1b752938bd6b592f0b06450fd53e33647154"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/logReports",
+      "bytes": 362,
+      "sha256": "c5dfc6a6bf6d449aca54c630d6f8b8b2e12158077f3227933b95b4a541069eac"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/Makefile",
+      "bytes": 870,
+      "sha256": "f7d63a80869465e82373c044e6cb60cb62e8a20dea15ec3c3c8b643ca4a37ca9"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/official_experiments",
+      "bytes": 82632,
+      "sha256": "acc7b3a64073edf92076e8489a8472fdf92e8bd15c99161e02434820d97f6818"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/official_figures",
+      "bytes": 43109,
+      "sha256": "a48d3f0ac48c2636fe285e5ea55df8514d323b3a18416c16b29895f533aba595"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/protonet-tester",
+      "bytes": 24755440,
+      "sha256": "0a0968c3c92fbdf236cf2c18dc8833bca4bbc9f34968442766ab0bbb3e577183"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/Readme.md",
+      "bytes": 12059,
+      "sha256": "19a272a3434c04be105d74686d4d50d864f62cd79632f33ad389dc3b372413db"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/requirements.txt",
+      "bytes": 623,
+      "sha256": "6ed922f0ed07193904822fc2c0b638a682d8eb20b514dbe7f083dd2ad0720068"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/runtests",
+      "bytes": 162,
+      "sha256": "01999fb9fd05eba0098c3b636e7b3b10e4a7b7f2f6d5df2b999f4d00deb487f2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/singularity",
+      "bytes": 2108,
+      "sha256": "88ab3acbfd7f02dbcb6ce51df0ae354cc5b9c328374539e8c4177f44cb9c8482"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solver",
+      "bytes": 29302936,
+      "sha256": "c45fc5bf2adf5e4a637a3fd66d16f91857215431121c8b7221cd555e48afecab"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/taskRankGraphs",
+      "bytes": 2417,
+      "sha256": "9f05bc259f25f915e6473fb89952342d2cb4b63d0334d0ebfdeb66735f2800c6"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/versionDemo",
+      "bytes": 28836784,
+      "sha256": "d22cf1dd237481d5271a22cc2424d05211d86e6aa133262716e367855fddd09e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__init__.py",
+      "bytes": 2645,
+      "sha256": "a831ed96f7488efc7cc09564ea9892e384a94d3bd456b086656c6c123de04bee"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/analyzeDepth.py",
+      "bytes": 8967,
+      "sha256": "970bd33fab0e6835a8a94ca82bb8bc4da06fc7b14cbf6c46195507b186738617"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/binutil.py",
+      "bytes": 1025,
+      "sha256": "c0f22654a41c3d968ca19603971955cd040c74a70525c79155448d8923329648"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/compiledDriver.py",
+      "bytes": 1292,
+      "sha256": "6482caa3418ae5d27bbaeb6bff317c456bb926b3b18909ccdda79528f0dc02b1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/demoLogo.py",
+      "bytes": 277,
+      "sha256": "97dc4cb235fe4ed401caba3896ed31be47a3753a47928cef5988c97f0fe7f4f5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/examineFrontier.py",
+      "bytes": 14074,
+      "sha256": "16402fa42b762cde50944f8a28636d4d89cd178c65e8e7bc09e8f1ff4c6ce4ce"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/graphs.py",
+      "bytes": 32134,
+      "sha256": "215ccf47b6ce940c8a54b89dfe11baa8033b4b48e4f1c11a5c1b0fb0b60997f3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/graphVersionSizes.py",
+      "bytes": 1867,
+      "sha256": "51d58ffa38f90be776dbd728f34e7f18a01f45385f6ccd3285405a14286598bf"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/image_robustfill.py",
+      "bytes": 23955,
+      "sha256": "b5bcaf5a2bd629b4de1eaa72b0a8946fcd2c37936dd17d7cbe31c7253f94417a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/launch.py",
+      "bytes": 18039,
+      "sha256": "e71e986484d17d03e74bc34c9e550347838b8a8e014a8d71a6538d8984090458"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/list.py",
+      "bytes": 671,
+      "sha256": "a1cc0fc668c80e665bf8bac46ffd78b0bd74eb61f7bf8dfa551a85de67c31469"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/logo.py",
+      "bytes": 795,
+      "sha256": "476e665393a84cccca90ab45218a77145a97281da09abeb9b54f3626584db4c0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/logReports.py",
+      "bytes": 4165,
+      "sha256": "8c37b5d3fb77bf7d30bb2fdba4c7141729cd5ee0fa152ac2bb821670aa6310e5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/physics.py",
+      "bytes": 10582,
+      "sha256": "2a0cdbf62c6216222ba94b84711babe4e90a246394597a3955d93446b14fad88"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/rational.py",
+      "bytes": 11243,
+      "sha256": "166ec545e94d66f71a952779643f406afc073aa9c607886e36583afe6d7b4528"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/rbBaseline.py",
+      "bytes": 19391,
+      "sha256": "f46ce502fc88a0bc75805e082ec00f276a3362e19846d856f66009a027a8f31c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/regexes.py",
+      "bytes": 669,
+      "sha256": "ad314fc691e79f639ee59726ef302d10e8cc48911763fcd494feb74d10f865ed"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/scientificLaws.py",
+      "bytes": 16974,
+      "sha256": "a36374586fc5c340a63bcda2cd4461f7449e46c2e27587e41d41bca46bdf1a0d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/symmetryBreaking.py",
+      "bytes": 1836,
+      "sha256": "f8535e5dc1e21c752429244d8a2fc0576bffe98bda0a23341e5aa749687e3558"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/syntax_robustfill.py",
+      "bytes": 30264,
+      "sha256": "3b097ed675ad6a3fc7e42362689e88df041b8cd90cb801b95254daa9ad827663"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/taskRankGraphs.py",
+      "bytes": 64541,
+      "sha256": "01113a8be333b6d1a5638333bd3fde5ffefdbc8f1141662b506c18bd7396d647"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/text.py",
+      "bytes": 786,
+      "sha256": "962e209ba2f82d8f84b366269a32b999f30e112276d39e70d7255462b0ed8109"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/tower.py",
+      "bytes": 726,
+      "sha256": "39c2efa7ea8f3e95b001a75cd6971ebcbbee4095d3a760236fef6e7b1aa59917"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/deprecated/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/deprecated/compressionGraph.py",
+      "bytes": 173,
+      "sha256": "0e17ad3397c511985462736a66eb1cfae2321b4136de3e2744d943aba648221e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/deprecated/evolution.py",
+      "bytes": 166,
+      "sha256": "bb5d8e9bce085189bd2cb382236be407fbfdbea270f8be1e66e55e13328d077b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/deprecated/extractDeepcoderDataset.py",
+      "bytes": 180,
+      "sha256": "4549ceb4c7d4d49365776e2afc5e250d26151721ba2b4d5ae299f6735284be90"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/deprecated/python_server.py",
+      "bytes": 170,
+      "sha256": "8e27bd8f1fb675942c2f36c0d00cd4eb15ba343a95a80cad334c0be3928bf5da"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/deprecated/symbolicRegression.py",
+      "bytes": 175,
+      "sha256": "deeaa5dd0988ed7b52512289a0a04050737b8ac8e069e7fd9813658262e5bbcc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 3095,
+      "sha256": "b77c13e4f724b66ad37c4f012d4a111ba2894b49978c3007fe72bf49db78a6dc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/analyzeDepth.cpython-311.pyc",
+      "bytes": 14006,
+      "sha256": "7fd8dd6a8b865580b2481e464284f9a1b3fa4505e4a14fbf635228e19eb4747b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/binutil.cpython-311.pyc",
+      "bytes": 1577,
+      "sha256": "3ff1dca20e1172d78c7975046925e28b0a3b3c538fba3f1f357fc88e55ff9a87"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/compiledDriver.cpython-311.pyc",
+      "bytes": 2452,
+      "sha256": "7e8369c606028e7a588d7ac9a925e712603a0e7257f8a663662bea5aa44e07bb"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/examineFrontier.cpython-311.pyc",
+      "bytes": 24883,
+      "sha256": "130c8911f468a373db1ffbf8a51fd854afbb444c1745cf5f78145e0437f2014a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/graphs.cpython-311.pyc",
+      "bytes": 48551,
+      "sha256": "4d9305b9f9f823192eafe594e79f9bf8ec4ad4057dddc029be985dcdbb85f656"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/launch.cpython-311.pyc",
+      "bytes": 18041,
+      "sha256": "445782e71a0640c456b72404f50216a120c033343423d241d481dac9fe6081db"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/list.cpython-311.pyc",
+      "bytes": 1087,
+      "sha256": "b7076e470dd0cd5f34acb65e6c3225b450f07116cdebd1d7dbc181fb18b81771"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/logReports.cpython-311.pyc",
+      "bytes": 6733,
+      "sha256": "60a468c7db520221ece8bfc79104a2fa24f7ad41474efec7744a1af1c5bf406f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/physics.cpython-311.pyc",
+      "bytes": 18308,
+      "sha256": "d8ba4d84a8ca25a8af519c2515f2595887c4e043ff2423242b2bc7f2570b2340"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/rational.cpython-311.pyc",
+      "bytes": 20293,
+      "sha256": "ec47a23280a7a62b4b610115996050e59d92ef9cbe7a36526661ec83a7b707dc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/scientificLaws.cpython-311.pyc",
+      "bytes": 28831,
+      "sha256": "1ca4c4067e8e9948e2c003d2b023a129e23eacd1db6e21b3d034c9401ed6ed70"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/symmetryBreaking.cpython-311.pyc",
+      "bytes": 3488,
+      "sha256": "75b135f5905364cf9ed7e8ed9f7782f93feb4f363806e67eb2d979eeb6c48bd2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/__pycache__/taskRankGraphs.cpython-311.pyc",
+      "bytes": 80157,
+      "sha256": "0ab9ff9a0cc5b9fb5b3d45a73c553e75e24848be1178819e349b35e68d6f0e02"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/clearRecognition",
+      "bytes": 501,
+      "sha256": "bcf543b2b3a4e058ef9bc3de2d8036a123b0c7eb0459c6ab836c233ec806600e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/csv_filtered_all_background_novel.p",
+      "bytes": 2841271,
+      "sha256": "5c6138e6bb714e1bbbd803bbd455eed1873a7be7e582ae0c522fbf1b7c2227ae"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/data_filtered.json",
+      "bytes": 1663150,
+      "sha256": "55db92719934b13d12f3404228dc60cfa48ae5613cb4f44042c29a3372529415"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/list_tasks.json",
+      "bytes": 169752,
+      "sha256": "d8f6c303d625bb4783a6444db1aafae70b69056ecec2d271f97b23c09ada3603"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/list_tasks2.json",
+      "bytes": 90682992,
+      "sha256": "606c1af3bab482ee373e1bbdf44009e44c08113c0f9e98c8a979171126637e30"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/logo",
+      "bytes": 4,
+      "sha256": "b23bdd6952cda04173988e403868d54542708dd75a51dba232d9dca28b38fb89"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/regex_data_csv_900.p",
+      "bytes": 8308011,
+      "sha256": "976712e185df48167736e49bc8a9335cb2461af964d16abc3918800b10e21b4f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/taskRankGraphs",
+      "bytes": 889,
+      "sha256": "815afff778f037441af03aa0102b518fb307f208e74a75d94fb7f1ed9cee850e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/geom/geomDrawFile",
+      "bytes": 4841824,
+      "sha256": "c6ac9ca76380ea297a04824a53116dddf042525b4fd29eafc34060c153a8fe8c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/geom/Makefile",
+      "bytes": 711,
+      "sha256": "3ed2a86656f30595996a12eeb0f0628046e70c4173ce7a0dbf719cba9c26f8d1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/geom/logoTasks/generate.sh",
+      "bytes": 2578,
+      "sha256": "8e2e0fc6101570208de239e29e37fddefbeae88127f4503771453bd96613b65f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/338_pretty.png",
+      "bytes": 4831,
+      "sha256": "43d48c7c528e4cac39b1081a13626137c689ffb010238954180fba04e5dd0c10"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/338_smooth_pretty.png",
+      "bytes": 2510,
+      "sha256": "de8b3423408c639cd83a16204455480fa6c3c0e08f9e41ab4440cda89b188066"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/338.dream",
+      "bytes": 41,
+      "sha256": "16772a8875d122795db2a4a24b1a7663047318f8550e6fe38a05b8cac10af4d3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/338.png",
+      "bytes": 2510,
+      "sha256": "de8b3423408c639cd83a16204455480fa6c3c0e08f9e41ab4440cda89b188066"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/394_pretty.png",
+      "bytes": 37948,
+      "sha256": "54bf6b3de53b39ea789e4393e1b12485f9e3a210a3a48b27ccde9c8d94fb2a0b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/394_smooth_pretty.png",
+      "bytes": 25074,
+      "sha256": "2b5e7b13f3e4bcb49e02611ad79a2e2d6c7a0ed4c01d11692270f3ecb21e49e2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/394.dream",
+      "bytes": 45,
+      "sha256": "fb1c7f0318b963c562def10fd2d7e1724750135873ff9fa26080e6893f18d8a3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/394.png",
+      "bytes": 23565,
+      "sha256": "817540dd32eeac6ee1a4db671c9bf9564e7ccdf4c394932909558e5f2f7e4e7e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/473_pretty.png",
+      "bytes": 5912,
+      "sha256": "a7746d55938df216b31fa04f95676324692b27530589dd7de65efcfdf8b89f5c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/473_smooth_pretty.png",
+      "bytes": 4745,
+      "sha256": "f2b79c01b9c77dc6b89d393d6255e94895f2b73d48350a7374e9ef9f2c470a5f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/473.dream",
+      "bytes": 40,
+      "sha256": "44dadd89095e9b479aac50b8f3f82e60c0fdfd1772e5f4918003db10e9f10ce0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/473.png",
+      "bytes": 4745,
+      "sha256": "f2b79c01b9c77dc6b89d393d6255e94895f2b73d48350a7374e9ef9f2c470a5f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/5_pretty.png",
+      "bytes": 7552,
+      "sha256": "f32ca4de5edebc96f6f3567a63488b8f7a3b16318b643e6b97c2da39e64caa99"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/5_smooth_pretty.png",
+      "bytes": 4913,
+      "sha256": "4e523fe8f10379ab2eba9da33d06d5c2a932393a968554aa37f66c63539613eb"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/5.dream",
+      "bytes": 36,
+      "sha256": "1410fe5d66d212c391ef13cf89be046d931f442b5bede1967b424bcdd3bfb5b2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/5.png",
+      "bytes": 4690,
+      "sha256": "99e260019e7ec87524eae9160538eeeb86846e71f17a6c10cc424210e71d78ca"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/50_pretty.png",
+      "bytes": 8338,
+      "sha256": "d5525badaeab6a36416065b2bdb17f9d4da26dc9b8ec21c3f629608bed6fa684"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/50_smooth_pretty.png",
+      "bytes": 5550,
+      "sha256": "5a37175baab73029f25ccfd51f56aae182eee3edc8f1e8dd438b62b8653223fa"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/50.png",
+      "bytes": 5265,
+      "sha256": "032f36f2bbf38c8e1c9499269ec990266af7ce1191609078eb11644df9591621"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/51_pretty.png",
+      "bytes": 14880,
+      "sha256": "72e78bc4eafc36af0ff8812dd432c7bef27868ffe6ff9cb2ca526e223356d0e1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/51_smooth_pretty.png",
+      "bytes": 10177,
+      "sha256": "47f831d5471e1aaa5ae8881e1d81e9dfefeda792692ebb1f336d77e9d7b0b925"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/51.png",
+      "bytes": 9525,
+      "sha256": "c1632acf493f4fbc4f509e5d61ed4d2b1156cb7ce23728a8b7cc4d7618d88491"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/52_pretty.png",
+      "bytes": 2050,
+      "sha256": "db2db136bd00e473e3b0689eb61c0a99c6e0e79d0c6b1e970e297345df1af9e4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/52_smooth_pretty.png",
+      "bytes": 1444,
+      "sha256": "3ec402f49e80c6f06f8c5fa9009ed5299a1331a87ed7afdd7c0700515250c4ed"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/52.png",
+      "bytes": 1444,
+      "sha256": "3ec402f49e80c6f06f8c5fa9009ed5299a1331a87ed7afdd7c0700515250c4ed"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/53_pretty.png",
+      "bytes": 14777,
+      "sha256": "91becf617aed59e0da8e5715579971e54bae25b02ad9e15e56b06eeae2965335"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/53_smooth_pretty.png",
+      "bytes": 10008,
+      "sha256": "2dd76bbafc1d382d0579c08d1820e6a771be62eb61be19fe784c08913e58a8e2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/53.png",
+      "bytes": 9525,
+      "sha256": "64422969cabd259fd0166332c1c38e559974a8830f02d8caf967ccb1a769ce2a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/54_pretty.png",
+      "bytes": 14464,
+      "sha256": "99ae066533e1309417fc8d3279df5351e38e44a4f6b35ae3c824af35e807c036"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/54_smooth_pretty.png",
+      "bytes": 9328,
+      "sha256": "83732c201196068bcd33407b2f534ceb1edc08f10c8f9bc62c40e9367257c189"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/54.png",
+      "bytes": 8722,
+      "sha256": "104e701d884d16632b7c814f88248a38918ee36b39fd57f48c479e48d9467733"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/55_pretty.png",
+      "bytes": 6363,
+      "sha256": "5c2cdba112fd3e8bb31fe694122ac0480b0eaee79391f821d565ad987f72df1c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/55_smooth_pretty.png",
+      "bytes": 4458,
+      "sha256": "3a81c3a9f5fa8e972b8decb88dd34b74844a45488322fe7187741478a4b532ac"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/55.png",
+      "bytes": 4347,
+      "sha256": "0e270d3345da2bfe83dd449cc58a67ddae7cfe569a313210ef737da1f3f06244"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/56_pretty.png",
+      "bytes": 7839,
+      "sha256": "c2659975c3b09085aa1b850838c45fc7d8991cfbf788ddce156dd08258efedfa"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/56_smooth_pretty.png",
+      "bytes": 6122,
+      "sha256": "18056a477daad1b0b8e2549cfbf02450fe4a930c671b66ab6aaff34cd83cffa3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/56.png",
+      "bytes": 6037,
+      "sha256": "b93d07d09af9d46017b5acb6765fe21e4beb789f5a15ed705bd4549deddd6f55"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/57_pretty.png",
+      "bytes": 19353,
+      "sha256": "d074802fa3d72f9449136af28bb1e539b5e8c67e58881af97674288c06ea9efd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/57_smooth_pretty.png",
+      "bytes": 12720,
+      "sha256": "5c1bec2992f8ce8b957430943ccc8936d4b749f4df3cee278aeb9120c38f5ea5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/57.png",
+      "bytes": 11978,
+      "sha256": "e5bca3b845058186b2bedbbc86dd7b459854e3986504350a3e344657ba3e7910"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/58_pretty.png",
+      "bytes": 19313,
+      "sha256": "b130d9b6aaf53a2f2f269482ba65c6f88336b40f26e90c4ed3417dd212a5f037"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/58_smooth_pretty.png",
+      "bytes": 12935,
+      "sha256": "60456b594161c0eb1d468dfe3b9bb68d1049f6a15cbbb478afc64355768f3332"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/58.png",
+      "bytes": 12108,
+      "sha256": "4d3e6778b1402c3de1f32f000c92c817ed08adcc888ee03d0545c3da613fa57a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/59_pretty.png",
+      "bytes": 4512,
+      "sha256": "bfcd1b0c803b962efabb66b4d364a87cdd51e75fa2c5ecfe8441e955c9a1dc82"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/59_smooth_pretty.png",
+      "bytes": 3369,
+      "sha256": "aac2d05bb64a6decca8d3d82e8977706ec5226f50521c3a3dd2959f7bb8baba7"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/59.png",
+      "bytes": 3369,
+      "sha256": "aac2d05bb64a6decca8d3d82e8977706ec5226f50521c3a3dd2959f7bb8baba7"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/85_pretty.png",
+      "bytes": 47099,
+      "sha256": "ff0b396b6ad7bb9f9c26d28ee5552c764941ee2baaab1e7e5d6259b31d64f98c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/85_smooth_pretty.png",
+      "bytes": 32405,
+      "sha256": "fb6ccf24635a2454e3118a27e6ad345f0fd17b137e94c60ee3fdcef701e463ef"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/85.dream",
+      "bytes": 53,
+      "sha256": "4b094545c4751a7a204c177e0fff43ecf4ab271de20e88a15a924550340e0e69"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/goodDreams/85.png",
+      "bytes": 30551,
+      "sha256": "f25d0e2ea28a0743cf6b4c8ab2acf0f93713aadef4d4ac6d5fff7415a0198872"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/puddleworld/puddleworld.json",
+      "bytes": 3650214,
+      "sha256": "9e4efdad4c4692b7fa2ef232564116202547f3211d01df8008bc5edfe26a0258"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/11440431.sl",
+      "bytes": 1079,
+      "sha256": "16fbe70c27850e50e2a9f29125a929e3f8cea320e17eafe7f47c840025c34b7d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/bikes_small.sl",
+      "bytes": 986,
+      "sha256": "8d2c295c34175884b85c85ea4343f3f6e5ff0c1ca52dc451f15521ad8cb2d44a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/bikes-long-repeat.sl",
+      "bytes": 3411,
+      "sha256": "3c454485492e6d331204678152e1a089a44d7652781c236109626ae061d20523"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/bikes-long.sl",
+      "bytes": 1945,
+      "sha256": "4b5e4b991046135e4c8accf364cf0b4d131200a47260ba26449fd00f45876a17"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/bikes.sl",
+      "bytes": 1163,
+      "sha256": "ff99bcafa34bcd27c6cc75f603d0675f61d7402bff21e112fda8cb61177b487e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/dr-name_small.sl",
+      "bytes": 974,
+      "sha256": "d7ff647220a3d8f93feb3c3408a9f131bc36b4f49da0b767e54e403f12d78a21"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/dr-name-long-repeat.sl",
+      "bytes": 8883,
+      "sha256": "713e2926968044fa52be1ffc5a85e0c72910b073a4246c0452e29c89bdc1ac00"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/dr-name-long.sl",
+      "bytes": 3572,
+      "sha256": "1a3b8c909b0a3feba2dcb100a84487d66978a1d102a216b8b978bbe820dda167"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/dr-name.sl",
+      "bytes": 1115,
+      "sha256": "e7c4e972175ffa6a433830d656446695a162720d1c49a2780f4f701e5955e064"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/firstname_small.sl",
+      "bytes": 948,
+      "sha256": "d87eb50a29073c5374dcad70125ff330bcba1ab6fc1368e1a4fb62d71c4a03af"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/firstname-long-repeat.sl",
+      "bytes": 10913,
+      "sha256": "f20a6f6807e33f5891a38e1ea2b5c0920c9095d3b58c0c1f9147ed9cb98458ce"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/firstname-long.sl",
+      "bytes": 3545,
+      "sha256": "cb128b0c7225c2025cc5815b452e4382bdded4a6cf0d5182e85942f3929bc096"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/firstname.sl",
+      "bytes": 1089,
+      "sha256": "3ac9d00d5ed2d0c229960a65d753a92c0dca788bc90a38a334c747679ceba10d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/initials_small.sl",
+      "bytes": 948,
+      "sha256": "60c3d58000aa52fbc6e8b599355a50bbdd9394e8b5a51335016fe238abdbab82"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/initials-long-repeat.sl",
+      "bytes": 10452,
+      "sha256": "fc03020301b2f15de1aba410cb63abb898f49e605c6a9e8cbd41ff0073eadfe6"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/initials-long.sl",
+      "bytes": 3429,
+      "sha256": "d2bae77affed8f463d3143982a45306fb9f400fd7afc987a6e4168b66469379d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/initials.sl",
+      "bytes": 1089,
+      "sha256": "84c7dc9bcd6bdb6f411607d2617c83dde77418fda2d9f960303ff6750d7719d4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/lastname_small.sl",
+      "bytes": 957,
+      "sha256": "ec09d454b2f45ddda37220f86cc83c49108ed1e5957a8a371e2bb36acc113857"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/lastname-long-repeat.sl",
+      "bytes": 10966,
+      "sha256": "c087d885b1346b63771d94ee2f4f7fa1bd5a9c6b8806ee427966841050ad6f99"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/lastname-long.sl",
+      "bytes": 3565,
+      "sha256": "135f6c06a1cdfaf8bc6af024ccfb22704d95277e164ebebc3d7e55ba9f17c446"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/lastname.sl",
+      "bytes": 1098,
+      "sha256": "e7fe1e1f35e3c70d92764c9bb50cd16bc586d9469ab846c00ae4509c20aeff9f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/max3.sl",
+      "bytes": 930,
+      "sha256": "e1f2d25138fd715d5b9ef1093e95425e808bec9c308fd39145964f81f3262946"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine_short.sl",
+      "bytes": 1179,
+      "sha256": "c4742c95f799165480555d875566a8adb83e643efa14aee89b03ddfe77078e4b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-2_short.sl",
+      "bytes": 1190,
+      "sha256": "3d9b18609a715948841f2770927eaf2d75ca46b5a1b795fb8c85061578db8c0e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-2-long-repeat.sl",
+      "bytes": 12011,
+      "sha256": "fab841cd9b7b114750a3b68f490f053ee9180a428c286c32dea36910c87fe98c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-2-long.sl",
+      "bytes": 3896,
+      "sha256": "329dfcf8b767f20d87e1972d931d640a14113b57fc938ad32ac6f5fccbc2c2ca"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-2.sl",
+      "bytes": 1049,
+      "sha256": "6887a33e96f7418495af8b4b77703264fd6b5e1ceb99a0eed19a64bffd20b1b1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-3_short.sl",
+      "bytes": 1122,
+      "sha256": "f266d019b09616b14f749ec6accd71595c24846bdea5b410019fdb0219479553"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-3-long-repeat.sl",
+      "bytes": 11847,
+      "sha256": "6828e8fd05f735e700c604d296fdc591826bcf8586a44a7b356928789cbd1a7b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-3-long.sl",
+      "bytes": 3696,
+      "sha256": "2416b76f5efb10f6de5577ade000bca3b4aa85d6e5298f6e0976b99c1c922a60"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-3.sl",
+      "bytes": 1299,
+      "sha256": "16bab8e22e911b17ff0df9ce0d57dfdb19c66bfb561fa98537105ec08c87bfa4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-4_short.sl",
+      "bytes": 1110,
+      "sha256": "d02de306a4d29e5c6e639bc7aafcd5664052686fde85c3b90a7e0416d9a60750"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-4-long-repeat.sl",
+      "bytes": 12011,
+      "sha256": "014fa25d5ab3b8164c8a22e6c9f6f49e2a7744e3abe813d32f2de755d8e960a8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-4-long.sl",
+      "bytes": 3710,
+      "sha256": "94ef9b4072982bfc102395344b0bb849ebba3742ee17de6a63ca4ce0666acfb8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-4.sl",
+      "bytes": 1251,
+      "sha256": "7c170467244a61f2bfc9689cbb95a70e7aaeecd7441e6788d795fcf361b8a413"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-long-repeat.sl",
+      "bytes": 12893,
+      "sha256": "1a4cdcc7f5990d15674cebb98465d0733fec1a69d423a1a72a70a8e8cec2efc4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine-long.sl",
+      "bytes": 3867,
+      "sha256": "50fb9e33f529c7c06dc33e4f57ba34bae411b4932bb522497340d41d22e64da3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/name-combine.sl",
+      "bytes": 1320,
+      "sha256": "616895905009724f24f21623d057b47f15c59bf5968685cb3b3efcb8b2ccdadf"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone_short.sl",
+      "bytes": 1072,
+      "sha256": "fdb1816a4811f9eb41a8bc7edd4378dff2c0102e85c95549a10028a5c1735558"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-1_short.sl",
+      "bytes": 1075,
+      "sha256": "ce7424fd52f3aa5fe2991202a6013b7952e936aa20ec366a83d8038b9077f612"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-1-long-repeat.sl",
+      "bytes": 18103,
+      "sha256": "060953af93e3def1c6a1692b32e9ddddfd9c4d7a0ece7749209cd21cfd7e5826"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-1-long.sl",
+      "bytes": 5203,
+      "sha256": "83dc74a6cff75b0be10dcbdc7ef299544991fdc28011725dfe28b9fdcbef9eb2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-1.sl",
+      "bytes": 1161,
+      "sha256": "732ca6affcbbb94d6844c8889f9f068ec46a1c7dfc9f534feac6971c0d38b2a6"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-10_short.sl",
+      "bytes": 1266,
+      "sha256": "54a19872a17b3b11852b3b46be17ef09afe3c7ca19dee815ec9c6456e14c387b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-10-long-repeat.sl",
+      "bytes": 25643,
+      "sha256": "3942ce5052f1c3d2c56c2547f15253eceae1043343d02b9f0b8f96c8de4ca62d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-10-long.sl",
+      "bytes": 7103,
+      "sha256": "157b5b1e96fa9040cc12e1f4357df7e3e7b9b1c34a5290854f94688dbd434f31"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-10.sl",
+      "bytes": 1352,
+      "sha256": "091954267e813741a73e5232fdebf564aa50e2fc880a470b7545c0c5e0a0a96f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-2_short.sl",
+      "bytes": 1020,
+      "sha256": "e10624c2c9f02d1f58264c1afbec1497c1c0969ac51bed31ab1829bdb88e9fe0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-2-long-repeat.sl",
+      "bytes": 18103,
+      "sha256": "781c62b0b31511084eec04e36b689a6b13690ce15d8cccad9454dc244279e06e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-2-long.sl",
+      "bytes": 5203,
+      "sha256": "6784e1e1f4c17b23716c286bf1573052cd26e38224b0fa4937e9f6be7287bf67"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-2.sl",
+      "bytes": 1161,
+      "sha256": "7d3e3f671252850fc2e290f16e834ffb00c3b89c9e7b424845c3fef443a4284b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-3_short.sl",
+      "bytes": 1145,
+      "sha256": "7f072b770ccbba5a7bac85f093696fb60c4295c64a2a7a19de8a56c850d63bd3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-3-long-repeat.sl",
+      "bytes": 22115,
+      "sha256": "b0a6655177f07970aa674c6c3defa33d62b920bb37ba3e50dcba340cc6361c23"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-3-long.sl",
+      "bytes": 6215,
+      "sha256": "c24b5350babd34d3b54617dc289b46dd0379dba6529e1090f2773f60b1907e0e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-3.sl",
+      "bytes": 1286,
+      "sha256": "de833702216e07054adf8a34edf5c16d9f30939a0521cdd432816a0cd9b96d11"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-4_short.sl",
+      "bytes": 1139,
+      "sha256": "f6038480998eed3e129977668143790fb4e89e9a26b6a0feaa747802d54d8ded"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-4-long-repeat.sl",
+      "bytes": 21319,
+      "sha256": "724f30dfcc6843c9759b65a39f0857db289c5dc876d17113e58715035972f084"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-4-long.sl",
+      "bytes": 6019,
+      "sha256": "b7ec60e6fe5b023bcebeb63eae70a81693d11e19302cd5c82a4ebd5c2ef322fd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-4.sl",
+      "bytes": 1225,
+      "sha256": "fdee7f83ecd06bfe0f5429d758b1b5b07d041c0881f76e6b7f08a55fe96030f0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-5_short.sl",
+      "bytes": 1098,
+      "sha256": "94e5df5a5126afed30ab8a2c0730aaf7c6ad05982e942d536a8692970e6b34d8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-5-long-repeat.sl",
+      "bytes": 19635,
+      "sha256": "e2581ae0a1f7b8abde11ff6a65b3985a2a52f8abcae879cd226fc0b08d2608d0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-5-long.sl",
+      "bytes": 5595,
+      "sha256": "bae764fdc2d155a9a38ba91328ba112ea52c2ac466801d13e490b6a5bb03eada"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-5.sl",
+      "bytes": 1239,
+      "sha256": "b7055bd3152b1126906ae2d433fcbc170f28d66c9ff63e54428c672c8cb438a0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-6_short.sl",
+      "bytes": 1162,
+      "sha256": "77435ba718f156c7549b8c46963b2889eda764c2a0d6d4fdf7153e9b8a4d4ded"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-6-long-repeat.sl",
+      "bytes": 19875,
+      "sha256": "f9cbeae1ea32a3b5897b02a33e4b1ad250b18121c9084b10927bf80cea884500"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-6-long.sl",
+      "bytes": 5658,
+      "sha256": "b8b97a6af903e7e868e3d5a8a42014ddd09792cd360ddb697147f2ffd3440962"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-6.sl",
+      "bytes": 1248,
+      "sha256": "a3d6e088023abdb4009769a7c9e57046d3fe89fd527d41f72be03b0e4656b3f1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-7_short.sl",
+      "bytes": 1159,
+      "sha256": "334660ec96c1118d2a263f9c630b28947264379725651401f2c84759609d39e3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-7-long-repeat.sl",
+      "bytes": 19875,
+      "sha256": "12c9002cb1563873b787c30dd03f6e5cdba876512d2a7f0b381ed5c0470e3480"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-7-long.sl",
+      "bytes": 5655,
+      "sha256": "fb4c828ab09a61cb251e58ed6553fa36f8fe7c036c3d40af152a407d81ec77fc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-7.sl",
+      "bytes": 1245,
+      "sha256": "995845ed199d6b83906c76ebd15b3ecfc30af0fbd07ce122e30d7724573c6c32"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-8_short.sl",
+      "bytes": 1155,
+      "sha256": "82419e7bdf2aebe9591e8f7613b46d6fbeaa7f9429283e8f596196d8fb9c3de0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-8-long-repeat.sl",
+      "bytes": 19875,
+      "sha256": "8afbbcafad4555aea9ed50f986581b6b5153cc268f5fdb021745eef495b8a96d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-8-long.sl",
+      "bytes": 5655,
+      "sha256": "0c0f5aedb20ccfb1ea6529e6287771c4a8f37ffbed28acd0cbf0d249910d85b5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-8.sl",
+      "bytes": 1245,
+      "sha256": "7a790c6b26639bd61fcd6e60f099d25b9165045c2cd11f31cbd84d5a34dd66da"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-9_short.sl",
+      "bytes": 1237,
+      "sha256": "95b43b6603aa45a52d8c24b0e879e4048d3f563286b57bbc4936ba1da439fc00"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-9-long-repeat.sl",
+      "bytes": 24435,
+      "sha256": "44f16de1fc8b9261f843ae88351b96d85594af634a93e6bb15837c94b6f7f5ff"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-9-long.sl",
+      "bytes": 6795,
+      "sha256": "5e4ba9c1fe55a2d3435d1c60db2d37ae217462c78a65adc3963e20720f1ab07d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-9.sl",
+      "bytes": 1323,
+      "sha256": "85c662dd9f25ae3f87c4f00c5727f9219a981959fe1015ef947fb8542cf458df"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-long-repeat.sl",
+      "bytes": 18103,
+      "sha256": "45895255598e358f98c3df021008cc801225eafc9b09983e0f8d7200460bf75e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone-long.sl",
+      "bytes": 5203,
+      "sha256": "bace9c4a475c48bbbe20d60a2c673b2fcbdf361f5a04bad9a2e3ed5e436f209a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/phone.sl",
+      "bytes": 1161,
+      "sha256": "a22bd9a6eef02492943ca09ea09523750c1acfe29fe3b26ff85a459f878e3798"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/reverse-name_short.sl",
+      "bytes": 1237,
+      "sha256": "9a114d889daf12d82eee3e3b191978071f2d545926c292c260b6b51cf32511c3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/reverse-name-long-repeat.sl",
+      "bytes": 12700,
+      "sha256": "edc216bf282fb3f02d6579e2d02dfef1ac4557f26bd525d32cec26fa364d9317"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/reverse-name-long.sl",
+      "bytes": 3904,
+      "sha256": "16d11ba1476483fa8b95a5a7d599dae11d54ca68a30b0d9decc0052c248492c5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/reverse-name.sl",
+      "bytes": 1320,
+      "sha256": "ff47670daf6c2df01b2a3f0bafe10cd6203e9a10bb62de73cd940393f3658c2e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_1_short.sl",
+      "bytes": 1647,
+      "sha256": "3d38486a4f5779cdd702edec5d333f3b966c03b91b00fa31219de78b53c7fd51"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_1-long-repeat.sl",
+      "bytes": 4665,
+      "sha256": "acfed5182fb4f32cc6197759f3e877684c6923ff18cbbce856419ecaf895bbcd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_1-long.sl",
+      "bytes": 3431,
+      "sha256": "830b30664a225877e8d2e1f7d0f4ffa94a4ab3c96546907ec529a41b01490931"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_1.sl",
+      "bytes": 1788,
+      "sha256": "73251fd303b2481e4814cbfcfe9971b395838defb2ad547b89be094e0271780d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_2_short.sl",
+      "bytes": 1702,
+      "sha256": "b69adaf759e9511a49d3ed82e3016ebdb685f1579e6d336275afe6cf9e183849"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_2-long-repeat.sl",
+      "bytes": 4827,
+      "sha256": "eb9d040f817578fdb838ac433f0e546fd943524ef1bb71db7e58838f6a13df1b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_2-long.sl",
+      "bytes": 3563,
+      "sha256": "e0815f27ef80769ee63e322d01bd86dace933d59f00adff935e227f6ff869aab"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_2.sl",
+      "bytes": 1843,
+      "sha256": "b6d87f5a2b01e6ba4fdddf47e42de9268b722df88ebdd45f69fb1b1f6e50df37"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_3_short.sl",
+      "bytes": 1575,
+      "sha256": "6e34c4a282836709beff7656ef48c4ba1daa0a0ea35003c968c5e121930bf1ae"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_3-long-repeat.sl",
+      "bytes": 4322,
+      "sha256": "1bf300e2d73a8b8ff921ebe71c4be8d1df5d5d5b2c981667ceaf81317743e89b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_3-long.sl",
+      "bytes": 3197,
+      "sha256": "9e3f50de578002636648ab9edeec7eaade9dd43cb66aa1b05470c9b78650ea24"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_3.sl",
+      "bytes": 1722,
+      "sha256": "b4b217496e92e85fab6bf1e3a6d1db58c517f8be6423997e048b467b05c3fe15"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_4_short.sl",
+      "bytes": 1807,
+      "sha256": "9e089aa689d7c55cbe0548c0189e2eceaf9c66b6aa5da5ccd172ae8943242ce3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_4-long-repeat.sl",
+      "bytes": 4315,
+      "sha256": "55c8047134b3a7d7490b8b2710512b7ec341dfaa4f9d9b7c8af2dadb38938f86"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_4-long.sl",
+      "bytes": 3196,
+      "sha256": "446eff8944c001ab6adebbe1ff60063193f655d1f4a66b187a061b9fbc747d89"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_4.sl",
+      "bytes": 1948,
+      "sha256": "1b536e9bf6be9d55e0f4f89a67643e1cadae849e1974364e01a42e345806eb16"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_5_short.sl",
+      "bytes": 1907,
+      "sha256": "4ccc6ad12974f671bd0bbd5475552ef43081473250e4b9a42725004fc96f966a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_5-long-repeat.sl",
+      "bytes": 4274,
+      "sha256": "c4da1b81f6f8e315697558b63696a8d335c8f6021a0468e7087af819edbad61c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_5-long.sl",
+      "bytes": 3296,
+      "sha256": "73b55a9c44c267f7132cecd7a0c5aee6f9c519ee13114e118c65089ee58b782e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_5.sl",
+      "bytes": 2047,
+      "sha256": "ca7933378d969d0290e06062660a3fab683b66b53b533587b1e737c4b4065e44"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_6_short.sl",
+      "bytes": 1807,
+      "sha256": "005d88eba0cd1a526e5dd3afe02c9dc3c9c8c0512f40073234a2d40000bee86d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_6-long-repeat.sl",
+      "bytes": 4389,
+      "sha256": "6f31479ba8d107a3df008b23b06beeae34d9b1ffdffd06c965884107e2b0134c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_6-long.sl",
+      "bytes": 3411,
+      "sha256": "a80407896a782f5f9e775ee433b16cdbbd1c4f2cec3e4568f884c603acabd624"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/sygus/univ_6.sl",
+      "bytes": 2164,
+      "sha256": "9a845a465ac3a051f083c80b21c6d63779b4eb79aace9844f756e309676f6418"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/docs/creating-new-domains.md",
+      "bytes": 10757,
+      "sha256": "c515b21430950f60b227430506965f773633a8e3f65b56c72400b9daabe16503"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/docs/dreamcoder-data.png",
+      "bytes": 27183,
+      "sha256": "a249bc3b59fda96d87ee5b23ca00a74bec0445d24705b9aeea2b4c1c26aad488"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/docs/dreamcoder-sequential.png",
+      "bytes": 117079,
+      "sha256": "353a995d1f2f1789c3a0c7147ae7a269a5c41f0b6d3e32bc1d87c3ca3de96329"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/docs/example.png",
+      "bytes": 32064,
+      "sha256": "e1d88cdc9db56509ed4cf49f8728314e9f2d374ab5fec360d0a85e0aa4079550"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/docs/posteriors.txt",
+      "bytes": 26198,
+      "sha256": "63e73a83b8d89a6e5c56631dcbe740ed2890c4c6044039798019978c14f5b8d7"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/docs/posteriors2.txt",
+      "bytes": 20291,
+      "sha256": "6e93989042f09eb2349eaecf572e3a037c478cf071e144f21b542fd3bfa5774c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/docs/software-architecture.md",
+      "bytes": 9111,
+      "sha256": "ae3c20b6e8509065d631ff2a51bb5bba5b74e6d200cbfd1bb492b2dd825f29f3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__init__.py",
+      "bytes": 4833,
+      "sha256": "e4ec7ea0f475fa171f1d1e6f7da4025af82ef1fa57140975c428a94c9ca85e4d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/compression.py",
+      "bytes": 11497,
+      "sha256": "a1a82d9bc6d7d8f1066f59c7d9dda4081e7d50d5376942eebe40cffe1a6ce0ac"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/differentiation.py",
+      "bytes": 11374,
+      "sha256": "7d7945598bc5d5cd53c1f3292adf95495ace1980fe262728e7d61be2a573ea50"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/dreamcoder.py",
+      "bytes": 54936,
+      "sha256": "0baa26cc5be8b19f972dcf9e2c3dc6b5fb0b39b38877cf8bd590622b1dee725c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/dreaming.py",
+      "bytes": 4117,
+      "sha256": "05068b7a207586597d1bfb71df20b60abf916d81e78385687ff2d4957ed560af"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/ec.py",
+      "bytes": 204,
+      "sha256": "87e65108dcd4e0d3e45c191e57431e0be4ffe71ace16e9053b3fd2909e05f9cc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/enumeration.py",
+      "bytes": 23641,
+      "sha256": "54eb93d4b3b63c75b505fe0e5d506ad29a703647f5148e5cb56fb933dcea7977"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/fragmentGrammar.py",
+      "bytes": 20194,
+      "sha256": "04cd2fa331abbb88f30f491ba8681beac5b0bda0dfcb7108d7c34f4fff1b747c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/fragmentUtilities.py",
+      "bytes": 14090,
+      "sha256": "74287bdb35094e34d157ae0927e22a30b303cf40c89287395bdad55377fba65b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/frontier.py",
+      "bytes": 10022,
+      "sha256": "bc79bf1385ccd56313ff02b9c4f2f7b03db800cc15affe0d3a0b4c6337c5e5d9"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/grammar.py",
+      "bytes": 79508,
+      "sha256": "254ad5ee5c0b3d15468442d75859f6f1b05095a7c9b28b58a95a771baab3a292"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/likelihoodModel.py",
+      "bytes": 15504,
+      "sha256": "803595918e9c59f4a42d8bc7feb82b49b1fab4d1ec06fef152848e4be4b3e231"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/primitiveGraph.py",
+      "bytes": 7714,
+      "sha256": "cffaffd0fe51c04d6974b4875af95aa3968eb6abfe7b3c510eed5105729960aa"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/program.py",
+      "bytes": 41326,
+      "sha256": "e1cb0f68a73e27e195295d6b450b8573f65f45e339931debb1353697dae0e62e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/recognition.py",
+      "bytes": 70766,
+      "sha256": "c31a24a7d83b7c6e6b56a324ab8b955320f80fa564b12393227ef9f248772ced"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/task.py",
+      "bytes": 8613,
+      "sha256": "fbaf5a87c4317f404f63426e051d1a7d0ecbdb80f8e0d92ede35f4ff9e3eca4c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/taskBatcher.py",
+      "bytes": 9909,
+      "sha256": "4fbe0f87952588b6fa2dc3caadab1e40709cf9a219530e037593965d42ec1e1a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/type.py",
+      "bytes": 11522,
+      "sha256": "0ef97a592f7c997c5e487f27c3edff7216e9f564688783755f32ac80763563d1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/utilities.py",
+      "bytes": 25509,
+      "sha256": "98d0911e27550eb1e78df81021a2b20bd00c273fd67cd93307dabd8547089ccf"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/vs.py",
+      "bytes": 54247,
+      "sha256": "8214fee5f2eac5b0167713dc6cea4d591cd7c39a784be9f5a8ff4d75e920579d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/deprecated/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/deprecated/network.py",
+      "bytes": 20021,
+      "sha256": "06b7f8f8486bf75874d238b4d4842003d0a07d1f1008c0ae713f5014d8559dba"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/arithmetic/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/arithmetic/arithmeticPrimitives.py",
+      "bytes": 1662,
+      "sha256": "77e4106a6e906823bff966847d900eb9898c03f994568921eaf4d28bd79b8a12"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/arithmetic/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 278,
+      "sha256": "a7e0a37d1186441ba35a0fb9652ec005a3bd360524a1761118753eb28dbc5166"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/arithmetic/__pycache__/arithmeticPrimitives.cpython-311.pyc",
+      "bytes": 3244,
+      "sha256": "d9437ea60010af496a6a42df1ea3547e9b817b22fc68a33e0d88dcfc2d5f6f0e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/listPrimitives.py",
+      "bytes": 18030,
+      "sha256": "1808508db1fcac4b0fe6392f569593f4d598e27461e431bc0004bb334584ef02"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/main.py",
+      "bytes": 16451,
+      "sha256": "f11f5776187995051942ea633f1cc03e88c988158733e488e98ddde9b0fd739f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/makeListTasks.py",
+      "bytes": 23360,
+      "sha256": "fcfa5e09478e46f0480eb7b1c38f9aa2eb9055840cbab498c816dcc144d25f80"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 265,
+      "sha256": "be00b3cdbf57c9405443fd1ee77d65d85d30373669b2dc2bbd62b0bcf18f97f8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/__pycache__/listPrimitives.cpython-311.pyc",
+      "bytes": 35487,
+      "sha256": "1bb2af6068ac7e19ffacba3f109279bd01f29946335e7749e391e7c2f71c488b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/__pycache__/main.cpython-311.pyc",
+      "bytes": 34822,
+      "sha256": "b0cb7ca4c99b45efee98a4b0de2afff5a6428bd6bb62a0e52850b3505f1dd564"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/__pycache__/makeListTasks.cpython-311.pyc",
+      "bytes": 49441,
+      "sha256": "c2a6a1ea15f5401cd408c48c8228cf2984662e4ee0984c9a265665d650d10aeb"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/logo/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/logo/logoPrimitives.py",
+      "bytes": 1927,
+      "sha256": "aee95ea342ecf82fd2e8efb329cc5e3135cad53541e40fa970c4e197fc8655c6"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/logo/main.py",
+      "bytes": 17913,
+      "sha256": "17b38d65822e224ab61d280fa6f91fe5297d84509320c9b8778c66236f60d710"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/logo/makeLogoTasks.py",
+      "bytes": 30308,
+      "sha256": "b3aea6eb06b1cdd509fa9ba310c1df955359f479843e00a856b0b884512cf6e4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/logo/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 265,
+      "sha256": "b8638cc11d04b27a80e1de393c3a15d321bf4e2f1d2bf1eea32a6cc532fa472f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/logo/__pycache__/logoPrimitives.cpython-311.pyc",
+      "bytes": 2895,
+      "sha256": "740d4c065b0e4122b4f398d8c8c2577e4fa67f3b7305f21aa624b9e12b4dde8a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/logo/__pycache__/main.cpython-311.pyc",
+      "bytes": 30362,
+      "sha256": "f25d54520202df0b3e61579a67c16e1ef92dc06a1f76710c570a2045b003ead3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/logo/__pycache__/makeLogoTasks.cpython-311.pyc",
+      "bytes": 41148,
+      "sha256": "8325e03dc749a9d3f8676de738cd159c01e0edd74f0141d0fc28a7605041d371"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/algolispPrimitives.py",
+      "bytes": 8378,
+      "sha256": "6972f94e0f312144ded6fbe86275cce6c4c3b26d9938ddc05bc6a264d952a508"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/deepcoderPrimitives.py",
+      "bytes": 14477,
+      "sha256": "37fbb555f0af1fdb2cf88700221dd83b4fa8a46b11087d3c44412682c99d8a02"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/napsPrimitives.py",
+      "bytes": 8456,
+      "sha256": "05ab18bcf8af258e4d81ed417d19fe608ae26209e490832d95c6f04a6b8e0357"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/RobustFillPrimitives.py",
+      "bytes": 11819,
+      "sha256": "7694fae5dc34ab4af519eb0ce87a770a5aecc6a46ff02dd1ec8bb2882661be02"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 265,
+      "sha256": "f6dc893af5e929a8ae39d13ef2c61221fd3e8ef326339ef9f6e3fd7ec06a807f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/__pycache__/algolispPrimitives.cpython-311.pyc",
+      "bytes": 10230,
+      "sha256": "f37d9d2d2e0349ff88ff58fa615e7861d4dc02fdd11f199a32e17924ed40a055"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/__pycache__/deepcoderPrimitives.cpython-311.pyc",
+      "bytes": 19642,
+      "sha256": "97dc2180814ef05e59f497d436d42061ad95117b886413cea4c376dfebe1817d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/__pycache__/napsPrimitives.cpython-311.pyc",
+      "bytes": 22130,
+      "sha256": "9c778890bbd1ade017f60f68bf645c698c092f50ae8ccc72ca5de8c78e3c6d0f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/misc/__pycache__/RobustFillPrimitives.cpython-311.pyc",
+      "bytes": 31337,
+      "sha256": "00d5d55e9ca12377f5ed34ad97287ba29c2301ccfb7c76e720ba0ac8ad80252e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/regex/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/regex/groundtruthRegexes.py",
+      "bytes": 4420,
+      "sha256": "688e832eae3009c4423bbe884505f76819f08a44f1ed81c61b73774951c7b808"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/regex/main.py",
+      "bytes": 14530,
+      "sha256": "d490f5628d4946053c93ddf978c4d004a9a205b67e4c937080b3f88103cc3efd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/regex/makeRegexTasks.py",
+      "bytes": 11180,
+      "sha256": "0f9f775c7efc642caa038f7c17d4be33d740bd6b322a4bb2930c880ff14d8dad"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/regex/regexPrimitives.py",
+      "bytes": 14905,
+      "sha256": "c044291720275d249492be56dca5782e582e3966033550f08ef9c8509ed430dc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/regex/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 273,
+      "sha256": "75565459a51c79c8170188ff4d7caf041e045e96c068a99eb30a28820fbcc400"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/regex/__pycache__/groundtruthRegexes.cpython-311.pyc",
+      "bytes": 5762,
+      "sha256": "874bf7ca06d7d0e8de79b641843334c795c4175ed14b5a042e11b49d2b844daf"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/regex/__pycache__/makeRegexTasks.cpython-311.pyc",
+      "bytes": 19569,
+      "sha256": "3e530ff9dfab4f8f4f96d66f37219f9f68a5595c61e7c811c15754630bcf4d78"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/regex/__pycache__/regexPrimitives.cpython-311.pyc",
+      "bytes": 31887,
+      "sha256": "66845bd6ab66922a15d8874423ab63a5d5bb9c49249d8d3edd863274837e9fa5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/text/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/text/main.py",
+      "bytes": 10520,
+      "sha256": "556f13eb32589b6bd69b41431b92eeeb877e52205e8dde38cbe526ec7a8bf1e2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/text/makeTextTasks.py",
+      "bytes": 14451,
+      "sha256": "18b141a801e694b7a9d6291b564a627a34261227e8f7dcefd4a635f89841b02f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/text/textPrimitives.py",
+      "bytes": 2172,
+      "sha256": "be3e2c2cf653380b925dc4579578d08d3f10758a5802b74ed67d24510735165c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/text/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 265,
+      "sha256": "3d930c5529365eb9f1ee6c7272965a0797ca6b7df2d235644c7768ab724baf6e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/text/__pycache__/main.cpython-311.pyc",
+      "bytes": 17359,
+      "sha256": "6071a0f35fb3141e55f8319d014c14994f42e0f152ab794af4b53310f1c4018d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/text/__pycache__/makeTextTasks.cpython-311.pyc",
+      "bytes": 29624,
+      "sha256": "29b5ed12f63c242056e7e21cc17c909d50087cd62503818cdc9ca992e9c22d01"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/text/__pycache__/textPrimitives.cpython-311.pyc",
+      "bytes": 7092,
+      "sha256": "97eb8e1ec44d51f1bfe46a7a7b727c32aeb684f33b298ea33f7b898186408cbf"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/main.py",
+      "bytes": 13594,
+      "sha256": "623d7d1062040a79f47060247f86cec8572146966d414469baee6418d5bea200"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/makeTowerTasks.py",
+      "bytes": 24292,
+      "sha256": "50081fe3b4763429a527523a1fa0b53a12aed324853974946f26f88aa78b4ae5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/tower_common.py",
+      "bytes": 5135,
+      "sha256": "52fb403914730b28401b1a3033c281b740ce7728bd1217fe41d932859db1940a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/towerPrimitives.py",
+      "bytes": 5937,
+      "sha256": "320fa7cdfc1ebe7377d90d2053b374b6a5b49da936bcfb2464ba5cea2ca7c2e0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 266,
+      "sha256": "8e9547a9469e82cf27040ed246828ae10f829d659a1c7d755491485de0db509b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/__pycache__/main.cpython-311.pyc",
+      "bytes": 22383,
+      "sha256": "650aeac8bce588b3fe80529de2cc4e92954fbb3b798c6c6871d342d4dfb9dd34"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/__pycache__/makeTowerTasks.cpython-311.pyc",
+      "bytes": 36279,
+      "sha256": "88239538eb4a626a8528b582e7cbb93327b7e5d9ae0343e3063d0da7a6568e19"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/__pycache__/tower_common.cpython-311.pyc",
+      "bytes": 10613,
+      "sha256": "2d0e125ef9f1442afca2e3736718649d9dd86e1fd86d9f4326a620b49c3f246f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/tower/__pycache__/towerPrimitives.cpython-311.pyc",
+      "bytes": 13988,
+      "sha256": "5be059bf00d7b73bf2ca595d0dc7352dab71b3a9a241ff1cf3fafd7128d5d650"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 267,
+      "sha256": "fbb7586589d76e028b2239b8941d444a0e0da0eab9572adfb9db734d89966454"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 5110,
+      "sha256": "2b9639a3311ec21e0d917fde81b007d7fa8c2e92fd26b3f560a99835f77f873f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/compression.cpython-311.pyc",
+      "bytes": 20627,
+      "sha256": "1024507e2b6ad16339b0c176830a948a13dcd30ccc91809201e0c3abfe018f49"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/differentiation.cpython-311.pyc",
+      "bytes": 26220,
+      "sha256": "4b04c9dcd0c15d14d7affa2291ad1a3362c41db722833443addc4e2960515d6d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/dreamcoder.cpython-311.pyc",
+      "bytes": 61677,
+      "sha256": "e61fae0da40d957b725d2e17d79bdb772a467a3382fcc2c5a77e6c764a2a134e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/dreaming.cpython-311.pyc",
+      "bytes": 8032,
+      "sha256": "c3b204b80945a7ed960450065035427736fdb2638dc51e8098c1c0dd515883cc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/enumeration.cpython-311.pyc",
+      "bytes": 30625,
+      "sha256": "28fba247d5538beea12eb843c2a0f6fa6ffa15f67b1bb27307269ee4265d8fbc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/fragmentGrammar.cpython-311.pyc",
+      "bytes": 29732,
+      "sha256": "dd4fd67418de7e311d8ea2840bed3f50a260aaeab390d461057d671b9216be16"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/fragmentUtilities.cpython-311.pyc",
+      "bytes": 23427,
+      "sha256": "5ed7d3364e37c7094a2557d379faed17ade9c0b6b7fff418df6882f08c9b9dd5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/frontier.cpython-311.pyc",
+      "bytes": 18723,
+      "sha256": "ad0ee4a53e77edc4c05fdd41d2dda97ed740bca7acc85834c56b7ef5f15331dd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/grammar.cpython-311.pyc",
+      "bytes": 123164,
+      "sha256": "867e16e0b520b9e7673abaf00c6b9da38f2beea071f0e32256be9f068118aced"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/likelihoodModel.cpython-311.pyc",
+      "bytes": 30633,
+      "sha256": "db747bd83623573e522ae09d1502fbc8672c3faa9859425e4e62c303ee34b1b6"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/primitiveGraph.cpython-311.pyc",
+      "bytes": 12206,
+      "sha256": "b9a82aee72cc7a253773f1bba2631a786837b67b8abda64e17d2d13472191fb2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/program.cpython-311.pyc",
+      "bytes": 82126,
+      "sha256": "33b97449088db7c712cfa51afae2ddb6cbfa352b303594a5dde7bd36ab43f1cb"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/recognition.cpython-311.pyc",
+      "bytes": 108062,
+      "sha256": "d515678af2da02a40c6516a27cae4a6d7c513d8c1101a9951c8a35b03a1598a1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/task.cpython-311.pyc",
+      "bytes": 17149,
+      "sha256": "39871ff7b45383152132308e90073ad4e2a5233d24d0be438d97435cb95dc4ad"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/taskBatcher.cpython-311.pyc",
+      "bytes": 13730,
+      "sha256": "51765eb8d8cb5b45e2df8b1f53bad7066a5619aabc495ee0c6a103fe617fcfcf"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/type.cpython-311.pyc",
+      "bytes": 26909,
+      "sha256": "16ea3fa4064f113c59c8462b475ceedf1c13c556fbf3bac461f035dee610cf10"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/utilities.cpython-311.pyc",
+      "bytes": 54029,
+      "sha256": "cfd045d99cebd09969697474e22277feb18a11ec814f400978929eda2280e7f0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/__pycache__/vs.cpython-311.pyc",
+      "bytes": 91440,
+      "sha256": "d7ced60e399cf27b36bd2407ee8ccedc0c9ce636ec4709d8f3959123ed1f553d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/failures/.dummy",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/bikes_small.sl",
+      "bytes": 986,
+      "sha256": "8d2c295c34175884b85c85ea4343f3f6e5ff0c1ca52dc451f15521ad8cb2d44a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/bikes-long-repeat.sl",
+      "bytes": 3411,
+      "sha256": "3c454485492e6d331204678152e1a089a44d7652781c236109626ae061d20523"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/bikes-long.sl",
+      "bytes": 1945,
+      "sha256": "4b5e4b991046135e4c8accf364cf0b4d131200a47260ba26449fd00f45876a17"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/bikes.sl",
+      "bytes": 1163,
+      "sha256": "ff99bcafa34bcd27c6cc75f603d0675f61d7402bff21e112fda8cb61177b487e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/dr-name_small.sl",
+      "bytes": 974,
+      "sha256": "d7ff647220a3d8f93feb3c3408a9f131bc36b4f49da0b767e54e403f12d78a21"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/dr-name-long-repeat.sl",
+      "bytes": 8883,
+      "sha256": "713e2926968044fa52be1ffc5a85e0c72910b073a4246c0452e29c89bdc1ac00"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/dr-name-long.sl",
+      "bytes": 3572,
+      "sha256": "1a3b8c909b0a3feba2dcb100a84487d66978a1d102a216b8b978bbe820dda167"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/dr-name.sl",
+      "bytes": 1115,
+      "sha256": "e7c4e972175ffa6a433830d656446695a162720d1c49a2780f4f701e5955e064"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/firstname_small.sl",
+      "bytes": 948,
+      "sha256": "d87eb50a29073c5374dcad70125ff330bcba1ab6fc1368e1a4fb62d71c4a03af"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/firstname-long-repeat.sl",
+      "bytes": 10913,
+      "sha256": "f20a6f6807e33f5891a38e1ea2b5c0920c9095d3b58c0c1f9147ed9cb98458ce"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/firstname-long.sl",
+      "bytes": 3545,
+      "sha256": "cb128b0c7225c2025cc5815b452e4382bdded4a6cf0d5182e85942f3929bc096"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/firstname.sl",
+      "bytes": 1089,
+      "sha256": "3ac9d00d5ed2d0c229960a65d753a92c0dca788bc90a38a334c747679ceba10d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/initials_small.sl",
+      "bytes": 948,
+      "sha256": "60c3d58000aa52fbc6e8b599355a50bbdd9394e8b5a51335016fe238abdbab82"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/initials-long-repeat.sl",
+      "bytes": 10452,
+      "sha256": "fc03020301b2f15de1aba410cb63abb898f49e605c6a9e8cbd41ff0073eadfe6"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/initials-long.sl",
+      "bytes": 3429,
+      "sha256": "d2bae77affed8f463d3143982a45306fb9f400fd7afc987a6e4168b66469379d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/initials.sl",
+      "bytes": 1089,
+      "sha256": "84c7dc9bcd6bdb6f411607d2617c83dde77418fda2d9f960303ff6750d7719d4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/lastname_small.sl",
+      "bytes": 957,
+      "sha256": "ec09d454b2f45ddda37220f86cc83c49108ed1e5957a8a371e2bb36acc113857"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/lastname-long-repeat.sl",
+      "bytes": 10966,
+      "sha256": "c087d885b1346b63771d94ee2f4f7fa1bd5a9c6b8806ee427966841050ad6f99"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/lastname-long.sl",
+      "bytes": 3565,
+      "sha256": "135f6c06a1cdfaf8bc6af024ccfb22704d95277e164ebebc3d7e55ba9f17c446"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/lastname.sl",
+      "bytes": 1098,
+      "sha256": "e7fe1e1f35e3c70d92764c9bb50cd16bc586d9469ab846c00ae4509c20aeff9f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine_short.sl",
+      "bytes": 1179,
+      "sha256": "c4742c95f799165480555d875566a8adb83e643efa14aee89b03ddfe77078e4b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-2_short.sl",
+      "bytes": 1190,
+      "sha256": "3d9b18609a715948841f2770927eaf2d75ca46b5a1b795fb8c85061578db8c0e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-2-long-repeat.sl",
+      "bytes": 12011,
+      "sha256": "fab841cd9b7b114750a3b68f490f053ee9180a428c286c32dea36910c87fe98c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-2-long.sl",
+      "bytes": 3896,
+      "sha256": "329dfcf8b767f20d87e1972d931d640a14113b57fc938ad32ac6f5fccbc2c2ca"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-2.sl",
+      "bytes": 1049,
+      "sha256": "6887a33e96f7418495af8b4b77703264fd6b5e1ceb99a0eed19a64bffd20b1b1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-3_short.sl",
+      "bytes": 1122,
+      "sha256": "f266d019b09616b14f749ec6accd71595c24846bdea5b410019fdb0219479553"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-3-long-repeat.sl",
+      "bytes": 11847,
+      "sha256": "6828e8fd05f735e700c604d296fdc591826bcf8586a44a7b356928789cbd1a7b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-3-long.sl",
+      "bytes": 3696,
+      "sha256": "2416b76f5efb10f6de5577ade000bca3b4aa85d6e5298f6e0976b99c1c922a60"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-3.sl",
+      "bytes": 1299,
+      "sha256": "16bab8e22e911b17ff0df9ce0d57dfdb19c66bfb561fa98537105ec08c87bfa4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-4_short.sl",
+      "bytes": 1110,
+      "sha256": "d02de306a4d29e5c6e639bc7aafcd5664052686fde85c3b90a7e0416d9a60750"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-4-long-repeat.sl",
+      "bytes": 12011,
+      "sha256": "014fa25d5ab3b8164c8a22e6c9f6f49e2a7744e3abe813d32f2de755d8e960a8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-4-long.sl",
+      "bytes": 3710,
+      "sha256": "94ef9b4072982bfc102395344b0bb849ebba3742ee17de6a63ca4ce0666acfb8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-4.sl",
+      "bytes": 1251,
+      "sha256": "7c170467244a61f2bfc9689cbb95a70e7aaeecd7441e6788d795fcf361b8a413"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-long-repeat.sl",
+      "bytes": 12893,
+      "sha256": "1a4cdcc7f5990d15674cebb98465d0733fec1a69d423a1a72a70a8e8cec2efc4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine-long.sl",
+      "bytes": 3867,
+      "sha256": "50fb9e33f529c7c06dc33e4f57ba34bae411b4932bb522497340d41d22e64da3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/name-combine.sl",
+      "bytes": 1320,
+      "sha256": "616895905009724f24f21623d057b47f15c59bf5968685cb3b3efcb8b2ccdadf"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone_short.sl",
+      "bytes": 1072,
+      "sha256": "fdb1816a4811f9eb41a8bc7edd4378dff2c0102e85c95549a10028a5c1735558"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-1_short.sl",
+      "bytes": 1075,
+      "sha256": "ce7424fd52f3aa5fe2991202a6013b7952e936aa20ec366a83d8038b9077f612"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-1-long-repeat.sl",
+      "bytes": 18103,
+      "sha256": "060953af93e3def1c6a1692b32e9ddddfd9c4d7a0ece7749209cd21cfd7e5826"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-1-long.sl",
+      "bytes": 5203,
+      "sha256": "83dc74a6cff75b0be10dcbdc7ef299544991fdc28011725dfe28b9fdcbef9eb2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-1.sl",
+      "bytes": 1161,
+      "sha256": "732ca6affcbbb94d6844c8889f9f068ec46a1c7dfc9f534feac6971c0d38b2a6"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-10_short.sl",
+      "bytes": 1266,
+      "sha256": "54a19872a17b3b11852b3b46be17ef09afe3c7ca19dee815ec9c6456e14c387b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-10-long-repeat.sl",
+      "bytes": 25643,
+      "sha256": "3942ce5052f1c3d2c56c2547f15253eceae1043343d02b9f0b8f96c8de4ca62d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-10-long.sl",
+      "bytes": 7103,
+      "sha256": "157b5b1e96fa9040cc12e1f4357df7e3e7b9b1c34a5290854f94688dbd434f31"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-10.sl",
+      "bytes": 1352,
+      "sha256": "091954267e813741a73e5232fdebf564aa50e2fc880a470b7545c0c5e0a0a96f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-2_short.sl",
+      "bytes": 1020,
+      "sha256": "e10624c2c9f02d1f58264c1afbec1497c1c0969ac51bed31ab1829bdb88e9fe0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-2-long-repeat.sl",
+      "bytes": 18103,
+      "sha256": "781c62b0b31511084eec04e36b689a6b13690ce15d8cccad9454dc244279e06e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-2-long.sl",
+      "bytes": 5203,
+      "sha256": "6784e1e1f4c17b23716c286bf1573052cd26e38224b0fa4937e9f6be7287bf67"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-2.sl",
+      "bytes": 1161,
+      "sha256": "7d3e3f671252850fc2e290f16e834ffb00c3b89c9e7b424845c3fef443a4284b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-3_short.sl",
+      "bytes": 1145,
+      "sha256": "7f072b770ccbba5a7bac85f093696fb60c4295c64a2a7a19de8a56c850d63bd3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-3-long-repeat.sl",
+      "bytes": 22115,
+      "sha256": "b0a6655177f07970aa674c6c3defa33d62b920bb37ba3e50dcba340cc6361c23"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-3-long.sl",
+      "bytes": 6215,
+      "sha256": "c24b5350babd34d3b54617dc289b46dd0379dba6529e1090f2773f60b1907e0e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-3.sl",
+      "bytes": 1286,
+      "sha256": "de833702216e07054adf8a34edf5c16d9f30939a0521cdd432816a0cd9b96d11"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-4_short.sl",
+      "bytes": 1139,
+      "sha256": "f6038480998eed3e129977668143790fb4e89e9a26b6a0feaa747802d54d8ded"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-4-long-repeat.sl",
+      "bytes": 21319,
+      "sha256": "724f30dfcc6843c9759b65a39f0857db289c5dc876d17113e58715035972f084"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-4-long.sl",
+      "bytes": 6019,
+      "sha256": "b7ec60e6fe5b023bcebeb63eae70a81693d11e19302cd5c82a4ebd5c2ef322fd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-4.sl",
+      "bytes": 1225,
+      "sha256": "fdee7f83ecd06bfe0f5429d758b1b5b07d041c0881f76e6b7f08a55fe96030f0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-5_short.sl",
+      "bytes": 1098,
+      "sha256": "94e5df5a5126afed30ab8a2c0730aaf7c6ad05982e942d536a8692970e6b34d8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-5-long-repeat.sl",
+      "bytes": 19635,
+      "sha256": "e2581ae0a1f7b8abde11ff6a65b3985a2a52f8abcae879cd226fc0b08d2608d0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-5-long.sl",
+      "bytes": 5595,
+      "sha256": "bae764fdc2d155a9a38ba91328ba112ea52c2ac466801d13e490b6a5bb03eada"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-5.sl",
+      "bytes": 1239,
+      "sha256": "b7055bd3152b1126906ae2d433fcbc170f28d66c9ff63e54428c672c8cb438a0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-6_short.sl",
+      "bytes": 1162,
+      "sha256": "77435ba718f156c7549b8c46963b2889eda764c2a0d6d4fdf7153e9b8a4d4ded"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-6-long-repeat.sl",
+      "bytes": 19875,
+      "sha256": "f9cbeae1ea32a3b5897b02a33e4b1ad250b18121c9084b10927bf80cea884500"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-6-long.sl",
+      "bytes": 5658,
+      "sha256": "b8b97a6af903e7e868e3d5a8a42014ddd09792cd360ddb697147f2ffd3440962"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-6.sl",
+      "bytes": 1248,
+      "sha256": "a3d6e088023abdb4009769a7c9e57046d3fe89fd527d41f72be03b0e4656b3f1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-7_short.sl",
+      "bytes": 1159,
+      "sha256": "334660ec96c1118d2a263f9c630b28947264379725651401f2c84759609d39e3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-7-long-repeat.sl",
+      "bytes": 19875,
+      "sha256": "12c9002cb1563873b787c30dd03f6e5cdba876512d2a7f0b381ed5c0470e3480"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-7-long.sl",
+      "bytes": 5655,
+      "sha256": "fb4c828ab09a61cb251e58ed6553fa36f8fe7c036c3d40af152a407d81ec77fc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-7.sl",
+      "bytes": 1245,
+      "sha256": "995845ed199d6b83906c76ebd15b3ecfc30af0fbd07ce122e30d7724573c6c32"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-8_short.sl",
+      "bytes": 1155,
+      "sha256": "82419e7bdf2aebe9591e8f7613b46d6fbeaa7f9429283e8f596196d8fb9c3de0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-8-long-repeat.sl",
+      "bytes": 19875,
+      "sha256": "8afbbcafad4555aea9ed50f986581b6b5153cc268f5fdb021745eef495b8a96d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-8-long.sl",
+      "bytes": 5655,
+      "sha256": "0c0f5aedb20ccfb1ea6529e6287771c4a8f37ffbed28acd0cbf0d249910d85b5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-8.sl",
+      "bytes": 1245,
+      "sha256": "7a790c6b26639bd61fcd6e60f099d25b9165045c2cd11f31cbd84d5a34dd66da"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-9_short.sl",
+      "bytes": 1237,
+      "sha256": "95b43b6603aa45a52d8c24b0e879e4048d3f563286b57bbc4936ba1da439fc00"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-9-long-repeat.sl",
+      "bytes": 24435,
+      "sha256": "44f16de1fc8b9261f843ae88351b96d85594af634a93e6bb15837c94b6f7f5ff"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-9-long.sl",
+      "bytes": 6795,
+      "sha256": "5e4ba9c1fe55a2d3435d1c60db2d37ae217462c78a65adc3963e20720f1ab07d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-9.sl",
+      "bytes": 1323,
+      "sha256": "85c662dd9f25ae3f87c4f00c5727f9219a981959fe1015ef947fb8542cf458df"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-long-repeat.sl",
+      "bytes": 18103,
+      "sha256": "45895255598e358f98c3df021008cc801225eafc9b09983e0f8d7200460bf75e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone-long.sl",
+      "bytes": 5203,
+      "sha256": "bace9c4a475c48bbbe20d60a2c673b2fcbdf361f5a04bad9a2e3ed5e436f209a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/phone.sl",
+      "bytes": 1161,
+      "sha256": "a22bd9a6eef02492943ca09ea09523750c1acfe29fe3b26ff85a459f878e3798"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/reverse-name_short.sl",
+      "bytes": 1237,
+      "sha256": "9a114d889daf12d82eee3e3b191978071f2d545926c292c260b6b51cf32511c3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/reverse-name-long-repeat.sl",
+      "bytes": 12700,
+      "sha256": "edc216bf282fb3f02d6579e2d02dfef1ac4557f26bd525d32cec26fa364d9317"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/reverse-name-long.sl",
+      "bytes": 3904,
+      "sha256": "16d11ba1476483fa8b95a5a7d599dae11d54ca68a30b0d9decc0052c248492c5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/reverse-name.sl",
+      "bytes": 1320,
+      "sha256": "ff47670daf6c2df01b2a3f0bafe10cd6203e9a10bb62de73cd940393f3658c2e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/starexec_description.txt",
+      "bytes": 14,
+      "sha256": "ec4bd6c822a4ea4ba70a625dcdc9192af3891cf015e121e84d42ae8aae9e7190"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_1_short.sl",
+      "bytes": 1647,
+      "sha256": "3d38486a4f5779cdd702edec5d333f3b966c03b91b00fa31219de78b53c7fd51"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_1-long-repeat.sl",
+      "bytes": 4665,
+      "sha256": "acfed5182fb4f32cc6197759f3e877684c6923ff18cbbce856419ecaf895bbcd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_1-long.sl",
+      "bytes": 3431,
+      "sha256": "830b30664a225877e8d2e1f7d0f4ffa94a4ab3c96546907ec529a41b01490931"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_1.sl",
+      "bytes": 1788,
+      "sha256": "73251fd303b2481e4814cbfcfe9971b395838defb2ad547b89be094e0271780d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_2_short.sl",
+      "bytes": 1702,
+      "sha256": "b69adaf759e9511a49d3ed82e3016ebdb685f1579e6d336275afe6cf9e183849"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_2-long-repeat.sl",
+      "bytes": 4827,
+      "sha256": "eb9d040f817578fdb838ac433f0e546fd943524ef1bb71db7e58838f6a13df1b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_2-long.sl",
+      "bytes": 3563,
+      "sha256": "e0815f27ef80769ee63e322d01bd86dace933d59f00adff935e227f6ff869aab"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_2.sl",
+      "bytes": 1843,
+      "sha256": "b6d87f5a2b01e6ba4fdddf47e42de9268b722df88ebdd45f69fb1b1f6e50df37"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_3_short.sl",
+      "bytes": 1575,
+      "sha256": "6e34c4a282836709beff7656ef48c4ba1daa0a0ea35003c968c5e121930bf1ae"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_3-long-repeat.sl",
+      "bytes": 4322,
+      "sha256": "1bf300e2d73a8b8ff921ebe71c4be8d1df5d5d5b2c981667ceaf81317743e89b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_3-long.sl",
+      "bytes": 3197,
+      "sha256": "9e3f50de578002636648ab9edeec7eaade9dd43cb66aa1b05470c9b78650ea24"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_3.sl",
+      "bytes": 1722,
+      "sha256": "b4b217496e92e85fab6bf1e3a6d1db58c517f8be6423997e048b467b05c3fe15"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_4_short.sl",
+      "bytes": 1807,
+      "sha256": "9e089aa689d7c55cbe0548c0189e2eceaf9c66b6aa5da5ccd172ae8943242ce3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_4-long-repeat.sl",
+      "bytes": 4315,
+      "sha256": "55c8047134b3a7d7490b8b2710512b7ec341dfaa4f9d9b7c8af2dadb38938f86"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_4-long.sl",
+      "bytes": 3196,
+      "sha256": "446eff8944c001ab6adebbe1ff60063193f655d1f4a66b187a061b9fbc747d89"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_4.sl",
+      "bytes": 1948,
+      "sha256": "1b536e9bf6be9d55e0f4f89a67643e1cadae849e1974364e01a42e345806eb16"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_5_short.sl",
+      "bytes": 1907,
+      "sha256": "4ccc6ad12974f671bd0bbd5475552ef43081473250e4b9a42725004fc96f966a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_5-long-repeat.sl",
+      "bytes": 4274,
+      "sha256": "c4da1b81f6f8e315697558b63696a8d335c8f6021a0468e7087af819edbad61c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_5-long.sl",
+      "bytes": 3296,
+      "sha256": "73b55a9c44c267f7132cecd7a0c5aee6f9c519ee13114e118c65089ee58b782e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_5.sl",
+      "bytes": 2047,
+      "sha256": "ca7933378d969d0290e06062660a3fab683b66b53b533587b1e737c4b4065e44"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_6_short.sl",
+      "bytes": 1807,
+      "sha256": "005d88eba0cd1a526e5dd3afe02c9dc3c9c8c0512f40073234a2d40000bee86d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_6-long-repeat.sl",
+      "bytes": 4389,
+      "sha256": "6f31479ba8d107a3df008b23b06beeae34d9b1ffdffd06c965884107e2b0134c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_6-long.sl",
+      "bytes": 3411,
+      "sha256": "a80407896a782f5f9e775ee433b16cdbbd1c4f2cec3e4568f884c603acabd624"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/PBE_Strings_Track/univ_6.sl",
+      "bytes": 2164,
+      "sha256": "9a845a465ac3a051f083c80b21c6d63779b4eb79aace9844f756e309676f6418"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pinn/__init__.py",
+      "bytes": 31,
+      "sha256": "6905929891170e91464402b393f5eebbd5ae25aaf93e8c10e5ffea777edf0218"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pinn/.gitignore",
+      "bytes": 7,
+      "sha256": "0846b7d5878b4fa44424c93405ffe0c2ea4f8ec2a4dde53f2b435c25b27bdeed"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pinn/README.md",
+      "bytes": 1141,
+      "sha256": "ec84055f9e74b34a4c2fc5933cf4989757461d84048ca51f467d962b2dca1e5d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pinn/robustfill.py",
+      "bytes": 16268,
+      "sha256": "1e7c746eccb36a0d99a785559151ccffef9bdc229e1e390bd13c3ac1438f6e48"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pinn/test_robustfill.py",
+      "bytes": 2158,
+      "sha256": "a74234334f0a6b85c3b475983043401ef1e68e54d3e9315d46f3ab6551ab082e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/__init__.py",
+      "bytes": 111,
+      "sha256": "dbd5bf3349483b101234f7417836906c14d5d97cf3f88518e3af259af114e14a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/.gitignore",
+      "bytes": 14,
+      "sha256": "44d9021365923f1c4a75eaf3029cb8a254f3f9b75cadf9a8affa692d6f3117e0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/.projectignore",
+      "bytes": 245,
+      "sha256": "1103c3ba2b6ebeb464d813a6e8763e05ac8cdb163a03e5ff819895ff986b6ac3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/.travis.yml",
+      "bytes": 761,
+      "sha256": "2b75125ba3e6bbd6dc36c59ef824ce05414aeefc8d9c043e183ff0cd75e58a51"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/anaconda-project.yml",
+      "bytes": 2033,
+      "sha256": "7a04971770bdb344c44867fc57179d87a504710c75bf1dd7c4ff037c51ac8478"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/pregex.py",
+      "bytes": 17725,
+      "sha256": "12922fdcd8d02ebfedbed6b296e6b577bdfc80da083b7c7e8801e81ae9a67a44"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/README.md",
+      "bytes": 1123,
+      "sha256": "23ec9e135f7cd25b21d95510a1a43dcaec3b2d546d851ccccf66965d8bb5f334"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/test_pregex.py",
+      "bytes": 2935,
+      "sha256": "e08a1bbe4670076dffd1d4d2c20518d1aeb5a1921e43607b32cc2e75b40312f3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/__pycache__/__init__.cpython-311.pyc",
+      "bytes": 421,
+      "sha256": "94d02c4dc2bc3aee3dfd7b1f27ed45b21d50c03ec031b30e7c1370f04db99226"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pregex/__pycache__/pregex.cpython-311.pyc",
+      "bytes": 40603,
+      "sha256": "34b023b5a2ad7cf409df8bb1d05673e601e17ecad0c4577d32e350fc0c0a9631"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/.gitignore",
+      "bytes": 68,
+      "sha256": "31ebc2df4514337c7de0def63fe28e55fe356b0d0b6d417a2d663330045a430e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/ocaml_client.ml",
+      "bytes": 1246,
+      "sha256": "bf88a991b85d58ece97ebfdf7cfe3a99358a69a64739f264a38c0f153a4723dd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonet_score.py",
+      "bytes": 2055,
+      "sha256": "da15e0e419feaf83cc2feadb414d22d5864a35f81cc3d95fd2bfb4dfc35a6c4c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonet_server.py",
+      "bytes": 2042,
+      "sha256": "818d58b88e7b471c25695ec0a44290d7711c8edf2d7c40edf5f2efcca74d3f71"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/run_train.py",
+      "bytes": 4557,
+      "sha256": "ff5bf0898f80b830b8dd7314f3399e08c60dd6b6a8eff97dd362690b5ddf8930"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/data/geometry/data",
+      "bytes": 18,
+      "sha256": "d26edf440ebfd0dffe827f059bd885667f7a3707d54509e3657b324244f8adc5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/data/geometry/splits/sable-meyer/test.txt",
+      "bytes": 32,
+      "sha256": "288a662f563ede8e98ebb9649f530e9d86d5f5bb9741656c66bf838a3e36ea34"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/data/geometry/splits/sable-meyer/train.txt",
+      "bytes": 2549,
+      "sha256": "885ab86c4b74e734dae641e49906fc3f43c73f69d7bf19da1ef503c8bf024a30"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/data/geometry/splits/sable-meyer/trainval.txt",
+      "bytes": 27,
+      "sha256": "a7fb0ab0ef93424e2fa5dcbf42603b419c12a135e73be59604181f1e3315a333"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/data/geometry/splits/sable-meyer/val.txt",
+      "bytes": 27,
+      "sha256": "a7fb0ab0ef93424e2fa5dcbf42603b419c12a135e73be59604181f1e3315a333"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/engine.py",
+      "bytes": 1964,
+      "sha256": "e5bfd905e2eae6a458d04a849f91c171c61e6fc66dcffde19ce3df64fc2384ba"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/data/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/data/base.py",
+      "bytes": 960,
+      "sha256": "9bdde1e74a4a3aed384a113f7a8d7ab3807c3eb01ca108f4361a8726b8ce9c0c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/data/geometry.py",
+      "bytes": 4529,
+      "sha256": "68d025041ab5a1befc0dfb1f838a3bb0557a46be56459acdf4f22434ff14a5d0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/models/__init__.py",
+      "bytes": 100,
+      "sha256": "aebe669efcb1ccca51a7196af1621ac810d6853d61811551d75942f000772067"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/models/factory.py",
+      "bytes": 374,
+      "sha256": "afa4fe44b2b84d1037070acab17937aef14a17d425cd6ed0da4e903bb41246b3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/models/few_shot.py",
+      "bytes": 3768,
+      "sha256": "803e2b8a3e4f93086ef1afb9d7eb8870e67fa0906d5e166ee8ad5e1043eff2f2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/models/utils.py",
+      "bytes": 282,
+      "sha256": "823f5cc618d2b35284d5e69916f93e240fa802b411985db6ac7366cfa1b72afa"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/utils/__init__.py",
+      "bytes": 597,
+      "sha256": "59916d246f81b5ff7db72ee92ca003bb335e9b3a889244e571c3a23db3c48c21"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/utils/data.py",
+      "bytes": 367,
+      "sha256": "7b50d549f747921df209e1e1637ad4c05271a46e853da5eaca6f07e00e024a34"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/utils/log.py",
+      "bytes": 1558,
+      "sha256": "debe80ca27ec4f8c7c54d85ff747f6c1bfe60a717bb83fa9d26f8954bc9c1563"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/protonets/utils/model.py",
+      "bytes": 686,
+      "sha256": "cfe19f9baa9bf28f4bb778e2f908734f59e0730139cf3096b1712cbf5e1af147"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/results-OM/best_model.pt",
+      "bytes": 473613,
+      "sha256": "ad3e8db1f9a718fbc9133f9ec0f0739c3edd247e608213129812f59e7c03983d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/results-OM/opt.json",
+      "bytes": 610,
+      "sha256": "7a0b48baf808f6bef8f74893a112ecb1f125db1d14e592a727a234f70b234d3e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/results-OM/trace.txt",
+      "bytes": 46846,
+      "sha256": "89aef3265ec18bb9d8bcd1c60d7fe624cd6330d495429d141c403681b303491e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/scripts/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/scripts/predict/few_shot/eval.py",
+      "bytes": 2057,
+      "sha256": "578307390499bc7cc5ae1bb6201041c636a3921afa0b8d2a948855df3d20dfa4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/scripts/predict/few_shot/run_eval.py",
+      "bytes": 1221,
+      "sha256": "0b116cb2548ed9aeb5f6da063ad868223eb12af29fbcbb9cb4bb8064057d7093"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/scripts/train/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/scripts/train/few_shot/run_train.py",
+      "bytes": 4503,
+      "sha256": "97ecebb8280b7c1fde9179f0e043ecb3b55c3c7d9b759f9689882405cd732cf6"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/scripts/train/few_shot/run_trainval.py",
+      "bytes": 397,
+      "sha256": "369596d02ddc6777b765c9d4da4f43bfe9c27379d30d58d2b72f42ac1d04467e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/scripts/train/few_shot/train.py",
+      "bytes": 4531,
+      "sha256": "c5bed42db0709fa2aa20b0303df775b6ef835b58257e4a204b88f5f8a54d1c6a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/prototypical-networks/scripts/train/few_shot/trainval.py",
+      "bytes": 987,
+      "sha256": "05fd0e497c187af37cc80ab76ce41fdb1c577c8fa3f66e393a574ebc6d57865d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/.gitignore",
+      "bytes": 24,
+      "sha256": "de719869f76c0ef58b64ddf68544cf2e506441f5dbd46be5e2b3e33adec6967d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/README.md",
+      "bytes": 224,
+      "sha256": "7aa7375ec84c67aa17b34409b9bf7bcb1120d7ca2cb1a6bc84986ba0c2a9c171"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/requirements.txt",
+      "bytes": 75,
+      "sha256": "1a1f1efff3455d8689cbeb26346f31cc20882ce7e5016430a1e57d91982826cd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/.circleci/config.yml",
+      "bytes": 1170,
+      "sha256": "1afbde01b326050090858260b4b17528eae5c992d6f45ab5f7c49d66fe3fb34a"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/pyccg/__init__.py",
+      "bytes": 971,
+      "sha256": "666b277d652eb86961c14a77fb84beb02f315ec9ade3644034366cd52b7b1558"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/pyccg/chart.py",
+      "bytes": 11874,
+      "sha256": "e0ffd978c9181fc228d17ba936b82a83991df1eeee989a4af66b8b2f344d7d36"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/pyccg/combinator.py",
+      "bytes": 15441,
+      "sha256": "b3bef127b805c8724c73c627b8743146db01db2e22ba10938c3a187877ab33e8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/pyccg/lexicon.py",
+      "bytes": 43184,
+      "sha256": "dd05d41df71b8f301af97b3e5544e4d5e3103bd094296126b075ac5cd08d5d30"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/pyccg/logic.py",
+      "bytes": 99957,
+      "sha256": "29e02a18245ce4f4bba6e28fd00f1c8557f13c54e8cb560a51e508af7bc76f3c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/pyccg/model.py",
+      "bytes": 8163,
+      "sha256": "61c4fe49ea6216aaa6d88d21f52b361e9fc4fef52e95014099d2c226d117f084"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/pyccg/perceptron.py",
+      "bytes": 6569,
+      "sha256": "cede51f017f6d7e8742e3ced70b782bc9a594c74f4219dd9e5f135b6a2b13f11"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/pyccg/util.py",
+      "bytes": 5487,
+      "sha256": "a1fd4369ac863516f0d87260ec136c94876347b6d6be34e84a156f39fde068bb"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/pyccg/word_learner.py",
+      "bytes": 12424,
+      "sha256": "4b8be0d1d4cb56132bd10deb2c00c9413ba3f1d5f449d77b1aba2b210269abd4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/scripts/clevr/clevr.py",
+      "bytes": 5073,
+      "sha256": "170567b1718841843c72d943021ff9b436ddb87e7b9e963380cbaab6e3f0f79f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/scripts/clevr/existence_proof.py",
+      "bytes": 4438,
+      "sha256": "c0dc7692b161179131273d8811c9a80d8d16ffaa9a1db89304893194ad069509"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/scripts/clevr/learner_dataset.py",
+      "bytes": 4482,
+      "sha256": "0f0d3f2f1aaf6b1346a498220c32210cd4752ae7504261b545e3faaf78bed31d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/scripts/clevr/learner.py",
+      "bytes": 2467,
+      "sha256": "11a80f4dc9bf3a5c4d92337f8366c7d7650ebc05cf1910eeb69f038afde4c486"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/test/test_chart.py",
+      "bytes": 5750,
+      "sha256": "22e6592b938bd507e9c728ec8d54d6c67030c1ce876bbd35ed8b625a98ab4991"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/test/test_combinator.py",
+      "bytes": 3834,
+      "sha256": "04da5b79cee7af77cee56165c61a3f039e2b7fa1681d0c5ddc57ef92783b6505"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/test/test_lexicon.py",
+      "bytes": 13185,
+      "sha256": "0b26509693a63b4aeb6a5bc6d25693f3887e4cd2dc5f0ce412a35b5dbf4ff6f3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/test/test_logic.py",
+      "bytes": 12087,
+      "sha256": "50caaf65c0bace2fa958eb88a190ca41526c6fa69098644057a784f42929b4cf"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/test/test_model.py",
+      "bytes": 5317,
+      "sha256": "f369c42185ab7663336245d9ae96be5ec52b09e219faf1b7039c516904f0f741"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/pyccg/test/test_word_learner.py",
+      "bytes": 4293,
+      "sha256": "59990e043f4f5bdce5d0408f3de07a18f1c0cf82a4d828e7e4b69ddbc33e695d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/rust_compressor/Cargo.lock",
+      "bytes": 28068,
+      "sha256": "2a618e6dc64d0ec8477b8005adda9af2921197792a96bdca73d4ad4c25c0b864"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/rust_compressor/Cargo.toml",
+      "bytes": 285,
+      "sha256": "6b86732a37b76ed7dacd369cd669497887fbb797cc64f7171dc9c2f81a10c82f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/rust_compressor/example_input.json",
+      "bytes": 34536,
+      "sha256": "ace9f695e98f0e22d7997d2e0d04d41eb6243f896e2aba89671d62739f925c17"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/rust_compressor/Makefile",
+      "bytes": 164,
+      "sha256": "05b2e03de41153058f447bdc5e56bb88e8a495a17c79986a3c440e7505095376"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/rust_compressor/src/main.rs",
+      "bytes": 7930,
+      "sha256": "e63aab992972d12dc6e3a804afaca550aa88b9460803bf0faa892f8c073c8def"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/rust_compressor/src/vs.rs",
+      "bytes": 48065,
+      "sha256": "bf8d716051a8da593551da51bd387b11b41c0a4e886ec173c6ab0779e5565194"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/cache_pb.ml",
+      "bytes": 7387,
+      "sha256": "6e274714eddf8832ef4fe611bfd1ef03b79aba4e218e999e428edb6db6053707"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/cache_pb.mli",
+      "bytes": 1085,
+      "sha256": "0453e0df602921a50e21c78d468d7d78f0a5d5728973d90074c63d9c9ac37daf"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/cache_types.ml",
+      "bytes": 1075,
+      "sha256": "5a0dca2c35020fe60791d8a7fbe96f9794102192f653ca81c6b6836101d810a8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/cache_types.mli",
+      "bytes": 1103,
+      "sha256": "acbbbfb9868efa0e4582fa00d5c940b70890efa838656238d8d9833a9d436c99"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/CachingTable.ml",
+      "bytes": 5685,
+      "sha256": "ed80407f7bf5c63e4d301a5ca2780e69c167899458cc9187221974b024b91a18"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/clever.ml",
+      "bytes": 2566,
+      "sha256": "896cca7830ca37e177aae218a942d686084956153acbb4b6841190c8782b354c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/client.ml",
+      "bytes": 1685,
+      "sha256": "538e39c83aa0cc0e280e65d98ad5c4a643ca5bc8c87184e8426d3d5644a047e0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/color.ml",
+      "bytes": 1441,
+      "sha256": "1af6a9726df5acb9d05ec2f5194d1274cf960be037013c5bab81d22250c3e987"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/combinator.ml",
+      "bytes": 5011,
+      "sha256": "55fac24fa0c9ae7a19b095e1f6d6fed00f55db7d085ad381923c69a5fc245b95"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/compression.ml",
+      "bytes": 35141,
+      "sha256": "a70e1134931242f6f060226e277f4f19d9f2dfe3cf79be5cc82913294ad8bf9d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/differentiation.ml",
+      "bytes": 19620,
+      "sha256": "11bde64783277dfafbff90c1fd745bc9a714720494e2bafc631190d32d786100"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/Dreaming.ml",
+      "bytes": 15755,
+      "sha256": "3cbda6e16bfdacaca7ba0822e91bc9134a4676d367dac02b84ac52719505837e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/EC.ml",
+      "bytes": 1877,
+      "sha256": "64e9f26da3dcd14384cc538993044a19ad9886cb82dc1352c392d57a3b506c81"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/enumeration.ml",
+      "bytes": 26395,
+      "sha256": "5cdc82d50d87d7b8a1568f76a71d49bbeac0438d978a8c70781e5aa532d3d94b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/Euclid.ml",
+      "bytes": 1104,
+      "sha256": "96c7f7ec21c5b6ef75377283bea5df97bbc9563abdc2906e7c703476d85069cd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/FastType.ml",
+      "bytes": 4192,
+      "sha256": "151112812f9fd412b7178a2620210c6d90e1e4285b8c184099e956ec2da9e6c1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/funarray.ml",
+      "bytes": 2509,
+      "sha256": "9d1138b969c25aa04704b3b12f67d8c04bb3413ff24ea38e69b5d68193063d75"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/funarray.mli",
+      "bytes": 1012,
+      "sha256": "1843cf1ddbf0888b08d3e0580544a1df20000b91079342e6d08a61c1202e097c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomDrawFile.ml",
+      "bytes": 2320,
+      "sha256": "eb888e3d1b2adb8bf254ee9f12d86a5a0adad3a91f83162c3eb5b15765b180e8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomDrawLambdaString.ml",
+      "bytes": 2206,
+      "sha256": "32397834b9214d21aee596709d65bfee076c0c99b6681b14e1d50484fbf0a4a8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomGenerate.ml",
+      "bytes": 1530,
+      "sha256": "5578f2de8ea96d44078bc093713ba3beac90ffbc384b4ee1df950b7b86e8fc35"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomTest.ml",
+      "bytes": 1255,
+      "sha256": "60589508fa94e9c4f1a812a9bdf9cb6e1830bd3a2b2d75274963b25353255df5"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/grammar.ml",
+      "bytes": 14205,
+      "sha256": "82ae1b3655ca9450724bee21fb0ac9cb3212df6e67011869583035fe9f10f977"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/heap_search.ml",
+      "bytes": 13,
+      "sha256": "1003eb680cf6279021bd94d69dafcc3f5715d937c6a707ec9a6fe9821046bb9c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/Helmholtz.ml",
+      "bytes": 2083,
+      "sha256": "06084f84fdbb9ecf467ad2b554cb7396f0a94001d36388980f3eff6964d4ee28"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/jbuild",
+      "bytes": 400,
+      "sha256": "4c68e6c24014efbb3d36228576542a3736b4ea9ad4e58095bcb62905c64ec781"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/karel.ml",
+      "bytes": 9806,
+      "sha256": "42ed84f31edf6e439da98198fa8f74d7c653cc9005268c1f7a7c37417f6219fe"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/list_synthesizer.ml",
+      "bytes": 2521,
+      "sha256": "7735ce5945d88bfc029b7dd2d0fe1cb03dc13b7cecfdcc156b1d69dbcf203bd8"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/logoDrawString.ml",
+      "bytes": 3630,
+      "sha256": "fbddc7b4c5cc50a4a5abee9e182dec1afee8d86ad8473109ee6b1192614c1c5b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/logoSequenceString.ml",
+      "bytes": 886,
+      "sha256": "5ef3d2a911a99e7757551fe272cfa25b959416442c569489b54b62d76aab8829"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/logoTest.ml",
+      "bytes": 2570,
+      "sha256": "5a9d31c8be8b38b26d3ddbf1516668f6f18cd2289bab1395bc897ea990bff37f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/Makefile",
+      "bytes": 2135,
+      "sha256": "15ab798fb75b913075858bb1914f7d7bc545ef5e7ef0a2bfe26d4c4db2493fef"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/parallel.ml",
+      "bytes": 6047,
+      "sha256": "131451679b5eb27ebd3405d517c342025ff9a3bccaa60418e4060c09a09c53ce"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/parser.ml",
+      "bytes": 1550,
+      "sha256": "79be4891b9d34e118db4758fb29b231829ad5d26a0d7fcfda66e335b4397dfe7"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/physics.ml",
+      "bytes": 5666,
+      "sha256": "96816ddb9497883efba289c003aa50e941f67b7d092e59234d8c73475c41b96b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/polynomial.ml",
+      "bytes": 1357,
+      "sha256": "6236b0fcef402c72eb28e65d2ece80b957afa58c32c9a45633234131b0a65b05"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/PolyValue.ml",
+      "bytes": 1389,
+      "sha256": "be68467bb5d8167a10360ef5d8187762495039a2c6e4a741134eefe77006b78c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/pregex.ml",
+      "bytes": 15687,
+      "sha256": "175dd277507c130a94c26d6657752952aa0d42dc33a63ff04bd8766ee1e18106"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/probabilistic_grammar.ml",
+      "bytes": 13414,
+      "sha256": "8604e1fa6119e7b442477da12be12e2df60560480b63b95bf769ea0f36544e77"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/program.ml",
+      "bytes": 49935,
+      "sha256": "13ff7479d84a7baaaa7475e36a9e40686f414ca21990ebc4270817cdead3fbc2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/protonet-tester.ml",
+      "bytes": 1185,
+      "sha256": "371615597a2dd67cc161e12330bbe512d043d9c8bea4f4d4bdd44de91a5a4b6f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/recognition.ml",
+      "bytes": 653,
+      "sha256": "994396749434b2915000cc7d8e3352691ce9341448e6b0264176331f286e3ac0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/sfg.ml",
+      "bytes": 9343,
+      "sha256": "3e4ef8304d930b232d6b5edd27b4e098b2de7e7fcd2dfb5c8333bc56b2d973b1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/solver.ml",
+      "bytes": 8323,
+      "sha256": "7b4e04ad4feb7e56308b4d9b1daf6df5f051eebf8bbef3422d0f94c8d0d4b641"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/string_transformation.ml",
+      "bytes": 4851,
+      "sha256": "c1804860a3061e95d393d307ea6a8baa2ddd4c0e48b125f68916aab713757c52"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/task.ml",
+      "bytes": 15994,
+      "sha256": "576a8a7e119b5884b424105f0fb8fb072faad248a8053411cab2d71ed2e319dd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/TikZ.ml",
+      "bytes": 9082,
+      "sha256": "43060cceb6774388f5d382db3e6ac536638cd4013c519682daf0456368fcae7c"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/timeout.ml",
+      "bytes": 1603,
+      "sha256": "abe8a1fb4d378d4e3d9741b68c604f32939ff2b51a5ce3f929e8741a67af64d9"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/tower.ml",
+      "bytes": 7764,
+      "sha256": "e75eafbadbabc9fc3a45f2b91c6103800bb27db39597f578f873febf7ee432c2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/turtle.ml",
+      "bytes": 2638,
+      "sha256": "cf65bc8890ed9f0f08304eade1211a1abe385cd3f5159b6e1bad43e3d5a59239"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/type.ml",
+      "bytes": 11085,
+      "sha256": "87575f4cb1c28f770edf9cb41f83aeb0d3363cadb92fa2bd8d1e35d3bf132d27"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/utils.ml",
+      "bytes": 11558,
+      "sha256": "03a42898e3b9b613b0722b281baa9896ad3da0e1ecd30f602825c1505a7596f0"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/versionDemo.ml",
+      "bytes": 1675,
+      "sha256": "457fb6abb8512b4adc65625f38367be79a9b9aae9e4d2745dfa6be757216a8a6"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/versions.ml",
+      "bytes": 33858,
+      "sha256": "229d5a98a549d0cbcda6d15fff2c5555092396b4185882b96e55ce626fcceb65"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/vs.ml",
+      "bytes": 4684,
+      "sha256": "828ee1083c08e29d59caca4d980db139845bb4787279be7a4b61c1ca708373ad"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/Generator.ml",
+      "bytes": 7665,
+      "sha256": "3790c579ca7b872dee235e9891b7a45ee766677bee0cd192f5fe38fe655537ee"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/geomLexer.mll",
+      "bytes": 2474,
+      "sha256": "6752ace4a38580dd68b4dd4a5a49bae272819c55413cb586ca638f0f8367e6b4"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/geomParser.mly",
+      "bytes": 3384,
+      "sha256": "878a5a32cd61d8a7ad4b9524991f0f9eb3e1fee1d3dbc9f98c5815b6faffd2b7"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/Interpreter.ml",
+      "bytes": 15910,
+      "sha256": "c8cdc7251f12bbd841634b7d1c5aa6d527e9c90c431c00d9492b8d5f2e7f4755"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/jbuild",
+      "bytes": 215,
+      "sha256": "bd2ae777961b2b85540275d5d73e3fe9b1c38d884a36aedabe8bded5ccceabff"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/lambdaLexer.mll",
+      "bytes": 1319,
+      "sha256": "316b39ed3891fdf6e960c32afa71c419ec5442c2bbfb013e87cec3ec5c671512"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/lambdaParser.mly",
+      "bytes": 1810,
+      "sha256": "1590a001fe0bbad60395904680e34de118de91a7992e4bea040929fd68ef97b2"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/Plotter.ml",
+      "bytes": 697,
+      "sha256": "59c02a8fdf6b65b752381f8d606d9ecc2a24b55b2299a44ea8363c7f5191c073"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/Plumbing.ml",
+      "bytes": 1263,
+      "sha256": "4613e2c3d29ca1ed248a5e96abd4d9d6bdff9d7c818dd0fa7808cd927b04f59d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/Renderer.ml",
+      "bytes": 1692,
+      "sha256": "b3518332da56063cb3e362a3243be79c5e6e67b7728824f362dc58693f8c37ea"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/geomLib/Utils2.ml",
+      "bytes": 2329,
+      "sha256": "4a1141b9feee6802edb2fa4ac46a07c886731158d9950b7c427fd7c203e31f18"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/logoLib/Colors.ml",
+      "bytes": 1441,
+      "sha256": "8678aa420aff1a26cdaa6a5aa904507c2dfeef08081cdc5513295e5ad74a29dd"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/logoLib/jbuild",
+      "bytes": 83,
+      "sha256": "347205ebefcea6f1a0453903e881acbc36d4d86463feae61c3ad3fc130ab16eb"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/logoLib/logoInterpreter.ml",
+      "bytes": 5500,
+      "sha256": "b46e11b411a78bd21785d1ce4dcf4254563a53e5a9da9018010229d3911bae93"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/solvers/logoLib/VGWrapper.ml",
+      "bytes": 4290,
+      "sha256": "8340697a2452bd321acc61c6d02392594ef46ba31da336a7a92b2cd490767264"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/README.md",
+      "bytes": 1547,
+      "sha256": "a144e1d736a4bed472ae4254132717d6c4af65c83b142598da77be0a1f1c8925"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_compression.py",
+      "bytes": 331,
+      "sha256": "b32dee5924931bd26f238c6706a119270e99c17768ca489b031cae386e9b2f42"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_dreamcoder.py",
+      "bytes": 516,
+      "sha256": "eb852bc29bd8865170b7e435487ee8f6acaa0f6896961c5b9a569b3fd4d8712d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_dreaming.py",
+      "bytes": 392,
+      "sha256": "15b5a0501983c902b957c67e63476d4f9befe27c36e5e539658e5f9c7aa43a1b"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_enumeration.py",
+      "bytes": 4369,
+      "sha256": "19f97dbba173734f7e8baf9cec1d64a67faf1242fe47e40577734b8e449a4a92"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_fragmentGrammar.py",
+      "bytes": 332,
+      "sha256": "2b971e0822ab7c239a8cd7fa4e06b5058d7a03a3733b4b878879d3c53eb63cb1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_list.py",
+      "bytes": 574,
+      "sha256": "b6fcfb54b2f3223119e89614b57c25055b04cc6b8cb4c2dd103c9c2315ba6cec"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_logo.py",
+      "bytes": 597,
+      "sha256": "b08300acafe267068c3674830313a0dc94db1aef49b83a536f3ec4b20b5a105f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_recognition.py",
+      "bytes": 321,
+      "sha256": "ae1b8e095d8e815fd1b8328be4ea741f19492187a8dcc63f685167f9c95f0acc"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_regexes.py",
+      "bytes": 501,
+      "sha256": "885aef69f155cc73925bcd7724e90e0b9c2ec260a5c9ae1014725ab8deacc438"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_symmetryBreaking.py",
+      "bytes": 317,
+      "sha256": "c7af1f0f3636364d6c9f17ce401fc357d1ac799a6d91d4fd0f76d559ee801728"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_text.py",
+      "bytes": 522,
+      "sha256": "29fb2f6b65703b500371365e9beac15fb2f4a81c5250894dc1813d0bff4bcbb1"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test_tower.py",
+      "bytes": 492,
+      "sha256": "71b46808eb75bf771ac04ab522b29240b627b423a177f9828029064d109d24e3"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/test.sh",
+      "bytes": 1264,
+      "sha256": "32227461b798dae93bc835235746f67cf739d23b3740f34227c75f90a5e6570f"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/integration/runtests.sh",
+      "bytes": 237,
+      "sha256": "77a10d2a183a515d6a3e0610d7c5515244cc5e823f36fe0fca6d27b24e63feac"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison/vendor/dreamcoder/tests/resources/kellis_list_exp.pickle",
+      "bytes": 4679246,
+      "sha256": "de4beda328c8399ab13b0a27bba242ca072b8510e43d428a95776e25c7f0bb41"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison_fast/fast_runner.py",
+      "bytes": 671,
+      "sha256": "1ce36ede19ccc063e41d2e5f1031233e0fba9a6f097eaf0e8d87073bd94b5795"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison_fast/freeze_fast_protocol.py",
+      "bytes": 15393,
+      "sha256": "b6a42d730dba70fc26f7f8bd9bbd6b33020c8c0b39e5dddf5d12a27ebfc908ba"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison_fast/README.md",
+      "bytes": 1757,
+      "sha256": "a945057a8decbb5cb8fa282399b4efe1706e15ae4f931641376bd3aa610f241d"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison_fast/run_fsystem_fast.py",
+      "bytes": 2862,
+      "sha256": "04fcfb94fda5f4d158c2d69af908180823b3a02d03cacfd8550e1ceb478f4207"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison_fast/run_parallel_dreamcoder.py",
+      "bytes": 10194,
+      "sha256": "111db1c629d56647f9ae9a762af375dcc5285e7da4392b3372ce65e4c6e97fac"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison_fast/smoke_fast_runner.py",
+      "bytes": 5198,
+      "sha256": "d8d1ff9779690463fdf3ea661df87a99620b8dcd125395c20742c1c54441fe6e"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison_fast/summarize_fast.py",
+      "bytes": 29742,
+      "sha256": "463e125d4f2ad583951f12a9472a79902b4a71404aa70790c5fddd1cf1ce7904"
+    },
+    {
+      "path": "experiments/dreamcoder_list_comparison_fast/__pycache__/run_parallel_dreamcoder.cpython-311.pyc",
+      "bytes": 18429,
+      "sha256": "47901b10972983257f96a49efae2e2decb10a20c6096763784b025c8d23c354b"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/baseline_preexisting_files.json",
+      "bytes": 46188,
+      "sha256": "8d6999154f98898d0c2f206cfb25e063dd21e82397f78d9665a33dcd9e4c8647"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/experiment_protocol_pre_thread_fix.json",
+      "bytes": 12982,
+      "sha256": "0e0889004ebf8a8cf2ef6a7e50c9077940c917c37a5879c3b8e30110f2bff36f"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/experiment_protocol_pre_thread_fix.sha256",
+      "bytes": 92,
+      "sha256": "9b21a61fff8c4aa82b733155a8860f191b6f559c7261c5c74e071f9ab416721e"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/experiment_protocol.json",
+      "bytes": 14771,
+      "sha256": "f5124c7caf52157cee821b596576219da908c34d6f5ce876bcc4d266d5ce0216"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/experiment_protocol.sha256",
+      "bytes": 92,
+      "sha256": "93bbd2c4a374ca9c46dd6aeaed64e18bd9789d3f573fad34238908a96e49a939"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/formal_attempts.json",
+      "bytes": 8893,
+      "sha256": "49bca4a4264d8efc5139dea8b90be9bb9e4c9de04274e2d719a098af7b63c1fa"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/holdout_instances.json",
+      "bytes": 192427,
+      "sha256": "a2ffc99fe10c8dd6b79980a42bbb2259a35659795abd9cb0b1c86d5e03037eef"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/per_seed_curricula.json",
+      "bytes": 16385,
+      "sha256": "17366b2b45551bc3832dab9f7b7d5205fe478de848b402f0604f79a3abf92934"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/primitive_mapping.json",
+      "bytes": 26190,
+      "sha256": "1dbd250943482a2d27552453ce2070e2fb6343d0afbdb14c2daace97cd2c8323"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/README.md",
+      "bytes": 1219,
+      "sha256": "57fb20f0fd1bd1956b9a29b11d4dc52a012681f721498c4eb8046cce175bc0fb"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/task_manifest.json",
+      "bytes": 10120,
+      "sha256": "82bcfd8556d824259ab126d591cd1890aa13f81b0b80c4c5021bb49b3bc348bc"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/topology_manifest.json",
+      "bytes": 2159,
+      "sha256": "8934acff8efb4393f629d85863b8ce3eb8c6c42daad7c666df49a5896f00eaa6"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/train_tasks.json",
+      "bytes": 560550,
+      "sha256": "5298475680362cf1c10a475142447d89eaaec823c2f882e3cc37bccb8f93bfe9"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/unseen_goal_tasks.json",
+      "bytes": 100952,
+      "sha256": "51e5ce0d92235e54f7153f5e5f86f2b6589541fd7b825701ab0be39da94bfaea"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/archive_manifest.json",
+      "bytes": 986,
+      "sha256": "49b87d4017c819a58bab4118c1ef5d39de157b412389b2c1ffd03b790026b384"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/experiment_protocol.json",
+      "bytes": 14771,
+      "sha256": "f5124c7caf52157cee821b596576219da908c34d6f5ce876bcc4d266d5ce0216"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/experiment_protocol.sha256",
+      "bytes": 92,
+      "sha256": "93bbd2c4a374ca9c46dd6aeaed64e18bd9789d3f573fad34238908a96e49a939"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/formal_attempts_before_fast.json",
+      "bytes": 7675,
+      "sha256": "e89fd59fa15497fbfdaa80e0a16b641ddd8ddabad4763ee89d4d25d9fb274517"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/development_smoke/seed_00/dreamcoder_raw_results.json",
+      "bytes": 151944,
+      "sha256": "bd819223aa3c385b001f6622746ee94ae3843d697c2f540b832f10febe1d85bc"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/dreamcoder/seed_17/dreamcoder_raw_results.json",
+      "bytes": 556804,
+      "sha256": "efe1702eb263a6ca13bd17ce3ec412e415d81988b386973b9bfadc01c751b3a4"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/dreamcoder/seed_17/dreamcoder_stdout.log",
+      "bytes": 607641,
+      "sha256": "eebc068871fc0c572b8cd8279d6f42f6ca7a27eb2f57e612fa1f3d82af918706"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/previous_aborted_attempts/dreamcoder_seed_17_revision3_oom_during_helmholtz/dreamcoder_raw_results.json",
+      "bytes": 113794,
+      "sha256": "7110846297f094d372f0ee7cf1613b35273b67289d836df39e9dd2c78b0aafe5"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/previous_aborted_attempts/dreamcoder_seed_17_revision3_oom_during_helmholtz/dreamcoder_stdout.log",
+      "bytes": 74917,
+      "sha256": "14ef3d15c77ac5e7260c07b62f6dd5ceee60210edfdb81052c3644da62b349fb"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/previous_aborted_attempts/dreamcoder_seed_17_threadcap_soft_timeout_stall/dreamcoder_raw_results.json",
+      "bytes": 113793,
+      "sha256": "a75abdc7d0a8d17bba876cc7348b5159d44f5d7a8f9fb3c073f44c9a46e74bb9"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/previous_aborted_attempts/dreamcoder_seed_17_threadcap_soft_timeout_stall/dreamcoder_stdout.log",
+      "bytes": 333956,
+      "sha256": "5ae6cd5a75b9dd636fc086fe285f455fbfc44797951f27b76ff3aeca2189fdd8"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/previous_aborted_attempts/dreamcoder_seed_17_torch12_threads/dreamcoder_raw_results.json",
+      "bytes": 565326,
+      "sha256": "2a86fa5fc6f8d8f8a45b0164acf0071620bbb4b2d6bacb1bd214555a56ac00b8"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison/aborted_full_reference/previous_aborted_attempts/dreamcoder_seed_17_torch12_threads/dreamcoder_stdout.log",
+      "bytes": 418043,
+      "sha256": "f984a900037ea36548d11619b15eba444062a7ace3b20f5bef14ac02cc34b03c"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/fsystem_raw_results.json",
+      "bytes": 5730900,
+      "sha256": "2e3325dc01e3ccb5a516f97686f23b8de89ce4dc1024ea05bd5361a704d8a8d3"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/fsystem_run_progress.json",
+      "bytes": 451,
+      "sha256": "2d05f82848568cda70bd50e91edb349d172bd15a38c3fa474472c4b542ee8934"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/fsystem_run_status.json",
+      "bytes": 336,
+      "sha256": "ea482e36b56c6a5237efa77136279e3a8f7fb6a8b3152c66f0f051a92debf331"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/holdout_instances.json",
+      "bytes": 192427,
+      "sha256": "a2ffc99fe10c8dd6b79980a42bbb2259a35659795abd9cb0b1c86d5e03037eef"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/paired_task_metrics_fast.csv",
+      "bytes": 26491,
+      "sha256": "f5feaf844630ec86b5df3c37862aa9c78bf34ee4d8185684377e94dcebe4ad20"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/per_seed_curricula.json",
+      "bytes": 16385,
+      "sha256": "17366b2b45551bc3832dab9f7b7d5205fe478de848b402f0604f79a3abf92934"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/protocol_fast.md",
+      "bytes": 3460,
+      "sha256": "471fa68e46846cfd2f8e4d7fbab4be75c707d286c6cf8132c26c0b2d302d42a2"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/protocol_fast.sha256",
+      "bytes": 86,
+      "sha256": "18be3a2bae66d961f6a9c73a1c9b164fe7f9066c4084d950c92a6d716c21aa8b"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/summary_fast.csv",
+      "bytes": 1364,
+      "sha256": "cfd2080cf184be82a794f6a46e7bf9c26e30728d557190b6ff1eb308982db278"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/task_level_metrics_fast.csv",
+      "bytes": 243003,
+      "sha256": "0f2ebba9620e354b10eadc257de98c35bcb5be29bfdafe26f396653571f1da7f"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/task_manifest.json",
+      "bytes": 10120,
+      "sha256": "82bcfd8556d824259ab126d591cd1890aa13f81b0b80c4c5021bb49b3bc348bc"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/train_tasks.json",
+      "bytes": 560550,
+      "sha256": "5298475680362cf1c10a475142447d89eaaec823c2f882e3cc37bccb8f93bfe9"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/unseen_goal_tasks.json",
+      "bytes": 100952,
+      "sha256": "51e5ce0d92235e54f7153f5e5f86f2b6589541fd7b825701ab0be39da94bfaea"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/archive_manifest.json",
+      "bytes": 3940,
+      "sha256": "f4291eb9fbe65936a9e5958fd92913145dd3a25fe98a170177049d6a05ad3a72"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder_parallel_status.json",
+      "bytes": 4605,
+      "sha256": "2903db6522866d0fd9fb6aa16c860cde976280f06e08f74ecffbcc6b41c98e5f"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/protocol_fast.json",
+      "bytes": 17006,
+      "sha256": "743612ebe5348e41ebf1740619ec31d50d56dec1dc38c5b2f1ac977a6d662145"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/protocol_fast.md",
+      "bytes": 2395,
+      "sha256": "80806faf4aabc0a0867f8f16d262e89b2e09048e34bd9c801b6ca8fe6a2c6e3c"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/protocol_fast.sha256",
+      "bytes": 86,
+      "sha256": "6353087495b99c92fa1b9c6c7c463fb6c69f0023e90901b01c41725233f2e97e"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder/seed_17/dreamcoder_raw_results.json",
+      "bytes": 94553,
+      "sha256": "e4bd5d4aafbea2be2fa09747bc782d31b775ea31fa2832f77290d4de834b2b59"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder/seed_17/dreamcoder_stdout.log",
+      "bytes": 38490,
+      "sha256": "e4c3d6c57e72a18667b41ba5f50c9c9773272c6f77a4ba6c18100ae84e43d059"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder/seed_17/seed_status.json",
+      "bytes": 1260,
+      "sha256": "59fbe0a22e6ab8be33eb2f7b66d3aea6f9319e58149a731edd2dd2ba476a796d"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder/seed_29/dreamcoder_raw_results.json",
+      "bytes": 942,
+      "sha256": "53ce40e9552b93412589c4edc3d0e86b49a80029a591d4d6f92c61b8b71d8781"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder/seed_29/dreamcoder_stdout.log",
+      "bytes": 1552,
+      "sha256": "09f96338b9b2e1435997583527d41f877b1f6a7ed9dfe9888a5eb9e4fef757cb"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder/seed_29/seed_status.json",
+      "bytes": 1248,
+      "sha256": "c233ce4545df2916ba85dbff10ed809a388fc323629a44de1b21b2cade730286"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder/seed_43/dreamcoder_raw_results.json",
+      "bytes": 942,
+      "sha256": "88485bde30ccb2f1dca6059e71ba812e802f76dd9a0c64558718f6284116b00a"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder/seed_43/dreamcoder_stdout.log",
+      "bytes": 1552,
+      "sha256": "bd5c1950524b0ad8c563d939210fc00e38ff751c5e79f6d6568aadfe6d7ece3e"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision1/dreamcoder/seed_43/seed_status.json",
+      "bytes": 1248,
+      "sha256": "42014d697e5a3a6275761857208c8a064d9d51fe0dab617ec49154a8f8eeeec9"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/archive_manifest.json",
+      "bytes": 5768,
+      "sha256": "79b46ef5eb231ccc4840ad43551e5af68655c523d1386e6cd4d2ca70f3bf0d7c"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/dreamcoder_parallel_status.json",
+      "bytes": 6607,
+      "sha256": "9ccec50f84eed777dd079d447640eafb66e1c29ef672e401d73565e543fe7f23"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/fsystem_raw_results.json",
+      "bytes": 86266,
+      "sha256": "814d35798073a3797a39b6c372359a924b81b8f497d8f7696b0feebde5bd5f99"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/fsystem_run_status.json",
+      "bytes": 443,
+      "sha256": "e982a569edce1e83da5c112eb5554c61a45096591cbe2478ca59d36c46fd2995"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/protocol_fast.json",
+      "bytes": 17780,
+      "sha256": "814fffa06b3573208117b243d6e9268b3a6aa7ee4cbcc4ed8b334546ee615fe3"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/protocol_fast.md",
+      "bytes": 3059,
+      "sha256": "dedaa5b11f6007527b72b8979d27c38dc1101256b3a79e8d06ac09077d40b35d"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/protocol_fast.sha256",
+      "bytes": 86,
+      "sha256": "0b7d52267bc8e591a89b2f329cb6854b0a98ed866e25ab96b235d8bbd2253fda"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/dreamcoder/seed_17/dreamcoder_raw_results.json",
+      "bytes": 23021,
+      "sha256": "87ccebb27405f488def3ec576bd7e73bfaa4616d6e72b2a5caaeccd4fbc43ee8"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/dreamcoder/seed_17/dreamcoder_stdout.log",
+      "bytes": 26197,
+      "sha256": "2685161eb5451edc8355eb77a90e48e16f5e92df99b0512c7ca2ccd0b0befdb5"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/dreamcoder/seed_17/seed_status.json",
+      "bytes": 1730,
+      "sha256": "0872d5385e39469db9ae96089b997a89c790cab1e55e6564df4e06337197fbb3"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/dreamcoder/seed_29/dreamcoder_raw_results.json",
+      "bytes": 23021,
+      "sha256": "98dc913af39fdc8afeafb2dc21d3472c0af65f5566f9de4d540753584f97239a"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/dreamcoder/seed_29/dreamcoder_stdout.log",
+      "bytes": 25759,
+      "sha256": "dd55d617c3fcd8cf7d5652688c12456f47f410811406c442eb82ed58096cec67"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/dreamcoder/seed_29/seed_status.json",
+      "bytes": 1727,
+      "sha256": "5266bb0750198f90fc86e18cdd0c7a777bf48279d88f8eb7ed51076f81863ff1"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/dreamcoder/seed_43/dreamcoder_stdout.log",
+      "bytes": 22514,
+      "sha256": "a226e6314b699efa2b3aaffd74714ce689ecbf42bf14c8f58d202ee3254bba85"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision2/dreamcoder/seed_43/seed_status.json",
+      "bytes": 1718,
+      "sha256": "efc939e1f6f6c91bc86707d7cf3f30ee4099b9de208e84806ea0b0543deeab47"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/archive_manifest.json",
+      "bytes": 5551,
+      "sha256": "978116b00cc357ff3b2ded1be5965ebef1c7cdd75865670b542ba01fb77987e9"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder_parallel_status.json",
+      "bytes": 6862,
+      "sha256": "e1a9e4c7e35206a84fee864118b952a910e5e07175b111e16323a3d57436ab34"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/fsystem_raw_results.json",
+      "bytes": 2314174,
+      "sha256": "65245960a612256b901fd8a70fbbef82cad6017bc32e45acbbf105f2d481f336"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/fsystem_run_progress.json",
+      "bytes": 377,
+      "sha256": "44b1351ff8880f21ac5b74fb82b159c91658a3607ee610c537061bbf74178bb0"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/fsystem_run_status.json",
+      "bytes": 586,
+      "sha256": "9fb9d008525bd5236d7e07885a56ed581cfb5c499e7953120d4f4610811597a2"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/protocol_fast.json",
+      "bytes": 17997,
+      "sha256": "f259dc557271fe8e02e2fb7d67fe1cf8285a97ba46d4f02125af7b8bf4cb5ca9"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/protocol_fast.md",
+      "bytes": 3242,
+      "sha256": "fe61362b6ef8881b3743eff6637bb386f0d4f39d9b41f580284af0b2f5d5f377"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/protocol_fast.sha256",
+      "bytes": 86,
+      "sha256": "bd44eab4cb984dee5c5ca693c321bcc60a673c3fd53bc43df5acf503f7480def"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder/seed_17/dreamcoder_raw_results.json",
+      "bytes": 90198,
+      "sha256": "b539d911a437ed06af2662216153a59217d0a8171e2fe570ca04bd0a711eae5f"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder/seed_29/dreamcoder_raw_results.json",
+      "bytes": 89695,
+      "sha256": "98c9acc658a7b6f4f47046e5c53c68d3bdfc98ffa681861a3badf2e02370beaf"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder/seed_43/dreamcoder_raw_results.json",
+      "bytes": 94686,
+      "sha256": "28161d591d63554b12812a116e96e26894bdc9c215f93c0979a6ee879d56ed19"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/dreamcoder/seed_17/seed_status.json",
+      "bytes": 818,
+      "sha256": "1abfe013bf93ee8f51a3e63c7baf4a03889e24bc0984a2aec08ab7c80931bb43"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/dreamcoder/seed_29/seed_status.json",
+      "bytes": 818,
+      "sha256": "e2009891be0bbf2481086f47532742db09906f172e1289d8c7547f7ccb3d5466"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/dreamcoder/seed_43/seed_status.json",
+      "bytes": 818,
+      "sha256": "a03e2c4e3a608b802017def4c46d5f2e06bdc06f39c9d18498875ffb011652bd"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/fsystem/seed_17/library.json",
+      "bytes": 77445,
+      "sha256": "5f95e56fb3c94e8fb609a7e41c00c9ef39a6bedd33438993ff37f4bebb9f9a45"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/fsystem/seed_17/library.usage.json",
+      "bytes": 3409,
+      "sha256": "3e0185878dc3ab63fc3302524a763a98fce13a7dd3a8c8825d979c4c2f44ba71"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/fsystem/seed_29/library.json",
+      "bytes": 95562,
+      "sha256": "c66de41218e22d52259fc1f35b563efaa9c5085dfdfc2804f5ed9a075c051ada"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/fsystem/seed_29/library.usage.json",
+      "bytes": 3683,
+      "sha256": "5edd3ab53bf880c18e872c642960fddf771296a2209ea61ae362f3ede18e197d"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/fsystem/seed_43/library.json",
+      "bytes": 72919,
+      "sha256": "554a3843d58d2c8af49a16074122e8c590467f6ac69193a9d29063c519ad33f9"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/fsystem/seed_43/library.usage.json",
+      "bytes": 3318,
+      "sha256": "c816403b0c446a6d6c1a75372a3d62bca957e1d6fcdcdbc291c775903e7d1fb7"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/smoke/smoke_manifest.json",
+      "bytes": 1159,
+      "sha256": "efaaa203dcee371e7dd553b04ceab5360ec97929fba8c8f31ca66f3be06da461"
+    },
+    {
+      "path": "artifacts/dreamcoder_list_comparison_fast/smoke/dreamcoder/seed_17/dreamcoder_stdout.log",
+      "bytes": 21512,
+      "sha256": "bf3067d176f2f3626dfc635ba3680d374b4446cadf5e8f1b1eff52229e45f716"
+    }
+  ],
+  "retained_files": [
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/FAST_IMPLEMENTATION_AUDIT.md",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/FAST_IMPLEMENTATION_AUDIT.md",
+      "bytes": 72268,
+      "sha256": "baa84e7226931cb1bd7d3ef8dd351a51eb89076bb09fcabd3c084ef91181f013"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/final_report_fast.md",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/final_report_fast.md",
+      "bytes": 5987,
+      "sha256": "ca037bfeeb96182a757463cfb78de42b66f250c9f3a4c994d486b278a938801c"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/protocol_fast.json",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/protocol_fast.json",
+      "bytes": 18194,
+      "sha256": "6516317018c950cc9b7f4b98467fd4f8fd0d181be9474b40889b065bd4a68639"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/primitive_mapping.json",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/primitive_mapping.json",
+      "bytes": 26190,
+      "sha256": "1dbd250943482a2d27552453ce2070e2fb6343d0afbdb14c2daace97cd2c8323"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/topology_manifest.json",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/topology_manifest.json",
+      "bytes": 2159,
+      "sha256": "8934acff8efb4393f629d85863b8ce3eb8c6c42daad7c666df49a5896f00eaa6"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/summary_fast.json",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/summary_fast.json",
+      "bytes": 119164,
+      "sha256": "e703e9644ab2c0d7800b9218dd3727e54c002d2cd7c1c08363029e5716ecda41"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder/seed_17/dreamcoder_stdout.log",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/dreamcoder_native_crash/rev3_seed_17/dreamcoder_stdout.log",
+      "bytes": 34700,
+      "sha256": "1845ad43e32bac2ed9c5739a6584c60446fa645a8c61fe97bbffb3776d1a2ffe"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder/seed_17/seed_status.json",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/dreamcoder_native_crash/rev3_seed_17/seed_status.json",
+      "bytes": 1790,
+      "sha256": "48c2fd59154da2d74578909127a7171ce37e4db6529893326ec13c6020668ff5"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder/seed_29/dreamcoder_stdout.log",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/dreamcoder_native_crash/rev3_seed_29/dreamcoder_stdout.log",
+      "bytes": 34066,
+      "sha256": "64fe797201f9855e8043f8bbcf3a53a49812222691aca5aeaebfe0fc50e3093e"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder/seed_29/seed_status.json",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/dreamcoder_native_crash/rev3_seed_29/seed_status.json",
+      "bytes": 1790,
+      "sha256": "4b1c1916d8ce601b67652ecaf25d282d281e5082be49f0101d7dd536a673332d"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder/seed_43/dreamcoder_stdout.log",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/dreamcoder_native_crash/rev3_seed_43/dreamcoder_stdout.log",
+      "bytes": 38504,
+      "sha256": "81266522360bbbb8eda6d305804be05856cf4ed9d115313206c85dd8aa7986f1"
+    },
+    {
+      "source": "artifacts/dreamcoder_list_comparison_fast/aborted_protocol_revision3/dreamcoder/seed_43/seed_status.json",
+      "retained_path": "archive/dreamcoder_comparison_invalid_ast_adapter/dreamcoder_native_crash/rev3_seed_43/seed_status.json",
+      "bytes": 1790,
+      "sha256": "e48a5a5930be4608c1ddf18055ed28160c10b5cad47af5c3bcd157e894b89720"
+    }
+  ],
+  "retained_total_bytes": 356602,
+  "core_hash_before": "052419ebe696022be76d33cbcafcae09aa0bdec7540ac6beebfb8403582a33e0",
+  "core_hash_after": "052419ebe696022be76d33cbcafcae09aa0bdec7540ac6beebfb8403582a33e0",
+  "core_file_count_before": 106,
+  "core_file_count_after": 106,
+  "core_bytes_before": 1017420,
+  "core_bytes_after": 1017420,
+  "core_unchanged": true
+}

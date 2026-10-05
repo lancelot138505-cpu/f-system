@@ -1,0 +1,324 @@
+{
+  "baseline": {
+    "core_semantics_modified": false,
+    "file_count": 245,
+    "path": "D:\\code\\pycode\\f_system\\04_depth_control_V9-4_complete_baseline",
+    "total_bytes": 5624239.0,
+    "tree_sha256_before_experiment": "41dddf7c2732a1d118c39d90d2a4f3a780518a56657cab17cd9da5d0f53fde4a"
+  },
+  "comparison": {
+    "cold": "DreamCoder L0 is the first iteration-0 174-task generative enumeration call and first 30-goal test run. F-system cold acquisition starts each train Goal from a fresh L0.",
+    "conditions": [
+      "FIRST_CLASS",
+      "EXPANDED"
+    ],
+    "core_semantics_modified": false,
+    "goal_runs_independent_cold_loads": true,
+    "holdout_posthoc_only": true,
+    "identical_unseen_goals_and_library_snapshot": true,
+    "learned": "DreamCoder uses two official wake-sleep/compression iterations. F-system accumulates the same seed curriculum into a persistent Library before paired unseen search.",
+    "native_search_budgets_have_no_one_to_one_conversion": true
+  },
+  "dreamcoder": {
+    "output_root": "artifacts/dreamcoder_list_comparison_fast/dreamcoder/seed_XX",
+    "resource_bounded_parameters": {
+      "CPUs": 1,
+      "aic": 1.0,
+      "arity": 3,
+      "compressor": "pypy",
+      "cuda": false,
+      "dataset_random_seed": 17,
+      "enumeration_timeout_seconds_per_task": 1,
+      "helmholtz_ratio": 0.5,
+      "iterations": 2,
+      "maximum_frontier": 10,
+      "numeric_library_threads": 1,
+      "pseudo_counts": 30.0,
+      "recognition_extractor": "learned",
+      "recognition_timeout_seconds_per_iteration": 180,
+      "solver": "python",
+      "structure_penalty": 1.0,
+      "testing_timeout_seconds_per_task": 1,
+      "topK": 2,
+      "torch_interop_threads": 1,
+      "torch_intraop_threads": 1,
+      "train_ratio": 0.8
+    },
+    "runtime_compatibility_notes": [
+      "Windows has no SIGVTALRM/SIGPROF. Task.check and Helmholtz runWithTimeout install narrowly scoped Python profile hooks that raise the corresponding official timeout exception at Python call/return boundaries after the thread-CPU deadline. C-extension calls cannot be pre-empted until control returns to Python.",
+      "OMP/MKL/OpenBLAS/NumExpr/VECLIB/BLIS and PyTorch intra-op/inter-op threads are explicitly capped at one in both systems. Three incomplete seed-17 attempts are archived under aborted_attempts and excluded: the first used PyTorch's environment-default 12-thread pool; the second used one thread but stalled under the original soft task timeout; the third reached Helmholtz sampling but exhausted available memory under the original post-call generated-program timeout.",
+      "The pinned source _unfold contains a free-variable typo (f); runtime bridge binds the intended emit argument h. F uses the same repaired semantics.",
+      "PyPy is not installed in the supplied environment. The official PyPy compressor algorithm is invoked in-process under CPython; process/interpreter isolation is absent.",
+      "Official source tree is not modified; all compatibility and typo handling is in this experiment adapter.",
+      "Optional parameterized pickle checkpoint/graph export is disabled because the full Windows path exceeds MAX_PATH; the official search/learning loop still runs and raw JSON captures its frontiers, grammars, timing, and evaluation counters."
+    ],
+    "source": {
+      "commit": "cb0e63f5c33cd2de360b791038b0f5272750270e",
+      "domain": "List Processing, Lucas-old dataset, common primitive set",
+      "expected_commit": "cb0e63f5c33cd2de360b791038b0f5272750270e",
+      "implementation": "Pinned official Python implementation; official task generation, enumerator, recognition model, wake-sleep abstraction learning, and Python solver.",
+      "parameters": {
+        "CPUs": 1,
+        "aic": 1.0,
+        "arity": 3,
+        "compressor": "pypy",
+        "cuda": false,
+        "dataset_random_seed": 17,
+        "enumeration_timeout_seconds_per_task": 10,
+        "helmholtz_ratio": 0.5,
+        "iterations": 10,
+        "maximum_frontier": 10,
+        "numeric_library_threads": 1,
+        "pseudo_counts": 30.0,
+        "recognition_extractor": "learned",
+        "recognition_timeout_seconds_per_iteration": 3600,
+        "solver": "python",
+        "structure_penalty": 1.0,
+        "testing_timeout_seconds_per_task": 10,
+        "topK": 2,
+        "torch_interop_threads": 1,
+        "torch_intraop_threads": 1,
+        "train_ratio": 0.8
+      },
+      "repository": "https://github.com/ellisk42/ec",
+      "reproduction_status": "OFFICIAL_BASELINE_NOT_FULLY_REPRODUCED",
+      "runtime_deviations": [
+        "Windows has no SIGVTALRM/SIGPROF. Task.check and Helmholtz runWithTimeout install narrowly scoped Python profile hooks that raise the corresponding official timeout exception at Python call/return boundaries after the thread-CPU deadline. C-extension calls cannot be pre-empted until control returns to Python.",
+        "OMP/MKL/OpenBLAS/NumExpr/VECLIB/BLIS and PyTorch intra-op/inter-op threads are explicitly capped at one in both systems. Three incomplete seed-17 attempts are archived under aborted_attempts and excluded: the first used PyTorch's environment-default 12-thread pool; the second used one thread but stalled under the original soft task timeout; the third reached Helmholtz sampling but exhausted available memory under the original post-call generated-program timeout.",
+        "The pinned source _unfold contains a free-variable typo (f); runtime bridge binds the intended emit argument h. F uses the same repaired semantics.",
+        "PyPy is not installed in the supplied environment. The official PyPy compressor algorithm is invoked in-process under CPython; process/interpreter isolation is absent.",
+        "Official source tree is not modified; all compatibility and typo handling is in this experiment adapter.",
+        "Optional parameterized pickle checkpoint/graph export is disabled because the full Windows path exceeds MAX_PATH; the official search/learning loop still runs and raw JSON captures its frontiers, grammars, timing, and evaluation counters."
+      ],
+      "submodules": [
+        " 1878ef539a95a22d6a5629177b0063e978afa205 pinn (1878ef5)",
+        " b5eab11e4b1176cd0df5adbc10a94f902294ed6b pregex (b5eab11)",
+        " c465a23d208bb829c93f508ffd152bcdf82d367a pyccg (v2.1.0-60-gc465a23)"
+      ]
+    }
+  },
+  "execution": {
+    "affinity_api": "psutil.Process.cpu_affinity([logical_cpu])",
+    "affinity_failure_policy": "If Windows refuses affinity, retain one-thread/CPUs=1 limits and record affinity_set=false; no scheduler redesign or budget change.",
+    "assigned_logical_cpu_by_seed": {
+      "17": 0,
+      "29": 1,
+      "43": 2
+    },
+    "available_logical_cpu_ids_at_freeze": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "cuda": false,
+    "hard_wall_failure_status": "TIME_BUDGET_EXCEEDED",
+    "hard_wall_limit_seconds_per_dreamcoder_seed": 1800,
+    "on_seed_failure": "Preserve partial raw/log/status, stop that seed, continue other seeds; no retry or budget extension.",
+    "per_seed_logical_cpus": 1,
+    "per_seed_numeric_threads": 1,
+    "seeds_executed_concurrently": true,
+    "thread_environment_variables": {
+      "BLIS_NUM_THREADS": 1,
+      "MKL_NUM_THREADS": 1,
+      "NUMEXPR_NUM_THREADS": 1,
+      "OMP_NUM_THREADS": 1,
+      "OPENBLAS_NUM_THREADS": 1,
+      "VECLIB_MAXIMUM_THREADS": 1
+    }
+  },
+  "f_system": {
+    "accumulation": "One curriculum stream per seed with normal persistent Library formation and usage; then save, cold reload, and verify hash/sidecar.",
+    "arch_config": {
+      "expansion_budget": 1800,
+      "max_depth": 11,
+      "max_level": 6,
+      "search_width": 64,
+      "slot_capacity": 8,
+      "z_depth": 1,
+      "z_dim": 1,
+      "z_width": 1
+    },
+    "baseline_version": "V9.4 complete baseline",
+    "cold_acquisition": "Each training Goal starts independently from a fresh L0; new F must use normal formation and required admission before commit.",
+    "holdout_used_for_admission": false,
+    "library_initial_state": "22 DreamCoder-mapped semantic leaves plus 11 generic syntax slots; no preloaded composite F.",
+    "paired_unseen_conditions": "Each unseen Goal/condition cold-loads the same accumulated Library and usage sidecar; FIRST_CLASS exposes admitted composites, EXPANDED masks their direct candidate/retrieval path while leaving ancestors and primitives available. Both may learn in-memory; each task run is isolated, and test-time mutations are not written to the accumulated checkpoint.",
+    "verification": [
+      "interface",
+      "domain_audit",
+      "executable",
+      "examples",
+      "randomized_oracle",
+      "cross_language",
+      "cold_instance",
+      "x_leakage",
+      "formation_parents"
+    ]
+  },
+  "failure_policy": "No protocol change, timeout increase, task or primitive substitution, or retries after a seed result. Only a confirmed common code bug permits a new revision and restart of all three seeds.",
+  "frozen_at_local": "2026-10-04T15:10:15.992414+08:00",
+  "frozen_inputs": {
+    "count": 24,
+    "files": {
+      "artifacts/dreamcoder_list_comparison_fast/holdout_instances.json": "a2ffc99fe10c8dd6b79980a42bbb2259a35659795abd9cb0b1c86d5e03037eef",
+      "artifacts/dreamcoder_list_comparison_fast/per_seed_curricula.json": "17366b2b45551bc3832dab9f7b7d5205fe478de848b402f0604f79a3abf92934",
+      "artifacts/dreamcoder_list_comparison_fast/primitive_mapping.json": "1dbd250943482a2d27552453ce2070e2fb6343d0afbdb14c2daace97cd2c8323",
+      "artifacts/dreamcoder_list_comparison_fast/task_manifest.json": "82bcfd8556d824259ab126d591cd1890aa13f81b0b80c4c5021bb49b3bc348bc",
+      "artifacts/dreamcoder_list_comparison_fast/topology_manifest.json": "8934acff8efb4393f629d85863b8ce3eb8c6c42daad7c666df49a5896f00eaa6",
+      "artifacts/dreamcoder_list_comparison_fast/train_tasks.json": "5298475680362cf1c10a475142447d89eaaec823c2f882e3cc37bccb8f93bfe9",
+      "artifacts/dreamcoder_list_comparison_fast/unseen_goal_tasks.json": "51e5ce0d92235e54f7153f5e5f86f2b6589541fd7b825701ab0be39da94bfaea",
+      "experiments/dreamcoder_list_comparison/adapters/analyze_results.py": "02bb15dd9a47d29f0d9ba5c0fe1d68df4d6c414ce39029fe45d46a1da3c1ca57",
+      "experiments/dreamcoder_list_comparison/adapters/dreamcoder_runtime.py": "04458f0dbe80483013b7d594a024742b5c852a7c0b7955fa13d8d6ee11cae7d5",
+      "experiments/dreamcoder_list_comparison/adapters/list_domain.py": "89d0d78db6f5f4329ab60c77cee46c221d4da2e7221f1b5bd3526c88689d162c",
+      "experiments/dreamcoder_list_comparison/adapters/list_oracle.js": "c11ffe9705e141d8f9156eae94323a6c722cd19a6c9ba33933a3b306711bebe8",
+      "experiments/dreamcoder_list_comparison/adapters/memory_tracker.py": "0538ced8382bab21df4d56b79e75c0ff861d1013e300c00b84aa06b6747943a4",
+      "experiments/dreamcoder_list_comparison/adapters/run_fsystem.py": "eecd464e6e3ce30258b5f0c86f3535753caac28c247406ac91639edacb67fcba",
+      "experiments/dreamcoder_list_comparison/vendor/dreamcoder/bin/list.py": "a1cc0fc668c80e665bf8bac46ffd78b0bd74eb61f7bf8dfa551a85de67c31469",
+      "experiments/dreamcoder_list_comparison/vendor/dreamcoder/data/list_tasks.json": "d8f6c303d625bb4783a6444db1aafae70b69056ecec2d271f97b23c09ada3603",
+      "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/listPrimitives.py": "1808508db1fcac4b0fe6392f569593f4d598e27461e431bc0004bb334584ef02",
+      "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/main.py": "f11f5776187995051942ea633f1cc03e88c988158733e488e98ddde9b0fd739f",
+      "experiments/dreamcoder_list_comparison/vendor/dreamcoder/dreamcoder/domains/list/makeListTasks.py": "fcfa5e09478e46f0480eb7b1c38f9aa2eb9055840cbab498c816dcc144d25f80",
+      "experiments/dreamcoder_list_comparison_fast/fast_runner.py": "1ce36ede19ccc063e41d2e5f1031233e0fba9a6f097eaf0e8d87073bd94b5795",
+      "experiments/dreamcoder_list_comparison_fast/freeze_fast_protocol.py": "b6a42d730dba70fc26f7f8bd9bbd6b33020c8c0b39e5dddf5d12a27ebfc908ba",
+      "experiments/dreamcoder_list_comparison_fast/run_fsystem_fast.py": "04fcfb94fda5f4d158c2d69af908180823b3a02d03cacfd8550e1ceb478f4207",
+      "experiments/dreamcoder_list_comparison_fast/run_parallel_dreamcoder.py": "111db1c629d56647f9ae9a762af375dcc5285e7da4392b3372ce65e4c6e97fac",
+      "experiments/dreamcoder_list_comparison_fast/smoke_fast_runner.py": "d8d1ff9779690463fdf3ea661df87a99620b8dcd125395c20742c1c54441fe6e",
+      "experiments/dreamcoder_list_comparison_fast/summarize_fast.py": "463e125d4f2ad583951f12a9472a79902b4a71404aa70790c5fddd1cf1ce7904"
+    }
+  },
+  "hard_wall_clock_guard": {
+    "after_limit": "terminate only the exceeded seed process tree, annotate partial raw and status, continue the other seeds",
+    "applies_to": "each concurrent DreamCoder seed process tree, including startup and writing outputs",
+    "seconds_per_dreamcoder_seed": 1800
+  },
+  "metrics": {
+    "dreamcoder": [
+      "visible solved",
+      "heldout-exact solved",
+      "program checks",
+      "example checks",
+      "wall",
+      "CPU",
+      "peak RSS",
+      "grammar primitives",
+      "new abstractions",
+      "recognition seconds",
+      "enumeration seconds",
+      "compression seconds"
+    ],
+    "fsystem": [
+      "solved",
+      "heldout-exact",
+      "candidate attempts",
+      "composition expansions",
+      "intermediate materializations",
+      "search nodes",
+      "wall",
+      "CPU",
+      "peak RSS",
+      "resulting program/F",
+      "reused high-order F identity"
+    ],
+    "unavailable_metric_policy": "N/A; do not modify official DreamCoder kernel to manufacture counters.",
+    "units_note": "DreamCoder program checks and F-system candidate probes are separately named; native search budgets are not asserted to be equivalent."
+  },
+  "objective": "Compare library formation and reuse under the same fixed small compute budget without attempting DreamCoder's published peak performance.",
+  "official_default_reference": {
+    "archive_path": "artifacts/dreamcoder_list_comparison/aborted_full_reference",
+    "captured_full_wake_sleep_iterations": 1,
+    "captured_search_calls": 5,
+    "enumeration_timeout_seconds_per_task": 10,
+    "excluded_from_fast_aggregates": true,
+    "iterations": 10,
+    "recognition_timeout_seconds_per_iteration": 3600,
+    "sanity_only": true,
+    "source_protocol_revision": 4,
+    "source_protocol_sha256": "f5124c7caf52157cee821b596576219da908c34d6f5ce876bcc4d266d5ce0216",
+    "status": "INCOMPLETE_FULL_DEFAULT_REFERENCE",
+    "testing_timeout_seconds_per_task": 10
+  },
+  "project": "Resource-bounded DreamCoder List Processing and F-system V9.4 comparison",
+  "protocol_revision": 4,
+  "reporting_statement": "Resource-bounded reproduction using the official DreamCoder List Processing implementation and DSL, under a fixed reduced compute budget. FAST results are not intended to reproduce DreamCoder's published peak performance; they compare library formation and reuse behavior under a tractable fixed compute budget.",
+  "required_outputs": [
+    "protocol_fast.md",
+    "protocol_fast.json",
+    "protocol_fast.sha256",
+    "dreamcoder/seed_17",
+    "dreamcoder/seed_29",
+    "dreamcoder/seed_43",
+    "fsystem/seed_17",
+    "fsystem/seed_29",
+    "fsystem/seed_43",
+    "summary_fast.json",
+    "summary_fast.csv",
+    "final_report_fast.md"
+  ],
+  "revision_reason": "Revision 1 varied DreamCoder --random-seed across runs, which also changed randomized task generation and the split. Revision 2 fixed that split but torch.manual_seed() invoked all-device seeding and all three processes faulted in the NVIDIA driver; F-system serialization also called a nonexistent domain method. Revision 3 switched to CPU-only PyTorch seeding and the existing module-level AST serializer, but the first F-system seed then failed at Library persistence because its output directory did not exist. Revision 4 creates the per-seed output directory before saving. All three F-system seeds restart; DreamCoder remains excluded after the repeated host-level NVIDIA driver failure and is not retried.",
+  "seed_policy": {
+    "algorithm_rngs_reseeded_after_task_snapshot_validation": [
+      "Python random",
+      "NumPy",
+      "PyTorch CPU generator only"
+    ],
+    "algorithm_seed_by_run": {
+      "17": 17,
+      "29": 29,
+      "43": 43
+    },
+    "dreamcoder_batching_seed_by_run": {
+      "17": 17,
+      "29": 29,
+      "43": 43
+    },
+    "task_generation_seed": 17,
+    "task_generation_seed_fixed_across_runs": true
+  },
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "status": "FROZEN_BEFORE_FAST_RUN",
+  "task_snapshot": {
+    "dataset": "Lucas-old",
+    "hidden_posthoc_examples_per_goal": 3,
+    "holdout_used_for_search_or_admission": false,
+    "primitive_set": "common",
+    "same_snapshot_for_both_systems": true,
+    "semantic_primitive_count": 22,
+    "sha256": {
+      "holdout_instances.json": "a2ffc99fe10c8dd6b79980a42bbb2259a35659795abd9cb0b1c86d5e03037eef",
+      "per_seed_curricula.json": "17366b2b45551bc3832dab9f7b7d5205fe478de848b402f0604f79a3abf92934",
+      "primitive_mapping.json": "1dbd250943482a2d27552453ce2070e2fb6343d0afbdb14c2daace97cd2c8323",
+      "task_manifest.json": "82bcfd8556d824259ab126d591cd1890aa13f81b0b80c4c5021bb49b3bc348bc",
+      "topology_manifest.json": "8934acff8efb4393f629d85863b8ce3eb8c6c42daad7c666df49a5896f00eaa6",
+      "train_tasks.json": "5298475680362cf1c10a475142447d89eaaec823c2f882e3cc37bccb8f93bfe9",
+      "unseen_goal_tasks.json": "51e5ce0d92235e54f7153f5e5f86f2b6589541fd7b825701ab0be39da94bfaea"
+    },
+    "training_goal_count": 174,
+    "unseen_goal_count": 30,
+    "visible_examples_per_goal": 12
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "task_id": "D08",
+  "starting_library_hash": "fb3e8560e0b0c6e75d9b490b0fdbb6f5d3181768956b3cb190a4f62cf13ef0be",
+  "starting_library_counts": {
+    "L_all": null,
+    "L_exec": null,
+    "registry_active_structures": null,
+    "registry_retired_structures": null,
+    "active_executable_F": null,
+    "retired_executable_F": null,
+    "max_canonical_level": null
+  },
+  "holdout_seed": 941207,
+  "candidate_limit": null,
+  "acquisition": {
+    "status": "ADMITTED",
+    "selected_root_id": "F_8f991df15e01e06dffae",
+    "candidate_kind": "public_binary_operation_composition",
+    "formation_candidate_rank": 43,
+    "canonical_level": 6,
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "metrics": {
+      "candidate_attempts": 86,
+      "binding_combinations": 86,
+      "composition_expansions": 212,
+      "intermediate_materializations": 82,
+      "verification_attempts": 93,
+      "training_verification_attempts": 86,
+      "holdout_verification_attempts": 2,
+      "operation_retrieval_count": 28,
+      "recipe_candidate_count": 24,
+      "search_wall_seconds": 3.448036100016907,
+      "search_calls": 2
+    },
+    "semantic_verification": {
+      "python_examples_equal": true,
+      "python_holdout_equal": true,
+      "javascript_equal": true,
+      "cold_candidate_equal": true,
+      "root_executed_for_all_cases": true,
+      "runtime_call_depth_max": 6,
+      "python_output_digest": "76610ad7da75c4e1a5a3582d4295aee2cd9c97d991ec8a553001c05f7e4c5d7f",
+      "oracle_output_digest": "76610ad7da75c4e1a5a3582d4295aee2cd9c97d991ec8a553001c05f7e4c5d7f"
+    },
+    "post_promotion_cold_pass": true,
+    "persistent_public_retrieval": {
+      "passed": true,
+      "retrieved": true,
+      "public_operation_count": 15,
+      "sample_output": [
+        0,
+        3,
+        4,
+        5,
+        3,
+        6,
+        7,
+        6
+      ],
+      "output_digest": "76610ad7da75c4e1a5a3582d4295aee2cd9c97d991ec8a553001c05f7e4c5d7f"
+    },
+    "chain_path": {
+      "status": "SHORTCUT_FOUND",
+      "expected_child_semantics": [
+        "D07",
+        "B01"
+      ],
+      "matched_parent_ids": [
+        null,
+        null
+      ],
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_a6aef3cbef65ed27e8d8"
+      ],
+      "admission_independent": true
+    },
+    "admission_receipt_count": 0
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "per_goal": [
+    {
+      "task_id": "D01",
+      "designed_chain_depth": 1,
+      "canonical_level": 5,
+      "found_formation_depth": 5,
+      "main_chain_path": "CHAIN_QUALIFIED",
+      "full_expanded_search_derivation_depth": 1,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 1,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 5,
+      "first_class_runtime_call_depth": 5,
+      "historical_levels_skipped_by_first_class": 1,
+      "first_class_reused_F_ids": [
+        "F_0469fb712663a973ddfd"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd"
+      ],
+      "shortcut_found": false
+    },
+    {
+      "task_id": "D02",
+      "designed_chain_depth": 2,
+      "canonical_level": 6,
+      "found_formation_depth": 6,
+      "main_chain_path": "CHAIN_QUALIFIED",
+      "full_expanded_search_derivation_depth": 2,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 2,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 6,
+      "first_class_runtime_call_depth": 6,
+      "historical_levels_skipped_by_first_class": 2,
+      "first_class_reused_F_ids": [
+        "F_4498b1a6b76423b16a06"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06"
+      ],
+      "shortcut_found": false
+    },
+    {
+      "task_id": "D03",
+      "designed_chain_depth": 3,
+      "canonical_level": 7,
+      "found_formation_depth": 7,
+      "main_chain_path": "CHAIN_QUALIFIED",
+      "full_expanded_search_derivation_depth": 3,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 3,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 7,
+      "first_class_runtime_call_depth": 7,
+      "historical_levels_skipped_by_first_class": 3,
+      "first_class_reused_F_ids": [
+        "F_87a666b46ef0cfa2f32b"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b"
+      ],
+      "shortcut_found": false
+    },
+    {
+      "task_id": "D04",
+      "designed_chain_depth": 4,
+      "canonical_level": 8,
+      "found_formation_depth": 8,
+      "main_chain_path": "CHAIN_QUALIFIED",
+      "full_expanded_search_derivation_depth": 4,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 4,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 8,
+      "first_class_runtime_call_depth": 8,
+      "historical_levels_skipped_by_first_class": 4,
+      "first_class_reused_F_ids": [
+        "F_1e7d52d4a8b8c16e9a21"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b",
+        "F_1e7d52d4a8b8c16e9a21"
+      ],
+      "shortcut_found": false
+    },
+    {
+      "task_id": "D05",
+      "designed_chain_depth": 5,
+      "canonical_level": 8,
+      "found_formation_depth": 8,
+      "main_chain_path": "SHORTCUT_FOUND",
+      "full_expanded_search_derivation_depth": 5,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 5,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 8,
+      "first_class_runtime_call_depth": 8,
+      "historical_levels_skipped_by_first_class": 5,
+      "first_class_reused_F_ids": [
+        "F_c38d01daa2e8e1d08cef"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b",
+        "F_1e7d52d4a8b8c16e9a21",
+        "F_c38d01daa2e8e1d08cef"
+      ],
+      "shortcut_found": true
+    },
+    {
+      "task_id": "D06",
+      "designed_chain_depth": 6,
+      "canonical_level": 9,
+      "found_formation_depth": 9,
+      "main_chain_path": "CHAIN_QUALIFIED",
+      "full_expanded_search_derivation_depth": 6,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 6,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 9,
+      "first_class_runtime_call_depth": 9,
+      "historical_levels_skipped_by_first_class": 6,
+      "first_class_reused_F_ids": [
+        "F_1d0325fdc92c61208f06"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b",
+        "F_1e7d52d4a8b8c16e9a21",
+        "F_c38d01daa2e8e1d08cef",
+        "F_1d0325fdc92c61208f06"
+      ],
+      "shortcut_found": false
+    },
+    {
+      "task_id": "D07",
+      "designed_chain_depth": 7,
+      "canonical_level": 10,
+      "found_formation_depth": 10,
+      "main_chain_path": "CHAIN_QUALIFIED",
+      "full_expanded_search_derivation_depth": 7,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 7,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 10,
+      "first_class_runtime_call_depth": 10,
+      "historical_levels_skipped_by_first_class": 7,
+      "first_class_reused_F_ids": [
+        "F_18d2c0c7673525cc9d3d"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b",
+        "F_1e7d52d4a8b8c16e9a21",
+        "F_c38d01daa2e8e1d08cef",
+        "F_1d0325fdc92c61208f06",
+        "F_18d2c0c7673525cc9d3d"
+      ],
+      "shortcut_found": false
+    },
+    {
+      "task_id": "D08",
+      "designed_chain_depth": 8,
+      "canonical_level": 6,
+      "found_formation_depth": 6,
+      "main_chain_path": "SHORTCUT_FOUND",
+      "full_expanded_search_derivation_depth": 8,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 8,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 6,
+      "first_class_runtime_call_depth": 6,
+      "historical_levels_skipped_by_first_class": 8,
+      "first_class_reused_F_ids": [
+        "F_8f991df15e01e06dffae"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b",
+        "F_1e7d52d4a8b8c16e9a21",
+        "F_c38d01daa2e8e1d08cef",
+        "F_1d0325fdc92c61208f06",
+        "F_18d2c0c7673525cc9d3d",
+        "F_8f991df15e01e06dffae"
+      ],
+      "shortcut_found": true
+    },
+    {
+      "task_id": "D09",
+      "designed_chain_depth": 9,
+      "canonical_level": 7,
+      "found_formation_depth": 7,
+      "main_chain_path": "SHORTCUT_FOUND",
+      "full_expanded_search_derivation_depth": 9,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 9,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 7,
+      "first_class_runtime_call_depth": 7,
+      "historical_levels_skipped_by_first_class": 9,
+      "first_class_reused_F_ids": [
+        "F_d9415b58d9849bee0d4d"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b",
+        "F_1e7d52d4a8b8c16e9a21",
+        "F_c38d01daa2e8e1d08cef",
+        "F_1d0325fdc92c61208f06",
+        "F_18d2c0c7673525cc9d3d",
+        "F_8f991df15e01e06dffae",
+        "F_d9415b58d9849bee0d4d"
+      ],
+      "shortcut_found": true
+    },
+    {
+      "task_id": "D10",
+      "designed_chain_depth": 10,
+      "canonical_level": 8,
+      "found_formation_depth": 8,
+      "main_chain_path": "CHAIN_QUALIFIED",
+      "full_expanded_search_derivation_depth": 10,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 10,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 8,
+      "first_class_runtime_call_depth": 8,
+      "historical_levels_skipped_by_first_class": 10,
+      "first_class_reused_F_ids": [
+        "F_b7bf2fef39b93e5686c2"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b",
+        "F_1e7d52d4a8b8c16e9a21",
+        "F_c38d01daa2e8e1d08cef",
+        "F_1d0325fdc92c61208f06",
+        "F_18d2c0c7673525cc9d3d",
+        "F_8f991df15e01e06dffae",
+        "F_d9415b58d9849bee0d4d",
+        "F_b7bf2fef39b93e5686c2"
+      ],
+      "shortcut_found": false
+    },
+    {
+      "task_id": "D11",
+      "designed_chain_depth": 11,
+      "canonical_level": 9,
+      "found_formation_depth": 9,
+      "main_chain_path": "CHAIN_QUALIFIED",
+      "full_expanded_search_derivation_depth": 11,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 11,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 9,
+      "first_class_runtime_call_depth": 9,
+      "historical_levels_skipped_by_first_class": 11,
+      "first_class_reused_F_ids": [
+        "F_d03839a9818e072066fa"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b",
+        "F_1e7d52d4a8b8c16e9a21",
+        "F_c38d01daa2e8e1d08cef",
+        "F_1d0325fdc92c61208f06",
+        "F_18d2c0c7673525cc9d3d",
+        "F_8f991df15e01e06dffae",
+        "F_d9415b58d9849bee0d4d",
+        "F_b7bf2fef39b93e5686c2",
+        "F_d03839a9818e072066fa"
+      ],
+      "shortcut_found": false
+    },
+    {
+      "task_id": "D12",
+      "designed_chain_depth": 12,
+      "canonical_level": 8,
+      "found_formation_depth": 8,
+      "main_chain_path": "SHORTCUT_FOUND",
+      "full_expanded_search_derivation_depth": 12,
+      "full_first_class_search_derivation_depth": 0,
+      "active_expanded_search_derivation_depth": 12,
+      "active_first_class_search_derivation_depth": 0,
+      "full_expanded_candidate_search_depth": null,
+      "first_class_candidate_search_depth": 1,
+      "full_expanded_runtime_call_depth": 8,
+      "first_class_runtime_call_depth": 8,
+      "historical_levels_skipped_by_first_class": 12,
+      "first_class_reused_F_ids": [
+        "F_359adfc45bfb1819aae0"
+      ],
+      "expanded_reformed_F_ids": [
+        "F_0469fb712663a973ddfd",
+        "F_4498b1a6b76423b16a06",
+        "F_87a666b46ef0cfa2f32b",
+        "F_1e7d52d4a8b8c16e9a21",
+        "F_c38d01daa2e8e1d08cef",
+        "F_1d0325fdc92c61208f06",
+        "F_18d2c0c7673525cc9d3d",
+        "F_8f991df15e01e06dffae",
+        "F_d9415b58d9849bee0d4d",
+        "F_b7bf2fef39b93e5686c2",
+        "F_d03839a9818e072066fa",
+        "F_359adfc45bfb1819aae0"
+      ],
+      "shortcut_found": true
+    }
+  ],
+  "aggregate": {
+    "candidate_attempts": {
+      "before": 16570,
+      "after": 144,
+      "reduction": {
+        "absolute": 16426,
+        "percent": 99.13095956547978
+      }
+    },
+    "binding_combinations": {
+      "before": 16570,
+      "after": 144,
+      "reduction": {
+        "absolute": 16426,
+        "percent": 99.13095956547978
+      }
+    },
+    "composition_expansions": {
+      "before": 37300,
+      "after": 0,
+      "reduction": {
+        "absolute": 37300,
+        "percent": 100.0
+      }
+    },
+    "intermediate_materializations": {
+      "before": 16778,
+      "after": 0,
+      "reduction": {
+        "absolute": 16778,
+        "percent": 100.0
+      }
+    },
+    "verification_attempts": {
+      "before": 17116,
+      "after": 192,
+      "reduction": {
+        "absolute": 16924,
+        "percent": 98.87824258004207
+      }
+    }
+  }
+}

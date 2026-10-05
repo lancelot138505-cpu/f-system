@@ -1,0 +1,1006 @@
+{
+  "per_goal": [
+    {
+      "task_id": "D01",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 25,
+        "lifecycle_exposed_executable_pool": 25,
+        "lifecycle_exposed_structure_pool": 27,
+        "lifecycle_exposed_public_executable_pool": 15,
+        "goal_compatible_pool": 8,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 25,
+        "lifecycle_exposed_executable_pool": 25,
+        "lifecycle_exposed_structure_pool": 27,
+        "lifecycle_exposed_public_executable_pool": 15,
+        "goal_compatible_pool": 8,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 8,
+      "active_goal_compatible_exposure": 8,
+      "full_attempts": 8,
+      "active_attempts": 8,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D02",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 26,
+        "lifecycle_exposed_executable_pool": 26,
+        "lifecycle_exposed_structure_pool": 28,
+        "lifecycle_exposed_public_executable_pool": 16,
+        "goal_compatible_pool": 9,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 26,
+        "lifecycle_exposed_executable_pool": 26,
+        "lifecycle_exposed_structure_pool": 28,
+        "lifecycle_exposed_public_executable_pool": 16,
+        "goal_compatible_pool": 9,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 9,
+      "active_goal_compatible_exposure": 9,
+      "full_attempts": 9,
+      "active_attempts": 9,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D03",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 27,
+        "lifecycle_exposed_executable_pool": 27,
+        "lifecycle_exposed_structure_pool": 29,
+        "lifecycle_exposed_public_executable_pool": 17,
+        "goal_compatible_pool": 10,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 27,
+        "lifecycle_exposed_executable_pool": 27,
+        "lifecycle_exposed_structure_pool": 29,
+        "lifecycle_exposed_public_executable_pool": 17,
+        "goal_compatible_pool": 10,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 10,
+      "active_goal_compatible_exposure": 10,
+      "full_attempts": 10,
+      "active_attempts": 10,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D04",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 28,
+        "lifecycle_exposed_executable_pool": 28,
+        "lifecycle_exposed_structure_pool": 30,
+        "lifecycle_exposed_public_executable_pool": 18,
+        "goal_compatible_pool": 11,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 28,
+        "lifecycle_exposed_executable_pool": 28,
+        "lifecycle_exposed_structure_pool": 30,
+        "lifecycle_exposed_public_executable_pool": 18,
+        "goal_compatible_pool": 11,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 11,
+      "active_goal_compatible_exposure": 11,
+      "full_attempts": 11,
+      "active_attempts": 11,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D05",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 29,
+        "lifecycle_exposed_executable_pool": 29,
+        "lifecycle_exposed_structure_pool": 31,
+        "lifecycle_exposed_public_executable_pool": 19,
+        "goal_compatible_pool": 12,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 29,
+        "lifecycle_exposed_executable_pool": 29,
+        "lifecycle_exposed_structure_pool": 31,
+        "lifecycle_exposed_public_executable_pool": 19,
+        "goal_compatible_pool": 12,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 12,
+      "active_goal_compatible_exposure": 12,
+      "full_attempts": 12,
+      "active_attempts": 12,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D06",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 30,
+        "lifecycle_exposed_executable_pool": 30,
+        "lifecycle_exposed_structure_pool": 32,
+        "lifecycle_exposed_public_executable_pool": 20,
+        "goal_compatible_pool": 13,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 30,
+        "lifecycle_exposed_executable_pool": 30,
+        "lifecycle_exposed_structure_pool": 32,
+        "lifecycle_exposed_public_executable_pool": 20,
+        "goal_compatible_pool": 13,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 13,
+      "active_goal_compatible_exposure": 13,
+      "full_attempts": 13,
+      "active_attempts": 13,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D07",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 31,
+        "lifecycle_exposed_executable_pool": 31,
+        "lifecycle_exposed_structure_pool": 33,
+        "lifecycle_exposed_public_executable_pool": 21,
+        "goal_compatible_pool": 14,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 31,
+        "lifecycle_exposed_executable_pool": 31,
+        "lifecycle_exposed_structure_pool": 33,
+        "lifecycle_exposed_public_executable_pool": 21,
+        "goal_compatible_pool": 14,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 14,
+      "active_goal_compatible_exposure": 14,
+      "full_attempts": 14,
+      "active_attempts": 14,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D08",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 32,
+        "lifecycle_exposed_executable_pool": 32,
+        "lifecycle_exposed_structure_pool": 34,
+        "lifecycle_exposed_public_executable_pool": 22,
+        "goal_compatible_pool": 15,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 32,
+        "lifecycle_exposed_executable_pool": 32,
+        "lifecycle_exposed_structure_pool": 34,
+        "lifecycle_exposed_public_executable_pool": 22,
+        "goal_compatible_pool": 15,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 15,
+      "active_goal_compatible_exposure": 15,
+      "full_attempts": 10,
+      "active_attempts": 10,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D09",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 33,
+        "lifecycle_exposed_executable_pool": 33,
+        "lifecycle_exposed_structure_pool": 35,
+        "lifecycle_exposed_public_executable_pool": 23,
+        "goal_compatible_pool": 16,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_d9415b58d9849bee0d4d",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 33,
+        "lifecycle_exposed_executable_pool": 33,
+        "lifecycle_exposed_structure_pool": 35,
+        "lifecycle_exposed_public_executable_pool": 23,
+        "goal_compatible_pool": 16,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_d9415b58d9849bee0d4d",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 16,
+      "active_goal_compatible_exposure": 16,
+      "full_attempts": 12,
+      "active_attempts": 12,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D10",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 34,
+        "lifecycle_exposed_executable_pool": 34,
+        "lifecycle_exposed_structure_pool": 36,
+        "lifecycle_exposed_public_executable_pool": 24,
+        "goal_compatible_pool": 17,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_d9415b58d9849bee0d4d",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_b7bf2fef39b93e5686c2",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 34,
+        "lifecycle_exposed_executable_pool": 34,
+        "lifecycle_exposed_structure_pool": 36,
+        "lifecycle_exposed_public_executable_pool": 24,
+        "goal_compatible_pool": 17,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_d9415b58d9849bee0d4d",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_b7bf2fef39b93e5686c2",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 17,
+      "active_goal_compatible_exposure": 17,
+      "full_attempts": 14,
+      "active_attempts": 14,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D11",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 35,
+        "lifecycle_exposed_executable_pool": 35,
+        "lifecycle_exposed_structure_pool": 37,
+        "lifecycle_exposed_public_executable_pool": 25,
+        "goal_compatible_pool": 18,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_d9415b58d9849bee0d4d",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_b7bf2fef39b93e5686c2",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_d03839a9818e072066fa",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 35,
+        "lifecycle_exposed_executable_pool": 35,
+        "lifecycle_exposed_structure_pool": 37,
+        "lifecycle_exposed_public_executable_pool": 25,
+        "goal_compatible_pool": 18,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_d9415b58d9849bee0d4d",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_b7bf2fef39b93e5686c2",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_d03839a9818e072066fa",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 18,
+      "active_goal_compatible_exposure": 18,
+      "full_attempts": 17,
+      "active_attempts": 17,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    },
+    {
+      "task_id": "D12",
+      "full_lifecycle_exposure": {
+        "global_executable_pool": 36,
+        "lifecycle_exposed_executable_pool": 36,
+        "lifecycle_exposed_structure_pool": 38,
+        "lifecycle_exposed_public_executable_pool": 26,
+        "goal_compatible_pool": 19,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_d9415b58d9849bee0d4d",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_359adfc45bfb1819aae0",
+          "F_b7bf2fef39b93e5686c2",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_d03839a9818e072066fa",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "FULL",
+        "historical_mask_ids": []
+      },
+      "active_lifecycle_exposure": {
+        "global_executable_pool": 36,
+        "lifecycle_exposed_executable_pool": 36,
+        "lifecycle_exposed_structure_pool": 38,
+        "lifecycle_exposed_public_executable_pool": 26,
+        "goal_compatible_pool": 19,
+        "retired_goal_compatible_pool": 0,
+        "goal_compatible_ids": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_bd1c8b86e4a28d068f0b",
+          "F_c1afe69a1f8fa25c1f13",
+          "F_cac97282833230855ffa",
+          "F_dcfedcf1d26444553cdb",
+          "F_f621e7a403c970a7a71b",
+          "F_f6a9887dd22cb41d2cbf",
+          "F_0469fb712663a973ddfd",
+          "F_4498b1a6b76423b16a06",
+          "F_8f991df15e01e06dffae",
+          "F_87a666b46ef0cfa2f32b",
+          "F_d9415b58d9849bee0d4d",
+          "F_1e7d52d4a8b8c16e9a21",
+          "F_359adfc45bfb1819aae0",
+          "F_b7bf2fef39b93e5686c2",
+          "F_c38d01daa2e8e1d08cef",
+          "F_1d0325fdc92c61208f06",
+          "F_d03839a9818e072066fa",
+          "F_18d2c0c7673525cc9d3d"
+        ],
+        "retired_goal_compatible_ids": [],
+        "view": "ACTIVE",
+        "historical_mask_ids": []
+      },
+      "full_goal_compatible_exposure": 19,
+      "active_goal_compatible_exposure": 19,
+      "full_attempts": 14,
+      "active_attempts": 14,
+      "attempt_reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      },
+      "fallback_full": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      },
+      "fallback_active": {
+        "fallback_triggered": false,
+        "fallback_candidate_pool": 0,
+        "fallback_attempts": 0,
+        "fallback_hit_F": null,
+        "fallback_total_work": {},
+        "retired_ids_available": []
+      }
+    }
+  ],
+  "aggregate": {
+    "candidate_attempts": {
+      "before": 144,
+      "after": 144,
+      "reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      }
+    },
+    "binding_combinations": {
+      "before": 144,
+      "after": 144,
+      "reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      }
+    },
+    "composition_expansions": {
+      "before": 0,
+      "after": 0,
+      "reduction": {
+        "absolute": 0,
+        "percent": null
+      }
+    },
+    "intermediate_materializations": {
+      "before": 0,
+      "after": 0,
+      "reduction": {
+        "absolute": 0,
+        "percent": null
+      }
+    },
+    "verification_attempts": {
+      "before": 192,
+      "after": 192,
+      "reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      }
+    }
+  }
+}

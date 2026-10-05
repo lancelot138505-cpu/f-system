@@ -1,0 +1,169 @@
+{
+  "mode": "ACTIVE+EXPANDED",
+  "task_id": "D04",
+  "status": "PASS",
+  "source_library_hash": "bd770c5ca16c2175a192e02a6b84ab08f01a427fd3c1d37986bb4cb6a3aae0f7",
+  "source_usage_digest": "2beda9ccd20a92afc3d288e36c2aa6c6565f3af8b7204162c48d6474157be318",
+  "starting_branch_library_hash": "9b3458983ea79ea055fc253f858b275fe7377955cfdb662a6431fad676949844",
+  "historical_mask_ids": [
+    "F_0469fb712663a973ddfd",
+    "F_4498b1a6b76423b16a06",
+    "F_87a666b46ef0cfa2f32b",
+    "F_1e7d52d4a8b8c16e9a21"
+  ],
+  "designed_chain_depth": 4,
+  "search_derivation_depth": 4,
+  "historical_levels_skipped": 0,
+  "newly_formed_goal_F_count": 4,
+  "direct_existing_F_hits": 0,
+  "reused_F_ids": [],
+  "reformed_F_ids": [
+    "F_0469fb712663a973ddfd",
+    "F_4498b1a6b76423b16a06",
+    "F_87a666b46ef0cfa2f32b",
+    "F_1e7d52d4a8b8c16e9a21"
+  ],
+  "highest_reused_canonical_level": null,
+  "target_root_id": "F_1e7d52d4a8b8c16e9a21",
+  "target_canonical_level": 8,
+  "target_candidate_kind": "public_binary_operation_composition",
+  "target_candidate_rank": 90,
+  "target_parents": [
+    "F_87a666b46ef0cfa2f32b",
+    "F_c1afe69a1f8fa25c1f13"
+  ],
+  "semantic_verification": {
+    "python_examples_equal": true,
+    "python_holdout_equal": true,
+    "javascript_equal": true,
+    "cold_candidate_equal": true,
+    "root_executed_for_all_cases": true,
+    "runtime_call_depth_max": 8,
+    "python_output_digest": "e2ea707cdd1748dbd1bf26fcaad7ce36a6fb937695c2b3b6d4347edfd56b6961",
+    "oracle_output_digest": "e2ea707cdd1748dbd1bf26fcaad7ce36a6fb937695c2b3b6d4347edfd56b6961"
+  },
+  "semantic_equal": true,
+  "target_chain_path": {
+    "status": "CHAIN_QUALIFIED",
+    "expected_child_semantics": [
+      "D03",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      "F_87a666b46ef0cfa2f32b",
+      "F_c1afe69a1f8fa25c1f13"
+    ],
+    "parents": [
+      "F_87a666b46ef0cfa2f32b",
+      "F_c1afe69a1f8fa25c1f13"
+    ],
+    "admission_independent": true
+  },
+  "runtime_call_depth": 8,
+  "metrics": {
+    "candidate_attempts": 422,
+    "binding_combinations": 422,
+    "composition_expansions": 1092,
+    "intermediate_materializations": 450,
+    "verification_attempts": 450,
+    "training_verification_attempts": 422,
+    "holdout_verification_attempts": 8,
+    "operation_retrieval_count": 68,
+    "recipe_candidate_count": 96,
+    "search_wall_seconds": 14.036960599711165,
+    "search_calls": 8
+  },
+  "wall_seconds": 33.70770150003955,
+  "fallback": {
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hit_F": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  "exposure": {
+    "global_executable_pool": 28,
+    "lifecycle_exposed_executable_pool": 28,
+    "lifecycle_exposed_structure_pool": 30,
+    "lifecycle_exposed_public_executable_pool": 18,
+    "goal_compatible_pool": 11,
+    "retired_goal_compatible_pool": 0,
+    "view": "ACTIVE"
+  },
+  "after_mask_exposure": {
+    "global_executable_pool": 24,
+    "lifecycle_exposed_executable_pool": 24,
+    "lifecycle_exposed_structure_pool": 26,
+    "lifecycle_exposed_public_executable_pool": 14,
+    "goal_compatible_pool": 7,
+    "retired_goal_compatible_pool": 0,
+    "view": "ACTIVE"
+  },
+  "reformation_stages": [
+    {
+      "task_id": "D01",
+      "status": "ADMITTED",
+      "selected_root_id": "F_0469fb712663a973ddfd",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 5,
+      "parents": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_c1afe69a1f8fa25c1f13"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    },
+    {
+      "task_id": "D02",
+      "status": "ADMITTED",
+      "selected_root_id": "F_4498b1a6b76423b16a06",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 6,
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_cac97282833230855ffa"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    },
+    {
+      "task_id": "D03",
+      "status": "ADMITTED",
+      "selected_root_id": "F_87a666b46ef0cfa2f32b",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 7,
+      "parents": [
+        "F_4498b1a6b76423b16a06",
+        "F_f621e7a403c970a7a71b"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    },
+    {
+      "task_id": "D04",
+      "status": "ADMITTED",
+      "selected_root_id": "F_1e7d52d4a8b8c16e9a21",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 8,
+      "parents": [
+        "F_87a666b46ef0cfa2f32b",
+        "F_c1afe69a1f8fa25c1f13"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    }
+  ],
+  "admission_receipt_count": 4,
+  "admission_pass_count": 4
+}

@@ -1,0 +1,5600 @@
+{
+  "library": {
+    "format": "fsys-9.0",
+    "version": 32,
+    "structures": [
+      {
+        "kind": "leaf",
+        "structure_id": "f_identifier_preserve",
+        "operation_id": "token.f.identifier_preserve",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "IDENTIFIER",
+            "LITERAL"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [],
+        "level": 0,
+        "formation_provenance": {
+          "source": "one-time bootstrap acquisition",
+          "parents": [],
+          "verifier": "phase-A rule schema audit",
+          "verification_digest": "dd8214d8fb4e476cd0dd509bfd046423fb893bd421b6c983e3b8d491e8e183ea",
+          "details": {
+            "primitive_role": "identifier_binding"
+          }
+        },
+        "kernel": {
+          "payload": {
+            "operation": "preserve_identifier_slot",
+            "target_field": "name",
+            "target_kind": "Identifier"
+          },
+          "reference": "token.f.identifier_preserve"
+        },
+        "metadata": {
+          "bootstrap_acquisition": "known-rule-to-library",
+          "primitive_role": "identifier_binding",
+          "translation_primitive": true
+        }
+      },
+      {
+        "kind": "leaf",
+        "structure_id": "f_literal_preserve",
+        "operation_id": "token.f.literal_preserve",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "IDENTIFIER",
+            "LITERAL"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [],
+        "level": 0,
+        "formation_provenance": {
+          "source": "one-time bootstrap acquisition",
+          "parents": [],
+          "verifier": "phase-A rule schema audit",
+          "verification_digest": "4a1bdd54f5b58ca2b08dbdf9fde0cd74b63eb550d7462815d219d57810c26c65",
+          "details": {
+            "primitive_role": "literal_binding"
+          }
+        },
+        "kernel": {
+          "payload": {
+            "operation": "preserve_literal_slot",
+            "target_field": "value",
+            "target_kind": "Literal"
+          },
+          "reference": "token.f.literal_preserve"
+        },
+        "metadata": {
+          "bootstrap_acquisition": "known-rule-to-library",
+          "primitive_role": "literal_binding",
+          "translation_primitive": true
+        }
+      },
+      {
+        "kind": "leaf",
+        "structure_id": "f_operator_map",
+        "operation_id": "token.f.operator_map",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "IDENTIFIER",
+            "LITERAL"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [],
+        "level": 0,
+        "formation_provenance": {
+          "source": "one-time bootstrap acquisition",
+          "parents": [],
+          "verifier": "phase-A rule schema audit",
+          "verification_digest": "55b0aeb380c6410d7d2dea41ac7bf75d23730c7cc16854927731211e245e80af",
+          "details": {
+            "primitive_role": "operator_map"
+          }
+        },
+        "kernel": {
+          "payload": {
+            "mapping": {
+              "Add": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "+",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "And": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "&&",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "Div": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "/",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "Eq": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "===",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "FloorDiv": {
+                "arguments": [
+                  {
+                    "kind": "Binary",
+                    "left": {
+                      "$slot": "left"
+                    },
+                    "operator": "/",
+                    "right": {
+                      "$slot": "right"
+                    }
+                  }
+                ],
+                "callee": {
+                  "kind": "Identifier",
+                  "name": "Math.floor"
+                },
+                "kind": "Call"
+              },
+              "Gt": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": ">",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "GtE": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": ">=",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "Lt": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "<",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "LtE": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "<=",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "Mod": {
+                "kind": "Binary",
+                "left": {
+                  "kind": "Binary",
+                  "left": {
+                    "kind": "Binary",
+                    "left": {
+                      "$slot": "left"
+                    },
+                    "operator": "%",
+                    "right": {
+                      "$slot": "right"
+                    }
+                  },
+                  "operator": "+",
+                  "right": {
+                    "$slot": "right"
+                  }
+                },
+                "operator": "%",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "Mult": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "*",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "Not": {
+                "kind": "Unary",
+                "operand": {
+                  "$slot": "operand"
+                },
+                "operator": "!"
+              },
+              "NotEq": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "!==",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "Or": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "||",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "Pow": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "**",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "Sub": {
+                "kind": "Binary",
+                "left": {
+                  "$slot": "left"
+                },
+                "operator": "-",
+                "right": {
+                  "$slot": "right"
+                }
+              },
+              "UAdd": {
+                "kind": "Unary",
+                "operand": {
+                  "$slot": "operand"
+                },
+                "operator": "+"
+              },
+              "USub": {
+                "kind": "Unary",
+                "operand": {
+                  "$slot": "operand"
+                },
+                "operator": "-"
+              }
+            },
+            "operation": "instantiate_operator_template"
+          },
+          "reference": "token.f.operator_map"
+        },
+        "metadata": {
+          "bootstrap_acquisition": "known-rule-to-library",
+          "primitive_role": "operator_map",
+          "translation_primitive": true
+        }
+      },
+      {
+        "kind": "leaf",
+        "structure_id": "f_source_field_access",
+        "operation_id": "token.f.source_field_access",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "IDENTIFIER",
+            "LITERAL"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [],
+        "level": 0,
+        "formation_provenance": {
+          "source": "one-time bootstrap acquisition",
+          "parents": [],
+          "verifier": "phase-A rule schema audit",
+          "verification_digest": "26cfec0fc05d4cd49ee7d8834a9e5930f9b346fd4ca5bcc178aa9a39c21e8d19",
+          "details": {
+            "primitive_role": "field_access"
+          }
+        },
+        "kernel": {
+          "payload": {
+            "operation": "read_named_field"
+          },
+          "reference": "token.f.source_field_access"
+        },
+        "metadata": {
+          "bootstrap_acquisition": "known-rule-to-library",
+          "primitive_role": "field_access",
+          "translation_primitive": true
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_exec_assign",
+        "operation_id": "exec.generic.assign",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_operator_map",
+          "f_source_field_access",
+          "f_identifier_preserve",
+          "f_literal_preserve"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "generic_runtime_basis",
+          "parents": [
+            "f_operator_map",
+            "f_source_field_access",
+            "f_identifier_preserve",
+            "f_literal_preserve"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "a801a1d639299e4bb12aa5d73749b6bfdcd9ef363fb0f878f5759cc0ede58f80",
+          "details": {
+            "candidate_reference_digest": "c032ce32c0e372329ceff311a8f3fb0e6951efb2e8315d3355c74dfa639e10ae",
+            "formation_path": [
+              {
+                "capability": "assign",
+                "generic_opcode": "assign"
+              }
+            ],
+            "task_signature": ""
+          }
+        },
+        "kernel": {
+          "executable": {
+            "op": "assign"
+          }
+        },
+        "metadata": {
+          "candidate_role": "generic_runtime_basis",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 1,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 0,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 0,
+              "minimum_verified_cases": 1
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 1,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "assign",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "exec.generic.assign"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_exec_compare",
+        "operation_id": "exec.generic.compare",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_operator_map",
+          "f_source_field_access",
+          "f_identifier_preserve",
+          "f_literal_preserve"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "generic_runtime_basis",
+          "parents": [
+            "f_operator_map",
+            "f_source_field_access",
+            "f_identifier_preserve",
+            "f_literal_preserve"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "f624df01c58d11d87767273573591b1f9c82937ebdfab51e23c84b6ab4e3a66d",
+          "details": {
+            "candidate_reference_digest": "ec2f60d36f239b14db3f86a10aedf6db6d251eb0033a567836b175b0e81ef3de",
+            "formation_path": [
+              {
+                "capability": "compare",
+                "generic_opcode": "compare"
+              }
+            ],
+            "task_signature": ""
+          }
+        },
+        "kernel": {
+          "executable": {
+            "op": "compare"
+          }
+        },
+        "metadata": {
+          "candidate_role": "generic_runtime_basis",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 1,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 0,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 0,
+              "minimum_verified_cases": 1
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 1,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "compare",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "exec.generic.compare"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_exec_conditional_update",
+        "operation_id": "exec.generic.conditional_update",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_operator_map",
+          "f_source_field_access",
+          "f_identifier_preserve",
+          "f_literal_preserve"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "generic_runtime_basis",
+          "parents": [
+            "f_operator_map",
+            "f_source_field_access",
+            "f_identifier_preserve",
+            "f_literal_preserve"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "dad2761f97474beffbe930c736744f088a1bb2233b7498663d5a57f458a0fb35",
+          "details": {
+            "candidate_reference_digest": "2e54d5682d586ff6f9a880879a9a56cee931ee810735e13e1096914c1baebd31",
+            "formation_path": [
+              {
+                "capability": "conditional_update",
+                "generic_opcode": "conditional_update"
+              }
+            ],
+            "task_signature": ""
+          }
+        },
+        "kernel": {
+          "executable": {
+            "op": "conditional_update"
+          }
+        },
+        "metadata": {
+          "candidate_role": "generic_runtime_basis",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 1,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 0,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 0,
+              "minimum_verified_cases": 1
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 1,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "conditional_update",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "exec.generic.conditional_update"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_exec_range_loop",
+        "operation_id": "exec.generic.range_loop",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_operator_map",
+          "f_source_field_access",
+          "f_identifier_preserve",
+          "f_literal_preserve"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "generic_runtime_basis",
+          "parents": [
+            "f_operator_map",
+            "f_source_field_access",
+            "f_identifier_preserve",
+            "f_literal_preserve"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "35fe0a4be9030ebe5176058b2a3fa02da1f3f9ad2c17c9327701e3540bcb882f",
+          "details": {
+            "candidate_reference_digest": "5bb919df0d1125537b8a8a6db34cad2c95ac0668dd6f8b5d41c9d930c6a20f56",
+            "formation_path": [
+              {
+                "capability": "range_loop",
+                "generic_opcode": "for_range"
+              }
+            ],
+            "task_signature": ""
+          }
+        },
+        "kernel": {
+          "executable": {
+            "op": "for_range"
+          }
+        },
+        "metadata": {
+          "candidate_role": "generic_runtime_basis",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 1,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 0,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 0,
+              "minimum_verified_cases": 1
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 1,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "range_loop",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "exec.generic.range_loop"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_exec_return",
+        "operation_id": "exec.generic.return",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_operator_map",
+          "f_source_field_access",
+          "f_identifier_preserve",
+          "f_literal_preserve"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "generic_runtime_basis",
+          "parents": [
+            "f_operator_map",
+            "f_source_field_access",
+            "f_identifier_preserve",
+            "f_literal_preserve"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "c4e98d4dfcb0d6db4538beb8cb861cf70564e018e51442f082298d9abbb6ac2c",
+          "details": {
+            "candidate_reference_digest": "6fbb73824ff5f9112e81b70d79c9acff3a6f0aa45598883c2058b712b95efebe",
+            "formation_path": [
+              {
+                "capability": "return",
+                "generic_opcode": "return"
+              }
+            ],
+            "task_signature": ""
+          }
+        },
+        "kernel": {
+          "executable": {
+            "op": "return"
+          }
+        },
+        "metadata": {
+          "candidate_role": "generic_runtime_basis",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 1,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 0,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 0,
+              "minimum_verified_cases": 1
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 1,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "return",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "exec.generic.return"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_exec_sequence",
+        "operation_id": "exec.generic.sequence",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_operator_map",
+          "f_source_field_access",
+          "f_identifier_preserve",
+          "f_literal_preserve"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "generic_runtime_basis",
+          "parents": [
+            "f_operator_map",
+            "f_source_field_access",
+            "f_identifier_preserve",
+            "f_literal_preserve"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "25898cf60b2a8ccdbb8a739e30cf64c03ef414faf8d3000c5e1f8f42e75567b8",
+          "details": {
+            "candidate_reference_digest": "0b922b2740776265b1070e765f6cd33ba677826d058646db9439fdb01e18f0b7",
+            "formation_path": [
+              {
+                "capability": "sequence",
+                "generic_opcode": "sequence"
+              }
+            ],
+            "task_signature": ""
+          }
+        },
+        "kernel": {
+          "executable": {
+            "op": "sequence",
+            "steps": []
+          }
+        },
+        "metadata": {
+          "candidate_role": "generic_runtime_basis",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 1,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 0,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 0,
+              "minimum_verified_cases": 1
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 1,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "sequence",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "exec.generic.sequence"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_topology_adjacent_event_count",
+        "operation_id": "topology.adjacent_event_count.v1",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_exec_sequence",
+          "F_exec_assign",
+          "F_exec_compare",
+          "F_exec_conditional_update",
+          "F_exec_range_loop",
+          "F_exec_return"
+        ],
+        "level": 2,
+        "formation_provenance": {
+          "source": "legacy_family_externalization",
+          "parents": [
+            "F_exec_sequence",
+            "F_exec_assign",
+            "F_exec_compare",
+            "F_exec_conditional_update",
+            "F_exec_range_loop",
+            "F_exec_return"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "cce21dfea26227604d0bb829103725605a95cb4546078ea4a31934ffa10dff97",
+          "details": {
+            "candidate_reference_digest": "c6d39226f2550c631856ee9ec71fcfe5e8ca6058a34a213f95baae176e4cae48",
+            "formation_path": [
+              {
+                "recipe": "formation_recipe-1",
+                "required_capabilities": [
+                  "sequence",
+                  "assign",
+                  "compare",
+                  "conditional_update",
+                  "range_loop",
+                  "return"
+                ],
+                "source": "legacy family implementation"
+              }
+            ],
+            "task_signature": ""
+          }
+        },
+        "kernel": {
+          "formation_recipe": {
+            "binding_schema": {
+              "increment": [
+                1
+              ],
+              "initial_count": [
+                0
+              ],
+              "loop_start": [
+                1
+              ],
+              "relation": [
+                "==",
+                "!=",
+                ">",
+                "<",
+                ">=",
+                "<="
+              ]
+            },
+            "child_operation_constraints": {
+              "compare": "binary int comparison",
+              "conditional_update": "boolean guarded state update",
+              "range_loop": "integer half-open traversal",
+              "return": "integer output"
+            },
+            "composition_rule_version": "generic_named_slot_substitution/1",
+            "composition_topology": [
+              "initialize_count",
+              "iterate_adjacent_pairs",
+              "test_event",
+              "increment_when_true",
+              "return"
+            ],
+            "materialization": {
+              "root": {
+                "executable": {
+                  "op": "sequence",
+                  "steps": [
+                    {
+                      "bindings": {
+                        "target": "event_count",
+                        "value": {
+                          "lit": {
+                            "parameter": "initial_count"
+                          }
+                        }
+                      },
+                      "f": {
+                        "operation": "assign"
+                      }
+                    },
+                    {
+                      "bindings": {
+                        "body_f": {
+                          "operation": "step"
+                        },
+                        "start": {
+                          "lit": {
+                            "parameter": "loop_start"
+                          }
+                        },
+                        "stop": {
+                          "length": {
+                            "var": "nums"
+                          }
+                        },
+                        "variable": "i"
+                      },
+                      "f": {
+                        "operation": "range_loop"
+                      }
+                    },
+                    {
+                      "bindings": {
+                        "value": {
+                          "var": "event_count"
+                        }
+                      },
+                      "f": {
+                        "operation": "return"
+                      }
+                    }
+                  ]
+                }
+              },
+              "step": {
+                "executable": {
+                  "op": "sequence",
+                  "steps": [
+                    {
+                      "bindings": {
+                        "left": {
+                          "at": {
+                            "var": "i"
+                          },
+                          "index": {
+                            "var": "nums"
+                          }
+                        },
+                        "operator": {
+                          "parameter": "relation"
+                        },
+                        "out": "event",
+                        "right": {
+                          "at": {
+                            "left": {
+                              "var": "i"
+                            },
+                            "op": "-",
+                            "right": {
+                              "lit": 1
+                            }
+                          },
+                          "index": {
+                            "var": "nums"
+                          }
+                        }
+                      },
+                      "f": {
+                        "operation": "compare"
+                      }
+                    },
+                    {
+                      "bindings": {
+                        "condition": "event",
+                        "otherwise": {
+                          "var": "event_count"
+                        },
+                        "target": "event_count",
+                        "then": {
+                          "left": {
+                            "var": "event_count"
+                          },
+                          "op": "+",
+                          "right": {
+                            "lit": {
+                              "parameter": "increment"
+                            }
+                          }
+                        }
+                      },
+                      "f": {
+                        "operation": "conditional_update"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "operation_identity": "topology.adjacent_event_count.v1",
+            "recipe_version": "formation-recipe-1",
+            "required_capabilities": [
+              "sequence",
+              "assign",
+              "compare",
+              "conditional_update",
+              "range_loop",
+              "return"
+            ],
+            "typed_slots": {
+              "comparator": "binary_relation<int>",
+              "event_state": "int",
+              "left_value": "int",
+              "return": "int",
+              "right_value": "int",
+              "traversal": "sequence<int>"
+            }
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 1,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 0,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 0,
+              "minimum_verified_cases": 24
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 24,
+            "x_leakage_status": "ZERO"
+          },
+          "formation_source": "legacy_family_externalization",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "topology.adjacent_event_count.v1",
+          "required_capabilities": [
+            "sequence",
+            "assign",
+            "compare",
+            "conditional_update",
+            "range_loop",
+            "return"
+          ],
+          "role": "topology"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_topology_adjacent_state_run",
+        "operation_id": "topology.adjacent_state_run.v1",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_exec_sequence",
+          "F_exec_assign",
+          "F_exec_compare",
+          "F_exec_conditional_update",
+          "F_exec_range_loop",
+          "F_exec_return"
+        ],
+        "level": 2,
+        "formation_provenance": {
+          "source": "legacy_family_externalization",
+          "parents": [
+            "F_exec_sequence",
+            "F_exec_assign",
+            "F_exec_compare",
+            "F_exec_conditional_update",
+            "F_exec_range_loop",
+            "F_exec_return"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "19fd5969f0ceea4b9837c09d592754a8729eea97927a16b9cc5bfdc709d0c288",
+          "details": {
+            "candidate_reference_digest": "6089348eb3336c061d230b516dcfd30b98c25fc0829febd7f2606e9762e50073",
+            "formation_path": [
+              {
+                "recipe": "formation_recipe-1",
+                "required_capabilities": [
+                  "sequence",
+                  "assign",
+                  "compare",
+                  "conditional_update",
+                  "range_loop",
+                  "return"
+                ],
+                "source": "legacy family implementation"
+              }
+            ],
+            "task_signature": ""
+          }
+        },
+        "kernel": {
+          "formation_recipe": {
+            "binding_schema": {
+              "best_nonempty_initial": [
+                1
+              ],
+              "best_relation": [
+                ">"
+              ],
+              "increment": [
+                1
+              ],
+              "loop_start": [
+                1
+              ],
+              "relation": [
+                "==",
+                "!=",
+                ">",
+                "<",
+                ">=",
+                "<="
+              ],
+              "reset_value": [
+                1
+              ],
+              "run_initial": [
+                1
+              ]
+            },
+            "child_operation_constraints": {
+              "compare": "binary int comparison",
+              "conditional_update": "boolean guarded state update",
+              "range_loop": "integer half-open traversal",
+              "return": "integer output"
+            },
+            "composition_rule_version": "generic_named_slot_substitution/1",
+            "composition_topology": [
+              "initialize_state",
+              "iterate_adjacent_pairs",
+              "extend_or_reset",
+              "compare_with_best",
+              "update_best",
+              "return"
+            ],
+            "materialization": {
+              "root": {
+                "executable": {
+                  "op": "sequence",
+                  "steps": [
+                    {
+                      "bindings": {
+                        "target": "current_run",
+                        "value": {
+                          "lit": {
+                            "parameter": "run_initial"
+                          }
+                        }
+                      },
+                      "f": {
+                        "operation": "assign"
+                      }
+                    },
+                    {
+                      "bindings": {
+                        "target": "best_run",
+                        "value": {
+                          "no": {
+                            "lit": 0
+                          },
+                          "select": {
+                            "left": {
+                              "length": {
+                                "var": "nums"
+                              }
+                            },
+                            "op": ">",
+                            "right": {
+                              "lit": 0
+                            }
+                          },
+                          "yes": {
+                            "lit": {
+                              "parameter": "best_nonempty_initial"
+                            }
+                          }
+                        }
+                      },
+                      "f": {
+                        "operation": "assign"
+                      }
+                    },
+                    {
+                      "bindings": {
+                        "body_f": {
+                          "operation": "step"
+                        },
+                        "start": {
+                          "lit": {
+                            "parameter": "loop_start"
+                          }
+                        },
+                        "stop": {
+                          "length": {
+                            "var": "nums"
+                          }
+                        },
+                        "variable": "i"
+                      },
+                      "f": {
+                        "operation": "range_loop"
+                      }
+                    },
+                    {
+                      "bindings": {
+                        "value": {
+                          "var": "best_run"
+                        }
+                      },
+                      "f": {
+                        "operation": "return"
+                      }
+                    }
+                  ]
+                }
+              },
+              "step": {
+                "executable": {
+                  "op": "sequence",
+                  "steps": [
+                    {
+                      "bindings": {
+                        "left": {
+                          "at": {
+                            "var": "i"
+                          },
+                          "index": {
+                            "var": "nums"
+                          }
+                        },
+                        "operator": {
+                          "parameter": "relation"
+                        },
+                        "out": "extends",
+                        "right": {
+                          "at": {
+                            "left": {
+                              "var": "i"
+                            },
+                            "op": "-",
+                            "right": {
+                              "lit": 1
+                            }
+                          },
+                          "index": {
+                            "var": "nums"
+                          }
+                        }
+                      },
+                      "f": {
+                        "operation": "compare"
+                      }
+                    },
+                    {
+                      "bindings": {
+                        "condition": "extends",
+                        "otherwise": {
+                          "lit": {
+                            "parameter": "reset_value"
+                          }
+                        },
+                        "target": "current_run",
+                        "then": {
+                          "left": {
+                            "var": "current_run"
+                          },
+                          "op": "+",
+                          "right": {
+                            "lit": {
+                              "parameter": "increment"
+                            }
+                          }
+                        }
+                      },
+                      "f": {
+                        "operation": "conditional_update"
+                      }
+                    },
+                    {
+                      "bindings": {
+                        "left": {
+                          "var": "current_run"
+                        },
+                        "operator": {
+                          "parameter": "best_relation"
+                        },
+                        "out": "improves",
+                        "right": {
+                          "var": "best_run"
+                        }
+                      },
+                      "f": {
+                        "operation": "compare"
+                      }
+                    },
+                    {
+                      "bindings": {
+                        "condition": "improves",
+                        "otherwise": {
+                          "var": "best_run"
+                        },
+                        "target": "best_run",
+                        "then": {
+                          "var": "current_run"
+                        }
+                      },
+                      "f": {
+                        "operation": "conditional_update"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "operation_identity": "topology.adjacent_state_run.v1",
+            "recipe_version": "formation-recipe-1",
+            "required_capabilities": [
+              "sequence",
+              "assign",
+              "compare",
+              "conditional_update",
+              "range_loop",
+              "return"
+            ],
+            "typed_slots": {
+              "comparator": "binary_relation<int>",
+              "extend_state": "int",
+              "left_value": "int",
+              "reset_state": "int",
+              "return": "int",
+              "right_value": "int",
+              "traversal": "sequence<int>",
+              "update_best": "int"
+            }
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 1,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 0,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 0,
+              "minimum_verified_cases": 24
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 24,
+            "x_leakage_status": "ZERO"
+          },
+          "formation_source": "legacy_family_externalization",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "topology.adjacent_state_run.v1",
+          "required_capabilities": [
+            "sequence",
+            "assign",
+            "compare",
+            "conditional_update",
+            "range_loop",
+            "return"
+          ],
+          "role": "topology"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_44204b70253aa1408a91",
+        "operation_id": "candidate.step.bf14293db0397d5b773d",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_state_run",
+          "F_exec_compare",
+          "F_exec_conditional_update"
+        ],
+        "level": 3,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_state_run",
+            "F_exec_compare",
+            "F_exec_conditional_update"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "73f0a61c559563c4a468c4368f715594ab54c11cca931b1e4e3b7866958a55d4",
+          "details": {
+            "candidate_reference_digest": "e42c42dc5f3b430f0b55f5f7c5bcc1a80cb17710fc3a2cda522453cec1ebd6f4",
+            "formation_path": [
+              {
+                "materialization": "step",
+                "operation_bindings": {
+                  "compare": "F_exec_compare",
+                  "conditional_update": "F_exec_conditional_update"
+                },
+                "parameters": {
+                  "best_relation": ">",
+                  "increment": 1,
+                  "relation": ">",
+                  "reset_value": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_state_run",
+                  "F_exec_compare",
+                  "F_exec_conditional_update"
+                ],
+                "topology_f": "F_topology_adjacent_state_run"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "best_nonempty_initial": 1,
+              "best_relation": ">",
+              "increment": 1,
+              "loop_start": 1,
+              "relation": ">",
+              "reset_value": 1,
+              "run_initial": 1
+            },
+            "materialization": "step",
+            "recipe": "F_topology_adjacent_state_run"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "left": {
+                    "at": {
+                      "var": "i"
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  },
+                  "operator": ">",
+                  "out": "extends",
+                  "right": {
+                    "at": {
+                      "left": {
+                        "var": "i"
+                      },
+                      "op": "-",
+                      "right": {
+                        "lit": 1
+                      }
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "extends",
+                  "otherwise": {
+                    "lit": 1
+                  },
+                  "target": "current_run",
+                  "then": {
+                    "left": {
+                      "var": "current_run"
+                    },
+                    "op": "+",
+                    "right": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              },
+              {
+                "bindings": {
+                  "left": {
+                    "var": "current_run"
+                  },
+                  "operator": ">",
+                  "out": "improves",
+                  "right": {
+                    "var": "best_run"
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "improves",
+                  "otherwise": {
+                    "var": "best_run"
+                  },
+                  "target": "best_run",
+                  "then": {
+                    "var": "current_run"
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "step",
+            "operation_bindings": {
+              "compare": "F_exec_compare",
+              "conditional_update": "F_exec_conditional_update"
+            },
+            "parameters": {
+              "best_relation": ">",
+              "increment": 1,
+              "relation": ">",
+              "reset_value": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_state_run"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 256,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 256,
+              "minimum_verified_cases": 256
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 256,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composition",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.step.bf14293db0397d5b773d",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> runtime_state",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "state_out",
+                "type": "runtime_state"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_4e10ab1d0d80eb74a490",
+        "operation_id": "candidate.step.bcd97308039df6c43141",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_event_count",
+          "F_exec_compare",
+          "F_exec_conditional_update"
+        ],
+        "level": 3,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_event_count",
+            "F_exec_compare",
+            "F_exec_conditional_update"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "65413f203a00596ba997bc3f02e3fcaf68be248f5094f03122494ee3b50f7344",
+          "details": {
+            "candidate_reference_digest": "e42c42dc5f3b430f0b55f5f7c5bcc1a80cb17710fc3a2cda522453cec1ebd6f4",
+            "formation_path": [
+              {
+                "materialization": "step",
+                "operation_bindings": {
+                  "compare": "F_exec_compare",
+                  "conditional_update": "F_exec_conditional_update"
+                },
+                "parameters": {
+                  "increment": 1,
+                  "relation": "!="
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_event_count",
+                  "F_exec_compare",
+                  "F_exec_conditional_update"
+                ],
+                "topology_f": "F_topology_adjacent_event_count"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "increment": 1,
+              "initial_count": 0,
+              "loop_start": 1,
+              "relation": "!="
+            },
+            "materialization": "step",
+            "recipe": "F_topology_adjacent_event_count"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "left": {
+                    "at": {
+                      "var": "i"
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  },
+                  "operator": "!=",
+                  "out": "event",
+                  "right": {
+                    "at": {
+                      "left": {
+                        "var": "i"
+                      },
+                      "op": "-",
+                      "right": {
+                        "lit": 1
+                      }
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "event",
+                  "otherwise": {
+                    "var": "event_count"
+                  },
+                  "target": "event_count",
+                  "then": {
+                    "left": {
+                      "var": "event_count"
+                    },
+                    "op": "+",
+                    "right": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "step",
+            "operation_bindings": {
+              "compare": "F_exec_compare",
+              "conditional_update": "F_exec_conditional_update"
+            },
+            "parameters": {
+              "increment": 1,
+              "relation": "!="
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_event_count"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 256,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 256,
+              "minimum_verified_cases": 256
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 256,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composition",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.step.bcd97308039df6c43141",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> runtime_state",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "state_out",
+                "type": "runtime_state"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_50bf23b4448cb8a0cb80",
+        "operation_id": "candidate.step.1481e14369100cb3eae3",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_state_run",
+          "F_exec_compare",
+          "F_exec_conditional_update"
+        ],
+        "level": 3,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_state_run",
+            "F_exec_compare",
+            "F_exec_conditional_update"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "b11b4f8e6323068553b6836fa73c96d3bf2af1de6a8c14deccfc381a20112840",
+          "details": {
+            "candidate_reference_digest": "e42c42dc5f3b430f0b55f5f7c5bcc1a80cb17710fc3a2cda522453cec1ebd6f4",
+            "formation_path": [
+              {
+                "materialization": "step",
+                "operation_bindings": {
+                  "compare": "F_exec_compare",
+                  "conditional_update": "F_exec_conditional_update"
+                },
+                "parameters": {
+                  "best_relation": ">",
+                  "increment": 1,
+                  "relation": "<",
+                  "reset_value": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_state_run",
+                  "F_exec_compare",
+                  "F_exec_conditional_update"
+                ],
+                "topology_f": "F_topology_adjacent_state_run"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "best_nonempty_initial": 1,
+              "best_relation": ">",
+              "increment": 1,
+              "loop_start": 1,
+              "relation": "<",
+              "reset_value": 1,
+              "run_initial": 1
+            },
+            "materialization": "step",
+            "recipe": "F_topology_adjacent_state_run"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "left": {
+                    "at": {
+                      "var": "i"
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  },
+                  "operator": "<",
+                  "out": "extends",
+                  "right": {
+                    "at": {
+                      "left": {
+                        "var": "i"
+                      },
+                      "op": "-",
+                      "right": {
+                        "lit": 1
+                      }
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "extends",
+                  "otherwise": {
+                    "lit": 1
+                  },
+                  "target": "current_run",
+                  "then": {
+                    "left": {
+                      "var": "current_run"
+                    },
+                    "op": "+",
+                    "right": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              },
+              {
+                "bindings": {
+                  "left": {
+                    "var": "current_run"
+                  },
+                  "operator": ">",
+                  "out": "improves",
+                  "right": {
+                    "var": "best_run"
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "improves",
+                  "otherwise": {
+                    "var": "best_run"
+                  },
+                  "target": "best_run",
+                  "then": {
+                    "var": "current_run"
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "step",
+            "operation_bindings": {
+              "compare": "F_exec_compare",
+              "conditional_update": "F_exec_conditional_update"
+            },
+            "parameters": {
+              "best_relation": ">",
+              "increment": 1,
+              "relation": "<",
+              "reset_value": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_state_run"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 256,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 256,
+              "minimum_verified_cases": 256
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 256,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composition",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.step.1481e14369100cb3eae3",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> runtime_state",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "state_out",
+                "type": "runtime_state"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_58eac04f390c93643c95",
+        "operation_id": "candidate.step.39cce534cfb338fff0c8",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_event_count",
+          "F_exec_compare",
+          "F_exec_conditional_update"
+        ],
+        "level": 3,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_event_count",
+            "F_exec_compare",
+            "F_exec_conditional_update"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "6b60984c4349887e5880cc6346245931b4938568daa38b15847e52722d1743b1",
+          "details": {
+            "candidate_reference_digest": "e42c42dc5f3b430f0b55f5f7c5bcc1a80cb17710fc3a2cda522453cec1ebd6f4",
+            "formation_path": [
+              {
+                "materialization": "step",
+                "operation_bindings": {
+                  "compare": "F_exec_compare",
+                  "conditional_update": "F_exec_conditional_update"
+                },
+                "parameters": {
+                  "increment": 1,
+                  "relation": ">"
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_event_count",
+                  "F_exec_compare",
+                  "F_exec_conditional_update"
+                ],
+                "topology_f": "F_topology_adjacent_event_count"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "increment": 1,
+              "initial_count": 0,
+              "loop_start": 1,
+              "relation": ">"
+            },
+            "materialization": "step",
+            "recipe": "F_topology_adjacent_event_count"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "left": {
+                    "at": {
+                      "var": "i"
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  },
+                  "operator": ">",
+                  "out": "event",
+                  "right": {
+                    "at": {
+                      "left": {
+                        "var": "i"
+                      },
+                      "op": "-",
+                      "right": {
+                        "lit": 1
+                      }
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "event",
+                  "otherwise": {
+                    "var": "event_count"
+                  },
+                  "target": "event_count",
+                  "then": {
+                    "left": {
+                      "var": "event_count"
+                    },
+                    "op": "+",
+                    "right": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "step",
+            "operation_bindings": {
+              "compare": "F_exec_compare",
+              "conditional_update": "F_exec_conditional_update"
+            },
+            "parameters": {
+              "increment": 1,
+              "relation": ">"
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_event_count"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 256,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 256,
+              "minimum_verified_cases": 256
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 256,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composition",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.step.39cce534cfb338fff0c8",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> runtime_state",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "state_out",
+                "type": "runtime_state"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_93302b6b7d8bd69c4f8c",
+        "operation_id": "candidate.step.3bdc747c0cf9a1a71f46",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_state_run",
+          "F_exec_compare",
+          "F_exec_conditional_update"
+        ],
+        "level": 3,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_state_run",
+            "F_exec_compare",
+            "F_exec_conditional_update"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "10e45d3a1ce93c10a13f8119ec4a7131799a75dd6d4698d41f0cd5d9161dacc8",
+          "details": {
+            "candidate_reference_digest": "e42c42dc5f3b430f0b55f5f7c5bcc1a80cb17710fc3a2cda522453cec1ebd6f4",
+            "formation_path": [
+              {
+                "materialization": "step",
+                "operation_bindings": {
+                  "compare": "F_exec_compare",
+                  "conditional_update": "F_exec_conditional_update"
+                },
+                "parameters": {
+                  "best_relation": ">",
+                  "increment": 1,
+                  "relation": "==",
+                  "reset_value": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_state_run",
+                  "F_exec_compare",
+                  "F_exec_conditional_update"
+                ],
+                "topology_f": "F_topology_adjacent_state_run"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "best_nonempty_initial": 1,
+              "best_relation": ">",
+              "increment": 1,
+              "loop_start": 1,
+              "relation": "==",
+              "reset_value": 1,
+              "run_initial": 1
+            },
+            "materialization": "step",
+            "recipe": "F_topology_adjacent_state_run"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "left": {
+                    "at": {
+                      "var": "i"
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  },
+                  "operator": "==",
+                  "out": "extends",
+                  "right": {
+                    "at": {
+                      "left": {
+                        "var": "i"
+                      },
+                      "op": "-",
+                      "right": {
+                        "lit": 1
+                      }
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "extends",
+                  "otherwise": {
+                    "lit": 1
+                  },
+                  "target": "current_run",
+                  "then": {
+                    "left": {
+                      "var": "current_run"
+                    },
+                    "op": "+",
+                    "right": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              },
+              {
+                "bindings": {
+                  "left": {
+                    "var": "current_run"
+                  },
+                  "operator": ">",
+                  "out": "improves",
+                  "right": {
+                    "var": "best_run"
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "improves",
+                  "otherwise": {
+                    "var": "best_run"
+                  },
+                  "target": "best_run",
+                  "then": {
+                    "var": "current_run"
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "step",
+            "operation_bindings": {
+              "compare": "F_exec_compare",
+              "conditional_update": "F_exec_conditional_update"
+            },
+            "parameters": {
+              "best_relation": ">",
+              "increment": 1,
+              "relation": "==",
+              "reset_value": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_state_run"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 256,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 256,
+              "minimum_verified_cases": 256
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 256,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composition",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.step.3bdc747c0cf9a1a71f46",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> runtime_state",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "state_out",
+                "type": "runtime_state"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_b0eed8df520ae260af57",
+        "operation_id": "candidate.step.08cc6776a8041337ef6e",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_state_run",
+          "F_exec_compare",
+          "F_exec_conditional_update"
+        ],
+        "level": 3,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_state_run",
+            "F_exec_compare",
+            "F_exec_conditional_update"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "d6e0aaa7ca330afa5716d6df6955701c4192a4a1a47224d728a613847014892d",
+          "details": {
+            "candidate_reference_digest": "e42c42dc5f3b430f0b55f5f7c5bcc1a80cb17710fc3a2cda522453cec1ebd6f4",
+            "formation_path": [
+              {
+                "materialization": "step",
+                "operation_bindings": {
+                  "compare": "F_exec_compare",
+                  "conditional_update": "F_exec_conditional_update"
+                },
+                "parameters": {
+                  "best_relation": ">",
+                  "increment": 1,
+                  "relation": ">=",
+                  "reset_value": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_state_run",
+                  "F_exec_compare",
+                  "F_exec_conditional_update"
+                ],
+                "topology_f": "F_topology_adjacent_state_run"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "best_nonempty_initial": 1,
+              "best_relation": ">",
+              "increment": 1,
+              "loop_start": 1,
+              "relation": ">=",
+              "reset_value": 1,
+              "run_initial": 1
+            },
+            "materialization": "step",
+            "recipe": "F_topology_adjacent_state_run"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "left": {
+                    "at": {
+                      "var": "i"
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  },
+                  "operator": ">=",
+                  "out": "extends",
+                  "right": {
+                    "at": {
+                      "left": {
+                        "var": "i"
+                      },
+                      "op": "-",
+                      "right": {
+                        "lit": 1
+                      }
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "extends",
+                  "otherwise": {
+                    "lit": 1
+                  },
+                  "target": "current_run",
+                  "then": {
+                    "left": {
+                      "var": "current_run"
+                    },
+                    "op": "+",
+                    "right": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              },
+              {
+                "bindings": {
+                  "left": {
+                    "var": "current_run"
+                  },
+                  "operator": ">",
+                  "out": "improves",
+                  "right": {
+                    "var": "best_run"
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "improves",
+                  "otherwise": {
+                    "var": "best_run"
+                  },
+                  "target": "best_run",
+                  "then": {
+                    "var": "current_run"
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "step",
+            "operation_bindings": {
+              "compare": "F_exec_compare",
+              "conditional_update": "F_exec_conditional_update"
+            },
+            "parameters": {
+              "best_relation": ">",
+              "increment": 1,
+              "relation": ">=",
+              "reset_value": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_state_run"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 256,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 256,
+              "minimum_verified_cases": 256
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 256,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composition",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.step.08cc6776a8041337ef6e",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> runtime_state",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "state_out",
+                "type": "runtime_state"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_cbaa441e9f4fad8bc76e",
+        "operation_id": "candidate.step.1858c15afed07a197d6b",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_event_count",
+          "F_exec_compare",
+          "F_exec_conditional_update"
+        ],
+        "level": 3,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_event_count",
+            "F_exec_compare",
+            "F_exec_conditional_update"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "4a1418c94131c386a4331778c89aef86822f73b36b71c692ca53e9b57ec18059",
+          "details": {
+            "candidate_reference_digest": "e42c42dc5f3b430f0b55f5f7c5bcc1a80cb17710fc3a2cda522453cec1ebd6f4",
+            "formation_path": [
+              {
+                "materialization": "step",
+                "operation_bindings": {
+                  "compare": "F_exec_compare",
+                  "conditional_update": "F_exec_conditional_update"
+                },
+                "parameters": {
+                  "increment": 1,
+                  "relation": "=="
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_event_count",
+                  "F_exec_compare",
+                  "F_exec_conditional_update"
+                ],
+                "topology_f": "F_topology_adjacent_event_count"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "increment": 1,
+              "initial_count": 0,
+              "loop_start": 1,
+              "relation": "=="
+            },
+            "materialization": "step",
+            "recipe": "F_topology_adjacent_event_count"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "left": {
+                    "at": {
+                      "var": "i"
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  },
+                  "operator": "==",
+                  "out": "event",
+                  "right": {
+                    "at": {
+                      "left": {
+                        "var": "i"
+                      },
+                      "op": "-",
+                      "right": {
+                        "lit": 1
+                      }
+                    },
+                    "index": {
+                      "var": "nums"
+                    }
+                  }
+                },
+                "f": "F_exec_compare"
+              },
+              {
+                "bindings": {
+                  "condition": "event",
+                  "otherwise": {
+                    "var": "event_count"
+                  },
+                  "target": "event_count",
+                  "then": {
+                    "left": {
+                      "var": "event_count"
+                    },
+                    "op": "+",
+                    "right": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_conditional_update"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "step",
+            "operation_bindings": {
+              "compare": "F_exec_compare",
+              "conditional_update": "F_exec_conditional_update"
+            },
+            "parameters": {
+              "increment": 1,
+              "relation": "=="
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_event_count"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 256,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 256,
+              "minimum_verified_cases": 256
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 256,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composition",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.step.1858c15afed07a197d6b",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> runtime_state",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "state_out",
+                "type": "runtime_state"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_a6aef3cbef65ed27e8d8",
+        "operation_id": "candidate.root.1481e14369100cb3eae3",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_state_run",
+          "F_exec_assign",
+          "F_50bf23b4448cb8a0cb80",
+          "F_exec_range_loop",
+          "F_exec_return"
+        ],
+        "level": 4,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_state_run",
+            "F_exec_assign",
+            "F_50bf23b4448cb8a0cb80",
+            "F_exec_range_loop",
+            "F_exec_return"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "8a5581d3ece44d0f0a9b7a5bbe936c37eb51c97ac54192e96031b0dec7e69c57",
+          "details": {
+            "candidate_reference_digest": "87ee78afe2ccfefbfd9a4549155e5a26a6427e4e8e45bc06bd0a613ae7c212d6",
+            "formation_path": [
+              {
+                "materialization": "root",
+                "operation_bindings": {
+                  "assign": "F_exec_assign",
+                  "range_loop": "F_exec_range_loop",
+                  "return": "F_exec_return",
+                  "step": "F_50bf23b4448cb8a0cb80"
+                },
+                "parameters": {
+                  "best_nonempty_initial": 1,
+                  "loop_start": 1,
+                  "run_initial": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_state_run",
+                  "F_exec_assign",
+                  "F_50bf23b4448cb8a0cb80",
+                  "F_exec_range_loop",
+                  "F_exec_return"
+                ],
+                "step_f_persisted_before_formation": "F_50bf23b4448cb8a0cb80",
+                "topology_f": "F_topology_adjacent_state_run"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "best_nonempty_initial": 1,
+              "best_relation": ">",
+              "increment": 1,
+              "loop_start": 1,
+              "relation": "<",
+              "reset_value": 1,
+              "run_initial": 1
+            },
+            "materialization": "root",
+            "recipe": "F_topology_adjacent_state_run"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "target": "current_run",
+                  "value": {
+                    "lit": 1
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "target": "best_run",
+                  "value": {
+                    "no": {
+                      "lit": 0
+                    },
+                    "select": {
+                      "left": {
+                        "length": {
+                          "var": "nums"
+                        }
+                      },
+                      "op": ">",
+                      "right": {
+                        "lit": 0
+                      }
+                    },
+                    "yes": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "body_f": "F_50bf23b4448cb8a0cb80",
+                  "start": {
+                    "lit": 1
+                  },
+                  "stop": {
+                    "length": {
+                      "var": "nums"
+                    }
+                  },
+                  "variable": "i"
+                },
+                "f": "F_exec_range_loop"
+              },
+              {
+                "bindings": {
+                  "value": {
+                    "var": "best_run"
+                  }
+                },
+                "f": "F_exec_return"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "root",
+            "materialized_step_id": "F_50bf23b4448cb8a0cb80",
+            "operation_bindings": {
+              "assign": "F_exec_assign",
+              "range_loop": "F_exec_range_loop",
+              "return": "F_exec_return",
+              "step": "F_50bf23b4448cb8a0cb80"
+            },
+            "parameters": {
+              "best_nonempty_initial": 1,
+              "loop_start": 1,
+              "run_initial": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_state_run"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 192,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 192,
+              "minimum_verified_cases": 192
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 192,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.root.1481e14369100cb3eae3",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_bd1c8b86e4a28d068f0b",
+        "operation_id": "candidate.root.3bdc747c0cf9a1a71f46",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_state_run",
+          "F_exec_assign",
+          "F_93302b6b7d8bd69c4f8c",
+          "F_exec_range_loop",
+          "F_exec_return"
+        ],
+        "level": 4,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_state_run",
+            "F_exec_assign",
+            "F_93302b6b7d8bd69c4f8c",
+            "F_exec_range_loop",
+            "F_exec_return"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "44f89e8f0ab7897d9dd0947bbe06951a371e9451ed7e3738aff8ce3196c460db",
+          "details": {
+            "candidate_reference_digest": "87ee78afe2ccfefbfd9a4549155e5a26a6427e4e8e45bc06bd0a613ae7c212d6",
+            "formation_path": [
+              {
+                "materialization": "root",
+                "operation_bindings": {
+                  "assign": "F_exec_assign",
+                  "range_loop": "F_exec_range_loop",
+                  "return": "F_exec_return",
+                  "step": "F_93302b6b7d8bd69c4f8c"
+                },
+                "parameters": {
+                  "best_nonempty_initial": 1,
+                  "loop_start": 1,
+                  "run_initial": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_state_run",
+                  "F_exec_assign",
+                  "F_93302b6b7d8bd69c4f8c",
+                  "F_exec_range_loop",
+                  "F_exec_return"
+                ],
+                "step_f_persisted_before_formation": "F_93302b6b7d8bd69c4f8c",
+                "topology_f": "F_topology_adjacent_state_run"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "best_nonempty_initial": 1,
+              "best_relation": ">",
+              "increment": 1,
+              "loop_start": 1,
+              "relation": "==",
+              "reset_value": 1,
+              "run_initial": 1
+            },
+            "materialization": "root",
+            "recipe": "F_topology_adjacent_state_run"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "target": "current_run",
+                  "value": {
+                    "lit": 1
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "target": "best_run",
+                  "value": {
+                    "no": {
+                      "lit": 0
+                    },
+                    "select": {
+                      "left": {
+                        "length": {
+                          "var": "nums"
+                        }
+                      },
+                      "op": ">",
+                      "right": {
+                        "lit": 0
+                      }
+                    },
+                    "yes": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "body_f": "F_93302b6b7d8bd69c4f8c",
+                  "start": {
+                    "lit": 1
+                  },
+                  "stop": {
+                    "length": {
+                      "var": "nums"
+                    }
+                  },
+                  "variable": "i"
+                },
+                "f": "F_exec_range_loop"
+              },
+              {
+                "bindings": {
+                  "value": {
+                    "var": "best_run"
+                  }
+                },
+                "f": "F_exec_return"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "root",
+            "materialized_step_id": "F_93302b6b7d8bd69c4f8c",
+            "operation_bindings": {
+              "assign": "F_exec_assign",
+              "range_loop": "F_exec_range_loop",
+              "return": "F_exec_return",
+              "step": "F_93302b6b7d8bd69c4f8c"
+            },
+            "parameters": {
+              "best_nonempty_initial": 1,
+              "loop_start": 1,
+              "run_initial": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_state_run"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 192,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 192,
+              "minimum_verified_cases": 192
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 192,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.root.3bdc747c0cf9a1a71f46",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_c1afe69a1f8fa25c1f13",
+        "operation_id": "candidate.root.bf14293db0397d5b773d",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_state_run",
+          "F_exec_assign",
+          "F_44204b70253aa1408a91",
+          "F_exec_range_loop",
+          "F_exec_return"
+        ],
+        "level": 4,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_state_run",
+            "F_exec_assign",
+            "F_44204b70253aa1408a91",
+            "F_exec_range_loop",
+            "F_exec_return"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "6f92e085c4628d9e3e065003ad595f1eb6979f77de12df15e33103baa13bd4c5",
+          "details": {
+            "candidate_reference_digest": "87ee78afe2ccfefbfd9a4549155e5a26a6427e4e8e45bc06bd0a613ae7c212d6",
+            "formation_path": [
+              {
+                "materialization": "root",
+                "operation_bindings": {
+                  "assign": "F_exec_assign",
+                  "range_loop": "F_exec_range_loop",
+                  "return": "F_exec_return",
+                  "step": "F_44204b70253aa1408a91"
+                },
+                "parameters": {
+                  "best_nonempty_initial": 1,
+                  "loop_start": 1,
+                  "run_initial": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_state_run",
+                  "F_exec_assign",
+                  "F_44204b70253aa1408a91",
+                  "F_exec_range_loop",
+                  "F_exec_return"
+                ],
+                "step_f_persisted_before_formation": "F_44204b70253aa1408a91",
+                "topology_f": "F_topology_adjacent_state_run"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "best_nonempty_initial": 1,
+              "best_relation": ">",
+              "increment": 1,
+              "loop_start": 1,
+              "relation": ">",
+              "reset_value": 1,
+              "run_initial": 1
+            },
+            "materialization": "root",
+            "recipe": "F_topology_adjacent_state_run"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "target": "current_run",
+                  "value": {
+                    "lit": 1
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "target": "best_run",
+                  "value": {
+                    "no": {
+                      "lit": 0
+                    },
+                    "select": {
+                      "left": {
+                        "length": {
+                          "var": "nums"
+                        }
+                      },
+                      "op": ">",
+                      "right": {
+                        "lit": 0
+                      }
+                    },
+                    "yes": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "body_f": "F_44204b70253aa1408a91",
+                  "start": {
+                    "lit": 1
+                  },
+                  "stop": {
+                    "length": {
+                      "var": "nums"
+                    }
+                  },
+                  "variable": "i"
+                },
+                "f": "F_exec_range_loop"
+              },
+              {
+                "bindings": {
+                  "value": {
+                    "var": "best_run"
+                  }
+                },
+                "f": "F_exec_return"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "root",
+            "materialized_step_id": "F_44204b70253aa1408a91",
+            "operation_bindings": {
+              "assign": "F_exec_assign",
+              "range_loop": "F_exec_range_loop",
+              "return": "F_exec_return",
+              "step": "F_44204b70253aa1408a91"
+            },
+            "parameters": {
+              "best_nonempty_initial": 1,
+              "loop_start": 1,
+              "run_initial": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_state_run"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 192,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 192,
+              "minimum_verified_cases": 192
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 192,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.root.bf14293db0397d5b773d",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_cac97282833230855ffa",
+        "operation_id": "candidate.root.39cce534cfb338fff0c8",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_event_count",
+          "F_exec_assign",
+          "F_58eac04f390c93643c95",
+          "F_exec_range_loop",
+          "F_exec_return"
+        ],
+        "level": 4,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_event_count",
+            "F_exec_assign",
+            "F_58eac04f390c93643c95",
+            "F_exec_range_loop",
+            "F_exec_return"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "c3063f3ae51cc29470e76ec9cd3a0ea00edfbb2fb8c1f9cddcbedd1f98694a43",
+          "details": {
+            "candidate_reference_digest": "87ee78afe2ccfefbfd9a4549155e5a26a6427e4e8e45bc06bd0a613ae7c212d6",
+            "formation_path": [
+              {
+                "materialization": "root",
+                "operation_bindings": {
+                  "assign": "F_exec_assign",
+                  "range_loop": "F_exec_range_loop",
+                  "return": "F_exec_return",
+                  "step": "F_58eac04f390c93643c95"
+                },
+                "parameters": {
+                  "initial_count": 0,
+                  "loop_start": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_event_count",
+                  "F_exec_assign",
+                  "F_58eac04f390c93643c95",
+                  "F_exec_range_loop",
+                  "F_exec_return"
+                ],
+                "step_f_persisted_before_formation": "F_58eac04f390c93643c95",
+                "topology_f": "F_topology_adjacent_event_count"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "increment": 1,
+              "initial_count": 0,
+              "loop_start": 1,
+              "relation": ">"
+            },
+            "materialization": "root",
+            "recipe": "F_topology_adjacent_event_count"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "target": "event_count",
+                  "value": {
+                    "lit": 0
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "body_f": "F_58eac04f390c93643c95",
+                  "start": {
+                    "lit": 1
+                  },
+                  "stop": {
+                    "length": {
+                      "var": "nums"
+                    }
+                  },
+                  "variable": "i"
+                },
+                "f": "F_exec_range_loop"
+              },
+              {
+                "bindings": {
+                  "value": {
+                    "var": "event_count"
+                  }
+                },
+                "f": "F_exec_return"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "root",
+            "materialized_step_id": "F_58eac04f390c93643c95",
+            "operation_bindings": {
+              "assign": "F_exec_assign",
+              "range_loop": "F_exec_range_loop",
+              "return": "F_exec_return",
+              "step": "F_58eac04f390c93643c95"
+            },
+            "parameters": {
+              "initial_count": 0,
+              "loop_start": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_event_count"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 192,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 192,
+              "minimum_verified_cases": 192
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 192,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.root.39cce534cfb338fff0c8",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_dcfedcf1d26444553cdb",
+        "operation_id": "candidate.root.08cc6776a8041337ef6e",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_state_run",
+          "F_exec_assign",
+          "F_b0eed8df520ae260af57",
+          "F_exec_range_loop",
+          "F_exec_return"
+        ],
+        "level": 4,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_state_run",
+            "F_exec_assign",
+            "F_b0eed8df520ae260af57",
+            "F_exec_range_loop",
+            "F_exec_return"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "93c9e205fcf6df240aea4887de253a027c17b9e354c0c72de032e81afc53e53c",
+          "details": {
+            "candidate_reference_digest": "87ee78afe2ccfefbfd9a4549155e5a26a6427e4e8e45bc06bd0a613ae7c212d6",
+            "formation_path": [
+              {
+                "materialization": "root",
+                "operation_bindings": {
+                  "assign": "F_exec_assign",
+                  "range_loop": "F_exec_range_loop",
+                  "return": "F_exec_return",
+                  "step": "F_b0eed8df520ae260af57"
+                },
+                "parameters": {
+                  "best_nonempty_initial": 1,
+                  "loop_start": 1,
+                  "run_initial": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_state_run",
+                  "F_exec_assign",
+                  "F_b0eed8df520ae260af57",
+                  "F_exec_range_loop",
+                  "F_exec_return"
+                ],
+                "step_f_persisted_before_formation": "F_b0eed8df520ae260af57",
+                "topology_f": "F_topology_adjacent_state_run"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "best_nonempty_initial": 1,
+              "best_relation": ">",
+              "increment": 1,
+              "loop_start": 1,
+              "relation": ">=",
+              "reset_value": 1,
+              "run_initial": 1
+            },
+            "materialization": "root",
+            "recipe": "F_topology_adjacent_state_run"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "target": "current_run",
+                  "value": {
+                    "lit": 1
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "target": "best_run",
+                  "value": {
+                    "no": {
+                      "lit": 0
+                    },
+                    "select": {
+                      "left": {
+                        "length": {
+                          "var": "nums"
+                        }
+                      },
+                      "op": ">",
+                      "right": {
+                        "lit": 0
+                      }
+                    },
+                    "yes": {
+                      "lit": 1
+                    }
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "body_f": "F_b0eed8df520ae260af57",
+                  "start": {
+                    "lit": 1
+                  },
+                  "stop": {
+                    "length": {
+                      "var": "nums"
+                    }
+                  },
+                  "variable": "i"
+                },
+                "f": "F_exec_range_loop"
+              },
+              {
+                "bindings": {
+                  "value": {
+                    "var": "best_run"
+                  }
+                },
+                "f": "F_exec_return"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "root",
+            "materialized_step_id": "F_b0eed8df520ae260af57",
+            "operation_bindings": {
+              "assign": "F_exec_assign",
+              "range_loop": "F_exec_range_loop",
+              "return": "F_exec_return",
+              "step": "F_b0eed8df520ae260af57"
+            },
+            "parameters": {
+              "best_nonempty_initial": 1,
+              "loop_start": 1,
+              "run_initial": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_state_run"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 192,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 192,
+              "minimum_verified_cases": 192
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 192,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.root.08cc6776a8041337ef6e",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_f621e7a403c970a7a71b",
+        "operation_id": "candidate.root.1858c15afed07a197d6b",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_event_count",
+          "F_exec_assign",
+          "F_cbaa441e9f4fad8bc76e",
+          "F_exec_range_loop",
+          "F_exec_return"
+        ],
+        "level": 4,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_event_count",
+            "F_exec_assign",
+            "F_cbaa441e9f4fad8bc76e",
+            "F_exec_range_loop",
+            "F_exec_return"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "163f2cf3bc6ef1dbdb4f4ad4d8e8ff03bde6383aff6ae6d9e8d8e2856aac357d",
+          "details": {
+            "candidate_reference_digest": "87ee78afe2ccfefbfd9a4549155e5a26a6427e4e8e45bc06bd0a613ae7c212d6",
+            "formation_path": [
+              {
+                "materialization": "root",
+                "operation_bindings": {
+                  "assign": "F_exec_assign",
+                  "range_loop": "F_exec_range_loop",
+                  "return": "F_exec_return",
+                  "step": "F_cbaa441e9f4fad8bc76e"
+                },
+                "parameters": {
+                  "initial_count": 0,
+                  "loop_start": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_event_count",
+                  "F_exec_assign",
+                  "F_cbaa441e9f4fad8bc76e",
+                  "F_exec_range_loop",
+                  "F_exec_return"
+                ],
+                "step_f_persisted_before_formation": "F_cbaa441e9f4fad8bc76e",
+                "topology_f": "F_topology_adjacent_event_count"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "increment": 1,
+              "initial_count": 0,
+              "loop_start": 1,
+              "relation": "=="
+            },
+            "materialization": "root",
+            "recipe": "F_topology_adjacent_event_count"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "target": "event_count",
+                  "value": {
+                    "lit": 0
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "body_f": "F_cbaa441e9f4fad8bc76e",
+                  "start": {
+                    "lit": 1
+                  },
+                  "stop": {
+                    "length": {
+                      "var": "nums"
+                    }
+                  },
+                  "variable": "i"
+                },
+                "f": "F_exec_range_loop"
+              },
+              {
+                "bindings": {
+                  "value": {
+                    "var": "event_count"
+                  }
+                },
+                "f": "F_exec_return"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "root",
+            "materialized_step_id": "F_cbaa441e9f4fad8bc76e",
+            "operation_bindings": {
+              "assign": "F_exec_assign",
+              "range_loop": "F_exec_range_loop",
+              "return": "F_exec_return",
+              "step": "F_cbaa441e9f4fad8bc76e"
+            },
+            "parameters": {
+              "initial_count": 0,
+              "loop_start": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_event_count"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 192,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 192,
+              "minimum_verified_cases": 192
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 192,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.root.1858c15afed07a197d6b",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_f6a9887dd22cb41d2cbf",
+        "operation_id": "candidate.root.bcd97308039df6c43141",
+        "ports": [],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_topology_adjacent_event_count",
+          "F_exec_assign",
+          "F_4e10ab1d0d80eb74a490",
+          "F_exec_range_loop",
+          "F_exec_return"
+        ],
+        "level": 4,
+        "formation_provenance": {
+          "source": "unseen-instance composition",
+          "parents": [
+            "F_topology_adjacent_event_count",
+            "F_exec_assign",
+            "F_4e10ab1d0d80eb74a490",
+            "F_exec_range_loop",
+            "F_exec_return"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "453cc30a2d3ec613989b3d56f715d66a3467ee6f8d32c47fd347730697ad5d7c",
+          "details": {
+            "candidate_reference_digest": "87ee78afe2ccfefbfd9a4549155e5a26a6427e4e8e45bc06bd0a613ae7c212d6",
+            "formation_path": [
+              {
+                "materialization": "root",
+                "operation_bindings": {
+                  "assign": "F_exec_assign",
+                  "range_loop": "F_exec_range_loop",
+                  "return": "F_exec_return",
+                  "step": "F_4e10ab1d0d80eb74a490"
+                },
+                "parameters": {
+                  "initial_count": 0,
+                  "loop_start": 1
+                },
+                "parents_at_formation": [
+                  "F_topology_adjacent_event_count",
+                  "F_exec_assign",
+                  "F_4e10ab1d0d80eb74a490",
+                  "F_exec_range_loop",
+                  "F_exec_return"
+                ],
+                "step_f_persisted_before_formation": "F_4e10ab1d0d80eb74a490",
+                "topology_f": "F_topology_adjacent_event_count"
+              }
+            ],
+            "task_signature": "5b819f70d096eaa9362e9a64a4cfd768df68da6ed8aa40d0bd74aa1c5831ca57"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "bindings": {
+              "increment": 1,
+              "initial_count": 0,
+              "loop_start": 1,
+              "relation": "!="
+            },
+            "materialization": "root",
+            "recipe": "F_topology_adjacent_event_count"
+          },
+          "executable": {
+            "op": "sequence",
+            "steps": [
+              {
+                "bindings": {
+                  "target": "event_count",
+                  "value": {
+                    "lit": 0
+                  }
+                },
+                "f": "F_exec_assign"
+              },
+              {
+                "bindings": {
+                  "body_f": "F_4e10ab1d0d80eb74a490",
+                  "start": {
+                    "lit": 1
+                  },
+                  "stop": {
+                    "length": {
+                      "var": "nums"
+                    }
+                  },
+                  "variable": "i"
+                },
+                "f": "F_exec_range_loop"
+              },
+              {
+                "bindings": {
+                  "value": {
+                    "var": "event_count"
+                  }
+                },
+                "f": "F_exec_return"
+              }
+            ]
+          },
+          "formation_recipe": {
+            "materialization": "root",
+            "materialized_step_id": "F_4e10ab1d0d80eb74a490",
+            "operation_bindings": {
+              "assign": "F_exec_assign",
+              "range_loop": "F_exec_range_loop",
+              "return": "F_exec_return",
+              "step": "F_4e10ab1d0d80eb74a490"
+            },
+            "parameters": {
+              "initial_count": 0,
+              "loop_start": 1
+            },
+            "recipe_version": "formation-recipe-1",
+            "topology_id": "F_topology_adjacent_event_count"
+          }
+        },
+        "metadata": {
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 192,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 192,
+              "minimum_verified_cases": 192
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 192,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "candidate.root.bcd97308039df6c43141",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_0469fb712663a973ddfd",
+        "operation_id": "operation.binary.4c2c397575abc1e7e82c",
+        "ports": [
+          {
+            "name": "nums",
+            "direction": "input",
+            "dtype": "sequence<int>",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "result",
+            "direction": "output",
+            "dtype": "int",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_a6aef3cbef65ed27e8d8",
+          "F_c1afe69a1f8fa25c1f13"
+        ],
+        "level": 5,
+        "formation_provenance": {
+          "source": "public operation composition",
+          "parents": [
+            "F_a6aef3cbef65ed27e8d8",
+            "F_c1afe69a1f8fa25c1f13"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "d6b497eec3264830bc54be490caac78105d09b4f94991ec7fade6209913aa446",
+          "details": {
+            "candidate_reference_digest": "bbda63418d48175228c6f90ae0237ab9cb9eb3ed3e4899d2f1d3935c278bab82",
+            "formation_path": [
+              {
+                "operation_bindings": {
+                  "left": "F_a6aef3cbef65ed27e8d8",
+                  "right": "F_c1afe69a1f8fa25c1f13"
+                },
+                "parents_at_formation": [
+                  "F_a6aef3cbef65ed27e8d8",
+                  "F_c1afe69a1f8fa25c1f13"
+                ],
+                "topology": {
+                  "kind": "public_binary_operation_application",
+                  "operand_order": [
+                    "F_a6aef3cbef65ed27e8d8",
+                    "F_c1afe69a1f8fa25c1f13"
+                  ],
+                  "operator": "+",
+                  "version": 1
+                }
+              }
+            ],
+            "task_signature": "4690c9f31c20d7397c55b26b7905c742084af0954cd7af8edf2236333cbee0e3"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "kind": "public_binary_operation_application",
+            "operand_order": [
+              "F_a6aef3cbef65ed27e8d8",
+              "F_c1afe69a1f8fa25c1f13"
+            ],
+            "operator": "+",
+            "version": 1
+          },
+          "executable": {
+            "left_f": "F_a6aef3cbef65ed27e8d8",
+            "op": "binary_apply",
+            "operator": "+",
+            "right_f": "F_c1afe69a1f8fa25c1f13"
+          }
+        },
+        "metadata": {
+          "composition_rule": "public_binary_operation_application/1",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 128,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 128,
+              "minimum_verified_cases": 143
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 271,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "operation.binary.4c2c397575abc1e7e82c",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "cardinality": "value",
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "cardinality": "value",
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_4498b1a6b76423b16a06",
+        "operation_id": "operation.binary.2e12c19c4dfe56c4f26b",
+        "ports": [
+          {
+            "name": "nums",
+            "direction": "input",
+            "dtype": "sequence<int>",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "result",
+            "direction": "output",
+            "dtype": "int",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_0469fb712663a973ddfd",
+          "F_cac97282833230855ffa"
+        ],
+        "level": 6,
+        "formation_provenance": {
+          "source": "public operation composition",
+          "parents": [
+            "F_0469fb712663a973ddfd",
+            "F_cac97282833230855ffa"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "8f4bcca902b4642fbc5f5da2a35842f2cb8f53516dfe5441a736b65f01ed4ae1",
+          "details": {
+            "candidate_reference_digest": "f1426389d1e7504f4128d440219ad28ec0a7bc18dce97d71afaf4ca188ae9c7a",
+            "formation_path": [
+              {
+                "operation_bindings": {
+                  "left": "F_0469fb712663a973ddfd",
+                  "right": "F_cac97282833230855ffa"
+                },
+                "parents_at_formation": [
+                  "F_0469fb712663a973ddfd",
+                  "F_cac97282833230855ffa"
+                ],
+                "topology": {
+                  "kind": "public_binary_operation_application",
+                  "operand_order": [
+                    "F_0469fb712663a973ddfd",
+                    "F_cac97282833230855ffa"
+                  ],
+                  "operator": "+",
+                  "version": 1
+                }
+              }
+            ],
+            "task_signature": "4690c9f31c20d7397c55b26b7905c742084af0954cd7af8edf2236333cbee0e3"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "kind": "public_binary_operation_application",
+            "operand_order": [
+              "F_0469fb712663a973ddfd",
+              "F_cac97282833230855ffa"
+            ],
+            "operator": "+",
+            "version": 1
+          },
+          "executable": {
+            "left_f": "F_0469fb712663a973ddfd",
+            "op": "binary_apply",
+            "operator": "+",
+            "right_f": "F_cac97282833230855ffa"
+          }
+        },
+        "metadata": {
+          "composition_rule": "public_binary_operation_application/1",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 128,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 128,
+              "minimum_verified_cases": 143
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 271,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "operation.binary.2e12c19c4dfe56c4f26b",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "cardinality": "value",
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "cardinality": "value",
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_87a666b46ef0cfa2f32b",
+        "operation_id": "operation.binary.9dca2c99b16aaa9a6a41",
+        "ports": [
+          {
+            "name": "nums",
+            "direction": "input",
+            "dtype": "sequence<int>",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "result",
+            "direction": "output",
+            "dtype": "int",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_4498b1a6b76423b16a06",
+          "F_f621e7a403c970a7a71b"
+        ],
+        "level": 7,
+        "formation_provenance": {
+          "source": "public operation composition",
+          "parents": [
+            "F_4498b1a6b76423b16a06",
+            "F_f621e7a403c970a7a71b"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "64616e29cd6eb0cd0730952fbe5abb3e50c5ed79101ad6211dcad51d8e420da9",
+          "details": {
+            "candidate_reference_digest": "81a20cf376f5f4c5070117cc11eb50ddc72d510d6c15ae4dae0f5af467562c40",
+            "formation_path": [
+              {
+                "operation_bindings": {
+                  "left": "F_4498b1a6b76423b16a06",
+                  "right": "F_f621e7a403c970a7a71b"
+                },
+                "parents_at_formation": [
+                  "F_4498b1a6b76423b16a06",
+                  "F_f621e7a403c970a7a71b"
+                ],
+                "topology": {
+                  "kind": "public_binary_operation_application",
+                  "operand_order": [
+                    "F_4498b1a6b76423b16a06",
+                    "F_f621e7a403c970a7a71b"
+                  ],
+                  "operator": "-",
+                  "version": 1
+                }
+              }
+            ],
+            "task_signature": "4690c9f31c20d7397c55b26b7905c742084af0954cd7af8edf2236333cbee0e3"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "kind": "public_binary_operation_application",
+            "operand_order": [
+              "F_4498b1a6b76423b16a06",
+              "F_f621e7a403c970a7a71b"
+            ],
+            "operator": "-",
+            "version": 1
+          },
+          "executable": {
+            "left_f": "F_4498b1a6b76423b16a06",
+            "op": "binary_apply",
+            "operator": "-",
+            "right_f": "F_f621e7a403c970a7a71b"
+          }
+        },
+        "metadata": {
+          "composition_rule": "public_binary_operation_application/1",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 128,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 128,
+              "minimum_verified_cases": 143
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 271,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "operation.binary.9dca2c99b16aaa9a6a41",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "cardinality": "value",
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "cardinality": "value",
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_1e7d52d4a8b8c16e9a21",
+        "operation_id": "operation.binary.19d468b8ba78329de21b",
+        "ports": [
+          {
+            "name": "nums",
+            "direction": "input",
+            "dtype": "sequence<int>",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "result",
+            "direction": "output",
+            "dtype": "int",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_87a666b46ef0cfa2f32b",
+          "F_c1afe69a1f8fa25c1f13"
+        ],
+        "level": 8,
+        "formation_provenance": {
+          "source": "public operation composition",
+          "parents": [
+            "F_87a666b46ef0cfa2f32b",
+            "F_c1afe69a1f8fa25c1f13"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "e210fe543b91eb004f3137c4b5f4551b532b7530913e79b0cb7d0581a0a79579",
+          "details": {
+            "candidate_reference_digest": "3e0268e96efd53cc8a9564bbea64a6e5f1f8ef1b0dc466af7e7f2d3d6e9243f3",
+            "formation_path": [
+              {
+                "operation_bindings": {
+                  "left": "F_87a666b46ef0cfa2f32b",
+                  "right": "F_c1afe69a1f8fa25c1f13"
+                },
+                "parents_at_formation": [
+                  "F_87a666b46ef0cfa2f32b",
+                  "F_c1afe69a1f8fa25c1f13"
+                ],
+                "topology": {
+                  "kind": "public_binary_operation_application",
+                  "operand_order": [
+                    "F_87a666b46ef0cfa2f32b",
+                    "F_c1afe69a1f8fa25c1f13"
+                  ],
+                  "operator": "+",
+                  "version": 1
+                }
+              }
+            ],
+            "task_signature": "4690c9f31c20d7397c55b26b7905c742084af0954cd7af8edf2236333cbee0e3"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "kind": "public_binary_operation_application",
+            "operand_order": [
+              "F_87a666b46ef0cfa2f32b",
+              "F_c1afe69a1f8fa25c1f13"
+            ],
+            "operator": "+",
+            "version": 1
+          },
+          "executable": {
+            "left_f": "F_87a666b46ef0cfa2f32b",
+            "op": "binary_apply",
+            "operator": "+",
+            "right_f": "F_c1afe69a1f8fa25c1f13"
+          }
+        },
+        "metadata": {
+          "composition_rule": "public_binary_operation_application/1",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 128,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 128,
+              "minimum_verified_cases": 143
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 271,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "operation.binary.19d468b8ba78329de21b",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "cardinality": "value",
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "cardinality": "value",
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_c38d01daa2e8e1d08cef",
+        "operation_id": "operation.binary.57295e1b79a14e2f45a5",
+        "ports": [
+          {
+            "name": "nums",
+            "direction": "input",
+            "dtype": "sequence<int>",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "result",
+            "direction": "output",
+            "dtype": "int",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_0469fb712663a973ddfd",
+          "F_87a666b46ef0cfa2f32b"
+        ],
+        "level": 8,
+        "formation_provenance": {
+          "source": "public operation composition",
+          "parents": [
+            "F_0469fb712663a973ddfd",
+            "F_87a666b46ef0cfa2f32b"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "50a7c7f0dc40120d7d4c667d6716abf1a8c59a98db213cfc7d9447b945a75d23",
+          "details": {
+            "candidate_reference_digest": "73a280a0eaf3163cc78ab62433a5a5149987025f999efdca96737babfc4082eb",
+            "formation_path": [
+              {
+                "operation_bindings": {
+                  "left": "F_0469fb712663a973ddfd",
+                  "right": "F_87a666b46ef0cfa2f32b"
+                },
+                "parents_at_formation": [
+                  "F_0469fb712663a973ddfd",
+                  "F_87a666b46ef0cfa2f32b"
+                ],
+                "topology": {
+                  "kind": "public_binary_operation_application",
+                  "operand_order": [
+                    "F_0469fb712663a973ddfd",
+                    "F_87a666b46ef0cfa2f32b"
+                  ],
+                  "operator": "+",
+                  "version": 1
+                }
+              }
+            ],
+            "task_signature": "4690c9f31c20d7397c55b26b7905c742084af0954cd7af8edf2236333cbee0e3"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "kind": "public_binary_operation_application",
+            "operand_order": [
+              "F_0469fb712663a973ddfd",
+              "F_87a666b46ef0cfa2f32b"
+            ],
+            "operator": "+",
+            "version": 1
+          },
+          "executable": {
+            "left_f": "F_0469fb712663a973ddfd",
+            "op": "binary_apply",
+            "operator": "+",
+            "right_f": "F_87a666b46ef0cfa2f32b"
+          }
+        },
+        "metadata": {
+          "composition_rule": "public_binary_operation_application/1",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 128,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 128,
+              "minimum_verified_cases": 143
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 271,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "operation.binary.57295e1b79a14e2f45a5",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "cardinality": "value",
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "cardinality": "value",
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_1d0325fdc92c61208f06",
+        "operation_id": "operation.binary.7fe7065835132577affb",
+        "ports": [
+          {
+            "name": "nums",
+            "direction": "input",
+            "dtype": "sequence<int>",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "result",
+            "direction": "output",
+            "dtype": "int",
+            "role": "value",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "F_c38d01daa2e8e1d08cef",
+          "F_cac97282833230855ffa"
+        ],
+        "level": 9,
+        "formation_provenance": {
+          "source": "public operation composition",
+          "parents": [
+            "F_c38d01daa2e8e1d08cef",
+            "F_cac97282833230855ffa"
+          ],
+          "verifier": "External KV Promotion Gate",
+          "verification_digest": "9e3756101b11fac4548e5c6895b702b2f4f4e3621079d33c4004cd341aef34da",
+          "details": {
+            "candidate_reference_digest": "1739f0e698ad8b54cc669548b686bb388e69ef5f07bf51f4151a75e8753e4684",
+            "formation_path": [
+              {
+                "operation_bindings": {
+                  "left": "F_c38d01daa2e8e1d08cef",
+                  "right": "F_cac97282833230855ffa"
+                },
+                "parents_at_formation": [
+                  "F_c38d01daa2e8e1d08cef",
+                  "F_cac97282833230855ffa"
+                ],
+                "topology": {
+                  "kind": "public_binary_operation_application",
+                  "operand_order": [
+                    "F_c38d01daa2e8e1d08cef",
+                    "F_cac97282833230855ffa"
+                  ],
+                  "operator": "-",
+                  "version": 1
+                }
+              }
+            ],
+            "task_signature": "4690c9f31c20d7397c55b26b7905c742084af0954cd7af8edf2236333cbee0e3"
+          }
+        },
+        "kernel": {
+          "composition_topology": {
+            "kind": "public_binary_operation_application",
+            "operand_order": [
+              "F_c38d01daa2e8e1d08cef",
+              "F_cac97282833230855ffa"
+            ],
+            "operator": "-",
+            "version": 1
+          },
+          "executable": {
+            "left_f": "F_c38d01daa2e8e1d08cef",
+            "op": "binary_apply",
+            "operator": "-",
+            "right_f": "F_cac97282833230855ffa"
+          }
+        },
+        "metadata": {
+          "composition_rule": "public_binary_operation_application/1",
+          "consolidation_provenance": {
+            "equivalence_check": "no existing persistent identity collision",
+            "independent_formations": 2,
+            "promotion_rule": {
+              "cold_instance_cases_passed": 128,
+              "cold_instance_validation": true,
+              "executable": true,
+              "minimum_cold_instance_cases": 128,
+              "minimum_verified_cases": 143
+            },
+            "provenance_merge": "none required",
+            "reuse_count": 0,
+            "verification_passes": 271,
+            "x_leakage_status": "ZERO"
+          },
+          "exec_capability": "composed_algorithm",
+          "knowledge_status": "PERSISTENT",
+          "operation_identity": "operation.binary.7fe7065835132577affb",
+          "public_operation_interface": {
+            "binding_schema": [
+              {
+                "formal_slot": "SEQUENCE",
+                "port": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "formal_slot": "STATE",
+                "port": "$context.STATE",
+                "type": "runtime_state"
+              },
+              {
+                "formal_slot": "INDEX",
+                "port": "$context.INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "formal_slot": "BOOLEAN",
+                "port": "$context.BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "capability": "sequence<int> -> int",
+            "context_slots": [
+              {
+                "name": "STATE",
+                "type": "runtime_state"
+              },
+              {
+                "name": "INDEX",
+                "type": "optional<int>"
+              },
+              {
+                "name": "BOOLEAN",
+                "type": "optional<bool>"
+              }
+            ],
+            "execution_entry": "RecursiveFExecutor.execute",
+            "formal_slots": [
+              "SEQUENCE",
+              "STATE",
+              "INDEX",
+              "BOOLEAN"
+            ],
+            "kind": "operation",
+            "ports": [
+              {
+                "cardinality": "value",
+                "direction": "input",
+                "name": "nums",
+                "type": "sequence<int>"
+              },
+              {
+                "cardinality": "value",
+                "direction": "output",
+                "name": "result",
+                "type": "int"
+              }
+            ],
+            "protocol_version": "fsys-public-operation/1"
+          }
+        }
+      }
+    ],
+    "behavioral_equivalence": []
+  },
+  "hash": "2944bb9845e2ecb1113ac9a9d898fe0793e3c0aaaa543317852744d5c8142e7e"
+}

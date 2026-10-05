@@ -1,0 +1,119 @@
+{
+  "mode": "ACTIVE+FIRST_CLASS",
+  "task_id": "D07",
+  "status": "SEARCHED",
+  "source_library_hash": "fb3e8560e0b0c6e75d9b490b0fdbb6f5d3181768956b3cb190a4f62cf13ef0be",
+  "source_usage_digest": "e02322177214d03e212dd8f58ff7f595c9ecd5027368230e0eadedd3b05989b8",
+  "starting_branch_library_hash": "fb3e8560e0b0c6e75d9b490b0fdbb6f5d3181768956b3cb190a4f62cf13ef0be",
+  "historical_mask_ids": [],
+  "designed_chain_depth": 7,
+  "search_derivation_depth": 0,
+  "historical_levels_skipped": 7,
+  "newly_formed_goal_F_count": 0,
+  "direct_existing_F_hits": 1,
+  "reused_F_ids": [
+    "F_18d2c0c7673525cc9d3d"
+  ],
+  "reformed_F_ids": [],
+  "highest_reused_canonical_level": 10,
+  "target_root_id": "F_18d2c0c7673525cc9d3d",
+  "target_canonical_level": 10,
+  "target_candidate_kind": "operation_edge",
+  "target_candidate_rank": 14,
+  "target_parents": [
+    "F_1d0325fdc92c61208f06",
+    "F_f621e7a403c970a7a71b"
+  ],
+  "first_class_edge_audit": {
+    "is_target_operation_edge": true,
+    "retrieved_from_provider": true,
+    "selected_before_execution": true,
+    "public_interface_present": true,
+    "public_formal_slots": [
+      "SEQUENCE",
+      "STATE",
+      "INDEX",
+      "BOOLEAN"
+    ],
+    "bound_slots": [
+      "BOOLEAN",
+      "INDEX",
+      "SEQUENCE",
+      "STATE"
+    ],
+    "bound_only_public_formal_slots": true,
+    "preselection_sensitive_fields_observed": [],
+    "passes": true
+  },
+  "semantic_verification": {
+    "python_examples_equal": true,
+    "python_holdout_equal": true,
+    "javascript_equal": true,
+    "cold_candidate_equal": true,
+    "runtime_call_depth_max": 10,
+    "python_output_digest": "27d527d47087a7430933c10b9b12daa494131dfc1bb2a4eb3003d98077573750",
+    "oracle_output_digest": "27d527d47087a7430933c10b9b12daa494131dfc1bb2a4eb3003d98077573750"
+  },
+  "semantic_equal": true,
+  "chain_path": {
+    "status": "CHAIN_QUALIFIED",
+    "expected_child_semantics": [
+      "D06",
+      "B06"
+    ],
+    "matched_parent_ids": [
+      "F_1d0325fdc92c61208f06",
+      "F_f621e7a403c970a7a71b"
+    ],
+    "parents": [
+      "F_1d0325fdc92c61208f06",
+      "F_f621e7a403c970a7a71b"
+    ],
+    "admission_independent": true
+  },
+  "runtime_call_depth": 10,
+  "metrics": {
+    "candidate_attempts": 14,
+    "binding_combinations": 14,
+    "composition_expansions": 0,
+    "intermediate_materializations": 0,
+    "verification_attempts": 18,
+    "training_verification_attempts": 14,
+    "holdout_verification_attempts": 1,
+    "operation_retrieval_count": 14,
+    "recipe_candidate_count": 0,
+    "search_wall_seconds": 2.0613123000366613,
+    "search_calls": 1
+  },
+  "wall_seconds": 8.303269399912097,
+  "fallback": {
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hit_F": null,
+    "retired_ids_available": [],
+    "fallback_total_work": {},
+    "stage_count": 0
+  },
+  "exposure": {
+    "global_executable_pool": 31,
+    "lifecycle_exposed_executable_pool": 31,
+    "lifecycle_exposed_structure_pool": 33,
+    "lifecycle_exposed_public_executable_pool": 21,
+    "goal_compatible_pool": 14,
+    "retired_goal_compatible_pool": 0,
+    "view": "ACTIVE"
+  },
+  "after_mask_exposure": {
+    "global_executable_pool": 31,
+    "lifecycle_exposed_executable_pool": 31,
+    "lifecycle_exposed_structure_pool": 33,
+    "lifecycle_exposed_public_executable_pool": 21,
+    "goal_compatible_pool": 14,
+    "retired_goal_compatible_pool": 0,
+    "view": "ACTIVE"
+  },
+  "reformation_stages": [],
+  "admission_receipt_count": 0,
+  "admission_pass_count": 0
+}

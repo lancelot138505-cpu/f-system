@@ -1,0 +1,121 @@
+{
+  "mode": "FULL+EXPANDED",
+  "task_id": "D01",
+  "status": "PASS",
+  "source_library_hash": "57af49403979078ffd879df7eb1f083ad753fbae40a1941e1427315bea04bfb7",
+  "source_usage_digest": "b762f69c5eaee6d9e6c916a154e5aefcc2c53added3c01acb1f4c0067e73b437",
+  "starting_branch_library_hash": "ba5816a1c9514df7f1acd1a5caabd572224bceeb2e291729367c8ba6963435ab",
+  "historical_mask_ids": [
+    "F_0469fb712663a973ddfd"
+  ],
+  "designed_chain_depth": 1,
+  "search_derivation_depth": 1,
+  "historical_levels_skipped": 0,
+  "newly_formed_goal_F_count": 1,
+  "direct_existing_F_hits": 0,
+  "reused_F_ids": [],
+  "reformed_F_ids": [
+    "F_0469fb712663a973ddfd"
+  ],
+  "highest_reused_canonical_level": null,
+  "target_root_id": "F_0469fb712663a973ddfd",
+  "target_canonical_level": 5,
+  "target_candidate_kind": "public_binary_operation_composition",
+  "target_candidate_rank": 24,
+  "target_parents": [
+    "F_a6aef3cbef65ed27e8d8",
+    "F_c1afe69a1f8fa25c1f13"
+  ],
+  "semantic_verification": {
+    "python_examples_equal": true,
+    "python_holdout_equal": true,
+    "javascript_equal": true,
+    "cold_candidate_equal": true,
+    "root_executed_for_all_cases": true,
+    "runtime_call_depth_max": 5,
+    "python_output_digest": "f2db36214e170c71d212f741e2cb2053d5d8076d36dfb8f1f86ea52623cc7e6a",
+    "oracle_output_digest": "f2db36214e170c71d212f741e2cb2053d5d8076d36dfb8f1f86ea52623cc7e6a"
+  },
+  "semantic_equal": true,
+  "target_chain_path": {
+    "status": "CHAIN_QUALIFIED",
+    "expected_child_semantics": [
+      "B01",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      "F_c1afe69a1f8fa25c1f13",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "parents": [
+      "F_a6aef3cbef65ed27e8d8",
+      "F_c1afe69a1f8fa25c1f13"
+    ],
+    "admission_independent": true
+  },
+  "runtime_call_depth": 5,
+  "metrics": {
+    "candidate_attempts": 48,
+    "binding_combinations": 48,
+    "composition_expansions": 164,
+    "intermediate_materializations": 58,
+    "verification_attempts": 55,
+    "training_verification_attempts": 48,
+    "holdout_verification_attempts": 2,
+    "operation_retrieval_count": 14,
+    "recipe_candidate_count": 24,
+    "search_wall_seconds": 1.6671041001100093,
+    "search_calls": 2
+  },
+  "wall_seconds": 4.976989299990237,
+  "fallback": {
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hit_F": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  "exposure": {
+    "global_executable_pool": 25,
+    "lifecycle_exposed_executable_pool": 25,
+    "lifecycle_exposed_structure_pool": 27,
+    "lifecycle_exposed_public_executable_pool": 15,
+    "goal_compatible_pool": 8,
+    "retired_goal_compatible_pool": 0,
+    "view": "FULL"
+  },
+  "after_mask_exposure": {
+    "global_executable_pool": 24,
+    "lifecycle_exposed_executable_pool": 24,
+    "lifecycle_exposed_structure_pool": 26,
+    "lifecycle_exposed_public_executable_pool": 14,
+    "goal_compatible_pool": 7,
+    "retired_goal_compatible_pool": 0,
+    "view": "FULL"
+  },
+  "reformation_stages": [
+    {
+      "task_id": "D01",
+      "status": "ADMITTED",
+      "selected_root_id": "F_0469fb712663a973ddfd",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 5,
+      "parents": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_c1afe69a1f8fa25c1f13"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    }
+  ],
+  "admission_receipt_count": 1,
+  "admission_pass_count": 1
+}

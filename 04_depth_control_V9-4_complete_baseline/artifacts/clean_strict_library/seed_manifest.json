@@ -1,0 +1,22 @@
+{
+  "starting_library": "data\\library_seed.json",
+  "sha256": "5ea44a0ac094923fccdd4db12a5174aba878732ff7bccbf2e9bbfa127900dd3b",
+  "structure_count": 12,
+  "structure_ids": [
+    "F_exec_assign",
+    "F_exec_compare",
+    "F_exec_conditional_update",
+    "F_exec_range_loop",
+    "F_exec_return",
+    "F_exec_sequence",
+    "F_topology_adjacent_event_count",
+    "F_topology_adjacent_state_run",
+    "f_identifier_preserve",
+    "f_literal_preserve",
+    "f_operator_map",
+    "f_source_field_access"
+  ],
+  "new_target_roots_preloaded": 0,
+  "composer_receives_only_instance_examples_and_public_contract": true,
+  "input_examples_disjoint_from_previous_expansion_and_acquisition_runs": true
+}

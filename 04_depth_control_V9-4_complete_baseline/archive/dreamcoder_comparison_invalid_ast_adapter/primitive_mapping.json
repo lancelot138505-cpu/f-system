@@ -1,0 +1,911 @@
+{
+  "status": "FROZEN",
+  "official_repository": "https://github.com/ellisk42/ec",
+  "official_commit": "cb0e63f5c33cd2de360b791038b0f5272750270e",
+  "domain": "DreamCoder List Processing / Lucas-old / common",
+  "official_primitive_count": 22,
+  "f_semantic_leaf_count": 22,
+  "semantic_leaf_set_equal_by_name": true,
+  "semantic_spot_check_count": 22,
+  "all_semantic_spot_checks_equal": true,
+  "primitive_semantics_spot_checks": [
+    {
+      "name": "map",
+      "dreamcoder": {
+        "ok": true,
+        "value": [
+          2,
+          3,
+          4
+        ]
+      },
+      "f_system": {
+        "ok": true,
+        "value": [
+          2,
+          3,
+          4
+        ]
+      },
+      "equivalent": true
+    },
+    {
+      "name": "unfold",
+      "dreamcoder": {
+        "ok": true,
+        "value": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "f_system": {
+        "ok": true,
+        "value": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "equivalent": true
+    },
+    {
+      "name": "range",
+      "dreamcoder": {
+        "ok": true,
+        "value": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "f_system": {
+        "ok": true,
+        "value": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "equivalent": true
+    },
+    {
+      "name": "index",
+      "dreamcoder": {
+        "ok": true,
+        "value": 5
+      },
+      "f_system": {
+        "ok": true,
+        "value": 5
+      },
+      "equivalent": true
+    },
+    {
+      "name": "fold",
+      "dreamcoder": {
+        "ok": true,
+        "value": 6
+      },
+      "f_system": {
+        "ok": true,
+        "value": 6
+      },
+      "equivalent": true
+    },
+    {
+      "name": "length",
+      "dreamcoder": {
+        "ok": true,
+        "value": 3
+      },
+      "f_system": {
+        "ok": true,
+        "value": 3
+      },
+      "equivalent": true
+    },
+    {
+      "name": "if",
+      "dreamcoder": {
+        "ok": true,
+        "value": 7
+      },
+      "f_system": {
+        "ok": true,
+        "value": 7
+      },
+      "equivalent": true
+    },
+    {
+      "name": "+",
+      "dreamcoder": {
+        "ok": true,
+        "value": 12
+      },
+      "f_system": {
+        "ok": true,
+        "value": 12
+      },
+      "equivalent": true
+    },
+    {
+      "name": "-",
+      "dreamcoder": {
+        "ok": true,
+        "value": 7
+      },
+      "f_system": {
+        "ok": true,
+        "value": 7
+      },
+      "equivalent": true
+    },
+    {
+      "name": "empty",
+      "dreamcoder": {
+        "ok": true,
+        "value": []
+      },
+      "f_system": {
+        "ok": true,
+        "value": []
+      },
+      "equivalent": true
+    },
+    {
+      "name": "cons",
+      "dreamcoder": {
+        "ok": true,
+        "value": [
+          0,
+          1,
+          2
+        ]
+      },
+      "f_system": {
+        "ok": true,
+        "value": [
+          0,
+          1,
+          2
+        ]
+      },
+      "equivalent": true
+    },
+    {
+      "name": "car",
+      "dreamcoder": {
+        "ok": true,
+        "value": 8
+      },
+      "f_system": {
+        "ok": true,
+        "value": 8
+      },
+      "equivalent": true
+    },
+    {
+      "name": "cdr",
+      "dreamcoder": {
+        "ok": true,
+        "value": [
+          9
+        ]
+      },
+      "f_system": {
+        "ok": true,
+        "value": [
+          9
+        ]
+      },
+      "equivalent": true
+    },
+    {
+      "name": "empty?",
+      "dreamcoder": {
+        "ok": true,
+        "value": true
+      },
+      "f_system": {
+        "ok": true,
+        "value": true
+      },
+      "equivalent": true
+    },
+    {
+      "name": "0",
+      "dreamcoder": {
+        "ok": true,
+        "value": 0
+      },
+      "f_system": {
+        "ok": true,
+        "value": 0
+      },
+      "equivalent": true
+    },
+    {
+      "name": "1",
+      "dreamcoder": {
+        "ok": true,
+        "value": 1
+      },
+      "f_system": {
+        "ok": true,
+        "value": 1
+      },
+      "equivalent": true
+    },
+    {
+      "name": "*",
+      "dreamcoder": {
+        "ok": true,
+        "value": 32
+      },
+      "f_system": {
+        "ok": true,
+        "value": 32
+      },
+      "equivalent": true
+    },
+    {
+      "name": "mod",
+      "dreamcoder": {
+        "ok": true,
+        "value": 2
+      },
+      "f_system": {
+        "ok": true,
+        "value": 2
+      },
+      "equivalent": true
+    },
+    {
+      "name": "gt?",
+      "dreamcoder": {
+        "ok": true,
+        "value": true
+      },
+      "f_system": {
+        "ok": true,
+        "value": true
+      },
+      "equivalent": true
+    },
+    {
+      "name": "eq?",
+      "dreamcoder": {
+        "ok": true,
+        "value": true
+      },
+      "f_system": {
+        "ok": true,
+        "value": true
+      },
+      "equivalent": true
+    },
+    {
+      "name": "is-prime",
+      "dreamcoder": {
+        "ok": true,
+        "value": true
+      },
+      "f_system": {
+        "ok": true,
+        "value": true
+      },
+      "equivalent": true
+    },
+    {
+      "name": "is-square",
+      "dreamcoder": {
+        "ok": true,
+        "value": true
+      },
+      "f_system": {
+        "ok": true,
+        "value": true
+      },
+      "equivalent": true
+    }
+  ],
+  "generic_f_grammar_slots_are_not_semantic_primitives": 11,
+  "mappings": [
+    {
+      "dreamcoder_primitive": "map",
+      "dreamcoder_captured_type": "(t0 -> t1) -> list(t0) -> list(t1)",
+      "curried_arity": 2,
+      "input_output_type": "(t0 -> t1) -> list(t0) -> list(t1)",
+      "f_leaf_id": "f_list_map",
+      "f_operation_id": "list.primitive.map",
+      "f_type_scheme": {
+        "arrow": [
+          {
+            "arrow": [
+              {
+                "var": "a0"
+              },
+              {
+                "var": "a1"
+              }
+            ]
+          },
+          {
+            "arrow": [
+              {
+                "list": {
+                  "var": "a0"
+                }
+              },
+              {
+                "list": {
+                  "var": "a1"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Apply a unary function elementwise and return a list.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "unfold",
+      "dreamcoder_captured_type": "t0 -> (t0 -> bool) -> (t0 -> t1) -> (t0 -> t0) -> list(t1)",
+      "curried_arity": 4,
+      "input_output_type": "t0 -> (t0 -> bool) -> (t0 -> t1) -> (t0 -> t0) -> list(t1)",
+      "f_leaf_id": "f_list_unfold",
+      "f_operation_id": "list.primitive.unfold",
+      "f_type_scheme": {
+        "arrow": [
+          {
+            "var": "a0"
+          },
+          {
+            "arrow": [
+              {
+                "arrow": [
+                  {
+                    "var": "a0"
+                  },
+                  "bool"
+                ]
+              },
+              {
+                "arrow": [
+                  {
+                    "arrow": [
+                      {
+                        "var": "a0"
+                      },
+                      {
+                        "var": "a1"
+                      }
+                    ]
+                  },
+                  {
+                    "arrow": [
+                      {
+                        "arrow": [
+                          {
+                            "var": "a0"
+                          },
+                          {
+                            "var": "a0"
+                          }
+                        ]
+                      },
+                      {
+                        "list": {
+                          "var": "a1"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Starting at seed, emit then advance until predicate is true; the official recursion cap is 50.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "range",
+      "dreamcoder_captured_type": "int -> list(int)",
+      "curried_arity": 1,
+      "input_output_type": "int -> list(int)",
+      "f_leaf_id": "f_list_range",
+      "f_operation_id": "list.primitive.range",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          {
+            "list": "int"
+          }
+        ]
+      },
+      "semantic_description": "Return [0, n); official implementation rejects n >= 100 and returns [] for n <= 0.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "index",
+      "dreamcoder_captured_type": "int -> list(t0) -> t0",
+      "curried_arity": 2,
+      "input_output_type": "int -> list(t0) -> t0",
+      "f_leaf_id": "f_list_index",
+      "f_operation_id": "list.primitive.index",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          {
+            "arrow": [
+              {
+                "list": {
+                  "var": "a0"
+                }
+              },
+              {
+                "var": "a0"
+              }
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Return list[index] using Python indexing semantics.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "fold",
+      "dreamcoder_captured_type": "list(t0) -> t1 -> (t0 -> t1 -> t1) -> t1",
+      "curried_arity": 3,
+      "input_output_type": "list(t0) -> t1 -> (t0 -> t1 -> t1) -> t1",
+      "f_leaf_id": "f_list_fold",
+      "f_operation_id": "list.primitive.fold",
+      "f_type_scheme": {
+        "arrow": [
+          {
+            "list": {
+              "var": "a0"
+            }
+          },
+          {
+            "arrow": [
+              {
+                "var": "a1"
+              },
+              {
+                "arrow": [
+                  {
+                    "arrow": [
+                      {
+                        "var": "a0"
+                      },
+                      {
+                        "arrow": [
+                          {
+                            "var": "a1"
+                          },
+                          {
+                            "var": "a1"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "var": "a1"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Right fold: fold(xs, z, f) applies f(x)(acc) from the final element toward the first.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "length",
+      "dreamcoder_captured_type": "list(t0) -> int",
+      "curried_arity": 1,
+      "input_output_type": "list(t0) -> int",
+      "f_leaf_id": "f_list_length",
+      "f_operation_id": "list.primitive.length",
+      "f_type_scheme": {
+        "arrow": [
+          {
+            "list": {
+              "var": "a0"
+            }
+          },
+          "int"
+        ]
+      },
+      "semantic_description": "Return the list length.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "if",
+      "dreamcoder_captured_type": "bool -> t0 -> t0 -> t0",
+      "curried_arity": 3,
+      "input_output_type": "bool -> t0 -> t0 -> t0",
+      "f_leaf_id": "f_list_if",
+      "f_operation_id": "list.primitive.if",
+      "f_type_scheme": {
+        "arrow": [
+          "bool",
+          {
+            "arrow": [
+              {
+                "var": "a0"
+              },
+              {
+                "arrow": [
+                  {
+                    "var": "a0"
+                  },
+                  {
+                    "var": "a0"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Return the second argument when the Boolean condition is true, otherwise the third.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "+",
+      "dreamcoder_captured_type": "int -> int -> int",
+      "curried_arity": 2,
+      "input_output_type": "int -> int -> int",
+      "f_leaf_id": "f_list_plus",
+      "f_operation_id": "list.primitive.+",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          {
+            "arrow": [
+              "int",
+              "int"
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Curried integer addition.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "-",
+      "dreamcoder_captured_type": "int -> int -> int",
+      "curried_arity": 2,
+      "input_output_type": "int -> int -> int",
+      "f_leaf_id": "f_list_minus",
+      "f_operation_id": "list.primitive.-",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          {
+            "arrow": [
+              "int",
+              "int"
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Curried integer subtraction: first argument minus second.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "empty",
+      "dreamcoder_captured_type": "list(t0)",
+      "curried_arity": 0,
+      "input_output_type": "list(t0)",
+      "f_leaf_id": "f_list_empty",
+      "f_operation_id": "list.primitive.empty",
+      "f_type_scheme": {
+        "list": {
+          "var": "a0"
+        }
+      },
+      "semantic_description": "The polymorphic empty list constant.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "cons",
+      "dreamcoder_captured_type": "t0 -> list(t0) -> list(t0)",
+      "curried_arity": 2,
+      "input_output_type": "t0 -> list(t0) -> list(t0)",
+      "f_leaf_id": "f_list_cons",
+      "f_operation_id": "list.primitive.cons",
+      "f_type_scheme": {
+        "arrow": [
+          {
+            "var": "a0"
+          },
+          {
+            "arrow": [
+              {
+                "list": {
+                  "var": "a0"
+                }
+              },
+              {
+                "list": {
+                  "var": "a0"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Prepend one value to a list.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "car",
+      "dreamcoder_captured_type": "list(t0) -> t0",
+      "curried_arity": 1,
+      "input_output_type": "list(t0) -> t0",
+      "f_leaf_id": "f_list_car",
+      "f_operation_id": "list.primitive.car",
+      "f_type_scheme": {
+        "arrow": [
+          {
+            "list": {
+              "var": "a0"
+            }
+          },
+          {
+            "var": "a0"
+          }
+        ]
+      },
+      "semantic_description": "Return the first list element.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "cdr",
+      "dreamcoder_captured_type": "list(t0) -> list(t0)",
+      "curried_arity": 1,
+      "input_output_type": "list(t0) -> list(t0)",
+      "f_leaf_id": "f_list_cdr",
+      "f_operation_id": "list.primitive.cdr",
+      "f_type_scheme": {
+        "arrow": [
+          {
+            "list": {
+              "var": "a0"
+            }
+          },
+          {
+            "list": {
+              "var": "a0"
+            }
+          }
+        ]
+      },
+      "semantic_description": "Return the list tail after its first element.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "empty?",
+      "dreamcoder_captured_type": "list(t0) -> bool",
+      "curried_arity": 1,
+      "input_output_type": "list(t0) -> bool",
+      "f_leaf_id": "f_list_empty_test",
+      "f_operation_id": "list.primitive.empty?",
+      "f_type_scheme": {
+        "arrow": [
+          {
+            "list": {
+              "var": "a0"
+            }
+          },
+          "bool"
+        ]
+      },
+      "semantic_description": "Return whether the list is empty.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "0",
+      "dreamcoder_captured_type": "int",
+      "curried_arity": 0,
+      "input_output_type": "int",
+      "f_leaf_id": "f_list_const_0",
+      "f_operation_id": "list.primitive.0",
+      "f_type_scheme": "int",
+      "semantic_description": "Integer constant zero.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "1",
+      "dreamcoder_captured_type": "int",
+      "curried_arity": 0,
+      "input_output_type": "int",
+      "f_leaf_id": "f_list_const_1",
+      "f_operation_id": "list.primitive.1",
+      "f_type_scheme": "int",
+      "semantic_description": "Integer constant one.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "*",
+      "dreamcoder_captured_type": "int -> int -> int",
+      "curried_arity": 2,
+      "input_output_type": "int -> int -> int",
+      "f_leaf_id": "f_list_multiply",
+      "f_operation_id": "list.primitive.*",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          {
+            "arrow": [
+              "int",
+              "int"
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Curried integer multiplication.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "mod",
+      "dreamcoder_captured_type": "int -> int -> int",
+      "curried_arity": 2,
+      "input_output_type": "int -> int -> int",
+      "f_leaf_id": "f_list_mod",
+      "f_operation_id": "list.primitive.mod",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          {
+            "arrow": [
+              "int",
+              "int"
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Curried integer remainder using Python modulo semantics.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "gt?",
+      "dreamcoder_captured_type": "int -> int -> bool",
+      "curried_arity": 2,
+      "input_output_type": "int -> int -> bool",
+      "f_leaf_id": "f_list_greater_than",
+      "f_operation_id": "list.primitive.gt?",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          {
+            "arrow": [
+              "int",
+              "bool"
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Curried integer greater-than comparison.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "eq?",
+      "dreamcoder_captured_type": "int -> int -> bool",
+      "curried_arity": 2,
+      "input_output_type": "int -> int -> bool",
+      "f_leaf_id": "f_list_equal",
+      "f_operation_id": "list.primitive.eq?",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          {
+            "arrow": [
+              "int",
+              "bool"
+            ]
+          }
+        ]
+      },
+      "semantic_description": "Curried integer equality comparison.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "is-prime",
+      "dreamcoder_captured_type": "int -> bool",
+      "curried_arity": 1,
+      "input_output_type": "int -> bool",
+      "f_leaf_id": "f_list_is_prime",
+      "f_operation_id": "list.primitive.is-prime",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          "bool"
+        ]
+      },
+      "semantic_description": "Membership in DreamCoder's finite listed prime set through 199.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    },
+    {
+      "dreamcoder_primitive": "is-square",
+      "dreamcoder_captured_type": "int -> bool",
+      "curried_arity": 1,
+      "input_output_type": "int -> bool",
+      "f_leaf_id": "f_list_is_square",
+      "f_operation_id": "list.primitive.is-square",
+      "f_type_scheme": {
+        "arrow": [
+          "int",
+          "bool"
+        ]
+      },
+      "semantic_description": "Return int(sqrt(n)) ** 2 == n, matching the official implementation including its input-domain behavior.",
+      "semantics_source": "official common primitive value in pinned listPrimitives.py; F adapter primitive_value()",
+      "spot_check_equivalent": true,
+      "spot_check_case": "primitive-matched application recorded in primitive_semantics_spot_checks"
+    }
+  ],
+  "semantic_limitations": [
+    "The upstream DreamCoder _unfold implementation references free variable f; the runtime bridge binds the intended emit argument h. The F adapter uses the same repaired semantics. This deviation is disclosed and makes the baseline not fully reproduced.",
+    "The is-prime primitive is the official finite membership table, not a general primality procedure."
+  ]
+}

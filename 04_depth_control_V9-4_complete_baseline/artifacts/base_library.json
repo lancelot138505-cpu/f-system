@@ -1,0 +1,614 @@
+{
+  "library": {
+    "format": "fsys-9.0",
+    "version": 10,
+    "structures": [
+      {
+        "kind": "leaf",
+        "structure_id": "f_and_cases",
+        "operation_id": "f_and_cases",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "G"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [],
+        "level": 0,
+        "formation_provenance": {
+          "source": "frozen primitive rule",
+          "parents": [],
+          "verifier": "structural primitive rules",
+          "verification_digest": "f9746ebe804a5e26d8cc80f478cf066984f2043376209ec38763327370143450",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.primitive"
+        },
+        "metadata": {}
+      },
+      {
+        "kind": "leaf",
+        "structure_id": "f_and_construct",
+        "operation_id": "f_and_construct",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "A",
+            "B"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [],
+        "level": 0,
+        "formation_provenance": {
+          "source": "frozen primitive rule",
+          "parents": [],
+          "verifier": "structural primitive rules",
+          "verification_digest": "f9746ebe804a5e26d8cc80f478cf066984f2043376209ec38763327370143450",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.primitive"
+        },
+        "metadata": {}
+      },
+      {
+        "kind": "leaf",
+        "structure_id": "f_exact",
+        "operation_id": "f_exact",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "G"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [],
+        "level": 0,
+        "formation_provenance": {
+          "source": "frozen primitive rule",
+          "parents": [],
+          "verifier": "structural primitive rules",
+          "verification_digest": "f9746ebe804a5e26d8cc80f478cf066984f2043376209ec38763327370143450",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.primitive"
+        },
+        "metadata": {}
+      },
+      {
+        "kind": "leaf",
+        "structure_id": "f_imp_apply",
+        "operation_id": "f_imp_apply",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "G"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [],
+        "level": 0,
+        "formation_provenance": {
+          "source": "frozen primitive rule",
+          "parents": [],
+          "verifier": "structural primitive rules",
+          "verification_digest": "f9746ebe804a5e26d8cc80f478cf066984f2043376209ec38763327370143450",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.primitive"
+        },
+        "metadata": {}
+      },
+      {
+        "kind": "leaf",
+        "structure_id": "f_imp_intro",
+        "operation_id": "f_imp_intro",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "A",
+            "B"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [],
+        "level": 0,
+        "formation_provenance": {
+          "source": "frozen primitive rule",
+          "parents": [],
+          "verifier": "structural primitive rules",
+          "verification_digest": "f9746ebe804a5e26d8cc80f478cf066984f2043376209ec38763327370143450",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.primitive"
+        },
+        "metadata": {}
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_and_make",
+        "operation_id": "whole_F_proof",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "A",
+            "B"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "frozen verified foundation",
+          "parents": [
+            "f_imp_intro",
+            "f_imp_intro",
+            "f_and_construct",
+            "f_exact",
+            "f_exact"
+          ],
+          "verifier": "lean",
+          "verification_digest": "e17147036fdd72f70abdd56aa86f70229ba2da422edcbb71eb5761db46fe79e1",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.certificate"
+        },
+        "metadata": {
+          "call_plan": [
+            {
+              "id": "f_imp_intro",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_imp_intro",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_and_construct",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_exact",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_exact",
+              "kind": "PRIMITIVE"
+            }
+          ],
+          "proof_source": "theorem lib_F_and_make (slot_A slot_B : Prop) (premise_0 : slot_A) (premise_1 : slot_B) : (slot_A ∧ slot_B) := by\n  exact (show (slot_A → (slot_B → (slot_A ∧ slot_B))) from by\n      intro h1\n      intro h2\n      constructor\n      exact h1\n      exact h2\n  ) premise_0 premise_1",
+          "schema_json": "{\"args\": [{\"args\": [\"A\"], \"op\": \"Slot\"}, {\"args\": [{\"args\": [\"B\"], \"op\": \"Slot\"}, {\"args\": [{\"args\": [\"A\"], \"op\": \"Slot\"}, {\"args\": [\"B\"], \"op\": \"Slot\"}], \"op\": \"And\"}], \"op\": \"Imp\"}], \"op\": \"Imp\"}"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_and_swap",
+        "operation_id": "whole_F_proof",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "A",
+            "B"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "frozen verified foundation",
+          "parents": [
+            "f_imp_intro",
+            "f_and_cases",
+            "f_and_construct",
+            "f_exact",
+            "f_exact"
+          ],
+          "verifier": "lean",
+          "verification_digest": "ab796e72aea3e09c3d314095568d0025ec07d3c4fed2a476e0c5164b2a0a6f2f",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.certificate"
+        },
+        "metadata": {
+          "call_plan": [
+            {
+              "id": "f_imp_intro",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_and_cases",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_and_construct",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_exact",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_exact",
+              "kind": "PRIMITIVE"
+            }
+          ],
+          "proof_source": "theorem lib_F_and_swap (slot_A slot_B : Prop) (premise_0 : (slot_A ∧ slot_B)) : (slot_B ∧ slot_A) := by\n  exact (show ((slot_A ∧ slot_B) → (slot_B ∧ slot_A)) from by\n      intro h1\n      cases h1 with\n      | intro h2 h3 =>\n          constructor\n          exact h3\n          exact h2\n  ) premise_0",
+          "schema_json": "{\"args\": [{\"args\": [{\"args\": [\"A\"], \"op\": \"Slot\"}, {\"args\": [\"B\"], \"op\": \"Slot\"}], \"op\": \"And\"}, {\"args\": [{\"args\": [\"B\"], \"op\": \"Slot\"}, {\"args\": [\"A\"], \"op\": \"Slot\"}], \"op\": \"And\"}], \"op\": \"Imp\"}"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_identity",
+        "operation_id": "whole_F_proof",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "A"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_imp_intro",
+          "f_exact"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "frozen verified foundation",
+          "parents": [
+            "f_imp_intro",
+            "f_exact"
+          ],
+          "verifier": "lean",
+          "verification_digest": "e8c97abc5f95adb7e7209e70be45043bdb2fd9fad46c8ab3b79dbcaede0e67bf",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.certificate"
+        },
+        "metadata": {
+          "call_plan": [
+            {
+              "id": "f_imp_intro",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_exact",
+              "kind": "PRIMITIVE"
+            }
+          ],
+          "proof_source": "theorem lib_F_identity (slot_A : Prop) (premise_0 : slot_A) : slot_A := by\n  exact (show (slot_A → slot_A) from by\n      intro h1\n      exact h1\n  ) premise_0",
+          "schema_json": "{\"args\": [{\"args\": [\"A\"], \"op\": \"Slot\"}, {\"args\": [\"A\"], \"op\": \"Slot\"}], \"op\": \"Imp\"}"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_imp_chain",
+        "operation_id": "whole_F_proof",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "A",
+            "B",
+            "C"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "frozen verified foundation",
+          "parents": [
+            "f_imp_intro",
+            "f_imp_intro",
+            "f_imp_intro",
+            "f_imp_apply",
+            "f_imp_apply",
+            "f_exact"
+          ],
+          "verifier": "lean",
+          "verification_digest": "271c8d182783ba5b6a9c8c3431c179064a07f4d0f93b0ba4f84a269e9ef63c56",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.certificate"
+        },
+        "metadata": {
+          "call_plan": [
+            {
+              "id": "f_imp_intro",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_imp_intro",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_imp_intro",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_imp_apply",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_imp_apply",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_exact",
+              "kind": "PRIMITIVE"
+            }
+          ],
+          "proof_source": "theorem lib_F_imp_chain (slot_A slot_B slot_C : Prop) (premise_0 : (slot_A → slot_B)) (premise_1 : (slot_B → slot_C)) (premise_2 : slot_A) : slot_C := by\n  exact (show ((slot_A → slot_B) → ((slot_B → slot_C) → (slot_A → slot_C))) from by\n      intro h1\n      intro h2\n      intro h3\n      apply h2\n      apply h1\n      exact h3\n  ) premise_0 premise_1 premise_2",
+          "schema_json": "{\"args\": [{\"args\": [{\"args\": [\"A\"], \"op\": \"Slot\"}, {\"args\": [\"B\"], \"op\": \"Slot\"}], \"op\": \"Imp\"}, {\"args\": [{\"args\": [{\"args\": [\"B\"], \"op\": \"Slot\"}, {\"args\": [\"C\"], \"op\": \"Slot\"}], \"op\": \"Imp\"}, {\"args\": [{\"args\": [\"A\"], \"op\": \"Slot\"}, {\"args\": [\"C\"], \"op\": \"Slot\"}], \"op\": \"Imp\"}], \"op\": \"Imp\"}], \"op\": \"Imp\"}"
+        }
+      },
+      {
+        "kind": "composite",
+        "structure_id": "F_modus_ponens",
+        "operation_id": "whole_F_proof",
+        "ports": [
+          {
+            "name": "state_in",
+            "direction": "input",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          },
+          {
+            "name": "state_out",
+            "direction": "output",
+            "dtype": "proof_state",
+            "role": "context_and_goals",
+            "cardinality": 1,
+            "constraints": {}
+          }
+        ],
+        "alpha_schema": {
+          "binding_slots": [
+            "A",
+            "B"
+          ],
+          "continuous_dims": 0,
+          "routing_dims": 0
+        },
+        "parents": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "level": 1,
+        "formation_provenance": {
+          "source": "frozen verified foundation",
+          "parents": [
+            "f_imp_intro",
+            "f_imp_intro",
+            "f_imp_apply",
+            "f_exact"
+          ],
+          "verifier": "lean",
+          "verification_digest": "e455787cdf77b168c056de330e80a228e7ea080f5e0d13323c007c15bbf7d44f",
+          "details": {}
+        },
+        "kernel": {
+          "reference": "lean.certificate"
+        },
+        "metadata": {
+          "call_plan": [
+            {
+              "id": "f_imp_intro",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_imp_intro",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_imp_apply",
+              "kind": "PRIMITIVE"
+            },
+            {
+              "id": "f_exact",
+              "kind": "PRIMITIVE"
+            }
+          ],
+          "proof_source": "theorem lib_F_modus_ponens (slot_A slot_B : Prop) (premise_0 : (slot_A → slot_B)) (premise_1 : slot_A) : slot_B := by\n  exact (show ((slot_A → slot_B) → (slot_A → slot_B)) from by\n      intro h1\n      intro h2\n      apply h1\n      exact h2\n  ) premise_0 premise_1",
+          "schema_json": "{\"args\": [{\"args\": [{\"args\": [\"A\"], \"op\": \"Slot\"}, {\"args\": [\"B\"], \"op\": \"Slot\"}], \"op\": \"Imp\"}, {\"args\": [{\"args\": [\"A\"], \"op\": \"Slot\"}, {\"args\": [\"B\"], \"op\": \"Slot\"}], \"op\": \"Imp\"}], \"op\": \"Imp\"}"
+        }
+      }
+    ],
+    "behavioral_equivalence": []
+  },
+  "hash": "68c2d69d31f73b3695eca41887aab8d5707f70b32c4f18e4ddf662d12622a7b6"
+}

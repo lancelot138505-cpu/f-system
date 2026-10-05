@@ -1,0 +1,50 @@
+{
+  "status": "FROZEN",
+  "domain": "DreamCoder List Processing / Lucas-old / common",
+  "f_representation": "simply typed lambda-calculus expression AST",
+  "formal_slots": [
+    {
+      "name": "lambda",
+      "child_types": "one body whose inferred type is the result of a -> b",
+      "contract": "bind one input and extend the de Bruijn environment",
+      "dreamcoder_expression": "Abstraction"
+    },
+    {
+      "name": "application",
+      "child_types": "function a -> b and argument a; result b by unification",
+      "contract": "compose any type-compatible expressions",
+      "dreamcoder_expression": "Application"
+    },
+    {
+      "name": "bound_variable",
+      "child_types": "one in-scope de Bruijn index with unifiable type",
+      "contract": "reference only a lexically bound variable",
+      "dreamcoder_expression": "Index"
+    },
+    {
+      "name": "semantic_function_reference",
+      "child_types": "one visible primitive or admitted composite F with its type scheme",
+      "contract": "call only an existing capability; no task-specific operator is introduced",
+      "dreamcoder_expression": "Primitive (or a learned grammar production after accumulation)"
+    }
+  ],
+  "slot_capacity": 11,
+  "slot_semantics": "Each emitted AST node consumes one generic production slot; slots contain syntax only, not values, examples, goals, or task-specific operators.",
+  "global_type_rule": "Hindley-Milner-style polymorphic type instantiation and application unification; ill-typed ASTs are rejected.",
+  "public_contract": {
+    "kind": "operation",
+    "formal_input": "arg0",
+    "result": "result",
+    "alpha_binding": "the runtime batch of visible input instances; never persisted in F"
+  },
+  "design_basis": "General expression constructors required to represent the same typed lambda-calculus programs used by DreamCoder's list grammar.",
+  "goal_specific_names_or_rules": [],
+  "f_initial_leaf_counts": {
+    "semantic_dreamcoder_mapped_leaves": 22,
+    "generic_syntax_production_slots": 11
+  },
+  "limits": {
+    "maximum_ast_actions": 11,
+    "baseline_max_depth": 11
+  }
+}

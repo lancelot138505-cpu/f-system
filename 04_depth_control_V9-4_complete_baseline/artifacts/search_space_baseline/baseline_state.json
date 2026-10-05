@@ -1,0 +1,260 @@
+{
+  "library_file": "D:\\codex下载\\2026-09-17\\v1\\V2-3\\V9-4_python_algorithm_library_growth\\artifacts\\clean_strict_library\\library_final.json",
+  "library_file_sha256": "a418fb29bcf1db35c87f01e0a08842e0bcca93433d0305c3dfcc953e220ad007",
+  "library_persistent_hash": "f097307e1697f10794e483f1907ac0de92ddc8eba195937b1a87662fa1ee58b0",
+  "usage_file": "D:\\codex下载\\2026-09-17\\v1\\V2-3\\V9-4_python_algorithm_library_growth\\artifacts\\clean_strict_library\\usage_final.json",
+  "usage_file_sha256": "b3615b9bbc41cb29b89518d0deb42335bc9f456872134ba5a0d192e323c8f18e",
+  "usage_snapshot_digest": "5f4de014ae6c56ac54e023a3ab207033518ca4ebfc2fa26033952b4992adf25a",
+  "library_stats": {
+    "L_all": 26,
+    "L_exec": 24,
+    "registry_active_structures": 26,
+    "registry_retired_structures": 0,
+    "active_executable_F": 24,
+    "retired_executable_F": 0,
+    "topology_templates": 2,
+    "equivalence_classes": 26,
+    "non_singleton_equivalence_classes": 0,
+    "explicit_equivalence_links": 0,
+    "max_canonical_level": 4,
+    "exact_parent_pass": 20,
+    "exact_parent_fail": 0,
+    "persistent_hash": "f097307e1697f10794e483f1907ac0de92ddc8eba195937b1a87662fa1ee58b0",
+    "structure_ids": [
+      "F_44204b70253aa1408a91",
+      "F_4e10ab1d0d80eb74a490",
+      "F_50bf23b4448cb8a0cb80",
+      "F_58eac04f390c93643c95",
+      "F_93302b6b7d8bd69c4f8c",
+      "F_a6aef3cbef65ed27e8d8",
+      "F_b0eed8df520ae260af57",
+      "F_bd1c8b86e4a28d068f0b",
+      "F_c1afe69a1f8fa25c1f13",
+      "F_cac97282833230855ffa",
+      "F_cbaa441e9f4fad8bc76e",
+      "F_dcfedcf1d26444553cdb",
+      "F_exec_assign",
+      "F_exec_compare",
+      "F_exec_conditional_update",
+      "F_exec_range_loop",
+      "F_exec_return",
+      "F_exec_sequence",
+      "F_f621e7a403c970a7a71b",
+      "F_f6a9887dd22cb41d2cbf",
+      "F_topology_adjacent_event_count",
+      "F_topology_adjacent_state_run",
+      "f_identifier_preserve",
+      "f_literal_preserve",
+      "f_operator_map",
+      "f_source_field_access"
+    ]
+  },
+  "global_provider_full_public_pool": 14,
+  "global_provider_active_public_pool": 14,
+  "sequence_int_to_int_full_goal_pool": 7,
+  "sequence_int_to_int_active_goal_pool": 7,
+  "no_automatic_low_usage_retire": true,
+  "no_automatic_equivalence_detection": true,
+  "all_singleton_classes_active": true,
+  "initial_equivalence_classes": [
+    [
+      "F_44204b70253aa1408a91"
+    ],
+    [
+      "F_4e10ab1d0d80eb74a490"
+    ],
+    [
+      "F_50bf23b4448cb8a0cb80"
+    ],
+    [
+      "F_58eac04f390c93643c95"
+    ],
+    [
+      "F_93302b6b7d8bd69c4f8c"
+    ],
+    [
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    [
+      "F_b0eed8df520ae260af57"
+    ],
+    [
+      "F_bd1c8b86e4a28d068f0b"
+    ],
+    [
+      "F_c1afe69a1f8fa25c1f13"
+    ],
+    [
+      "F_cac97282833230855ffa"
+    ],
+    [
+      "F_cbaa441e9f4fad8bc76e"
+    ],
+    [
+      "F_dcfedcf1d26444553cdb"
+    ],
+    [
+      "F_exec_assign"
+    ],
+    [
+      "F_exec_compare"
+    ],
+    [
+      "F_exec_conditional_update"
+    ],
+    [
+      "F_exec_range_loop"
+    ],
+    [
+      "F_exec_return"
+    ],
+    [
+      "F_exec_sequence"
+    ],
+    [
+      "F_f621e7a403c970a7a71b"
+    ],
+    [
+      "F_f6a9887dd22cb41d2cbf"
+    ],
+    [
+      "F_topology_adjacent_event_count"
+    ],
+    [
+      "F_topology_adjacent_state_run"
+    ],
+    [
+      "f_identifier_preserve"
+    ],
+    [
+      "f_literal_preserve"
+    ],
+    [
+      "f_operator_map"
+    ],
+    [
+      "f_source_field_access"
+    ]
+  ],
+  "initial_usage_preferred": {
+    "F_44204b70253aa1408a91": "F_44204b70253aa1408a91",
+    "F_4e10ab1d0d80eb74a490": "F_4e10ab1d0d80eb74a490",
+    "F_50bf23b4448cb8a0cb80": "F_50bf23b4448cb8a0cb80",
+    "F_58eac04f390c93643c95": "F_58eac04f390c93643c95",
+    "F_93302b6b7d8bd69c4f8c": "F_93302b6b7d8bd69c4f8c",
+    "F_a6aef3cbef65ed27e8d8": "F_a6aef3cbef65ed27e8d8",
+    "F_b0eed8df520ae260af57": "F_b0eed8df520ae260af57",
+    "F_bd1c8b86e4a28d068f0b": "F_bd1c8b86e4a28d068f0b",
+    "F_c1afe69a1f8fa25c1f13": "F_c1afe69a1f8fa25c1f13",
+    "F_cac97282833230855ffa": "F_cac97282833230855ffa",
+    "F_cbaa441e9f4fad8bc76e": "F_cbaa441e9f4fad8bc76e",
+    "F_dcfedcf1d26444553cdb": "F_dcfedcf1d26444553cdb",
+    "F_exec_assign": "F_exec_assign",
+    "F_exec_compare": "F_exec_compare",
+    "F_exec_conditional_update": "F_exec_conditional_update",
+    "F_exec_range_loop": "F_exec_range_loop",
+    "F_exec_return": "F_exec_return",
+    "F_exec_sequence": "F_exec_sequence",
+    "F_f621e7a403c970a7a71b": "F_f621e7a403c970a7a71b",
+    "F_f6a9887dd22cb41d2cbf": "F_f6a9887dd22cb41d2cbf",
+    "F_topology_adjacent_event_count": "F_topology_adjacent_event_count",
+    "F_topology_adjacent_state_run": "F_topology_adjacent_state_run",
+    "f_identifier_preserve": "f_identifier_preserve",
+    "f_literal_preserve": "f_literal_preserve",
+    "f_operator_map": "f_operator_map",
+    "f_source_field_access": "f_source_field_access"
+  },
+  "foundation_seed_semantic_matches": {
+    "B01": {
+      "semantics": "longest strictly increasing contiguous run",
+      "oracle_holdout_cases": 128,
+      "matching_persistent_F": [
+        {
+          "structure_id": "F_c1afe69a1f8fa25c1f13",
+          "operation_id": "candidate.root.bf14293db0397d5b773d",
+          "canonical_level": 4
+        }
+      ],
+      "present_in_clean_seed": true
+    },
+    "B02": {
+      "semantics": "longest strictly decreasing contiguous run",
+      "oracle_holdout_cases": 128,
+      "matching_persistent_F": [
+        {
+          "structure_id": "F_a6aef3cbef65ed27e8d8",
+          "operation_id": "candidate.root.1481e14369100cb3eae3",
+          "canonical_level": 4
+        }
+      ],
+      "present_in_clean_seed": true
+    },
+    "B04": {
+      "semantics": "number of adjacent increases",
+      "oracle_holdout_cases": 128,
+      "matching_persistent_F": [
+        {
+          "structure_id": "F_cac97282833230855ffa",
+          "operation_id": "candidate.root.39cce534cfb338fff0c8",
+          "canonical_level": 4
+        }
+      ],
+      "present_in_clean_seed": true
+    },
+    "B06": {
+      "semantics": "number of adjacent equal pairs",
+      "oracle_holdout_cases": 128,
+      "matching_persistent_F": [
+        {
+          "structure_id": "F_f621e7a403c970a7a71b",
+          "operation_id": "candidate.root.1858c15afed07a197d6b",
+          "canonical_level": 4
+        }
+      ],
+      "present_in_clean_seed": true
+    }
+  },
+  "all_task_foundation_functions_present": true,
+  "initial_goal_exposure": {
+    "FULL": {
+      "global_executable_pool": 24,
+      "lifecycle_exposed_executable_pool": 24,
+      "lifecycle_exposed_structure_pool": 26,
+      "lifecycle_exposed_public_executable_pool": 14,
+      "goal_compatible_pool": 7,
+      "retired_goal_compatible_pool": 0,
+      "goal_compatible_ids": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_bd1c8b86e4a28d068f0b",
+        "F_c1afe69a1f8fa25c1f13",
+        "F_cac97282833230855ffa",
+        "F_dcfedcf1d26444553cdb",
+        "F_f621e7a403c970a7a71b",
+        "F_f6a9887dd22cb41d2cbf"
+      ],
+      "retired_goal_compatible_ids": [],
+      "view": "FULL",
+      "historical_mask_ids": []
+    },
+    "ACTIVE": {
+      "global_executable_pool": 24,
+      "lifecycle_exposed_executable_pool": 24,
+      "lifecycle_exposed_structure_pool": 26,
+      "lifecycle_exposed_public_executable_pool": 14,
+      "goal_compatible_pool": 7,
+      "retired_goal_compatible_pool": 0,
+      "goal_compatible_ids": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_bd1c8b86e4a28d068f0b",
+        "F_c1afe69a1f8fa25c1f13",
+        "F_cac97282833230855ffa",
+        "F_dcfedcf1d26444553cdb",
+        "F_f621e7a403c970a7a71b",
+        "F_f6a9887dd22cb41d2cbf"
+      ],
+      "retired_goal_compatible_ids": [],
+      "view": "ACTIVE",
+      "historical_mask_ids": []
+    }
+  }
+}

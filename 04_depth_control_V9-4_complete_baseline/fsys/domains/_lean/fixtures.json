@@ -1,0 +1,3678 @@
+{
+  "raw": {
+    "structures": [
+      {
+        "structure_id": "f_imp_intro",
+        "kind": "primitive",
+        "operation_id": "imp_intro",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "f_exact",
+        "kind": "primitive",
+        "operation_id": "exact",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "f_imp_apply",
+        "kind": "primitive",
+        "operation_id": "imp_apply",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "f_and_construct",
+        "kind": "primitive",
+        "operation_id": "and_construct",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "f_and_cases",
+        "kind": "primitive",
+        "operation_id": "and_cases",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_identity",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_modus_ponens",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_and_make",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_and_swap",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_imp_chain",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      }
+    ],
+    "formation_provenance": [
+      {
+        "event_id": "4de69ade7ae5daf8b0e2fee3fb4027062e9cc6ef79e18abdf7380693b8d3b3e8",
+        "structure_id": "f_imp_intro",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "imp_intro",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "edaf186559382be97273d60deab7317e0ae8a28f06fe6dc0026e30bc497c08d5",
+        "structure_id": "f_exact",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "exact",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "17c1388dbc1063f99aed53bce456a9581b6f804e1a34594fee571014b6686f1b",
+        "structure_id": "f_imp_apply",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "imp_apply",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "f9e266009a21297404c4db28112eea530572aee71fe438ee9ff6be420d5c75bb",
+        "structure_id": "f_and_construct",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "and_construct",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "2cf89a771aa62b7fc15b082578d7086e5b5ff324d8e87fb258a514cc13962aa4",
+        "structure_id": "f_and_cases",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "and_cases",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "5fee3e02fdc82f203f487a7c69f2888316c6c70ccfd406066d6bafcc2bec9dcd",
+        "structure_id": "F_identity",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      },
+      {
+        "event_id": "83c48a878baf280ed827700ae85af91053bcac70feed62666c20d547019355a1",
+        "structure_id": "F_modus_ponens",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      },
+      {
+        "event_id": "e06cd31cf309c0b128ba9433c1c8e131e710a03e01308b9161619c2acd9a6eb8",
+        "structure_id": "F_and_make",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      },
+      {
+        "event_id": "3d19b3a5a670535a0c06411c10dc88ba3742a3961d0479090a27eeedb6e1e3ff",
+        "structure_id": "F_and_swap",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      },
+      {
+        "event_id": "5fd85a2f10c78868603c933491f8ec9ba92acc5605c369cddb68e366b43ab46e",
+        "structure_id": "F_imp_chain",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      }
+    ],
+    "execution_provenance": [
+      {
+        "execution_id": "38d7565c4bfdc4c001dc6af47f7d86b7d2b7b0af9b45f6b332023a6f286f5b42",
+        "structure_id": "F_identity",
+        "instance_id": "test_id_1",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "exact"
+        ],
+        "success": true
+      },
+      {
+        "execution_id": "5228837a1cec937c255e3b8ad0958abe76bebcfe991ae575bd80303746e5c327",
+        "structure_id": "F_identity",
+        "instance_id": "test_id_2",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "exact"
+        ],
+        "success": true
+      },
+      {
+        "execution_id": "0a4260bf002f4dc6138a3060ca1f09e238c257c0c4df77da9d42c4fdc8307a08",
+        "structure_id": "F_modus_ponens",
+        "instance_id": "test_mp_1",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "intro",
+          "apply",
+          "exact"
+        ],
+        "success": true
+      },
+      {
+        "execution_id": "a3e8d69db34cfe28d53a13293b6912821e06b809177320372c6cbf499aaf6822",
+        "structure_id": "F_modus_ponens",
+        "instance_id": "test_mp_2",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "intro",
+          "apply",
+          "exact"
+        ],
+        "success": true
+      },
+      {
+        "execution_id": "b4ea9f4dafa0d7f8bbad16b5d6dbc468da8b45202137bb7cc5ce408bfb22eafd",
+        "structure_id": "F_and_make",
+        "instance_id": "test_and_make_1",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "intro",
+          "constructor",
+          "exact",
+          "exact"
+        ],
+        "success": true
+      },
+      {
+        "execution_id": "001545b4dd346045fe7c229f6ff87915adf053ee8a4cb937dde722eba0455fc2",
+        "structure_id": "F_and_make",
+        "instance_id": "test_and_make_2",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "intro",
+          "constructor",
+          "exact",
+          "exact"
+        ],
+        "success": true
+      },
+      {
+        "execution_id": "c57135b9ca7d5b08a1f74e19366befd89b377c0be453113385db74aa82d41748",
+        "structure_id": "F_and_swap",
+        "instance_id": "test_and_swap_1",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "cases",
+          "constructor",
+          "exact",
+          "exact"
+        ],
+        "success": true
+      },
+      {
+        "execution_id": "999430e415be46d04bf6a6661e23125c0318f2219de1e8cc312bc9b06422c1c0",
+        "structure_id": "F_and_swap",
+        "instance_id": "test_and_swap_2",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "cases",
+          "constructor",
+          "exact",
+          "exact"
+        ],
+        "success": true
+      },
+      {
+        "execution_id": "ce3a46ac8cdac54d6a92289f652666eabe462d7c17e639e13dae70b203260b83",
+        "structure_id": "F_imp_chain",
+        "instance_id": "test_chain_1",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "intro",
+          "intro",
+          "apply",
+          "apply",
+          "exact"
+        ],
+        "success": true
+      },
+      {
+        "execution_id": "b1ce675579f22c2628b26503d693eb8acb4adda25c0d713e36684da115b26d8c",
+        "structure_id": "F_imp_chain",
+        "instance_id": "test_chain_2",
+        "binding": {
+          "values": [],
+          "slot_ids": []
+        },
+        "executed_at": "external-alpha",
+        "result": null,
+        "trace": [
+          "intro",
+          "intro",
+          "intro",
+          "apply",
+          "apply",
+          "exact"
+        ],
+        "success": true
+      }
+    ],
+    "behavioral_equivalence": []
+  },
+  "patterns": {
+    "F_identity": {
+      "op": "Imp",
+      "args": [
+        {
+          "op": "Slot",
+          "args": [
+            "A"
+          ]
+        },
+        {
+          "op": "Slot",
+          "args": [
+            "A"
+          ]
+        }
+      ]
+    },
+    "F_modus_ponens": {
+      "op": "Imp",
+      "args": [
+        {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "B"
+              ]
+            }
+          ]
+        },
+        {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "B"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "F_and_make": {
+      "op": "Imp",
+      "args": [
+        {
+          "op": "Slot",
+          "args": [
+            "A"
+          ]
+        },
+        {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "B"
+              ]
+            },
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "F_and_swap": {
+      "op": "Imp",
+      "args": [
+        {
+          "op": "And",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "B"
+              ]
+            }
+          ]
+        },
+        {
+          "op": "And",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "B"
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "F_imp_chain": {
+      "op": "Imp",
+      "args": [
+        {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "B"
+              ]
+            }
+          ]
+        },
+        {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "C"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "C"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tasks": [
+    [
+      "C1",
+      "F_chain3",
+      "(P → Q) → (Q → R) → (R → S) → P → S",
+      [
+        "((A ∧ B) → C) → (C → D) → (D → E) → (A ∧ B) → E",
+        "((A → B) → C) → (C → (D ∧ E)) → ((D ∧ E) → F) → (A → B) → F"
+      ],
+      "((J ∧ K) → L) → (L → (M ∧ N)) → ((M ∧ N) → O) → (J ∧ K) → O"
+    ],
+    [
+      "C2",
+      "F_nested_and_make",
+      "P → Q → R → (P ∧ Q) ∧ R",
+      [
+        "(A → B) → C → D → ((A → B) ∧ C) ∧ D",
+        "(A ∧ B) → (C → D) → E → ((A ∧ B) ∧ (C → D)) ∧ E"
+      ],
+      "(J → K) → (L ∧ M) → N → ((J → K) ∧ (L ∧ M)) ∧ N"
+    ],
+    [
+      "C3",
+      "F_nested_swap",
+      "(P ∧ Q) ∧ R → R ∧ (Q ∧ P)",
+      [
+        "((A → B) ∧ C) ∧ D → D ∧ (C ∧ (A → B))",
+        "((A ∧ B) ∧ (C ∧ D)) ∧ E → E ∧ ((C ∧ D) ∧ (A ∧ B))"
+      ],
+      "((J → K) ∧ (L ∧ M)) ∧ N → N ∧ ((L ∧ M) ∧ (J → K))"
+    ],
+    [
+      "C4",
+      "F_chain4",
+      "(P → Q) → (Q → R) → (R → S) → (S → T) → P → T",
+      [
+        "((A ∧ B) → C) → (C → D) → (D → E) → (E → F) → (A ∧ B) → F",
+        "((A → B) → C) → (C → (D ∧ E)) → ((D ∧ E) → F) → (F → G) → (A → B) → G"
+      ],
+      "((J → K) → L) → (L → M) → (M → (N ∧ O)) → ((N ∧ O) → P) → (J → K) → P"
+    ],
+    [
+      "PROJ_LEFT",
+      "F_and_left",
+      "P ∧ Q → P",
+      [
+        "(A → B) ∧ C → (A → B)",
+        "(A ∧ B) ∧ C → (A ∧ B)"
+      ],
+      "(J → K) ∧ (L ∧ M) → (J → K)"
+    ],
+    [
+      "PROJ_RIGHT",
+      "F_and_right",
+      "P ∧ Q → Q",
+      [
+        "(A → B) ∧ C → C",
+        "(A ∧ B) ∧ (C → D) → (C → D)"
+      ],
+      "(J → K) ∧ (L ∧ M) → (L ∧ M)"
+    ]
+  ],
+  "full": {
+    "structures": [
+      {
+        "structure_id": "f_imp_intro",
+        "kind": "primitive",
+        "operation_id": "imp_intro",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "f_exact",
+        "kind": "primitive",
+        "operation_id": "exact",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "f_imp_apply",
+        "kind": "primitive",
+        "operation_id": "imp_apply",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "f_and_construct",
+        "kind": "primitive",
+        "operation_id": "and_construct",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "f_and_cases",
+        "kind": "primitive",
+        "operation_id": "and_cases",
+        "parent_ids": [],
+        "slot_schema": [
+          "slot_A",
+          "slot_B"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_identity",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_modus_ponens",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_and_make",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_and_swap",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_imp_chain",
+        "kind": "composite",
+        "operation_id": "ordered_composition",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "prop_slots:external_alpha"
+        ],
+        "creation_version": "V7.5"
+      },
+      {
+        "structure_id": "F_chain3",
+        "kind": "composite",
+        "operation_id": "whole_F_residual_plan",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_imp_chain",
+          "F_modus_ponens"
+        ],
+        "slot_schema": [
+          "s0",
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "creation_version": "V8.2"
+      },
+      {
+        "structure_id": "F_nested_and_make",
+        "kind": "composite",
+        "operation_id": "whole_F_residual_plan",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_and_make",
+          "F_and_make"
+        ],
+        "slot_schema": [
+          "s0",
+          "s1",
+          "s2"
+        ],
+        "creation_version": "V8.2"
+      },
+      {
+        "structure_id": "F_nested_swap",
+        "kind": "composite",
+        "operation_id": "whole_F_residual_plan",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "F_and_make",
+          "F_and_swap"
+        ],
+        "slot_schema": [
+          "s0",
+          "s1",
+          "s2"
+        ],
+        "creation_version": "V8.2"
+      },
+      {
+        "structure_id": "F_chain4",
+        "kind": "composite",
+        "operation_id": "whole_F_residual_plan",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_chain3",
+          "F_modus_ponens"
+        ],
+        "slot_schema": [
+          "s0",
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ],
+        "creation_version": "V8.2"
+      },
+      {
+        "structure_id": "F_and_left",
+        "kind": "composite",
+        "operation_id": "whole_F_residual_plan",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "s0",
+          "s1"
+        ],
+        "creation_version": "V8.2"
+      },
+      {
+        "structure_id": "F_and_right",
+        "kind": "composite",
+        "operation_id": "whole_F_residual_plan",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "slot_schema": [
+          "s0",
+          "s1"
+        ],
+        "creation_version": "V8.2"
+      }
+    ],
+    "formation_provenance": [
+      {
+        "event_id": "4de69ade7ae5daf8b0e2fee3fb4027062e9cc6ef79e18abdf7380693b8d3b3e8",
+        "structure_id": "f_imp_intro",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "imp_intro",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "edaf186559382be97273d60deab7317e0ae8a28f06fe6dc0026e30bc497c08d5",
+        "structure_id": "f_exact",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "exact",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "17c1388dbc1063f99aed53bce456a9581b6f804e1a34594fee571014b6686f1b",
+        "structure_id": "f_imp_apply",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "imp_apply",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "f9e266009a21297404c4db28112eea530572aee71fe438ee9ff6be420d5c75bb",
+        "structure_id": "f_and_construct",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "and_construct",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "2cf89a771aa62b7fc15b082578d7086e5b5ff324d8e87fb258a514cc13962aa4",
+        "structure_id": "f_and_cases",
+        "source": "primitive_acquisition",
+        "parent_ids": [],
+        "operation_id": "and_cases",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "ACQUIRED"
+      },
+      {
+        "event_id": "5fee3e02fdc82f203f487a7c69f2888316c6c70ccfd406066d6bafcc2bec9dcd",
+        "structure_id": "F_identity",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      },
+      {
+        "event_id": "83c48a878baf280ed827700ae85af91053bcac70feed62666c20d547019355a1",
+        "structure_id": "F_modus_ponens",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      },
+      {
+        "event_id": "e06cd31cf309c0b128ba9433c1c8e131e710a03e01308b9161619c2acd9a6eb8",
+        "structure_id": "F_and_make",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      },
+      {
+        "event_id": "3d19b3a5a670535a0c06411c10dc88ba3742a3961d0479090a27eeedb6e1e3ff",
+        "structure_id": "F_and_swap",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      },
+      {
+        "event_id": "5fd85a2f10c78868603c933491f8ec9ba92acc5605c369cddb68e366b43ab46e",
+        "structure_id": "F_imp_chain",
+        "source": "manually specified operation path after primitive formation",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "operation_id": "ordered_composition",
+        "created_at": "2026-09-24T02:54:52.895331+00:00",
+        "verification": "VERIFIED"
+      },
+      {
+        "structure_id": "F_chain3",
+        "source": "selector residual completion",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_imp_chain",
+          "F_modus_ponens"
+        ],
+        "verification": "FORMATION_SUCCESS",
+        "validation_record_hash": "6eab6971e25bf1a85cafc50c85c73a8f3fffa4b2ae252f628fcb39d4c16360a2",
+        "lean_source_hash": "cf6923283858e9204d807e67d21db49852d9f938a9fb503ae837dfc0e0fafd91"
+      },
+      {
+        "structure_id": "F_nested_and_make",
+        "source": "selector residual completion",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_and_make",
+          "F_and_make"
+        ],
+        "verification": "FORMATION_SUCCESS",
+        "validation_record_hash": "ea273c9c0b0414b15a0cba2b3193bb58a32f131cc15d52593b0b469741af3953",
+        "lean_source_hash": "4596e9c6f952388c763a0078e6d2dfad23d05c20727dcf58cd60d86522e2a840"
+      },
+      {
+        "structure_id": "F_nested_swap",
+        "source": "selector residual completion",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "F_and_make",
+          "F_and_swap"
+        ],
+        "verification": "FORMATION_SUCCESS",
+        "validation_record_hash": "4f7b65daf7212c6134861898e702ca928a0aa1862abf4e4bce6638d60c9ae721",
+        "lean_source_hash": "4fe8fb050876263d399cc23bc19c30f3ed8c8a7e99a884e9540b1ed0acddf0c8"
+      },
+      {
+        "structure_id": "F_chain4",
+        "source": "selector residual completion",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_chain3",
+          "F_modus_ponens"
+        ],
+        "verification": "FORMATION_SUCCESS",
+        "validation_record_hash": "c291bfff0049281eac3fe8a4fec6377673cb81ab3765d73770d939f58acd42e8",
+        "lean_source_hash": "3d7cd8d727a99587078b3074127b189567dcce62a850e6ad8a19db16a6ca5b11"
+      },
+      {
+        "structure_id": "F_and_left",
+        "source": "selector residual completion",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "verification": "FORMATION_SUCCESS",
+        "validation_record_hash": "afca86cf2c2841b1995fb7dc6e6fc47ceb55649cd0d550a8ba7fc1d51fe9626f",
+        "lean_source_hash": "99f25cadcb5e95e18e6154897d1f97b5492f0cecb45a86953cb44d0cfe105a93"
+      },
+      {
+        "structure_id": "F_and_right",
+        "source": "selector residual completion",
+        "parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "verification": "FORMATION_SUCCESS",
+        "validation_record_hash": "2a8a0961ab59d9cf11cde4684b287c5a14345499f79c4366ad6c9674fa4f7202",
+        "lean_source_hash": "5080d37226a79cbbe731a93cf5c4ae269eb6b52119a7ea9b302e529bffa1ce39"
+      }
+    ],
+    "bodies": {
+      "F_identity": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_exact"
+          }
+        ]
+      },
+      "F_modus_ponens": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_apply"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_exact"
+          }
+        ]
+      },
+      "F_and_make": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                },
+                {
+                  "op": "And",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "B"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_and_construct"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_exact"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_exact"
+          }
+        ]
+      },
+      "F_and_swap": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_and_cases"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_and_construct"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_exact"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_exact"
+          }
+        ]
+      },
+      "F_imp_chain": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "B"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "C"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "C"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_apply"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_apply"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_exact"
+          }
+        ]
+      },
+      "F_chain3": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s0"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s1"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Imp",
+                      "args": [
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s2"
+                          ]
+                        },
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "op": "Imp",
+                      "args": [
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s0"
+                          ]
+                        },
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s3"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "CALL_F",
+            "id": "F_imp_chain",
+            "alpha": {
+              "slot_C": {
+                "op": "Slot",
+                "args": [
+                  "s3"
+                ]
+              },
+              "slot_A": {
+                "op": "Slot",
+                "args": [
+                  "s1"
+                ]
+              },
+              "slot_B": {
+                "op": "Slot",
+                "args": [
+                  "s2"
+                ]
+              }
+            },
+            "known": {
+              "0": 1,
+              "1": 2
+            }
+          },
+          {
+            "kind": "CALL_F",
+            "id": "F_modus_ponens",
+            "alpha": {
+              "slot_B": {
+                "op": "Slot",
+                "args": [
+                  "s1"
+                ]
+              },
+              "slot_A": {
+                "op": "Slot",
+                "args": [
+                  "s0"
+                ]
+              }
+            },
+            "known": {
+              "0": 0,
+              "1": 3
+            }
+          }
+        ]
+      },
+      "F_nested_and_make": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "s0"
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                },
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s2"
+                      ]
+                    },
+                    {
+                      "op": "And",
+                      "args": [
+                        {
+                          "op": "And",
+                          "args": [
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s0"
+                              ]
+                            },
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "CALL_F",
+            "id": "F_and_make",
+            "alpha": {
+              "slot_A": {
+                "op": "And",
+                "args": [
+                  {
+                    "op": "Slot",
+                    "args": [
+                      "s0"
+                    ]
+                  },
+                  {
+                    "op": "Slot",
+                    "args": [
+                      "s1"
+                    ]
+                  }
+                ]
+              },
+              "slot_B": {
+                "op": "Slot",
+                "args": [
+                  "s2"
+                ]
+              }
+            },
+            "known": {
+              "1": 2
+            }
+          },
+          {
+            "kind": "CALL_F",
+            "id": "F_and_make",
+            "alpha": {
+              "slot_A": {
+                "op": "Slot",
+                "args": [
+                  "s0"
+                ]
+              },
+              "slot_B": {
+                "op": "Slot",
+                "args": [
+                  "s1"
+                ]
+              }
+            },
+            "known": {
+              "0": 0,
+              "1": 1
+            }
+          }
+        ]
+      },
+      "F_nested_swap": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "And",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s0"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s2"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s2"
+                  ]
+                },
+                {
+                  "op": "And",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s1"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_and_cases",
+            "hyp": 0
+          },
+          {
+            "kind": "CALL_F",
+            "id": "F_and_make",
+            "alpha": {
+              "slot_A": {
+                "op": "Slot",
+                "args": [
+                  "s2"
+                ]
+              },
+              "slot_B": {
+                "op": "And",
+                "args": [
+                  {
+                    "op": "Slot",
+                    "args": [
+                      "s1"
+                    ]
+                  },
+                  {
+                    "op": "Slot",
+                    "args": [
+                      "s0"
+                    ]
+                  }
+                ]
+              }
+            },
+            "known": {
+              "0": 1
+            }
+          },
+          {
+            "kind": "CALL_F",
+            "id": "F_and_swap",
+            "alpha": {
+              "slot_B": {
+                "op": "Slot",
+                "args": [
+                  "s1"
+                ]
+              },
+              "slot_A": {
+                "op": "Slot",
+                "args": [
+                  "s0"
+                ]
+              }
+            },
+            "known": {
+              "0": 0
+            }
+          }
+        ]
+      },
+      "F_chain4": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s0"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s1"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Imp",
+                      "args": [
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s2"
+                          ]
+                        },
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "op": "Imp",
+                      "args": [
+                        {
+                          "op": "Imp",
+                          "args": [
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s3"
+                              ]
+                            },
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s4"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "op": "Imp",
+                          "args": [
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s0"
+                              ]
+                            },
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s4"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "CALL_F",
+            "id": "F_chain3",
+            "alpha": {
+              "slot_s3": {
+                "op": "Slot",
+                "args": [
+                  "s4"
+                ]
+              },
+              "slot_s0": {
+                "op": "Slot",
+                "args": [
+                  "s1"
+                ]
+              },
+              "slot_s1": {
+                "op": "Slot",
+                "args": [
+                  "s2"
+                ]
+              },
+              "slot_s2": {
+                "op": "Slot",
+                "args": [
+                  "s3"
+                ]
+              }
+            },
+            "known": {
+              "0": 1,
+              "1": 2,
+              "2": 3
+            }
+          },
+          {
+            "kind": "CALL_F",
+            "id": "F_modus_ponens",
+            "alpha": {
+              "slot_B": {
+                "op": "Slot",
+                "args": [
+                  "s1"
+                ]
+              },
+              "slot_A": {
+                "op": "Slot",
+                "args": [
+                  "s0"
+                ]
+              }
+            },
+            "known": {
+              "0": 0,
+              "1": 4
+            }
+          }
+        ]
+      },
+      "F_and_left": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s0"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "s0"
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_and_cases",
+            "hyp": 0
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_exact",
+            "hyp": 0
+          }
+        ]
+      },
+      "F_and_right": {
+        "schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s0"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "s1"
+              ]
+            }
+          ]
+        },
+        "plan": [
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_imp_intro"
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_and_cases",
+            "hyp": 0
+          },
+          {
+            "kind": "PRIMITIVE",
+            "id": "f_exact",
+            "hyp": 1
+          }
+        ]
+      }
+    },
+    "equivalence": [],
+    "execution_provenance": [
+      {
+        "structure_id": "F_chain3",
+        "purpose": "heldout reuse",
+        "alpha": {
+          "s0": {
+            "op": "And",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "J"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "K"
+                ]
+              }
+            ]
+          },
+          "s1": {
+            "op": "Atom",
+            "args": [
+              "L"
+            ]
+          },
+          "s2": {
+            "op": "And",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "M"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "N"
+                ]
+              }
+            ]
+          },
+          "s3": {
+            "op": "Atom",
+            "args": [
+              "O"
+            ]
+          }
+        },
+        "status": "REUSE_SUCCESS"
+      },
+      {
+        "structure_id": "F_nested_and_make",
+        "purpose": "heldout reuse",
+        "alpha": {
+          "s0": {
+            "op": "Imp",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "J"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "K"
+                ]
+              }
+            ]
+          },
+          "s1": {
+            "op": "And",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "L"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "M"
+                ]
+              }
+            ]
+          },
+          "s2": {
+            "op": "Atom",
+            "args": [
+              "N"
+            ]
+          }
+        },
+        "status": "REUSE_SUCCESS"
+      },
+      {
+        "structure_id": "F_nested_swap",
+        "purpose": "heldout reuse",
+        "alpha": {
+          "s0": {
+            "op": "Imp",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "J"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "K"
+                ]
+              }
+            ]
+          },
+          "s1": {
+            "op": "And",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "L"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "M"
+                ]
+              }
+            ]
+          },
+          "s2": {
+            "op": "Atom",
+            "args": [
+              "N"
+            ]
+          }
+        },
+        "status": "REUSE_SUCCESS"
+      },
+      {
+        "structure_id": "F_chain4",
+        "purpose": "heldout reuse",
+        "alpha": {
+          "s0": {
+            "op": "Imp",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "J"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "K"
+                ]
+              }
+            ]
+          },
+          "s1": {
+            "op": "Atom",
+            "args": [
+              "L"
+            ]
+          },
+          "s2": {
+            "op": "Atom",
+            "args": [
+              "M"
+            ]
+          },
+          "s3": {
+            "op": "And",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "N"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "s4": {
+            "op": "Atom",
+            "args": [
+              "P"
+            ]
+          }
+        },
+        "status": "REUSE_SUCCESS"
+      },
+      {
+        "structure_id": "F_and_left",
+        "purpose": "heldout reuse",
+        "alpha": {
+          "s0": {
+            "op": "Imp",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "J"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "K"
+                ]
+              }
+            ]
+          },
+          "s1": {
+            "op": "And",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "L"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "M"
+                ]
+              }
+            ]
+          }
+        },
+        "status": "REUSE_SUCCESS"
+      },
+      {
+        "structure_id": "F_and_right",
+        "purpose": "heldout reuse",
+        "alpha": {
+          "s0": {
+            "op": "Imp",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "J"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "K"
+                ]
+              }
+            ]
+          },
+          "s1": {
+            "op": "And",
+            "args": [
+              {
+                "op": "Atom",
+                "args": [
+                  "L"
+                ]
+              },
+              {
+                "op": "Atom",
+                "args": [
+                  "M"
+                ]
+              }
+            ]
+          }
+        },
+        "status": "REUSE_SUCCESS"
+      }
+    ],
+    "hierarchy": [
+      {
+        "structure_id": "f_imp_intro",
+        "level": 0,
+        "direct_parents": [],
+        "recursive_ancestors": [],
+        "recursive_primitives": [
+          "f_imp_intro"
+        ],
+        "formation_hash": "799b2c534847f24a8f644b730c5c7c315f92ef2cea1ede80a1dff49dc3e9197f",
+        "structure_hash": "ca803b15966aa19b53e5245817393d71d2b161ded210d52da31d6aed6c77d7d6"
+      },
+      {
+        "structure_id": "f_exact",
+        "level": 0,
+        "direct_parents": [],
+        "recursive_ancestors": [],
+        "recursive_primitives": [
+          "f_exact"
+        ],
+        "formation_hash": "8e1ea6458fd43b89777cae879fa3d36afd6edc5852c7c2255b0d5f472da05a41",
+        "structure_hash": "5e306fcf2f9a281f890ba641f4ac982b95760a0e310972be4d1a175adcbec470"
+      },
+      {
+        "structure_id": "f_imp_apply",
+        "level": 0,
+        "direct_parents": [],
+        "recursive_ancestors": [],
+        "recursive_primitives": [
+          "f_imp_apply"
+        ],
+        "formation_hash": "6ff10bff69b68b4f9a217fc5925d7ae1cd61cbd5234285836e3aa745f8fb3c28",
+        "structure_hash": "c6fe316975964e9549f4b945855ead7c3b5f2e5bcea6b3c16ca38590c03b0871"
+      },
+      {
+        "structure_id": "f_and_construct",
+        "level": 0,
+        "direct_parents": [],
+        "recursive_ancestors": [],
+        "recursive_primitives": [
+          "f_and_construct"
+        ],
+        "formation_hash": "20c8e519ed743a0198f107ba9759f5c48a611599bc96f7f8b0db371d1586441a",
+        "structure_hash": "43cb5f9ffd6ac25cf97d6768b3456c08b28d45c6b53b9ac84fbcf366885ca5a6"
+      },
+      {
+        "structure_id": "f_and_cases",
+        "level": 0,
+        "direct_parents": [],
+        "recursive_ancestors": [],
+        "recursive_primitives": [
+          "f_and_cases"
+        ],
+        "formation_hash": "8737ad40dadf39a14547303f056218b5425f27ce23ea1d385d3a4e245668e7c7",
+        "structure_hash": "61815227bbb1dd3bc72a6835d467c482a3f9b374a3ed364c53f408b94417fdd4"
+      },
+      {
+        "structure_id": "F_identity",
+        "level": 1,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_exact"
+        ],
+        "recursive_ancestors": [
+          "f_exact",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_exact"
+        ],
+        "formation_hash": "d1a033a7e1e157519a54767fef61a1551d8636ce9d811e80f5e96ea561fab368",
+        "structure_hash": "96db0e0b14a904a69510891889c62db9924703069643ded9d7354ba177901047"
+      },
+      {
+        "structure_id": "F_modus_ponens",
+        "level": 1,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "recursive_ancestors": [
+          "f_exact",
+          "f_imp_apply",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "formation_hash": "967ea5244d0be92cdebd5dff36dfa003f9a9d6c20e053309fe866842cec230c3",
+        "structure_hash": "ac85d95f3e00aa6debb376cfd026e64e4dd3261527c0db1504f003fccbb88141"
+      },
+      {
+        "structure_id": "F_and_make",
+        "level": 1,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "recursive_ancestors": [
+          "f_and_construct",
+          "f_exact",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "formation_hash": "5f1ef6d29194b29f52187f13b2f5875bb89c1fc0c1ff20fcebc4d7f8f89b7c4d",
+        "structure_hash": "46d266427918b8a4494ed2b5a0f297f34b994217a0d037ec101ebb8024db8388"
+      },
+      {
+        "structure_id": "F_and_swap",
+        "level": 1,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "recursive_ancestors": [
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "formation_hash": "17ef84c99ca3cccb338cedba1c89cdba15d42e6c45861e7e29aae5ce692ab679",
+        "structure_hash": "08fa33b6d90672103312ddaeb1c1242e4388413531bb4beed9730b9375420518"
+      },
+      {
+        "structure_id": "F_imp_chain",
+        "level": 1,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "recursive_ancestors": [
+          "f_exact",
+          "f_imp_apply",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "formation_hash": "7858b6c09b66bf43be7aae7d38e0f3eab571ec936cbcda81bb11cd3590cf13b6",
+        "structure_hash": "c766b92ce851113ac6f0e5c23f9e6b194665d0f72200e5a2fa7b7bcca344e945"
+      },
+      {
+        "structure_id": "F_chain3",
+        "level": 2,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_imp_chain",
+          "F_modus_ponens"
+        ],
+        "recursive_ancestors": [
+          "F_imp_chain",
+          "F_modus_ponens",
+          "f_exact",
+          "f_imp_apply",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "formation_hash": "93b7d3d192fa68ae9667692f152253808a6aed8f22e2d88055e48cb82e16bef1",
+        "structure_hash": "639f493b73061494bf6c6b85270a5ba3dfaa505598064eb8639ecf75afa23d73"
+      },
+      {
+        "structure_id": "F_nested_and_make",
+        "level": 2,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_and_make",
+          "F_and_make"
+        ],
+        "recursive_ancestors": [
+          "F_and_make",
+          "f_and_construct",
+          "f_exact",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "formation_hash": "9d0ed096b6370d52cc4cd401564ef41bd9314332b90297174c8057445f7c51cf",
+        "structure_hash": "92d53898d6974df1825856c6c7cdd3ebc2433ab5a8479425f6b09e3b30116f05"
+      },
+      {
+        "structure_id": "F_nested_swap",
+        "level": 2,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_and_cases",
+          "F_and_make",
+          "F_and_swap"
+        ],
+        "recursive_ancestors": [
+          "F_and_make",
+          "F_and_swap",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact",
+          "f_imp_intro",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "formation_hash": "172edf665f221331c2e64016f0c7c6593ff6172473299e1fd4e9618f191105ad",
+        "structure_hash": "7bacc61ec3a8c62edfabafdc7490ebc4a6f1a4097d296ea98f4d02055d9dcdd5"
+      },
+      {
+        "structure_id": "F_chain4",
+        "level": 3,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_chain3",
+          "F_modus_ponens"
+        ],
+        "recursive_ancestors": [
+          "F_chain3",
+          "F_imp_chain",
+          "F_modus_ponens",
+          "f_exact",
+          "f_imp_apply",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "formation_hash": "d99847226fb1c82a2bab37dfb581568f95dfc5914447a3ae56fb1c4dbf7cb805",
+        "structure_hash": "f2b15a49291c85bd32535d885e126bc3c298ef2dddd46d6d352a1d68d0710287"
+      },
+      {
+        "structure_id": "F_and_left",
+        "level": 1,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "recursive_ancestors": [
+          "f_and_cases",
+          "f_exact",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "formation_hash": "10e3a5fffc6a5865342ddf55c2def23de496132ac23b1a48d4343f6e19e6f451",
+        "structure_hash": "790dc14e2dc63318f9e43f6aa095b37d9eeed3988cf72fc16ca3835785bb6136"
+      },
+      {
+        "structure_id": "F_and_right",
+        "level": 1,
+        "direct_parents": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "recursive_ancestors": [
+          "f_and_cases",
+          "f_exact",
+          "f_imp_intro"
+        ],
+        "recursive_primitives": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "formation_hash": "23502aef2a3618c2c64511a8e480ebae85935e8ad06d727325444f024842e4c2",
+        "structure_hash": "7c970d6176f1adb350373696c1f5799ec26db4f18bd120aeb098c3784e095a96"
+      }
+    ],
+    "proof_combinators": [
+      {
+        "structure_id": "F_identity",
+        "level": 1,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "A"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_exact"
+        ],
+        "estimated_execution_cost": 2,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_identity"
+      },
+      {
+        "structure_id": "F_modus_ponens",
+        "level": 1,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "A",
+          "B"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "estimated_execution_cost": 4,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_modus_ponens"
+      },
+      {
+        "structure_id": "F_and_make",
+        "level": 1,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "A"
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                },
+                {
+                  "op": "And",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "B"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "A",
+          "B"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "estimated_execution_cost": 5,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_and_make"
+      },
+      {
+        "structure_id": "F_and_swap",
+        "level": 1,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "A",
+          "B"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_and_construct",
+          "f_exact",
+          "f_exact"
+        ],
+        "estimated_execution_cost": 5,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_and_swap"
+      },
+      {
+        "structure_id": "F_imp_chain",
+        "level": 1,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "B"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "B"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "C"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "C"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "A",
+          "B",
+          "C"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_apply",
+          "f_imp_apply",
+          "f_exact"
+        ],
+        "estimated_execution_cost": 6,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_imp_chain"
+      },
+      {
+        "structure_id": "F_chain3",
+        "level": 2,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s0"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s1"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Imp",
+                      "args": [
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s2"
+                          ]
+                        },
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "op": "Imp",
+                      "args": [
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s0"
+                          ]
+                        },
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s3"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "s0",
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_imp_chain",
+          "F_modus_ponens"
+        ],
+        "estimated_execution_cost": 14,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_chain3"
+      },
+      {
+        "structure_id": "F_nested_and_make",
+        "level": 2,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Slot",
+              "args": [
+                "s0"
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                },
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s2"
+                      ]
+                    },
+                    {
+                      "op": "And",
+                      "args": [
+                        {
+                          "op": "And",
+                          "args": [
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s0"
+                              ]
+                            },
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "s0",
+          "s1",
+          "s2"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_and_make",
+          "F_and_make"
+        ],
+        "estimated_execution_cost": 13,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_nested_and_make"
+      },
+      {
+        "structure_id": "F_nested_swap",
+        "level": 2,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "And",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s0"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s2"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s2"
+                  ]
+                },
+                {
+                  "op": "And",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s1"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "s0",
+          "s1",
+          "s2"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "F_and_make",
+          "F_and_swap"
+        ],
+        "estimated_execution_cost": 12,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_nested_swap"
+      },
+      {
+        "structure_id": "F_chain4",
+        "level": 3,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s0"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Imp",
+              "args": [
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s1"
+                      ]
+                    },
+                    {
+                      "op": "Slot",
+                      "args": [
+                        "s2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "Imp",
+                  "args": [
+                    {
+                      "op": "Imp",
+                      "args": [
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s2"
+                          ]
+                        },
+                        {
+                          "op": "Slot",
+                          "args": [
+                            "s3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "op": "Imp",
+                      "args": [
+                        {
+                          "op": "Imp",
+                          "args": [
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s3"
+                              ]
+                            },
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s4"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "op": "Imp",
+                          "args": [
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s0"
+                              ]
+                            },
+                            {
+                              "op": "Slot",
+                              "args": [
+                                "s4"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "s0",
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "f_imp_intro",
+          "F_chain3",
+          "F_modus_ponens"
+        ],
+        "estimated_execution_cost": 23,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_chain4"
+      },
+      {
+        "structure_id": "F_and_left",
+        "level": 1,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s0"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "s0"
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "s0",
+          "s1"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "estimated_execution_cost": 3,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_and_left"
+      },
+      {
+        "structure_id": "F_and_right",
+        "level": 1,
+        "abstract_schema": {
+          "op": "Imp",
+          "args": [
+            {
+              "op": "And",
+              "args": [
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s0"
+                  ]
+                },
+                {
+                  "op": "Slot",
+                  "args": [
+                    "s1"
+                  ]
+                }
+              ]
+            },
+            {
+              "op": "Slot",
+              "args": [
+                "s1"
+              ]
+            }
+          ]
+        },
+        "slot_schema": [
+          "s0",
+          "s1"
+        ],
+        "direct_parent_ids": [
+          "f_imp_intro",
+          "f_and_cases",
+          "f_exact"
+        ],
+        "estimated_execution_cost": 3,
+        "estimated_cost_unit": "recursive primitive occurrence proxy",
+        "direct_online_calls_for_exact_reuse": 1,
+        "lean_callable_representation": "lib_F_and_right"
+      }
+    ]
+  },
+  "retrieval_cases": {
+    "HITS": [
+      [
+        "I1",
+        "((A → B) ∧ (C → D)) → ((A → B) ∧ (C → D))",
+        "F_identity"
+      ],
+      [
+        "I2",
+        "(A ∧ (B ∧ C)) → (A ∧ (B ∧ C))",
+        "F_identity"
+      ],
+      [
+        "I3",
+        "((A → B) ∧ C) → ((A → B) ∧ C)",
+        "F_identity"
+      ],
+      [
+        "M1",
+        "((A ∧ B) → (C ∧ D)) → (A ∧ B) → (C ∧ D)",
+        "F_modus_ponens"
+      ],
+      [
+        "M2",
+        "((A → B) → C) → (A → B) → C",
+        "F_modus_ponens"
+      ],
+      [
+        "M3",
+        "((A ∧ (B ∧ C)) → D) → (A ∧ (B ∧ C)) → D",
+        "F_modus_ponens"
+      ],
+      [
+        "C1",
+        "(A ∧ B) → C → (A ∧ B) ∧ C",
+        "F_and_make"
+      ],
+      [
+        "C2",
+        "(A → B) → (C ∧ D) → (A → B) ∧ (C ∧ D)",
+        "F_and_make"
+      ],
+      [
+        "C3",
+        "A → (B → C) → A ∧ (B → C)",
+        "F_and_make"
+      ],
+      [
+        "S1",
+        "(A ∧ (B ∧ (C ∧ D))) → ((B ∧ (C ∧ D)) ∧ A)",
+        "F_and_swap"
+      ],
+      [
+        "S2",
+        "((A → B) ∧ C) → (C ∧ (A → B))",
+        "F_and_swap"
+      ],
+      [
+        "S3",
+        "((A ∧ B) ∧ (C ∧ D)) → ((C ∧ D) ∧ (A ∧ B))",
+        "F_and_swap"
+      ],
+      [
+        "T1",
+        "((A ∧ B) → (C ∧ D)) → ((C ∧ D) → E) → (A ∧ B) → E",
+        "F_imp_chain"
+      ],
+      [
+        "T2",
+        "((A → B) → C) → (C → D) → (A → B) → D",
+        "F_imp_chain"
+      ],
+      [
+        "T3",
+        "(A → (B ∧ C)) → ((B ∧ C) → D) → A → D",
+        "F_imp_chain"
+      ]
+    ],
+    "MISSES": [
+      [
+        "MISS1",
+        "A ∧ B → A"
+      ],
+      [
+        "MISS2",
+        "A ∧ B → B"
+      ],
+      [
+        "MISS3",
+        "(A → B) → (B → C) → (C → D) → A → D"
+      ],
+      [
+        "MISS4",
+        "A → B → C → (A ∧ B) ∧ C"
+      ],
+      [
+        "MISS5",
+        "(A ∧ B) ∧ C → C ∧ (B ∧ A)"
+      ]
+    ]
+  }
+}

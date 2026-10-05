@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fsystem-framework"
+version = "9.0.0"
+description = "CPU-first structural computation with optional candidate-parallel alpha"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+alpha = ["torch>=2.0"]
+
+[tool.setuptools.packages.find]
+include = ["fsys*"]
+
+[tool.setuptools.package-data]
+"fsys.domains._lean" = ["*.json"]

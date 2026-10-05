@@ -1,0 +1,538 @@
+{
+  "per_goal": [
+    {
+      "task_id": "D01",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 48,
+        "binding_combinations": 48,
+        "composition_expansions": 164,
+        "intermediate_materializations": 58,
+        "verification_attempts": 55,
+        "training_verification_attempts": 48,
+        "holdout_verification_attempts": 2,
+        "operation_retrieval_count": 14,
+        "recipe_candidate_count": 24,
+        "search_wall_seconds": 1.6671041001100093,
+        "search_calls": 2
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 8,
+        "binding_combinations": 8,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 12,
+        "training_verification_attempts": 8,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 8,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 0.6069609000114724,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 40,
+        "percent": 83.33333333333334
+      },
+      "binding_reduction": {
+        "absolute": 40,
+        "percent": 83.33333333333334
+      },
+      "depth_reduction": {
+        "absolute": 1,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D02",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 110,
+        "binding_combinations": 110,
+        "composition_expansions": 352,
+        "intermediate_materializations": 128,
+        "verification_attempts": 124,
+        "training_verification_attempts": 110,
+        "holdout_verification_attempts": 4,
+        "operation_retrieval_count": 30,
+        "recipe_candidate_count": 48,
+        "search_wall_seconds": 4.102066399878822,
+        "search_calls": 4
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 9,
+        "binding_combinations": 9,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 13,
+        "training_verification_attempts": 9,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 9,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 0.8433674999978393,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 101,
+        "percent": 91.81818181818183
+      },
+      "binding_reduction": {
+        "absolute": 101,
+        "percent": 91.81818181818183
+      },
+      "depth_reduction": {
+        "absolute": 2,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D03",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 242,
+        "binding_combinations": 242,
+        "composition_expansions": 676,
+        "intermediate_materializations": 266,
+        "verification_attempts": 263,
+        "training_verification_attempts": 242,
+        "holdout_verification_attempts": 6,
+        "operation_retrieval_count": 48,
+        "recipe_candidate_count": 72,
+        "search_wall_seconds": 8.184636200079694,
+        "search_calls": 6
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 10,
+        "binding_combinations": 10,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 14,
+        "training_verification_attempts": 10,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 10,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 1.0330599000444636,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 232,
+        "percent": 95.86776859504133
+      },
+      "binding_reduction": {
+        "absolute": 232,
+        "percent": 95.86776859504133
+      },
+      "depth_reduction": {
+        "absolute": 3,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D04",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 422,
+        "binding_combinations": 422,
+        "composition_expansions": 1092,
+        "intermediate_materializations": 450,
+        "verification_attempts": 450,
+        "training_verification_attempts": 422,
+        "holdout_verification_attempts": 8,
+        "operation_retrieval_count": 68,
+        "recipe_candidate_count": 96,
+        "search_wall_seconds": 13.930733800283633,
+        "search_calls": 8
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 11,
+        "binding_combinations": 11,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 15,
+        "training_verification_attempts": 11,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 11,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 1.3239691000198945,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 411,
+        "percent": 97.39336492890996
+      },
+      "binding_reduction": {
+        "absolute": 411,
+        "percent": 97.39336492890996
+      },
+      "depth_reduction": {
+        "absolute": 4,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D05",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 484,
+        "binding_combinations": 484,
+        "composition_expansions": 1268,
+        "intermediate_materializations": 514,
+        "verification_attempts": 519,
+        "training_verification_attempts": 484,
+        "holdout_verification_attempts": 10,
+        "operation_retrieval_count": 90,
+        "recipe_candidate_count": 120,
+        "search_wall_seconds": 18.617976000066847,
+        "search_calls": 10
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 12,
+        "binding_combinations": 12,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 16,
+        "training_verification_attempts": 12,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 12,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 1.6147870999993756,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 472,
+        "percent": 97.52066115702479
+      },
+      "binding_reduction": {
+        "absolute": 472,
+        "percent": 97.52066115702479
+      },
+      "depth_reduction": {
+        "absolute": 5,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D06",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 1042,
+        "binding_combinations": 1042,
+        "composition_expansions": 2432,
+        "intermediate_materializations": 1072,
+        "verification_attempts": 1084,
+        "training_verification_attempts": 1042,
+        "holdout_verification_attempts": 12,
+        "operation_retrieval_count": 114,
+        "recipe_candidate_count": 144,
+        "search_wall_seconds": 33.86456219968386,
+        "search_calls": 12
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 13,
+        "binding_combinations": 13,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 17,
+        "training_verification_attempts": 13,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 13,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 1.768996600061655,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 1029,
+        "percent": 98.75239923224568
+      },
+      "binding_reduction": {
+        "absolute": 1029,
+        "percent": 98.75239923224568
+      },
+      "depth_reduction": {
+        "absolute": 6,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D07",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 1228,
+        "binding_combinations": 1228,
+        "composition_expansions": 2848,
+        "intermediate_materializations": 1256,
+        "verification_attempts": 1277,
+        "training_verification_attempts": 1228,
+        "holdout_verification_attempts": 14,
+        "operation_retrieval_count": 140,
+        "recipe_candidate_count": 168,
+        "search_wall_seconds": 43.5459383999696,
+        "search_calls": 14
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 14,
+        "binding_combinations": 14,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 18,
+        "training_verification_attempts": 14,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 14,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 2.0613123000366613,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 1214,
+        "percent": 98.8599348534202
+      },
+      "binding_reduction": {
+        "absolute": 1214,
+        "percent": 98.8599348534202
+      },
+      "depth_reduction": {
+        "absolute": 7,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D08",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 1314,
+        "binding_combinations": 1314,
+        "composition_expansions": 3060,
+        "intermediate_materializations": 1338,
+        "verification_attempts": 1370,
+        "training_verification_attempts": 1314,
+        "holdout_verification_attempts": 16,
+        "operation_retrieval_count": 168,
+        "recipe_candidate_count": 192,
+        "search_wall_seconds": 46.679405600065365,
+        "search_calls": 16
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 10,
+        "binding_combinations": 10,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 14,
+        "training_verification_attempts": 10,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 15,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 0.9384892999660224,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 1304,
+        "percent": 99.23896499238964
+      },
+      "binding_reduction": {
+        "absolute": 1304,
+        "percent": 99.23896499238964
+      },
+      "depth_reduction": {
+        "absolute": 8,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D09",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 1744,
+        "binding_combinations": 1744,
+        "composition_expansions": 3956,
+        "intermediate_materializations": 1762,
+        "verification_attempts": 1807,
+        "training_verification_attempts": 1744,
+        "holdout_verification_attempts": 18,
+        "operation_retrieval_count": 198,
+        "recipe_candidate_count": 216,
+        "search_wall_seconds": 64.38636760006193,
+        "search_calls": 18
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 12,
+        "binding_combinations": 12,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 16,
+        "training_verification_attempts": 12,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 16,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 1.1217646000441164,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 1732,
+        "percent": 99.31192660550458
+      },
+      "binding_reduction": {
+        "absolute": 1732,
+        "percent": 99.31192660550458
+      },
+      "depth_reduction": {
+        "absolute": 9,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D10",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 2500,
+        "binding_combinations": 2500,
+        "composition_expansions": 5500,
+        "intermediate_materializations": 2510,
+        "verification_attempts": 2570,
+        "training_verification_attempts": 2500,
+        "holdout_verification_attempts": 20,
+        "operation_retrieval_count": 230,
+        "recipe_candidate_count": 240,
+        "search_wall_seconds": 88.30080429988448,
+        "search_calls": 20
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 14,
+        "binding_combinations": 14,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 18,
+        "training_verification_attempts": 14,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 17,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 1.2730456999270245,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 2486,
+        "percent": 99.44
+      },
+      "binding_reduction": {
+        "absolute": 2486,
+        "percent": 99.44
+      },
+      "depth_reduction": {
+        "absolute": 10,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D11",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 3416,
+        "binding_combinations": 3416,
+        "composition_expansions": 7360,
+        "intermediate_materializations": 3416,
+        "verification_attempts": 3493,
+        "training_verification_attempts": 3416,
+        "holdout_verification_attempts": 22,
+        "operation_retrieval_count": 264,
+        "recipe_candidate_count": 264,
+        "search_wall_seconds": 117.43632690026425,
+        "search_calls": 22
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 17,
+        "binding_combinations": 17,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 21,
+        "training_verification_attempts": 17,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 18,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 1.7359908999642357,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 3399,
+        "percent": 99.5023419203747
+      },
+      "binding_reduction": {
+        "absolute": 3399,
+        "percent": 99.5023419203747
+      },
+      "depth_reduction": {
+        "absolute": 11,
+        "percent": 100.0
+      }
+    },
+    {
+      "task_id": "D12",
+      "FULL+EXPANDED": {
+        "candidate_attempts": 4020,
+        "binding_combinations": 4020,
+        "composition_expansions": 8592,
+        "intermediate_materializations": 4008,
+        "verification_attempts": 4104,
+        "training_verification_attempts": 4020,
+        "holdout_verification_attempts": 24,
+        "operation_retrieval_count": 300,
+        "recipe_candidate_count": 288,
+        "search_wall_seconds": 142.6270054996712,
+        "search_calls": 24
+      },
+      "ACTIVE+FIRST_CLASS": {
+        "candidate_attempts": 14,
+        "binding_combinations": 14,
+        "composition_expansions": 0,
+        "intermediate_materializations": 0,
+        "verification_attempts": 18,
+        "training_verification_attempts": 14,
+        "holdout_verification_attempts": 1,
+        "operation_retrieval_count": 19,
+        "recipe_candidate_count": 0,
+        "search_wall_seconds": 1.8760327999480069,
+        "search_calls": 1
+      },
+      "candidate_attempt_reduction": {
+        "absolute": 4006,
+        "percent": 99.65174129353234
+      },
+      "binding_reduction": {
+        "absolute": 4006,
+        "percent": 99.65174129353234
+      },
+      "depth_reduction": {
+        "absolute": 12,
+        "percent": 100.0
+      }
+    }
+  ],
+  "aggregate": {
+    "candidate_attempts": {
+      "before": 16570,
+      "after": 144,
+      "reduction": {
+        "absolute": 16426,
+        "percent": 99.13095956547978
+      }
+    },
+    "binding_combinations": {
+      "before": 16570,
+      "after": 144,
+      "reduction": {
+        "absolute": 16426,
+        "percent": 99.13095956547978
+      }
+    },
+    "composition_expansions": {
+      "before": 37300,
+      "after": 0,
+      "reduction": {
+        "absolute": 37300,
+        "percent": 100.0
+      }
+    },
+    "intermediate_materializations": {
+      "before": 16778,
+      "after": 0,
+      "reduction": {
+        "absolute": 16778,
+        "percent": 100.0
+      }
+    },
+    "verification_attempts": {
+      "before": 17116,
+      "after": 192,
+      "reduction": {
+        "absolute": 16924,
+        "percent": 98.87824258004207
+      }
+    }
+  }
+}

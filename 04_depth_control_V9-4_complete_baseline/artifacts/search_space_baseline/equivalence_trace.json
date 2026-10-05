@@ -1,0 +1,145 @@
+[
+  {
+    "stage": "clean_start",
+    "library_hash": "f097307e1697f10794e483f1907ac0de92ddc8eba195937b1a87662fa1ee58b0",
+    "explicit_links": 0,
+    "class_count": 26,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 26,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D01",
+    "library_hash": "57af49403979078ffd879df7eb1f083ad753fbae40a1941e1427315bea04bfb7",
+    "explicit_links": 0,
+    "class_count": 27,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 27,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D02",
+    "library_hash": "e800fdbeaa76efa2d10f5d111f062810a57c58c83639a34b132f44ca7e368318",
+    "explicit_links": 0,
+    "class_count": 28,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 28,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D03",
+    "library_hash": "0af5eb899d381afeea6e9885c8436fec347bfa3a4198357d55b10646073cb70a",
+    "explicit_links": 0,
+    "class_count": 29,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 29,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D04",
+    "library_hash": "bd770c5ca16c2175a192e02a6b84ab08f01a427fd3c1d37986bb4cb6a3aae0f7",
+    "explicit_links": 0,
+    "class_count": 30,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 30,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D05",
+    "library_hash": "ca827a5c9ac2bbab1f22b655873b1a3792ffeb311d39265927fde7488560c699",
+    "explicit_links": 0,
+    "class_count": 31,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 31,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D06",
+    "library_hash": "2944bb9845e2ecb1113ac9a9d898fe0793e3c0aaaa543317852744d5c8142e7e",
+    "explicit_links": 0,
+    "class_count": 32,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 32,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D07",
+    "library_hash": "fb3e8560e0b0c6e75d9b490b0fdbb6f5d3181768956b3cb190a4f62cf13ef0be",
+    "explicit_links": 0,
+    "class_count": 33,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 33,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D08",
+    "library_hash": "861b0cf221d442f28f664847c6dfe1837189bb4d229d2564377cd5aef52aa5c5",
+    "explicit_links": 0,
+    "class_count": 34,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 34,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D09",
+    "library_hash": "de4bece23298844390461d68ec29d3859100782ae8d328c265ac89f0f1148969",
+    "explicit_links": 0,
+    "class_count": 35,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 35,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D10",
+    "library_hash": "88e696424d2fcff6a4e0b22bf55a02d6715c9f5befdd5a1d7e22530b8aa52766",
+    "explicit_links": 0,
+    "class_count": 36,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 36,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D11",
+    "library_hash": "ebb579bd3fdd1869411aa0b84c941b2824134481c264fafae16dc229db46c457",
+    "explicit_links": 0,
+    "class_count": 37,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 37,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  },
+  {
+    "stage": "after_D12",
+    "library_hash": "6bdd8fb0baec37d0de231559424e5b53da8466b98c35ea9c0d77081312be2575",
+    "explicit_links": 0,
+    "class_count": 38,
+    "non_singleton_count": 0,
+    "non_singleton_classes": [],
+    "active_count": 38,
+    "retired_count": 0,
+    "automatic_detection_used": false
+  }
+]

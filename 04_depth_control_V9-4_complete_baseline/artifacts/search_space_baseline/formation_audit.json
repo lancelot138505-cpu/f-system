@@ -1,0 +1,193 @@
+{
+  "format": "formation-audit-summary",
+  "audit_receipt_count": 168,
+  "receipt_counts_by_source": {
+    "main_acquisition": 12,
+    "paired_view/FULL+EXPANDED": 78,
+    "paired_view/ACTIVE+EXPANDED": 78
+  },
+  "unique_structure_count": 12,
+  "all_exact_parent_pass": true,
+  "unique_structures": [
+    {
+      "structure_id": "F_0469fb712663a973ddfd",
+      "parents": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_c1afe69a1f8fa25c1f13"
+      ],
+      "canonical_level": 5,
+      "receipt_count": 25,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 12,
+        "paired_view/ACTIVE+EXPANDED": 12
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_18d2c0c7673525cc9d3d",
+      "parents": [
+        "F_1d0325fdc92c61208f06",
+        "F_f621e7a403c970a7a71b"
+      ],
+      "canonical_level": 10,
+      "receipt_count": 13,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 6,
+        "paired_view/ACTIVE+EXPANDED": 6
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_1d0325fdc92c61208f06",
+      "parents": [
+        "F_c38d01daa2e8e1d08cef",
+        "F_cac97282833230855ffa"
+      ],
+      "canonical_level": 9,
+      "receipt_count": 15,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 7,
+        "paired_view/ACTIVE+EXPANDED": 7
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_1e7d52d4a8b8c16e9a21",
+      "parents": [
+        "F_87a666b46ef0cfa2f32b",
+        "F_c1afe69a1f8fa25c1f13"
+      ],
+      "canonical_level": 8,
+      "receipt_count": 19,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 9,
+        "paired_view/ACTIVE+EXPANDED": 9
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_359adfc45bfb1819aae0",
+      "parents": [
+        "F_87a666b46ef0cfa2f32b",
+        "F_8f991df15e01e06dffae"
+      ],
+      "canonical_level": 8,
+      "receipt_count": 3,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 1,
+        "paired_view/ACTIVE+EXPANDED": 1
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_4498b1a6b76423b16a06",
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_cac97282833230855ffa"
+      ],
+      "canonical_level": 6,
+      "receipt_count": 23,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 11,
+        "paired_view/ACTIVE+EXPANDED": 11
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_87a666b46ef0cfa2f32b",
+      "parents": [
+        "F_4498b1a6b76423b16a06",
+        "F_f621e7a403c970a7a71b"
+      ],
+      "canonical_level": 7,
+      "receipt_count": 21,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 10,
+        "paired_view/ACTIVE+EXPANDED": 10
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_8f991df15e01e06dffae",
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_a6aef3cbef65ed27e8d8"
+      ],
+      "canonical_level": 6,
+      "receipt_count": 11,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 5,
+        "paired_view/ACTIVE+EXPANDED": 5
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_b7bf2fef39b93e5686c2",
+      "parents": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_d9415b58d9849bee0d4d"
+      ],
+      "canonical_level": 8,
+      "receipt_count": 7,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 3,
+        "paired_view/ACTIVE+EXPANDED": 3
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_c38d01daa2e8e1d08cef",
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_87a666b46ef0cfa2f32b"
+      ],
+      "canonical_level": 8,
+      "receipt_count": 17,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 8,
+        "paired_view/ACTIVE+EXPANDED": 8
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_d03839a9818e072066fa",
+      "parents": [
+        "F_b7bf2fef39b93e5686c2",
+        "F_f621e7a403c970a7a71b"
+      ],
+      "canonical_level": 9,
+      "receipt_count": 5,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 2,
+        "paired_view/ACTIVE+EXPANDED": 2
+      },
+      "exact_parent_pass": true
+    },
+    {
+      "structure_id": "F_d9415b58d9849bee0d4d",
+      "parents": [
+        "F_4498b1a6b76423b16a06",
+        "F_a6aef3cbef65ed27e8d8"
+      ],
+      "canonical_level": 7,
+      "receipt_count": 9,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 4,
+        "paired_view/ACTIVE+EXPANDED": 4
+      },
+      "exact_parent_pass": true
+    }
+  ]
+}

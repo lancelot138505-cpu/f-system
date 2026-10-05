@@ -1,0 +1,908 @@
+[
+  {
+    "goal_id": "U11",
+    "display_name": "longest_non_decreasing_run",
+    "fresh_instances_per_independent_search": 24,
+    "training_instance_counts": {
+      "A": 24,
+      "B": 24
+    },
+    "seeds": {
+      "training_A": 880031,
+      "training_B": 990041,
+      "holdout": 640031
+    },
+    "independent_searches": [
+      {
+        "label": "A",
+        "candidate_attempts": 11,
+        "binding_combinations": 11,
+        "composition_expansions": 81,
+        "intermediate_materializations": 22,
+        "selected_rank": 11,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_state_run",
+        "parameters": {
+          "best_nonempty_initial": 1,
+          "best_relation": ">",
+          "increment": 1,
+          "loop_start": 1,
+          "relation": ">=",
+          "reset_value": 1,
+          "run_initial": 1
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      },
+      {
+        "label": "B",
+        "candidate_attempts": 11,
+        "binding_combinations": 11,
+        "composition_expansions": 81,
+        "intermediate_materializations": 22,
+        "selected_rank": 11,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_state_run",
+        "parameters": {
+          "best_nonempty_initial": 1,
+          "best_relation": ">",
+          "increment": 1,
+          "loop_start": 1,
+          "relation": ">=",
+          "reset_value": 1,
+          "run_initial": 1
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      }
+    ],
+    "formation": {
+      "step_F": "F_b0eed8df520ae260af57",
+      "step_parents": [
+        "F_topology_adjacent_state_run",
+        "F_exec_compare",
+        "F_exec_conditional_update"
+      ],
+      "step_formation_parents_exact": true,
+      "step_admitted_before_root_formation": true,
+      "root_F": "F_dcfedcf1d26444553cdb",
+      "root_parents": [
+        "F_topology_adjacent_state_run",
+        "F_exec_assign",
+        "F_b0eed8df520ae260af57",
+        "F_exec_range_loop",
+        "F_exec_return"
+      ],
+      "root_formation_parents_exact": true,
+      "independent_step_identity_equal": true,
+      "independent_root_identity_equal": true,
+      "root_step_parent_is_library_at_formation": true,
+      "raw_composer_drafts_admitted": false
+    },
+    "validation": {
+      "step": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "root": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "step_verified_transitions": 256,
+      "root_train_examples": 48,
+      "root_holdout_oracle_cases": 192,
+      "raw_search_python_equal_oracle": true,
+      "raw_search_javascript_equal_oracle": true,
+      "root_python_equal_oracle": true,
+      "root_javascript_equal_oracle": true,
+      "root_cold_replay_equal_oracle": true,
+      "step_receipt_digest": "d6e0aaa7ca330afa5716d6df6955701c4192a4a1a47224d728a613847014892d",
+      "root_receipt_digest": "93c9e205fcf6df240aea4887de253a027c17b9e354c0c72de032e81afc53e53c"
+    },
+    "library_size_after": 14,
+    "promoted_F": [
+      "F_b0eed8df520ae260af57",
+      "F_dcfedcf1d26444553cdb"
+    ]
+  },
+  {
+    "goal_id": "U12",
+    "display_name": "longest_equal_run",
+    "fresh_instances_per_independent_search": 24,
+    "training_instance_counts": {
+      "A": 24,
+      "B": 24
+    },
+    "seeds": {
+      "training_A": 880032,
+      "training_B": 990042,
+      "holdout": 640032
+    },
+    "independent_searches": [
+      {
+        "label": "A",
+        "candidate_attempts": 8,
+        "binding_combinations": 8,
+        "composition_expansions": 45,
+        "intermediate_materializations": 14,
+        "selected_rank": 8,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_state_run",
+        "parameters": {
+          "best_nonempty_initial": 1,
+          "best_relation": ">",
+          "increment": 1,
+          "loop_start": 1,
+          "relation": "==",
+          "reset_value": 1,
+          "run_initial": 1
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      },
+      {
+        "label": "B",
+        "candidate_attempts": 8,
+        "binding_combinations": 8,
+        "composition_expansions": 45,
+        "intermediate_materializations": 14,
+        "selected_rank": 8,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_state_run",
+        "parameters": {
+          "best_nonempty_initial": 1,
+          "best_relation": ">",
+          "increment": 1,
+          "loop_start": 1,
+          "relation": "==",
+          "reset_value": 1,
+          "run_initial": 1
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      }
+    ],
+    "formation": {
+      "step_F": "F_93302b6b7d8bd69c4f8c",
+      "step_parents": [
+        "F_topology_adjacent_state_run",
+        "F_exec_compare",
+        "F_exec_conditional_update"
+      ],
+      "step_formation_parents_exact": true,
+      "step_admitted_before_root_formation": true,
+      "root_F": "F_bd1c8b86e4a28d068f0b",
+      "root_parents": [
+        "F_topology_adjacent_state_run",
+        "F_exec_assign",
+        "F_93302b6b7d8bd69c4f8c",
+        "F_exec_range_loop",
+        "F_exec_return"
+      ],
+      "root_formation_parents_exact": true,
+      "independent_step_identity_equal": true,
+      "independent_root_identity_equal": true,
+      "root_step_parent_is_library_at_formation": true,
+      "raw_composer_drafts_admitted": false
+    },
+    "validation": {
+      "step": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "root": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "step_verified_transitions": 256,
+      "root_train_examples": 48,
+      "root_holdout_oracle_cases": 192,
+      "raw_search_python_equal_oracle": true,
+      "raw_search_javascript_equal_oracle": true,
+      "root_python_equal_oracle": true,
+      "root_javascript_equal_oracle": true,
+      "root_cold_replay_equal_oracle": true,
+      "step_receipt_digest": "10e45d3a1ce93c10a13f8119ec4a7131799a75dd6d4698d41f0cd5d9161dacc8",
+      "root_receipt_digest": "44f89e8f0ab7897d9dd0947bbe06951a371e9451ed7e3738aff8ce3196c460db"
+    },
+    "library_size_after": 16,
+    "promoted_F": [
+      "F_93302b6b7d8bd69c4f8c",
+      "F_bd1c8b86e4a28d068f0b"
+    ]
+  },
+  {
+    "goal_id": "U13",
+    "display_name": "count_adjacent_changes",
+    "fresh_instances_per_independent_search": 24,
+    "training_instance_counts": {
+      "A": 24,
+      "B": 24
+    },
+    "seeds": {
+      "training_A": 880033,
+      "training_B": 990043,
+      "holdout": 640033
+    },
+    "independent_searches": [
+      {
+        "label": "A",
+        "candidate_attempts": 4,
+        "binding_combinations": 4,
+        "composition_expansions": 12,
+        "intermediate_materializations": 4,
+        "selected_rank": 4,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_event_count",
+        "parameters": {
+          "increment": 1,
+          "initial_count": 0,
+          "loop_start": 1,
+          "relation": "!="
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      },
+      {
+        "label": "B",
+        "candidate_attempts": 4,
+        "binding_combinations": 4,
+        "composition_expansions": 12,
+        "intermediate_materializations": 4,
+        "selected_rank": 4,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_event_count",
+        "parameters": {
+          "increment": 1,
+          "initial_count": 0,
+          "loop_start": 1,
+          "relation": "!="
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      }
+    ],
+    "formation": {
+      "step_F": "F_4e10ab1d0d80eb74a490",
+      "step_parents": [
+        "F_topology_adjacent_event_count",
+        "F_exec_compare",
+        "F_exec_conditional_update"
+      ],
+      "step_formation_parents_exact": true,
+      "step_admitted_before_root_formation": true,
+      "root_F": "F_f6a9887dd22cb41d2cbf",
+      "root_parents": [
+        "F_topology_adjacent_event_count",
+        "F_exec_assign",
+        "F_4e10ab1d0d80eb74a490",
+        "F_exec_range_loop",
+        "F_exec_return"
+      ],
+      "root_formation_parents_exact": true,
+      "independent_step_identity_equal": true,
+      "independent_root_identity_equal": true,
+      "root_step_parent_is_library_at_formation": true,
+      "raw_composer_drafts_admitted": false
+    },
+    "validation": {
+      "step": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "root": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "step_verified_transitions": 256,
+      "root_train_examples": 48,
+      "root_holdout_oracle_cases": 192,
+      "raw_search_python_equal_oracle": true,
+      "raw_search_javascript_equal_oracle": true,
+      "root_python_equal_oracle": true,
+      "root_javascript_equal_oracle": true,
+      "root_cold_replay_equal_oracle": true,
+      "step_receipt_digest": "65413f203a00596ba997bc3f02e3fcaf68be248f5094f03122494ee3b50f7344",
+      "root_receipt_digest": "453cc30a2d3ec613989b3d56f715d66a3467ee6f8d32c47fd347730697ad5d7c"
+    },
+    "library_size_after": 18,
+    "promoted_F": [
+      "F_4e10ab1d0d80eb74a490",
+      "F_f6a9887dd22cb41d2cbf"
+    ]
+  },
+  {
+    "goal_id": "G01",
+    "display_name": "longest_increasing_run",
+    "fresh_instances_per_independent_search": 24,
+    "training_instance_counts": {
+      "A": 24,
+      "B": 24
+    },
+    "seeds": {
+      "training_A": 880034,
+      "training_B": 990044,
+      "holdout": 640034
+    },
+    "independent_searches": [
+      {
+        "label": "A",
+        "candidate_attempts": 12,
+        "binding_combinations": 12,
+        "composition_expansions": 63,
+        "intermediate_materializations": 18,
+        "selected_rank": 12,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_state_run",
+        "parameters": {
+          "best_nonempty_initial": 1,
+          "best_relation": ">",
+          "increment": 1,
+          "loop_start": 1,
+          "relation": ">",
+          "reset_value": 1,
+          "run_initial": 1
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      },
+      {
+        "label": "B",
+        "candidate_attempts": 12,
+        "binding_combinations": 12,
+        "composition_expansions": 63,
+        "intermediate_materializations": 18,
+        "selected_rank": 12,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_state_run",
+        "parameters": {
+          "best_nonempty_initial": 1,
+          "best_relation": ">",
+          "increment": 1,
+          "loop_start": 1,
+          "relation": ">",
+          "reset_value": 1,
+          "run_initial": 1
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      }
+    ],
+    "formation": {
+      "step_F": "F_44204b70253aa1408a91",
+      "step_parents": [
+        "F_topology_adjacent_state_run",
+        "F_exec_compare",
+        "F_exec_conditional_update"
+      ],
+      "step_formation_parents_exact": true,
+      "step_admitted_before_root_formation": true,
+      "root_F": "F_c1afe69a1f8fa25c1f13",
+      "root_parents": [
+        "F_topology_adjacent_state_run",
+        "F_exec_assign",
+        "F_44204b70253aa1408a91",
+        "F_exec_range_loop",
+        "F_exec_return"
+      ],
+      "root_formation_parents_exact": true,
+      "independent_step_identity_equal": true,
+      "independent_root_identity_equal": true,
+      "root_step_parent_is_library_at_formation": true,
+      "raw_composer_drafts_admitted": false
+    },
+    "validation": {
+      "step": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "root": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "step_verified_transitions": 256,
+      "root_train_examples": 48,
+      "root_holdout_oracle_cases": 192,
+      "raw_search_python_equal_oracle": true,
+      "raw_search_javascript_equal_oracle": true,
+      "root_python_equal_oracle": true,
+      "root_javascript_equal_oracle": true,
+      "root_cold_replay_equal_oracle": true,
+      "step_receipt_digest": "73f0a61c559563c4a468c4368f715594ab54c11cca931b1e4e3b7866958a55d4",
+      "root_receipt_digest": "6f92e085c4628d9e3e065003ad595f1eb6979f77de12df15e33103baa13bd4c5"
+    },
+    "library_size_after": 20,
+    "promoted_F": [
+      "F_44204b70253aa1408a91",
+      "F_c1afe69a1f8fa25c1f13"
+    ]
+  },
+  {
+    "goal_id": "G03",
+    "display_name": "longest_decreasing_run",
+    "fresh_instances_per_independent_search": 24,
+    "training_instance_counts": {
+      "A": 24,
+      "B": 24
+    },
+    "seeds": {
+      "training_A": 880035,
+      "training_B": 990045,
+      "holdout": 640035
+    },
+    "independent_searches": [
+      {
+        "label": "A",
+        "candidate_attempts": 14,
+        "binding_combinations": 14,
+        "composition_expansions": 72,
+        "intermediate_materializations": 20,
+        "selected_rank": 14,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_state_run",
+        "parameters": {
+          "best_nonempty_initial": 1,
+          "best_relation": ">",
+          "increment": 1,
+          "loop_start": 1,
+          "relation": "<",
+          "reset_value": 1,
+          "run_initial": 1
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      },
+      {
+        "label": "B",
+        "candidate_attempts": 14,
+        "binding_combinations": 14,
+        "composition_expansions": 72,
+        "intermediate_materializations": 20,
+        "selected_rank": 14,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_state_run",
+        "parameters": {
+          "best_nonempty_initial": 1,
+          "best_relation": ">",
+          "increment": 1,
+          "loop_start": 1,
+          "relation": "<",
+          "reset_value": 1,
+          "run_initial": 1
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      }
+    ],
+    "formation": {
+      "step_F": "F_50bf23b4448cb8a0cb80",
+      "step_parents": [
+        "F_topology_adjacent_state_run",
+        "F_exec_compare",
+        "F_exec_conditional_update"
+      ],
+      "step_formation_parents_exact": true,
+      "step_admitted_before_root_formation": true,
+      "root_F": "F_a6aef3cbef65ed27e8d8",
+      "root_parents": [
+        "F_topology_adjacent_state_run",
+        "F_exec_assign",
+        "F_50bf23b4448cb8a0cb80",
+        "F_exec_range_loop",
+        "F_exec_return"
+      ],
+      "root_formation_parents_exact": true,
+      "independent_step_identity_equal": true,
+      "independent_root_identity_equal": true,
+      "root_step_parent_is_library_at_formation": true,
+      "raw_composer_drafts_admitted": false
+    },
+    "validation": {
+      "step": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "root": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "step_verified_transitions": 256,
+      "root_train_examples": 48,
+      "root_holdout_oracle_cases": 192,
+      "raw_search_python_equal_oracle": true,
+      "raw_search_javascript_equal_oracle": true,
+      "root_python_equal_oracle": true,
+      "root_javascript_equal_oracle": true,
+      "root_cold_replay_equal_oracle": true,
+      "step_receipt_digest": "b11b4f8e6323068553b6836fa73c96d3bf2af1de6a8c14deccfc381a20112840",
+      "root_receipt_digest": "8a5581d3ece44d0f0a9b7a5bbe936c37eb51c97ac54192e96031b0dec7e69c57"
+    },
+    "library_size_after": 22,
+    "promoted_F": [
+      "F_50bf23b4448cb8a0cb80",
+      "F_a6aef3cbef65ed27e8d8"
+    ]
+  },
+  {
+    "goal_id": "G05",
+    "display_name": "count_adjacent_increases",
+    "fresh_instances_per_independent_search": 24,
+    "training_instance_counts": {
+      "A": 24,
+      "B": 24
+    },
+    "seeds": {
+      "training_A": 880036,
+      "training_B": 990046,
+      "holdout": 640036
+    },
+    "independent_searches": [
+      {
+        "label": "A",
+        "candidate_attempts": 8,
+        "binding_combinations": 8,
+        "composition_expansions": 18,
+        "intermediate_materializations": 6,
+        "selected_rank": 8,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_event_count",
+        "parameters": {
+          "increment": 1,
+          "initial_count": 0,
+          "loop_start": 1,
+          "relation": ">"
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      },
+      {
+        "label": "B",
+        "candidate_attempts": 8,
+        "binding_combinations": 8,
+        "composition_expansions": 18,
+        "intermediate_materializations": 6,
+        "selected_rank": 8,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_event_count",
+        "parameters": {
+          "increment": 1,
+          "initial_count": 0,
+          "loop_start": 1,
+          "relation": ">"
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      }
+    ],
+    "formation": {
+      "step_F": "F_58eac04f390c93643c95",
+      "step_parents": [
+        "F_topology_adjacent_event_count",
+        "F_exec_compare",
+        "F_exec_conditional_update"
+      ],
+      "step_formation_parents_exact": true,
+      "step_admitted_before_root_formation": true,
+      "root_F": "F_cac97282833230855ffa",
+      "root_parents": [
+        "F_topology_adjacent_event_count",
+        "F_exec_assign",
+        "F_58eac04f390c93643c95",
+        "F_exec_range_loop",
+        "F_exec_return"
+      ],
+      "root_formation_parents_exact": true,
+      "independent_step_identity_equal": true,
+      "independent_root_identity_equal": true,
+      "root_step_parent_is_library_at_formation": true,
+      "raw_composer_drafts_admitted": false
+    },
+    "validation": {
+      "step": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "root": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "step_verified_transitions": 256,
+      "root_train_examples": 48,
+      "root_holdout_oracle_cases": 192,
+      "raw_search_python_equal_oracle": true,
+      "raw_search_javascript_equal_oracle": true,
+      "root_python_equal_oracle": true,
+      "root_javascript_equal_oracle": true,
+      "root_cold_replay_equal_oracle": true,
+      "step_receipt_digest": "6b60984c4349887e5880cc6346245931b4938568daa38b15847e52722d1743b1",
+      "root_receipt_digest": "c3063f3ae51cc29470e76ec9cd3a0ea00edfbb2fb8c1f9cddcbedd1f98694a43"
+    },
+    "library_size_after": 24,
+    "promoted_F": [
+      "F_58eac04f390c93643c95",
+      "F_cac97282833230855ffa"
+    ]
+  },
+  {
+    "goal_id": "G07",
+    "display_name": "count_adjacent_equals",
+    "fresh_instances_per_independent_search": 24,
+    "training_instance_counts": {
+      "A": 24,
+      "B": 24
+    },
+    "seeds": {
+      "training_A": 880037,
+      "training_B": 990047,
+      "holdout": 640037
+    },
+    "independent_searches": [
+      {
+        "label": "A",
+        "candidate_attempts": 7,
+        "binding_combinations": 7,
+        "composition_expansions": 6,
+        "intermediate_materializations": 2,
+        "selected_rank": 7,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_event_count",
+        "parameters": {
+          "increment": 1,
+          "initial_count": 0,
+          "loop_start": 1,
+          "relation": "=="
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      },
+      {
+        "label": "B",
+        "candidate_attempts": 7,
+        "binding_combinations": 7,
+        "composition_expansions": 6,
+        "intermediate_materializations": 2,
+        "selected_rank": 7,
+        "candidate_kind": "recipe_composition",
+        "topology_F": "F_topology_adjacent_event_count",
+        "parameters": {
+          "increment": 1,
+          "initial_count": 0,
+          "loop_start": 1,
+          "relation": "=="
+        },
+        "selected_library_F_bindings": {
+          "assign": "F_exec_assign",
+          "compare": "F_exec_compare",
+          "conditional_update": "F_exec_conditional_update",
+          "range_loop": "F_exec_range_loop",
+          "return": "F_exec_return",
+          "sequence": "F_exec_sequence"
+        }
+      }
+    ],
+    "formation": {
+      "step_F": "F_cbaa441e9f4fad8bc76e",
+      "step_parents": [
+        "F_topology_adjacent_event_count",
+        "F_exec_compare",
+        "F_exec_conditional_update"
+      ],
+      "step_formation_parents_exact": true,
+      "step_admitted_before_root_formation": true,
+      "root_F": "F_f621e7a403c970a7a71b",
+      "root_parents": [
+        "F_topology_adjacent_event_count",
+        "F_exec_assign",
+        "F_cbaa441e9f4fad8bc76e",
+        "F_exec_range_loop",
+        "F_exec_return"
+      ],
+      "root_formation_parents_exact": true,
+      "independent_step_identity_equal": true,
+      "independent_root_identity_equal": true,
+      "root_step_parent_is_library_at_formation": true,
+      "raw_composer_drafts_admitted": false
+    },
+    "validation": {
+      "step": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "root": {
+        "interface": true,
+        "domain_audit": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true,
+        "formation_parents": true
+      },
+      "step_verified_transitions": 256,
+      "root_train_examples": 48,
+      "root_holdout_oracle_cases": 192,
+      "raw_search_python_equal_oracle": true,
+      "raw_search_javascript_equal_oracle": true,
+      "root_python_equal_oracle": true,
+      "root_javascript_equal_oracle": true,
+      "root_cold_replay_equal_oracle": true,
+      "step_receipt_digest": "4a1418c94131c386a4331778c89aef86822f73b36b71c692ca53e9b57ec18059",
+      "root_receipt_digest": "163f2cf3bc6ef1dbdb4f4ad4d8e8ff03bde6383aff6ae6d9e8d8e2856aac357d"
+    },
+    "library_size_after": 26,
+    "promoted_F": [
+      "F_cbaa441e9f4fad8bc76e",
+      "F_f621e7a403c970a7a71b"
+    ]
+  }
+]

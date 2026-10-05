@@ -1,0 +1,766 @@
+[
+  {
+    "source": "main_acquisition",
+    "task_id": "D05",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D08",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D09",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D08",
+      "B04"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_4498b1a6b76423b16a06",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D08",
+      "B04"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_4498b1a6b76423b16a06",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D08",
+      "B04"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_4498b1a6b76423b16a06",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D08",
+      "B04"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_4498b1a6b76423b16a06",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D08",
+      "B04"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_4498b1a6b76423b16a06",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D08",
+      "B04"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_4498b1a6b76423b16a06",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D08",
+      "B04"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_4498b1a6b76423b16a06",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D12",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D11",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_87a666b46ef0cfa2f32b",
+      "F_8f991df15e01e06dffae"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D08",
+      "B04"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_4498b1a6b76423b16a06",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/FULL+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D11",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_87a666b46ef0cfa2f32b",
+      "F_8f991df15e01e06dffae"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D07",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D08",
+      "B04"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_4498b1a6b76423b16a06",
+      "F_a6aef3cbef65ed27e8d8"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  },
+  {
+    "source": "paired_view/ACTIVE+EXPANDED",
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D11",
+      "B01"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_87a666b46ef0cfa2f32b",
+      "F_8f991df15e01e06dffae"
+    ],
+    "admission_independent": true,
+    "admitted": true,
+    "already_persistent": false
+  }
+]

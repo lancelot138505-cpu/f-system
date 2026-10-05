@@ -1,0 +1,108 @@
+{
+  "starting_library_size": 12,
+  "final_library_size": 26,
+  "goals": 7,
+  "goal_root_map": {
+    "U11": "F_dcfedcf1d26444553cdb",
+    "U12": "F_bd1c8b86e4a28d068f0b",
+    "U13": "F_f6a9887dd22cb41d2cbf",
+    "G01": "F_c1afe69a1f8fa25c1f13",
+    "G03": "F_a6aef3cbef65ed27e8d8",
+    "G05": "F_cac97282833230855ffa",
+    "G07": "F_f621e7a403c970a7a71b"
+  },
+  "source_library": "data\\library_seed.json",
+  "source_library_sha256": "5ea44a0ac094923fccdd4db12a5174aba878732ff7bccbf2e9bbfa127900dd3b",
+  "strict_formation_from_seed": true,
+  "fresh_training_instances": 336,
+  "all_training_instances_disjoint_from_prior_runs": true,
+  "newly_promoted_F": 14,
+  "acquired_goals": 7,
+  "all_composer_goals_were_example_only": true,
+  "all_step_parents_exact": true,
+  "all_root_parents_exact": true,
+  "all_root_steps_persisted_before_formation": true,
+  "all_semantic_checks_passed": true,
+  "final_reload": [
+    {
+      "goal_id": "U11",
+      "root_F": "F_dcfedcf1d26444553cdb",
+      "root_present": true,
+      "step_present": true,
+      "step_parents_still_exact": true,
+      "root_parents_still_exact": true,
+      "root_is_ordinary_public_operation": true,
+      "matches_oracle": true,
+      "cases": 192
+    },
+    {
+      "goal_id": "U12",
+      "root_F": "F_bd1c8b86e4a28d068f0b",
+      "root_present": true,
+      "step_present": true,
+      "step_parents_still_exact": true,
+      "root_parents_still_exact": true,
+      "root_is_ordinary_public_operation": true,
+      "matches_oracle": true,
+      "cases": 192
+    },
+    {
+      "goal_id": "U13",
+      "root_F": "F_f6a9887dd22cb41d2cbf",
+      "root_present": true,
+      "step_present": true,
+      "step_parents_still_exact": true,
+      "root_parents_still_exact": true,
+      "root_is_ordinary_public_operation": true,
+      "matches_oracle": true,
+      "cases": 192
+    },
+    {
+      "goal_id": "G01",
+      "root_F": "F_c1afe69a1f8fa25c1f13",
+      "root_present": true,
+      "step_present": true,
+      "step_parents_still_exact": true,
+      "root_parents_still_exact": true,
+      "root_is_ordinary_public_operation": true,
+      "matches_oracle": true,
+      "cases": 192
+    },
+    {
+      "goal_id": "G03",
+      "root_F": "F_a6aef3cbef65ed27e8d8",
+      "root_present": true,
+      "step_present": true,
+      "step_parents_still_exact": true,
+      "root_parents_still_exact": true,
+      "root_is_ordinary_public_operation": true,
+      "matches_oracle": true,
+      "cases": 192
+    },
+    {
+      "goal_id": "G05",
+      "root_F": "F_cac97282833230855ffa",
+      "root_present": true,
+      "step_present": true,
+      "step_parents_still_exact": true,
+      "root_parents_still_exact": true,
+      "root_is_ordinary_public_operation": true,
+      "matches_oracle": true,
+      "cases": 192
+    },
+    {
+      "goal_id": "G07",
+      "root_F": "F_f621e7a403c970a7a71b",
+      "root_present": true,
+      "step_present": true,
+      "step_parents_still_exact": true,
+      "root_parents_still_exact": true,
+      "root_is_ordinary_public_operation": true,
+      "matches_oracle": true,
+      "cases": 192
+    }
+  ],
+  "five_round_experiment": false,
+  "formal_composer_modified": false,
+  "unified_admission_formation_parent_audit": true
+}

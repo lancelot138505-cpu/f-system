@@ -1,0 +1,962 @@
+[
+  {
+    "source": "main_acquisition",
+    "task_id": "D01",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D01",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D01",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D01",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D01",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D02",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D02",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D02",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D02",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D02",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D03",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D03",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D03",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D03",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D03",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D04",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D04",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D04",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D04",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D04",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D05",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D05",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D05",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D05",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D05",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D06",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D06",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D06",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D06",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D06",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D07",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D07",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D07",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D07",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D07",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D08",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D08",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D08",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D08",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D08",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D09",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D09",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D09",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D09",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D09",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D10",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D10",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D10",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D10",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D10",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D11",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D11",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D11",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D11",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D11",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "main_acquisition",
+    "task_id": "D12",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 2
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D12",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D12",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D12",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  {
+    "source": "paired_view",
+    "task_id": "D12",
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hits": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  }
+]

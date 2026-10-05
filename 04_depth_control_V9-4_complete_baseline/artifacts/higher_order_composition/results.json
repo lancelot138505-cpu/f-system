@@ -1,0 +1,504 @@
+{
+  "status": "PASS",
+  "source_library": "artifacts\\clean_strict_library\\library_final.json",
+  "source_library_sha256": "a418fb29bcf1db35c87f01e0a08842e0bcca93433d0305c3dfcc953e220ad007",
+  "goals": [
+    {
+      "goal": "HG01",
+      "goal_function": "increasing_run_plus_increase_count",
+      "library_sha256_before": "a418fb29bcf1db35c87f01e0a08842e0bcca93433d0305c3dfcc953e220ad007",
+      "library_structures_before": 27,
+      "selected_children": {
+        "earlier_goal_F": "F_c1afe69a1f8fa25c1f13",
+        "other_goal_F": "F_cac97282833230855ffa"
+      },
+      "candidate_kind": "public_binary_operation_composition",
+      "candidate_rank": 63,
+      "search_depth": 3,
+      "result_F": "F_13d4dc25417f2406b9e2",
+      "parents": [
+        "F_c1afe69a1f8fa25c1f13",
+        "F_cac97282833230855ffa"
+      ],
+      "exact_parent_audit": true,
+      "admission_checks": {
+        "interface": true,
+        "domain_audit": true,
+        "formation_parents": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true
+      },
+      "metrics": {
+        "candidate_attempts": 63,
+        "binding_combinations": 63,
+        "composition_expansions": 178,
+        "intermediate_materializations": 68
+      },
+      "independent_candidate_rank": 63,
+      "independent_identity_equal": true,
+      "oracle_python_javascript_equal": true,
+      "public_cold_reload_output": 6,
+      "cold_process_cases": 128,
+      "cold_process_equal_oracle": true,
+      "search_trace": [
+        {
+          "event": "RETRIEVE_OPERATION",
+          "structure_id": "F_c1afe69a1f8fa25c1f13",
+          "operation_id": "candidate.root.bf14293db0397d5b773d",
+          "capability_descriptor": "sequence<int> -> int"
+        },
+        {
+          "event": "RETRIEVE_OPERATION",
+          "structure_id": "F_cac97282833230855ffa",
+          "operation_id": "candidate.root.39cce534cfb338fff0c8",
+          "capability_descriptor": "sequence<int> -> int"
+        },
+        {
+          "event": "ENUMERATE_PUBLIC_OPERATION_PAIRS",
+          "pool_ids": [
+            "F_a6aef3cbef65ed27e8d8",
+            "F_bd1c8b86e4a28d068f0b",
+            "F_c1afe69a1f8fa25c1f13",
+            "F_cac97282833230855ffa",
+            "F_dcfedcf1d26444553cdb",
+            "F_f621e7a403c970a7a71b",
+            "F_f6a9887dd22cb41d2cbf"
+          ],
+          "filtered_pair_count": 42,
+          "operators": [
+            "*",
+            "+",
+            "-"
+          ],
+          "library_only": true
+        },
+        {
+          "event": "ENUMERATE_PUBLIC_OPERATION_PAIR",
+          "rank": 63,
+          "left_id": "F_c1afe69a1f8fa25c1f13",
+          "right_id": "F_cac97282833230855ffa",
+          "operator": "+",
+          "search_depth": 3,
+          "public_contract_only": true
+        },
+        {
+          "event": "COMPOSE_CHILD",
+          "structure_id": "F_c1afe69a1f8fa25c1f13",
+          "role": "left",
+          "candidate_rank": 63,
+          "public_contract_only": true
+        },
+        {
+          "event": "COMPOSE_CHILD",
+          "structure_id": "F_cac97282833230855ffa",
+          "role": "right",
+          "candidate_rank": 63,
+          "public_contract_only": true
+        },
+        {
+          "event": "MATERIALIZE_PUBLIC_OPERATION_PAIR",
+          "rank": 63,
+          "candidate_id": "binary-F_13d4dc25417f2406b9e2",
+          "root_id": "F_13d4dc25417f2406b9e2",
+          "left_id": "F_c1afe69a1f8fa25c1f13",
+          "right_id": "F_cac97282833230855ffa",
+          "operator": "+",
+          "left_public_bindings": {
+            "SEQUENCE": {
+              "goal_input": "nums"
+            },
+            "STATE": {
+              "runtime_context": "STATE"
+            },
+            "INDEX": {
+              "runtime_context": "INDEX"
+            },
+            "BOOLEAN": {
+              "runtime_context": "BOOLEAN"
+            }
+          },
+          "right_public_bindings": {
+            "SEQUENCE": {
+              "goal_input": "nums"
+            },
+            "STATE": {
+              "runtime_context": "STATE"
+            },
+            "INDEX": {
+              "runtime_context": "INDEX"
+            },
+            "BOOLEAN": {
+              "runtime_context": "BOOLEAN"
+            }
+          },
+          "search_depth": 3
+        },
+        {
+          "event": "CANONICAL_COMPOSE",
+          "structure_id": "F_13d4dc25417f2406b9e2",
+          "candidate_rank": 63,
+          "parents": [
+            "F_c1afe69a1f8fa25c1f13",
+            "F_cac97282833230855ffa"
+          ],
+          "topology": {
+            "kind": "public_binary_operation_application",
+            "version": 1,
+            "operator": "+",
+            "operand_order": [
+              "F_c1afe69a1f8fa25c1f13",
+              "F_cac97282833230855ffa"
+            ]
+          },
+          "search_depth": 3
+        },
+        {
+          "event": "SELECT_OPERATION",
+          "structure_id": "F_13d4dc25417f2406b9e2",
+          "search_depth": 3
+        },
+        {
+          "event": "BIND_PUBLIC_SLOTS",
+          "structure_id": "F_13d4dc25417f2406b9e2",
+          "bindings": {
+            "SEQUENCE": [],
+            "STATE": {},
+            "INDEX": null,
+            "BOOLEAN": null
+          },
+          "formal_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ]
+        },
+        {
+          "event": "EXECUTE_OPERATION",
+          "structure_id": "F_13d4dc25417f2406b9e2"
+        },
+        {
+          "event": "SELECT_OPERATION",
+          "structure_id": "F_c1afe69a1f8fa25c1f13",
+          "operation_id": "candidate.root.bf14293db0397d5b773d",
+          "selected_as": "child",
+          "parent_id": "F_13d4dc25417f2406b9e2",
+          "role": "left"
+        },
+        {
+          "event": "BIND_PUBLIC_SLOTS",
+          "structure_id": "F_c1afe69a1f8fa25c1f13",
+          "bindings": {
+            "SEQUENCE": [],
+            "STATE": {},
+            "INDEX": null,
+            "BOOLEAN": null
+          },
+          "formal_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "selected_as": "child",
+          "parent_id": "F_13d4dc25417f2406b9e2"
+        },
+        {
+          "event": "SELECT_OPERATION",
+          "structure_id": "F_cac97282833230855ffa",
+          "operation_id": "candidate.root.39cce534cfb338fff0c8",
+          "selected_as": "child",
+          "parent_id": "F_13d4dc25417f2406b9e2",
+          "role": "right"
+        },
+        {
+          "event": "BIND_PUBLIC_SLOTS",
+          "structure_id": "F_cac97282833230855ffa",
+          "bindings": {
+            "SEQUENCE": [],
+            "STATE": {},
+            "INDEX": null,
+            "BOOLEAN": null
+          },
+          "formal_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "selected_as": "child",
+          "parent_id": "F_13d4dc25417f2406b9e2"
+        },
+        {
+          "event": "USE_AS_CHILD_OPERATION",
+          "parent_id": "F_13d4dc25417f2406b9e2",
+          "structure_id": "F_c1afe69a1f8fa25c1f13",
+          "operation_id": "candidate.root.bf14293db0397d5b773d",
+          "dispatch_depth": 2,
+          "selected_after_parent": true
+        },
+        {
+          "event": "USE_AS_CHILD_OPERATION",
+          "parent_id": "F_13d4dc25417f2406b9e2",
+          "structure_id": "F_cac97282833230855ffa",
+          "operation_id": "candidate.root.39cce534cfb338fff0c8",
+          "dispatch_depth": 2,
+          "selected_after_parent": true
+        }
+      ]
+    },
+    {
+      "goal": "HG02",
+      "goal_function": "decreasing_run_plus_equal_count",
+      "library_sha256_before": "a418fb29bcf1db35c87f01e0a08842e0bcca93433d0305c3dfcc953e220ad007",
+      "library_structures_before": 27,
+      "selected_children": {
+        "earlier_goal_F": "F_a6aef3cbef65ed27e8d8",
+        "other_goal_F": "F_f621e7a403c970a7a71b"
+      },
+      "candidate_kind": "public_binary_operation_composition",
+      "candidate_rank": 33,
+      "search_depth": 3,
+      "result_F": "F_301c091cc230f0a27ad9",
+      "parents": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_f621e7a403c970a7a71b"
+      ],
+      "exact_parent_audit": true,
+      "admission_checks": {
+        "interface": true,
+        "domain_audit": true,
+        "formation_parents": true,
+        "executable": true,
+        "examples": true,
+        "randomized_oracle": true,
+        "cross_language": true,
+        "cold_instance": true,
+        "x_leakage": true
+      },
+      "metrics": {
+        "candidate_attempts": 33,
+        "binding_combinations": 33,
+        "composition_expansions": 118,
+        "intermediate_materializations": 38
+      },
+      "independent_candidate_rank": 33,
+      "independent_identity_equal": true,
+      "oracle_python_javascript_equal": true,
+      "public_cold_reload_output": 2,
+      "cold_process_cases": 128,
+      "cold_process_equal_oracle": true,
+      "search_trace": [
+        {
+          "event": "RETRIEVE_OPERATION",
+          "structure_id": "F_a6aef3cbef65ed27e8d8",
+          "operation_id": "candidate.root.1481e14369100cb3eae3",
+          "capability_descriptor": "sequence<int> -> int"
+        },
+        {
+          "event": "RETRIEVE_OPERATION",
+          "structure_id": "F_f621e7a403c970a7a71b",
+          "operation_id": "candidate.root.1858c15afed07a197d6b",
+          "capability_descriptor": "sequence<int> -> int"
+        },
+        {
+          "event": "ENUMERATE_PUBLIC_OPERATION_PAIRS",
+          "pool_ids": [
+            "F_a6aef3cbef65ed27e8d8",
+            "F_bd1c8b86e4a28d068f0b",
+            "F_c1afe69a1f8fa25c1f13",
+            "F_cac97282833230855ffa",
+            "F_dcfedcf1d26444553cdb",
+            "F_f621e7a403c970a7a71b",
+            "F_f6a9887dd22cb41d2cbf"
+          ],
+          "filtered_pair_count": 42,
+          "operators": [
+            "*",
+            "+",
+            "-"
+          ],
+          "library_only": true
+        },
+        {
+          "event": "ENUMERATE_PUBLIC_OPERATION_PAIR",
+          "rank": 33,
+          "left_id": "F_a6aef3cbef65ed27e8d8",
+          "right_id": "F_f621e7a403c970a7a71b",
+          "operator": "+",
+          "search_depth": 3,
+          "public_contract_only": true
+        },
+        {
+          "event": "COMPOSE_CHILD",
+          "structure_id": "F_a6aef3cbef65ed27e8d8",
+          "role": "left",
+          "candidate_rank": 33,
+          "public_contract_only": true
+        },
+        {
+          "event": "COMPOSE_CHILD",
+          "structure_id": "F_f621e7a403c970a7a71b",
+          "role": "right",
+          "candidate_rank": 33,
+          "public_contract_only": true
+        },
+        {
+          "event": "MATERIALIZE_PUBLIC_OPERATION_PAIR",
+          "rank": 33,
+          "candidate_id": "binary-F_301c091cc230f0a27ad9",
+          "root_id": "F_301c091cc230f0a27ad9",
+          "left_id": "F_a6aef3cbef65ed27e8d8",
+          "right_id": "F_f621e7a403c970a7a71b",
+          "operator": "+",
+          "left_public_bindings": {
+            "SEQUENCE": {
+              "goal_input": "nums"
+            },
+            "STATE": {
+              "runtime_context": "STATE"
+            },
+            "INDEX": {
+              "runtime_context": "INDEX"
+            },
+            "BOOLEAN": {
+              "runtime_context": "BOOLEAN"
+            }
+          },
+          "right_public_bindings": {
+            "SEQUENCE": {
+              "goal_input": "nums"
+            },
+            "STATE": {
+              "runtime_context": "STATE"
+            },
+            "INDEX": {
+              "runtime_context": "INDEX"
+            },
+            "BOOLEAN": {
+              "runtime_context": "BOOLEAN"
+            }
+          },
+          "search_depth": 3
+        },
+        {
+          "event": "CANONICAL_COMPOSE",
+          "structure_id": "F_301c091cc230f0a27ad9",
+          "candidate_rank": 33,
+          "parents": [
+            "F_a6aef3cbef65ed27e8d8",
+            "F_f621e7a403c970a7a71b"
+          ],
+          "topology": {
+            "kind": "public_binary_operation_application",
+            "version": 1,
+            "operator": "+",
+            "operand_order": [
+              "F_a6aef3cbef65ed27e8d8",
+              "F_f621e7a403c970a7a71b"
+            ]
+          },
+          "search_depth": 3
+        },
+        {
+          "event": "SELECT_OPERATION",
+          "structure_id": "F_301c091cc230f0a27ad9",
+          "search_depth": 3
+        },
+        {
+          "event": "BIND_PUBLIC_SLOTS",
+          "structure_id": "F_301c091cc230f0a27ad9",
+          "bindings": {
+            "SEQUENCE": [],
+            "STATE": {},
+            "INDEX": null,
+            "BOOLEAN": null
+          },
+          "formal_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ]
+        },
+        {
+          "event": "EXECUTE_OPERATION",
+          "structure_id": "F_301c091cc230f0a27ad9"
+        },
+        {
+          "event": "SELECT_OPERATION",
+          "structure_id": "F_a6aef3cbef65ed27e8d8",
+          "operation_id": "candidate.root.1481e14369100cb3eae3",
+          "selected_as": "child",
+          "parent_id": "F_301c091cc230f0a27ad9",
+          "role": "left"
+        },
+        {
+          "event": "BIND_PUBLIC_SLOTS",
+          "structure_id": "F_a6aef3cbef65ed27e8d8",
+          "bindings": {
+            "SEQUENCE": [],
+            "STATE": {},
+            "INDEX": null,
+            "BOOLEAN": null
+          },
+          "formal_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "selected_as": "child",
+          "parent_id": "F_301c091cc230f0a27ad9"
+        },
+        {
+          "event": "SELECT_OPERATION",
+          "structure_id": "F_f621e7a403c970a7a71b",
+          "operation_id": "candidate.root.1858c15afed07a197d6b",
+          "selected_as": "child",
+          "parent_id": "F_301c091cc230f0a27ad9",
+          "role": "right"
+        },
+        {
+          "event": "BIND_PUBLIC_SLOTS",
+          "structure_id": "F_f621e7a403c970a7a71b",
+          "bindings": {
+            "SEQUENCE": [],
+            "STATE": {},
+            "INDEX": null,
+            "BOOLEAN": null
+          },
+          "formal_slots": [
+            "SEQUENCE",
+            "STATE",
+            "INDEX",
+            "BOOLEAN"
+          ],
+          "selected_as": "child",
+          "parent_id": "F_301c091cc230f0a27ad9"
+        },
+        {
+          "event": "USE_AS_CHILD_OPERATION",
+          "parent_id": "F_301c091cc230f0a27ad9",
+          "structure_id": "F_a6aef3cbef65ed27e8d8",
+          "operation_id": "candidate.root.1481e14369100cb3eae3",
+          "dispatch_depth": 2,
+          "selected_after_parent": true
+        },
+        {
+          "event": "USE_AS_CHILD_OPERATION",
+          "parent_id": "F_301c091cc230f0a27ad9",
+          "structure_id": "F_f621e7a403c970a7a71b",
+          "operation_id": "candidate.root.1858c15afed07a197d6b",
+          "dispatch_depth": 2,
+          "selected_after_parent": true
+        }
+      ]
+    }
+  ],
+  "baseline_unchanged": true
+}

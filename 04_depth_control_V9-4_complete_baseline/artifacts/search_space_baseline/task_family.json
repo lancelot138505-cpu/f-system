@@ -1,0 +1,293 @@
+{
+  "experiment": "V9.4 unified search-space baseline",
+  "task_family_version": "v94-search-space-d01-d12/1",
+  "frozen_before_search": true,
+  "frozen_date": "2026-10-04",
+  "maximum_designed_chain_depth": 12,
+  "holdout_count_per_goal": 128,
+  "holdout_seed_rule": "941200 + zero-based D index",
+  "search_candidate_limit": 1200,
+  "goal_input_excludes_oracle_and_parent_recipe_data": true,
+  "search_views": [
+    "FULL+EXPANDED",
+    "FULL+FIRST_CLASS",
+    "ACTIVE+EXPANDED",
+    "ACTIVE+FIRST_CLASS"
+  ],
+  "lifecycle_policy": "existing UsageRegistry explicit-equivalence representative rule; no low-usage retirement or inferred equivalence",
+  "historical_mask_policy": "EXPANDED masks all D-chain root IDs through the current target, then re-forms the goals in order in a branch; FIRST_CLASS leaves the target and history exposed",
+  "fixed_search_rules": [
+    "existing OperationPoolProvider",
+    "existing GoalDrivenComposer",
+    "existing ranking/scoring",
+    "existing generic typed binary composition",
+    "existing verifier/admission"
+  ],
+  "training_input_count": 0,
+  "training_inputs_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "foundation_tasks": [
+    {
+      "label": "B01",
+      "semantics": "longest strictly increasing contiguous run",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941000,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "label": "B02",
+      "semantics": "longest strictly decreasing contiguous run",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941001,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "label": "B04",
+      "semantics": "number of adjacent increases",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941002,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "label": "B06",
+      "semantics": "number of adjacent equal pairs",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941003,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "depth_tasks": [
+    {
+      "task_id": "D01",
+      "left": "B01",
+      "operator": "+",
+      "right": "B02",
+      "semantics": "sum of increasing and decreasing run lengths",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941200,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D02",
+      "left": "D01",
+      "operator": "+",
+      "right": "B04",
+      "semantics": "prior aggregate plus adjacent-increase count",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941201,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D03",
+      "left": "D02",
+      "operator": "-",
+      "right": "B06",
+      "semantics": "prior aggregate less adjacent-equality count",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941202,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D04",
+      "left": "D03",
+      "operator": "+",
+      "right": "B01",
+      "semantics": "prior aggregate plus increasing-run length",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941203,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D05",
+      "left": "D04",
+      "operator": "+",
+      "right": "B02",
+      "semantics": "prior aggregate plus decreasing-run length",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941204,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D06",
+      "left": "D05",
+      "operator": "-",
+      "right": "B04",
+      "semantics": "prior aggregate less adjacent-increase count",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941205,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D07",
+      "left": "D06",
+      "operator": "+",
+      "right": "B06",
+      "semantics": "prior aggregate plus adjacent-equality count",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941206,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D08",
+      "left": "D07",
+      "operator": "-",
+      "right": "B01",
+      "semantics": "prior aggregate less increasing-run length",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941207,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D09",
+      "left": "D08",
+      "operator": "+",
+      "right": "B04",
+      "semantics": "prior aggregate plus adjacent-increase count",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941208,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D10",
+      "left": "D09",
+      "operator": "+",
+      "right": "B02",
+      "semantics": "prior aggregate plus decreasing-run length",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941209,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D11",
+      "left": "D10",
+      "operator": "-",
+      "right": "B06",
+      "semantics": "prior aggregate less adjacent-equality count",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941210,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "task_id": "D12",
+      "left": "D11",
+      "operator": "+",
+      "right": "B01",
+      "semantics": "prior aggregate plus increasing-run length",
+      "public_contract": {
+        "input": "sequence<int>",
+        "output": "int"
+      },
+      "holdout_seed": 941211,
+      "training_example_count": 0,
+      "training_examples_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_case_count": 0,
+      "holdout_input_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "holdout_output_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "input_materialization": "Deterministically regenerated from frozen seeds; raw case vectors are not persisted."
+}

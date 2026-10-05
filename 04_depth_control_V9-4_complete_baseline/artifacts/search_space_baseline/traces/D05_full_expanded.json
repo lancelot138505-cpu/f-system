@@ -1,0 +1,185 @@
+{
+  "mode": "FULL+EXPANDED",
+  "task_id": "D05",
+  "status": "PASS",
+  "source_library_hash": "ca827a5c9ac2bbab1f22b655873b1a3792ffeb311d39265927fde7488560c699",
+  "source_usage_digest": "135c8892c6136ee57172e32ace4b62fc7434ba8a8d31b5543301bc52b968eea5",
+  "starting_branch_library_hash": "f9a81ba7d6c14cd6a2632e3b46f8ae688fda3a0cbcd5f6b89ecd6fa699ae0184",
+  "historical_mask_ids": [
+    "F_0469fb712663a973ddfd",
+    "F_4498b1a6b76423b16a06",
+    "F_87a666b46ef0cfa2f32b",
+    "F_1e7d52d4a8b8c16e9a21",
+    "F_c38d01daa2e8e1d08cef"
+  ],
+  "designed_chain_depth": 5,
+  "search_derivation_depth": 5,
+  "historical_levels_skipped": 0,
+  "newly_formed_goal_F_count": 5,
+  "direct_existing_F_hits": 0,
+  "reused_F_ids": [],
+  "reformed_F_ids": [
+    "F_0469fb712663a973ddfd",
+    "F_4498b1a6b76423b16a06",
+    "F_87a666b46ef0cfa2f32b",
+    "F_1e7d52d4a8b8c16e9a21",
+    "F_c38d01daa2e8e1d08cef"
+  ],
+  "highest_reused_canonical_level": null,
+  "target_root_id": "F_c38d01daa2e8e1d08cef",
+  "target_canonical_level": 8,
+  "target_candidate_kind": "public_binary_operation_composition",
+  "target_candidate_rank": 31,
+  "target_parents": [
+    "F_0469fb712663a973ddfd",
+    "F_87a666b46ef0cfa2f32b"
+  ],
+  "semantic_verification": {
+    "python_examples_equal": true,
+    "python_holdout_equal": true,
+    "javascript_equal": true,
+    "cold_candidate_equal": true,
+    "root_executed_for_all_cases": true,
+    "runtime_call_depth_max": 8,
+    "python_output_digest": "df969a0f081cf8f96d3ba32c25af58d9168066a189644a1c4bccfc84e084a10e",
+    "oracle_output_digest": "df969a0f081cf8f96d3ba32c25af58d9168066a189644a1c4bccfc84e084a10e"
+  },
+  "semantic_equal": true,
+  "target_chain_path": {
+    "status": "SHORTCUT_FOUND",
+    "expected_child_semantics": [
+      "D04",
+      "B02"
+    ],
+    "matched_parent_ids": [
+      null,
+      null
+    ],
+    "parents": [
+      "F_0469fb712663a973ddfd",
+      "F_87a666b46ef0cfa2f32b"
+    ],
+    "admission_independent": true
+  },
+  "runtime_call_depth": 8,
+  "metrics": {
+    "candidate_attempts": 484,
+    "binding_combinations": 484,
+    "composition_expansions": 1268,
+    "intermediate_materializations": 514,
+    "verification_attempts": 519,
+    "training_verification_attempts": 484,
+    "holdout_verification_attempts": 10,
+    "operation_retrieval_count": 90,
+    "recipe_candidate_count": 120,
+    "search_wall_seconds": 18.617976000066847,
+    "search_calls": 10
+  },
+  "wall_seconds": 46.65226879995316,
+  "fallback": {
+    "fallback_triggered": false,
+    "fallback_candidate_pool": 0,
+    "fallback_attempts": 0,
+    "fallback_hit_F": [],
+    "fallback_total_work": {
+      "candidate_attempts": 0,
+      "binding_combinations": 0,
+      "composition_expansions": 0,
+      "intermediate_materializations": 0,
+      "verification_attempts": 0
+    },
+    "stage_count": 0
+  },
+  "exposure": {
+    "global_executable_pool": 29,
+    "lifecycle_exposed_executable_pool": 29,
+    "lifecycle_exposed_structure_pool": 31,
+    "lifecycle_exposed_public_executable_pool": 19,
+    "goal_compatible_pool": 12,
+    "retired_goal_compatible_pool": 0,
+    "view": "FULL"
+  },
+  "after_mask_exposure": {
+    "global_executable_pool": 24,
+    "lifecycle_exposed_executable_pool": 24,
+    "lifecycle_exposed_structure_pool": 26,
+    "lifecycle_exposed_public_executable_pool": 14,
+    "goal_compatible_pool": 7,
+    "retired_goal_compatible_pool": 0,
+    "view": "FULL"
+  },
+  "reformation_stages": [
+    {
+      "task_id": "D01",
+      "status": "ADMITTED",
+      "selected_root_id": "F_0469fb712663a973ddfd",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 5,
+      "parents": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_c1afe69a1f8fa25c1f13"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    },
+    {
+      "task_id": "D02",
+      "status": "ADMITTED",
+      "selected_root_id": "F_4498b1a6b76423b16a06",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 6,
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_cac97282833230855ffa"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    },
+    {
+      "task_id": "D03",
+      "status": "ADMITTED",
+      "selected_root_id": "F_87a666b46ef0cfa2f32b",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 7,
+      "parents": [
+        "F_4498b1a6b76423b16a06",
+        "F_f621e7a403c970a7a71b"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    },
+    {
+      "task_id": "D04",
+      "status": "ADMITTED",
+      "selected_root_id": "F_1e7d52d4a8b8c16e9a21",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 8,
+      "parents": [
+        "F_87a666b46ef0cfa2f32b",
+        "F_c1afe69a1f8fa25c1f13"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    },
+    {
+      "task_id": "D05",
+      "status": "ADMITTED",
+      "selected_root_id": "F_c38d01daa2e8e1d08cef",
+      "candidate_kind": "public_binary_operation_composition",
+      "canonical_level": 8,
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_87a666b46ef0cfa2f32b"
+      ],
+      "chain_status": null,
+      "admission_receipt_count": 1,
+      "admission_pass_count": 1
+    }
+  ],
+  "admission_receipt_count": 5,
+  "admission_pass_count": 5
+}

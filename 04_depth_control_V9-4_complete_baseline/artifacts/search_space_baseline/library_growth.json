@@ -1,0 +1,236 @@
+[
+  {
+    "stage": "clean_start",
+    "task_id": null,
+    "library_file_sha256": "a418fb29bcf1db35c87f01e0a08842e0bcca93433d0305c3dfcc953e220ad007",
+    "usage_file_sha256": "b3615b9bbc41cb29b89518d0deb42335bc9f456872134ba5a0d192e323c8f18e",
+    "library_stats": {
+      "L_all": 26,
+      "L_exec": 24,
+      "active_executable_F": 24,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 4,
+      "exact_parent_pass": 20,
+      "exact_parent_fail": 0,
+      "persistent_hash": "f097307e1697f10794e483f1907ac0de92ddc8eba195937b1a87662fa1ee58b0"
+    }
+  },
+  {
+    "stage": "after_D01",
+    "task_id": "D01",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 27,
+      "L_exec": 25,
+      "active_executable_F": 25,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 5,
+      "exact_parent_pass": 21,
+      "exact_parent_fail": 0,
+      "persistent_hash": "57af49403979078ffd879df7eb1f083ad753fbae40a1941e1427315bea04bfb7"
+    }
+  },
+  {
+    "stage": "after_D02",
+    "task_id": "D02",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 28,
+      "L_exec": 26,
+      "active_executable_F": 26,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 6,
+      "exact_parent_pass": 22,
+      "exact_parent_fail": 0,
+      "persistent_hash": "e800fdbeaa76efa2d10f5d111f062810a57c58c83639a34b132f44ca7e368318"
+    }
+  },
+  {
+    "stage": "after_D03",
+    "task_id": "D03",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 29,
+      "L_exec": 27,
+      "active_executable_F": 27,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 7,
+      "exact_parent_pass": 23,
+      "exact_parent_fail": 0,
+      "persistent_hash": "0af5eb899d381afeea6e9885c8436fec347bfa3a4198357d55b10646073cb70a"
+    }
+  },
+  {
+    "stage": "after_D04",
+    "task_id": "D04",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 30,
+      "L_exec": 28,
+      "active_executable_F": 28,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 8,
+      "exact_parent_pass": 24,
+      "exact_parent_fail": 0,
+      "persistent_hash": "bd770c5ca16c2175a192e02a6b84ab08f01a427fd3c1d37986bb4cb6a3aae0f7"
+    }
+  },
+  {
+    "stage": "after_D05",
+    "task_id": "D05",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 31,
+      "L_exec": 29,
+      "active_executable_F": 29,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 8,
+      "exact_parent_pass": 25,
+      "exact_parent_fail": 0,
+      "persistent_hash": "ca827a5c9ac2bbab1f22b655873b1a3792ffeb311d39265927fde7488560c699"
+    }
+  },
+  {
+    "stage": "after_D06",
+    "task_id": "D06",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 32,
+      "L_exec": 30,
+      "active_executable_F": 30,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 9,
+      "exact_parent_pass": 26,
+      "exact_parent_fail": 0,
+      "persistent_hash": "2944bb9845e2ecb1113ac9a9d898fe0793e3c0aaaa543317852744d5c8142e7e"
+    }
+  },
+  {
+    "stage": "after_D07",
+    "task_id": "D07",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 33,
+      "L_exec": 31,
+      "active_executable_F": 31,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10,
+      "exact_parent_pass": 27,
+      "exact_parent_fail": 0,
+      "persistent_hash": "fb3e8560e0b0c6e75d9b490b0fdbb6f5d3181768956b3cb190a4f62cf13ef0be"
+    }
+  },
+  {
+    "stage": "after_D08",
+    "task_id": "D08",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 34,
+      "L_exec": 32,
+      "active_executable_F": 32,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10,
+      "exact_parent_pass": 28,
+      "exact_parent_fail": 0,
+      "persistent_hash": "861b0cf221d442f28f664847c6dfe1837189bb4d229d2564377cd5aef52aa5c5"
+    }
+  },
+  {
+    "stage": "after_D09",
+    "task_id": "D09",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 35,
+      "L_exec": 33,
+      "active_executable_F": 33,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10,
+      "exact_parent_pass": 29,
+      "exact_parent_fail": 0,
+      "persistent_hash": "de4bece23298844390461d68ec29d3859100782ae8d328c265ac89f0f1148969"
+    }
+  },
+  {
+    "stage": "after_D10",
+    "task_id": "D10",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 36,
+      "L_exec": 34,
+      "active_executable_F": 34,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10,
+      "exact_parent_pass": 30,
+      "exact_parent_fail": 0,
+      "persistent_hash": "88e696424d2fcff6a4e0b22bf55a02d6715c9f5befdd5a1d7e22530b8aa52766"
+    }
+  },
+  {
+    "stage": "after_D11",
+    "task_id": "D11",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 37,
+      "L_exec": 35,
+      "active_executable_F": 35,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10,
+      "exact_parent_pass": 31,
+      "exact_parent_fail": 0,
+      "persistent_hash": "ebb579bd3fdd1869411aa0b84c941b2824134481c264fafae16dc229db46c457"
+    }
+  },
+  {
+    "stage": "after_D12",
+    "task_id": "D12",
+    "library_file_sha256": null,
+    "usage_file_sha256": null,
+    "library_stats": {
+      "L_all": 38,
+      "L_exec": 36,
+      "active_executable_F": 36,
+      "retired_executable_F": 0,
+      "topology_templates": 2,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10,
+      "exact_parent_pass": 32,
+      "exact_parent_fail": 0,
+      "persistent_hash": "6bdd8fb0baec37d0de231559424e5b53da8466b98c35ea9c0d77081312be2575"
+    }
+  }
+]

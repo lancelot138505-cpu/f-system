@@ -1,0 +1,213 @@
+{
+  "state": "COMPLETE",
+  "stop_reason": "D12_COMPLETED",
+  "clean_baseline_library_hash": "f097307e1697f10794e483f1907ac0de92ddc8eba195937b1a87662fa1ee58b0",
+  "clean_baseline_usage_digest": "5f4de014ae6c56ac54e023a3ab207033518ca4ebfc2fa26033952b4992adf25a",
+  "main_chain_final_library_hash": "6bdd8fb0baec37d0de231559424e5b53da8466b98c35ea9c0d77081312be2575",
+  "main_chain_final_usage_digest": "6c286aa2f63aa1637b981786134aabf61402788d4d74986430db98df83c90ed5",
+  "main_chain_final_library_stats": {
+    "L_all": 38,
+    "L_exec": 36,
+    "registry_active_structures": 38,
+    "registry_retired_structures": 0,
+    "active_executable_F": 36,
+    "retired_executable_F": 0,
+    "topology_templates": 2,
+    "equivalence_classes": 38,
+    "non_singleton_equivalence_classes": 0,
+    "explicit_equivalence_links": 0,
+    "max_canonical_level": 10,
+    "exact_parent_pass": 32,
+    "exact_parent_fail": 0,
+    "persistent_hash": "6bdd8fb0baec37d0de231559424e5b53da8466b98c35ea9c0d77081312be2575",
+    "structure_ids": [
+      "F_0469fb712663a973ddfd",
+      "F_18d2c0c7673525cc9d3d",
+      "F_1d0325fdc92c61208f06",
+      "F_1e7d52d4a8b8c16e9a21",
+      "F_359adfc45bfb1819aae0",
+      "F_44204b70253aa1408a91",
+      "F_4498b1a6b76423b16a06",
+      "F_4e10ab1d0d80eb74a490",
+      "F_50bf23b4448cb8a0cb80",
+      "F_58eac04f390c93643c95",
+      "F_87a666b46ef0cfa2f32b",
+      "F_8f991df15e01e06dffae",
+      "F_93302b6b7d8bd69c4f8c",
+      "F_a6aef3cbef65ed27e8d8",
+      "F_b0eed8df520ae260af57",
+      "F_b7bf2fef39b93e5686c2",
+      "F_bd1c8b86e4a28d068f0b",
+      "F_c1afe69a1f8fa25c1f13",
+      "F_c38d01daa2e8e1d08cef",
+      "F_cac97282833230855ffa",
+      "F_cbaa441e9f4fad8bc76e",
+      "F_d03839a9818e072066fa",
+      "F_d9415b58d9849bee0d4d",
+      "F_dcfedcf1d26444553cdb",
+      "F_exec_assign",
+      "F_exec_compare",
+      "F_exec_conditional_update",
+      "F_exec_range_loop",
+      "F_exec_return",
+      "F_exec_sequence",
+      "F_f621e7a403c970a7a71b",
+      "F_f6a9887dd22cb41d2cbf",
+      "F_topology_adjacent_event_count",
+      "F_topology_adjacent_state_run",
+      "f_identifier_preserve",
+      "f_literal_preserve",
+      "f_operator_map",
+      "f_source_field_access"
+    ]
+  },
+  "goals_requested": 12,
+  "goals_completed": 12,
+  "goals_with_2x2": 12,
+  "longest_successful_goal_depth": 12,
+  "first_class_target_edge_valid": true,
+  "all_2x2_semantics_equal": true,
+  "main_chain_shortcuts": 4,
+  "main_chain_shortcuts_admitted": 4,
+  "non_singleton_equivalence_classes_final": 0,
+  "explicit_equivalence_links_final": 0,
+  "active_executable_F_final": 36,
+  "retired_executable_F_final": 0,
+  "aggregate_depth_effect": {
+    "candidate_attempts": {
+      "before": 16570,
+      "after": 144,
+      "reduction": {
+        "absolute": 16426,
+        "percent": 99.13095956547978
+      }
+    },
+    "binding_combinations": {
+      "before": 16570,
+      "after": 144,
+      "reduction": {
+        "absolute": 16426,
+        "percent": 99.13095956547978
+      }
+    },
+    "composition_expansions": {
+      "before": 37300,
+      "after": 0,
+      "reduction": {
+        "absolute": 37300,
+        "percent": 100.0
+      }
+    },
+    "intermediate_materializations": {
+      "before": 16778,
+      "after": 0,
+      "reduction": {
+        "absolute": 16778,
+        "percent": 100.0
+      }
+    },
+    "verification_attempts": {
+      "before": 17116,
+      "after": 192,
+      "reduction": {
+        "absolute": 16924,
+        "percent": 98.87824258004207
+      }
+    }
+  },
+  "aggregate_breadth_effect": {
+    "candidate_attempts": {
+      "before": 144,
+      "after": 144,
+      "reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      }
+    },
+    "binding_combinations": {
+      "before": 144,
+      "after": 144,
+      "reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      }
+    },
+    "composition_expansions": {
+      "before": 0,
+      "after": 0,
+      "reduction": {
+        "absolute": 0,
+        "percent": null
+      }
+    },
+    "intermediate_materializations": {
+      "before": 0,
+      "after": 0,
+      "reduction": {
+        "absolute": 0,
+        "percent": null
+      }
+    },
+    "verification_attempts": {
+      "before": 192,
+      "after": 192,
+      "reduction": {
+        "absolute": 0,
+        "percent": 0.0
+      }
+    }
+  },
+  "aggregate_combined_effect": {
+    "candidate_attempts": {
+      "before": 16570,
+      "after": 144,
+      "reduction": {
+        "absolute": 16426,
+        "percent": 99.13095956547978
+      }
+    },
+    "binding_combinations": {
+      "before": 16570,
+      "after": 144,
+      "reduction": {
+        "absolute": 16426,
+        "percent": 99.13095956547978
+      }
+    },
+    "composition_expansions": {
+      "before": 37300,
+      "after": 0,
+      "reduction": {
+        "absolute": 37300,
+        "percent": 100.0
+      }
+    },
+    "intermediate_materializations": {
+      "before": 16778,
+      "after": 0,
+      "reduction": {
+        "absolute": 16778,
+        "percent": 100.0
+      }
+    },
+    "verification_attempts": {
+      "before": 17116,
+      "after": 192,
+      "reduction": {
+        "absolute": 16924,
+        "percent": 98.87824258004207
+      }
+    }
+  },
+  "implementation_error": null,
+  "admission_receipts_total": 168,
+  "admission_receipts_by_source": {
+    "main_acquisition": 12,
+    "paired_view/FULL+EXPANDED": 78,
+    "paired_view/ACTIVE+EXPANDED": 78
+  },
+  "admission_unique_structure_count": 12,
+  "main_chain_new_persistent_F_count": 12,
+  "branch_local_admission_receipts": 156,
+  "all_admission_receipts_exact_parent_pass": true
+}

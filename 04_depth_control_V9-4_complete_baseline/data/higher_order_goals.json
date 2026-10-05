@@ -1,0 +1,112 @@
+{
+  "later_goals": [
+    {
+      "id": "HG01",
+      "later_function": "increasing_run_plus_increase_count",
+      "source": "def increasing_run_plus_increase_count(xs):\n    if not xs: return 0\n    best = run = 1\n    for i in range(1, len(xs)):\n        if xs[i] > xs[i-1]: run += 1\n        else: run = 1\n        if run > best: best = run\n    total = 0\n    for i in range(1, len(xs)):\n        if xs[i] > xs[i-1]: total += 1\n    return best + total\n",
+      "examples": [
+        [],
+        [
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          5,
+          4,
+          3
+        ],
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          -1,
+          0,
+          -2,
+          0
+        ],
+        [
+          7,
+          6,
+          6,
+          5,
+          4
+        ]
+      ],
+      "oracle_outputs": [
+        0,
+        1,
+        4,
+        1,
+        3,
+        4,
+        1
+      ],
+      "interface": {
+        "input": "sequence<int>",
+        "output": "int"
+      }
+    },
+    {
+      "id": "HG02",
+      "later_function": "decreasing_run_plus_equal_count",
+      "source": "def decreasing_run_plus_equal_count(xs):\n    if not xs: return 0\n    best = run = 1\n    for i in range(1, len(xs)):\n        if xs[i] < xs[i-1]: run += 1\n        else: run = 1\n        if run > best: best = run\n    total = 0\n    for i in range(1, len(xs)):\n        if xs[i] == xs[i-1]: total += 1\n    return best + total\n",
+      "examples": [
+        [],
+        [
+          2
+        ],
+        [
+          1,
+          3,
+          2,
+          4
+        ],
+        [
+          5,
+          4,
+          3
+        ],
+        [
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          -1,
+          0,
+          -2,
+          0
+        ],
+        [
+          7,
+          6,
+          6,
+          5,
+          4
+        ]
+      ],
+      "oracle_outputs": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        2,
+        4
+      ],
+      "interface": {
+        "input": "sequence<int>",
+        "output": "int"
+      }
+    }
+  ]
+}

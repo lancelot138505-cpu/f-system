@@ -1,0 +1,353 @@
+{
+  "format": "admission-receipt-summary",
+  "receipt_count": 168,
+  "receipt_counts_by_source": {
+    "main_acquisition": 12,
+    "paired_view/FULL+EXPANDED": 78,
+    "paired_view/ACTIVE+EXPANDED": 78
+  },
+  "branch_local_receipt_count": 156,
+  "main_chain_receipt_count": 12,
+  "unique_structure_count": 12,
+  "main_chain_new_persistent_F_count": 12,
+  "all_admissions_pass": true,
+  "all_exact_parent_pass": true,
+  "unique_structures": [
+    {
+      "structure_id": "F_0469fb712663a973ddfd",
+      "operation_id": "operation.binary.4c2c397575abc1e7e82c",
+      "parents": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_c1afe69a1f8fa25c1f13"
+      ],
+      "canonical_level": 5,
+      "receipt_count": 25,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 12,
+        "paired_view/ACTIVE+EXPANDED": 12
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_18d2c0c7673525cc9d3d",
+      "operation_id": "operation.binary.91b9701a5db3843de9e8",
+      "parents": [
+        "F_1d0325fdc92c61208f06",
+        "F_f621e7a403c970a7a71b"
+      ],
+      "canonical_level": 10,
+      "receipt_count": 13,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 6,
+        "paired_view/ACTIVE+EXPANDED": 6
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_1d0325fdc92c61208f06",
+      "operation_id": "operation.binary.7fe7065835132577affb",
+      "parents": [
+        "F_c38d01daa2e8e1d08cef",
+        "F_cac97282833230855ffa"
+      ],
+      "canonical_level": 9,
+      "receipt_count": 15,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 7,
+        "paired_view/ACTIVE+EXPANDED": 7
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_1e7d52d4a8b8c16e9a21",
+      "operation_id": "operation.binary.19d468b8ba78329de21b",
+      "parents": [
+        "F_87a666b46ef0cfa2f32b",
+        "F_c1afe69a1f8fa25c1f13"
+      ],
+      "canonical_level": 8,
+      "receipt_count": 19,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 9,
+        "paired_view/ACTIVE+EXPANDED": 9
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_359adfc45bfb1819aae0",
+      "operation_id": "operation.binary.efdc94cf4460bc781724",
+      "parents": [
+        "F_87a666b46ef0cfa2f32b",
+        "F_8f991df15e01e06dffae"
+      ],
+      "canonical_level": 8,
+      "receipt_count": 3,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 1,
+        "paired_view/ACTIVE+EXPANDED": 1
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_4498b1a6b76423b16a06",
+      "operation_id": "operation.binary.2e12c19c4dfe56c4f26b",
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_cac97282833230855ffa"
+      ],
+      "canonical_level": 6,
+      "receipt_count": 23,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 11,
+        "paired_view/ACTIVE+EXPANDED": 11
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_87a666b46ef0cfa2f32b",
+      "operation_id": "operation.binary.9dca2c99b16aaa9a6a41",
+      "parents": [
+        "F_4498b1a6b76423b16a06",
+        "F_f621e7a403c970a7a71b"
+      ],
+      "canonical_level": 7,
+      "receipt_count": 21,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 10,
+        "paired_view/ACTIVE+EXPANDED": 10
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_8f991df15e01e06dffae",
+      "operation_id": "operation.binary.1febb2e1663a623d75a6",
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_a6aef3cbef65ed27e8d8"
+      ],
+      "canonical_level": 6,
+      "receipt_count": 11,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 5,
+        "paired_view/ACTIVE+EXPANDED": 5
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_b7bf2fef39b93e5686c2",
+      "operation_id": "operation.binary.1e7eb15336709b01c590",
+      "parents": [
+        "F_a6aef3cbef65ed27e8d8",
+        "F_d9415b58d9849bee0d4d"
+      ],
+      "canonical_level": 8,
+      "receipt_count": 7,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 3,
+        "paired_view/ACTIVE+EXPANDED": 3
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_c38d01daa2e8e1d08cef",
+      "operation_id": "operation.binary.57295e1b79a14e2f45a5",
+      "parents": [
+        "F_0469fb712663a973ddfd",
+        "F_87a666b46ef0cfa2f32b"
+      ],
+      "canonical_level": 8,
+      "receipt_count": 17,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 8,
+        "paired_view/ACTIVE+EXPANDED": 8
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_d03839a9818e072066fa",
+      "operation_id": "operation.binary.e608979ddbdbe8f1d04a",
+      "parents": [
+        "F_b7bf2fef39b93e5686c2",
+        "F_f621e7a403c970a7a71b"
+      ],
+      "canonical_level": 9,
+      "receipt_count": 5,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 2,
+        "paired_view/ACTIVE+EXPANDED": 2
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    },
+    {
+      "structure_id": "F_d9415b58d9849bee0d4d",
+      "operation_id": "operation.binary.351369a0bccd6ef39f43",
+      "parents": [
+        "F_4498b1a6b76423b16a06",
+        "F_a6aef3cbef65ed27e8d8"
+      ],
+      "canonical_level": 7,
+      "receipt_count": 9,
+      "receipts_by_source": {
+        "main_acquisition": 1,
+        "paired_view/FULL+EXPANDED": 4,
+        "paired_view/ACTIVE+EXPANDED": 4
+      },
+      "admission_pass": true,
+      "exact_parent_pass": true,
+      "checks": {
+        "cold_instance": true,
+        "cross_language": true,
+        "domain_audit": true,
+        "examples": true,
+        "executable": true,
+        "formation_parents": true,
+        "interface": true,
+        "randomized_oracle": true,
+        "x_leakage": true
+      }
+    }
+  ]
+}

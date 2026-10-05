@@ -1,0 +1,495 @@
+CUDA is available?: False
+using cuda?: False
+Removed 21 tasks that were just the identity function
+Including map as a primitive? True
+Including length as a primitive? True
+Including unfold as a primitive? True
+Got 218 list tasks
+Alotted 174 tasks for training and 30 for testing
+Running EC on LAPTOP-24PEOP5K @ 2026-10-04 14:47:41.951046 with 1 CPUs and parameters:
+	 noConsolidation  =  False
+	 solver  =  python
+	 biasOptimal  =  False
+	 contextual  =  False
+	 iterations  =  2
+	 enumerationTimeout  =  1
+	 reuseRecognition  =  False
+	 ensembleSize  =  1
+	 recognitionTimeout  =  180
+	 helmholtzRatio  =  0.5
+	 topK  =  2
+	 topk_use_only_likelihood  =  False
+	 maximumFrontier  =  10
+	 pseudoCounts  =  30.0
+	 aic  =  1.0
+	 structurePenalty  =  1.0
+	 arity  =  3
+	 taskReranker  =  default
+	 storeTaskMetrics  =  True
+	 rewriteTaskMetrics  =  False
+	 evaluationTimeout  =  0.0005
+	 cuda  =  False
+
+Currently using this much memory: 585170944
+Evaluating on held out testing tasks for iteration: 0
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> bool (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.995492.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997000.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996498.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996999.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997491.
+(frontend) Launching list(int) -> bool (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997494.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997326.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.998650.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997817.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997381.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997922.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997964.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996494.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996930.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997977.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.998073.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996999.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997910.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996999.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997289.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996493.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997494.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996990.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996998.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.996477.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.997494.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.990482.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.991213.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992499.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992321.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992492.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992492.
+(frontend) Launching list(int) -> bool (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992999.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992495.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992325.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.994649.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.993134.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992358.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992900.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.993949.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992454.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.991929.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992993.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992977.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.993072.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.991998.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992908.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992486.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992002.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992288.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.991944.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992496.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992486.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.991997.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.991480.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.992493.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.985981.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.986690.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.979307.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.978249.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.986990.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.987495.
+(frontend) Launching list(int) -> bool (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.985493.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.987497.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.988324.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.990648.
+Timed out while evaluating (lambda (cdr $0))
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.989133.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.983360.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.988571.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.989686.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.988445.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.986418.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.988983.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.988381.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.988072.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.987000.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.987907.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.988485.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.987001.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.987290.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.986943.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.987495.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.987484.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.986995.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.987486.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.988490.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.958461.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960638.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.956093.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.954525.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.959617.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960306.
+(frontend) Launching list(int) -> bool (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.962191.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960774.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.962538.
+Timed out while evaluating (lambda (cdr (range 1)))
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.963910.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.965033.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960353.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.965569.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.964183.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.962168.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.959965.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.962960.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.962433.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960993.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960120.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960401.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.962482.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.959991.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960287.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.956883.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960461.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960085.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960487.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.960482.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.961486.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.770014.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.759912.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.802134.
+(frontend) Launching list(int) -> list(bool) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.795577.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.764897.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.755907.
+(frontend) Launching list(int) -> bool (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.767223.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.767325.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.773867.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.770618.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.760340.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.752491.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.759795.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.767025.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.772607.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.766939.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.773318.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.772768.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.773038.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.765500.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.771515.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.772952.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.771909.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.765109.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.764640.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.772010.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.770820.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.764992.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.772818.
+(frontend) Launching list(int) -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.772380.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 9.000000 <= MDL < 10.500000. Timeout 0.510257.
+(frontend) Launching list(int) -> int (1 tasks) w/ 1 CPUs. 9.000000 <= MDL < 10.500000. Timeout 0.516987.
+We enumerated this many programs, for each task:
+	 [16, 16, 6, 6, 16, 16, 21, 16, 16, 16, 30, 22, 30, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+MISS add-k with k=5
+MISS append-k with k=1
+MISS bool-identify-geq-k with k=5
+MISS bool-identify-is-mod-k with k=5
+MISS caesar-cipher-k-modulo-n with k=2 and n=3
+MISS caesar-cipher-k-modulo-n with k=2 and n=5
+MISS is-mod-k with k=4
+MISS keep-mod-k with k=2
+MISS keep-mod-k with k=4
+MISS keep-mod-k with k=5
+MISS kth-largest with k=5
+MISS max
+MISS min
+MISS mult-k with k=4
+MISS pow-k with k=4
+MISS remove-index-k with k=3
+MISS remove-mod-head
+MISS remove-mod-k with k=4
+MISS repeat-k with k=5
+MISS replace-all-with-index-k with k=5
+MISS rotate-k with k=2
+MISS slice-k-n with k=1 and n=3
+MISS slice-k-n with k=1 and n=5
+MISS slice-k-n with k=3 and n=2
+MISS slice-k-n with k=4 and n=2
+MISS slice-k-n with k=5 and n=1
+MISS slice-k-n with k=5 and n=5
+MISS keep gt 0
+MISS remove gt 1
+MISS keep eq 3
+Testing tasks no successful times to report statistics on!
+Hits 0/30 testing tasks
+Currently using this much memory: 586387456
+Using a waking task batch of size: 174
+(frontend) Launching list(int) -> int (26 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(int) (116 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> list(bool) (13 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> bool (16 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching int -> int (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(list(bool)) -> list(list(bool)) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching int -> list(int) (1 tasks) w/ 1 CPUs. 0.000000 <= MDL < 1.500000. Timeout 1.000000.
+(frontend) Launching list(int) -> int (26 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.987890.
+(frontend) Launching list(int) -> list(int) (116 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.940074.
+(frontend) Launching list(int) -> list(bool) (13 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.992939.
+(frontend) Launching list(int) -> bool (16 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.993496.
+(frontend) Launching int -> int (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.998493.
+(frontend) Launching list(list(bool)) -> list(list(bool)) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.998000.
+(frontend) Launching int -> list(int) (1 tasks) w/ 1 CPUs. 1.500000 <= MDL < 3.000000. Timeout 0.998003.
+(frontend) Launching list(int) -> int (26 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.973891.
+(frontend) Launching list(int) -> list(int) (116 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.873064.
+(frontend) Launching list(int) -> list(bool) (13 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.983661.
+(frontend) Launching list(int) -> bool (16 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.984988.
+(frontend) Launching int -> int (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.994429.
+(frontend) Launching list(list(bool)) -> list(list(bool)) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.993631.
+(frontend) Launching int -> list(int) (1 tasks) w/ 1 CPUs. 3.000000 <= MDL < 4.500000. Timeout 0.994000.
+(frontend) Launching list(int) -> int (26 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.961652.
+(frontend) Launching list(int) -> list(int) (116 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.813669.
+(frontend) Launching list(int) -> list(bool) (13 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.965968.
+(frontend) Launching list(int) -> bool (16 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.973230.
+Timed out while evaluating (lambda (is-prime 1))
+(frontend) Launching int -> int (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.990428.
+(frontend) Launching list(list(bool)) -> list(list(bool)) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.983990.
+(frontend) Launching int -> list(int) (1 tasks) w/ 1 CPUs. 4.500000 <= MDL < 6.000000. Timeout 0.986677.
+(frontend) Launching list(int) -> int (26 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.927183.
+Timed out while evaluating (lambda (* 0 0))
+(frontend) Launching list(int) -> list(int) (116 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.727159.
+Timed out while evaluating (lambda (map (lambda 0) $0))
+Timed out while evaluating (lambda (map (lambda $0) $0))
+Timed out while evaluating (lambda (range (length empty)))
+Timed out while evaluating (lambda (range (car $0)))
+Timed out while evaluating (lambda (cons 0 $0))
+(frontend) Launching list(int) -> list(bool) (13 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.938757.
+(frontend) Launching list(int) -> bool (16 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.943516.
+(frontend) Launching int -> int (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.968106.
+(frontend) Launching list(list(bool)) -> list(list(bool)) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.961067.
+Timed out while evaluating (lambda (map (lambda $0) $0))
+(frontend) Launching int -> list(int) (1 tasks) w/ 1 CPUs. 6.000000 <= MDL < 7.500000. Timeout 0.959869.
+(frontend) Launching list(int) -> int (26 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.705697.
+(frontend) Launching list(int) -> list(bool) (13 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.779258.
+(frontend) Launching list(int) -> bool (16 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.737257.
+(frontend) Launching int -> int (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.750190.
+(frontend) Launching list(list(bool)) -> list(list(bool)) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.812032.
+(frontend) Launching int -> list(int) (1 tasks) w/ 1 CPUs. 7.500000 <= MDL < 9.000000. Timeout 0.771194.
+(frontend) Launching int -> int (1 tasks) w/ 1 CPUs. 9.000000 <= MDL < 10.500000. Timeout 0.501305.
+We enumerated this many programs, for each task:
+	 [22, 16, 22, 16, 22, 6, 16, 16, 21, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 22, 16, 22, 16, 21, 16, 16, 16, 16, 16, 21, 22, 16, 22, 6, 43, 16, 16, 16, 16, 16, 21, 22, 16, 16, 16, 16, 16, 22, 16, 16, 16, 16, 16, 21, 21, 16, 21, 16, 21, 16, 22, 16, 16, 16, 6, 16, 22, 6, 16, 22, 16, 16, 16, 21, 16, 22, 16, 16, 16, 6, 16, 8, 22, 16, 21, 16, 16, 16, 16, 9, 16, 16, 16, 16, 22, 6, 22, 16, 22, 16, 16, 6, 21, 21, 16, 16, 16, 16, 6, 16, 16, 16, 16, 16, 16, 21, 16, 16, 16, 6, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 6, 16, 16, 16, 16, 16, 16, 16, 16, 16, 6, 16, 22, 6, 16, 16, 22, 21, 16, 16, 16, 21, 22, 6, 16, 16, 16, 22, 16, 22, 22, 16, 22, 16, 16, 21, 16, 22, 16, 16, 22, 16, 16]
+Generative model enumeration results:
+MISS kth-largest with k=4
+MISS drop-k with k=5
+MISS count-k with k=1
+MISS modulo-k with k=4
+MISS count-k with k=3
+MISS bool-identify-k with k=2
+MISS remove gt 0
+MISS dup
+HIT is-mod-k with k=1 w/ (lambda (is-square 0)) ; log prior = -4.595120 ; log likelihood = 0.000000
+MISS remove-index-k with k=5
+MISS mult-k with k=5
+MISS pop
+MISS caesar-cipher-k-modulo-n with k=5 and n=3
+MISS reverse
+MISS keep eq 0
+MISS append-k with k=4
+HIT remove-index-k with k=1 w/ (lambda (cdr $0)) ; log prior = -4.795791 ; log likelihood = 0.000000
+MISS remove gt 3
+MISS caesar-cipher-k-modulo-n with k=1 and n=5
+MISS remove eq 1
+MISS kth-smallest with k=4
+MISS slice-k-n with k=3 and n=3
+MISS kth-largest with k=1
+MISS take-k with k=2
+MISS has-k with k=0
+MISS slice-k-n with k=5 and n=4
+MISS slice-k-n with k=2 and n=1
+MISS mult-k with k=2
+MISS remove-mod-k with k=3
+HIT tail w/ (lambda (cdr $0)) ; log prior = -4.795791 ; log likelihood = 0.000000
+MISS has-k with k=1
+MISS count-k with k=5
+MISS repeat-k with k=2
+HIT index-k with k=1 w/ (lambda (car $0)) ; log prior = -4.795791 ; log likelihood = 0.000000
+MISS bool-identify-is-mod-k with k=2
+MISS fibonacci
+MISS drop-k with k=3
+MISS pow-k with k=2
+MISS keep primes
+MISS take-k with k=5
+MISS remove-mod-k with k=5
+MISS is-mod-k with k=5
+MISS kth-smallest with k=5
+MISS slice-k-n with k=2 and n=4
+MISS slice-k-n with k=3 and n=5
+MISS remove gt 2
+MISS slice-k-n with k=1 and n=4
+MISS range +1 maximum list
+HIT len w/ (lambda (length $0)) ; log prior = -4.795791 ; log likelihood = 0.000000
+MISS modulo-k with k=2
+MISS append-index-k with k=3
+MISS caesar-cipher-k-modulo-n with k=1 and n=2
+MISS append-k with k=3
+HIT prepend-k with k=0 w/ (lambda (cons 0 $0)) ; log prior = -7.193686 ; log likelihood = 0.000000
+MISS has-k with k=3
+MISS has-k with k=4
+MISS sort-and-deduplicate
+MISS has-k with k=2
+MISS prepend-k with k=4
+MISS is-evens
+MISS replace-all-with-index-k with k=4
+MISS sum
+MISS append-index-k with k=1
+MISS repeat-k with k=3
+MISS repeat-many
+MISS bool-identify-is-mod-k with k=3
+MISS prepend-index-k with k=4
+MISS kth-smallest with k=2
+MISS bool-identify-k with k=3
+MISS take-k with k=3
+MISS kth-largest with k=2
+MISS keep squares
+MISS slice-k-n with k=5 and n=2
+MISS repeat
+MISS is-squares
+MISS slice-k-n with k=2 and n=5
+MISS index-k with k=3
+MISS append-k with k=2
+MISS caesar-cipher-k-modulo-n with k=3 and n=5
+MISS rotate-k with k=1
+MISS bool-identify-k with k=5
+MISS modulo-k with k=3
+MISS remove empty lists
+HIT head w/ (lambda (car $0)) ; log prior = -4.795791 ; log likelihood = 0.000000
+HIT mult-k with k=0 w/ (lambda (map (lambda 0) $0)) ; log prior = -7.280697 ; log likelihood = 0.000000
+MISS has-k with k=5
+MISS add-k with k=4
+MISS remove eq 0
+MISS keep eq 1
+MISS add-k with k=3
+HIT range w/ (lambda (range $0)) ; log prior = -4.787492 ; log likelihood = 0.000000
+MISS remove-mod-k with k=2
+MISS rotate-k with k=3
+MISS keep-mod-head
+MISS take-k with k=1
+MISS count-k with k=2
+MISS bool-identify-k with k=1
+MISS count-k with k=0
+MISS remove eq 2
+MISS count-head-in-tail
+MISS sort
+MISS caesar-cipher-k-modulo-n with k=3 and n=4
+MISS bool-identify-geq-k with k=4
+MISS is-odds
+MISS is-mod-k with k=3
+MISS repeat-k with k=4
+MISS keep gt 3
+MISS remove eq 3
+MISS rotate-k with k=4
+MISS bool-identify-k with k=4
+MISS take-k with k=4
+MISS prepend-index-k with k=2
+MISS append-k with k=0
+MISS caesar-cipher-k-modulo-n with k=4 and n=3
+MISS append-index-k with k=5
+HIT drop-k with k=2 w/ (lambda (cdr (cdr $0))) ; log prior = -7.193686 ; log likelihood = 0.000000
+MISS is-mod-k with k=2
+MISS slice-k-n with k=5 and n=3
+MISS caesar-cipher-k-modulo-n with k=1 and n=3
+MISS keep gt 1
+MISS bool-identify-geq-k with k=1
+MISS caesar-cipher-k-modulo-n with k=2 and n=4
+MISS evens
+MISS remove-index-k with k=4
+MISS add-k with k=1
+MISS prepend-index-k with k=1
+MISS keep gt 2
+MISS slice-k-n with k=2 and n=2
+MISS replace-all-with-index-k with k=3
+MISS append-k with k=5
+MISS modulo-k with k=5
+MISS bool-identify-geq-k with k=0
+MISS odds
+MISS remove-index-k with k=2
+MISS append-index-k with k=2
+HIT modulo-k with k=1 w/ (lambda (map (lambda 0) $0)) ; log prior = -7.280697 ; log likelihood = 0.000000
+MISS slice-k-n with k=4 and n=1
+MISS slice-k-n with k=4 and n=4
+MISS caesar-cipher-k-modulo-n with k=5 and n=2
+MISS replace-all-with-index-k with k=1
+MISS slice-k-n with k=1 and n=1
+MISS bool-identify-is-mod-k with k=4
+MISS prepend-k with k=2
+MISS kth-smallest with k=1
+MISS bool-identify-is-mod-k with k=1
+MISS caesar-cipher-k-modulo-n with k=3 and n=2
+MISS keep eq 2
+MISS last
+MISS has-head-in-tail
+MISS slice-k-n with k=4 and n=5
+MISS slice-k-n with k=3 and n=1
+MISS caesar-cipher-k-modulo-n with k=5 and n=4
+HIT empty w/ (lambda (empty? $0)) ; log prior = -4.595120 ; log likelihood = 0.000000
+MISS +1 maximum list
+MISS bool-identify-geq-k with k=3
+MISS slice-k-n with k=4 and n=3
+MISS caesar-cipher-k-modulo-n with k=4 and n=5
+MISS prepend-index-k with k=5
+MISS kth-smallest with k=3
+MISS rotate-k with k=5
+MISS index-k with k=5
+MISS product
+MISS pow-k with k=5
+MISS index-k with k=4
+MISS append-index-k with k=4
+MISS caesar-cipher-k-modulo-n with k=1 and n=4
+MISS is-primes
+MISS slice-k-n with k=3 and n=4
+MISS count-k with k=4
+MISS keep-mod-k with k=3
+MISS mult-k with k=3
+MISS kth-largest with k=3
+MISS prepend-k with k=5
+MISS slice-k-n with k=2 and n=3
+Hits 12/174 tasks
+Average description length of a program solving a task: 5.575454 nats
+Generative model average:  0 sec.	median: 0 	max: 0 	standard deviation 0
+Currently using this much memory: 587968512
+Frontiers discovered top down: 12
+Total frontiers: 12
+Using an ensemble size of 1. Note that we will only store and test on the best recognition model.
+Currently using this much memory: 589012992
+(ID=0): Training a recognition model from 12 frontiers, 50% Helmholtz, feature extractor LearnedFeatureExtractor.
+(ID=0): Got 0 Helmholtz frontiers - random Helmholtz training? : True
+(ID=0): Contextual? False
+(ID=0): Bias optimal? False
+(ID=0): Aux loss? False (n.b. we train a 'auxiliary' classifier anyway - this controls if gradients propagate back to the future extractor)
+Sampling 500 programs from the prior on 1 CPUs...

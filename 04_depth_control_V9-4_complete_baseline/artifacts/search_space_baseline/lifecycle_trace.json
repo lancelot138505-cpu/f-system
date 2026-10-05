@@ -1,0 +1,236 @@
+[
+  {
+    "label": "clean_start",
+    "library_hash": "f097307e1697f10794e483f1907ac0de92ddc8eba195937b1a87662fa1ee58b0",
+    "registry_digest": "5f4de014ae6c56ac54e023a3ab207033518ca4ebfc2fa26033952b4992adf25a",
+    "active_count": 26,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 26,
+    "stats": {
+      "L_all": 26,
+      "L_exec": 24,
+      "active_executable_F": 24,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 4
+    }
+  },
+  {
+    "label": "after_D01",
+    "library_hash": "57af49403979078ffd879df7eb1f083ad753fbae40a1941e1427315bea04bfb7",
+    "registry_digest": "b762f69c5eaee6d9e6c916a154e5aefcc2c53added3c01acb1f4c0067e73b437",
+    "active_count": 27,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 27,
+    "stats": {
+      "L_all": 27,
+      "L_exec": 25,
+      "active_executable_F": 25,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 5
+    }
+  },
+  {
+    "label": "after_D02",
+    "library_hash": "e800fdbeaa76efa2d10f5d111f062810a57c58c83639a34b132f44ca7e368318",
+    "registry_digest": "3d22f7dd0b23fb45af10f7c49b60b5a938a224261c290c5ef0642b473eb6cca6",
+    "active_count": 28,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 28,
+    "stats": {
+      "L_all": 28,
+      "L_exec": 26,
+      "active_executable_F": 26,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 6
+    }
+  },
+  {
+    "label": "after_D03",
+    "library_hash": "0af5eb899d381afeea6e9885c8436fec347bfa3a4198357d55b10646073cb70a",
+    "registry_digest": "5a421e0fb63f6661050552ab4085860086ffa34b76e2f3b0afe90b4a2cfc72b3",
+    "active_count": 29,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 29,
+    "stats": {
+      "L_all": 29,
+      "L_exec": 27,
+      "active_executable_F": 27,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 7
+    }
+  },
+  {
+    "label": "after_D04",
+    "library_hash": "bd770c5ca16c2175a192e02a6b84ab08f01a427fd3c1d37986bb4cb6a3aae0f7",
+    "registry_digest": "2beda9ccd20a92afc3d288e36c2aa6c6565f3af8b7204162c48d6474157be318",
+    "active_count": 30,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 30,
+    "stats": {
+      "L_all": 30,
+      "L_exec": 28,
+      "active_executable_F": 28,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 8
+    }
+  },
+  {
+    "label": "after_D05",
+    "library_hash": "ca827a5c9ac2bbab1f22b655873b1a3792ffeb311d39265927fde7488560c699",
+    "registry_digest": "135c8892c6136ee57172e32ace4b62fc7434ba8a8d31b5543301bc52b968eea5",
+    "active_count": 31,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 31,
+    "stats": {
+      "L_all": 31,
+      "L_exec": 29,
+      "active_executable_F": 29,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 8
+    }
+  },
+  {
+    "label": "after_D06",
+    "library_hash": "2944bb9845e2ecb1113ac9a9d898fe0793e3c0aaaa543317852744d5c8142e7e",
+    "registry_digest": "d92b517350c19255246dbf0ee3ea1658a264c1ebafe8695af906e69677c35e8c",
+    "active_count": 32,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 32,
+    "stats": {
+      "L_all": 32,
+      "L_exec": 30,
+      "active_executable_F": 30,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 9
+    }
+  },
+  {
+    "label": "after_D07",
+    "library_hash": "fb3e8560e0b0c6e75d9b490b0fdbb6f5d3181768956b3cb190a4f62cf13ef0be",
+    "registry_digest": "e02322177214d03e212dd8f58ff7f595c9ecd5027368230e0eadedd3b05989b8",
+    "active_count": 33,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 33,
+    "stats": {
+      "L_all": 33,
+      "L_exec": 31,
+      "active_executable_F": 31,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10
+    }
+  },
+  {
+    "label": "after_D08",
+    "library_hash": "861b0cf221d442f28f664847c6dfe1837189bb4d229d2564377cd5aef52aa5c5",
+    "registry_digest": "dca376c82258468a7f202c009a3b3601482eb9e7f8e677e3e5f674007347ddd5",
+    "active_count": 34,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 34,
+    "stats": {
+      "L_all": 34,
+      "L_exec": 32,
+      "active_executable_F": 32,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10
+    }
+  },
+  {
+    "label": "after_D09",
+    "library_hash": "de4bece23298844390461d68ec29d3859100782ae8d328c265ac89f0f1148969",
+    "registry_digest": "00fe52c2efb8d2e2a652c6fdbb2282349c0669a012065474d1ef8b7d48c351cf",
+    "active_count": 35,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 35,
+    "stats": {
+      "L_all": 35,
+      "L_exec": 33,
+      "active_executable_F": 33,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10
+    }
+  },
+  {
+    "label": "after_D10",
+    "library_hash": "88e696424d2fcff6a4e0b22bf55a02d6715c9f5befdd5a1d7e22530b8aa52766",
+    "registry_digest": "02aa01461a0d01065c2afb5e4739a79dd6f5ae3889beeed318cfdad59d4ee599",
+    "active_count": 36,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 36,
+    "stats": {
+      "L_all": 36,
+      "L_exec": 34,
+      "active_executable_F": 34,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10
+    }
+  },
+  {
+    "label": "after_D11",
+    "library_hash": "ebb579bd3fdd1869411aa0b84c941b2824134481c264fafae16dc229db46c457",
+    "registry_digest": "f3d67225517e88cba82ab0cacf30866f34ee4e8385bd74649bd193ed74ee9e6f",
+    "active_count": 37,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 37,
+    "stats": {
+      "L_all": 37,
+      "L_exec": 35,
+      "active_executable_F": 35,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10
+    }
+  },
+  {
+    "label": "after_D12",
+    "library_hash": "6bdd8fb0baec37d0de231559424e5b53da8466b98c35ea9c0d77081312be2575",
+    "registry_digest": "6c286aa2f63aa1637b981786134aabf61402788d4d74986430db98df83c90ed5",
+    "active_count": 38,
+    "retired_count": 0,
+    "usage_count_nonzero": 0,
+    "total_usage_count": 0,
+    "preferred_count": 38,
+    "stats": {
+      "L_all": 38,
+      "L_exec": 36,
+      "active_executable_F": 36,
+      "retired_executable_F": 0,
+      "non_singleton_equivalence_classes": 0,
+      "max_canonical_level": 10
+    }
+  }
+]
